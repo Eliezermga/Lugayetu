@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto text-center">
+        <div class="hero-section py-5">
+            <h1 class="display-4 mb-4">Préservation de la Langue Rund</h1>
+            <p class="lead mb-4">
+                Participez à la sauvegarde numérique de la langue Rund, une langue précieuse et peu parlée 
+                qui fait partie du patrimoine culturel de l'humanité.
+            </p>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-primary mb-3">🎤</div>
+                            <h5 class="card-title">Enregistrez votre voix</h5>
+                            <p class="card-text">
+                                Lisez des phrases en langue Rund et enregistrez votre prononciation 
+                                pour contribuer à la conservation de cette langue.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-success mb-3">🌍</div>
+                            <h5 class="card-title">Impact culturel</h5>
+                            <p class="card-text">
+                                Chaque enregistrement aide à préserver la diversité linguistique 
+                                et contribue à la recherche en linguistique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-1 text-info mb-3">📚</div>
+                            <h5 class="card-title">Recherche scientifique</h5>
+                            <p class="card-text">
+                                Vos contributions alimentent des recherches académiques 
+                                sur la préservation des langues en voie de disparition.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-5">
+                {% if current_user.is_authenticated %}
+                    <a href="{{ url_for('record') }}" class="btn btn-primary btn-lg me-3">
+                        Commencer l'enregistrement
+                    </a>
+                {% else %}
+                    <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg me-3">
+                        S'inscrire maintenant
+                    </a>
+                    <a href="{{ url_for('login') }}" class="btn btn-outline-primary btn-lg">
+                        Se connecter
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-lg-10 mx-auto">
+        <div class="bg-light p-5 rounded">
+            <h2 class="mb-4">Pourquoi préserver la langue Rund ?</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        La langue Rund est un trésor culturel qui risque de disparaître. 
+                        Cette initiative de préservation numérique vise à :
+                    </p>
+                    <ul>
+                        <li>Documenter la prononciation authentique</li>
+                        <li>Créer une archive audio accessible aux générations futures</li>
+                        <li>Faciliter l'apprentissage et la transmission</li>
+                        <li>Soutenir la recherche linguistique</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Comment ça marche ?</strong>
+                    </p>
+                    <ol>
+                        <li>Inscrivez-vous avec vos informations de base</li>
+                        <li>Acceptez la politique de confidentialité</li>
+                        <li>Lisez les phrases proposées en langue Rund</li>
+                        <li>Enregistrez votre prononciation</li>
+                        <li>Contribuez à la sauvegarde de cette langue précieuse</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

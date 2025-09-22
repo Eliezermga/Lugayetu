@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Inscription - Préservation de la langue Rund{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">Inscription</h2>
+                <p class="text-center text-muted mb-4">
+                    Rejoignez notre projet de préservation de la langue Rund
+                </p>
+                
+                <form method="POST">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Nom complet <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="nom" name="nom" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="sexe" class="form-label">Sexe <span class="text-danger">*</span></label>
+                        <select class="form-select" id="sexe" name="sexe" required>
+                            <option value="">Sélectionnez...</option>
+                            <option value="Homme">Homme</option>
+                            <option value="Femme">Femme</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="age" class="form-label">Âge <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="age" name="age" min="13" max="120" required>
+                        <div class="form-text">Vous devez avoir au moins 13 ans pour participer.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="provenance" class="form-label">Lieu d'origine <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="provenance" name="provenance" 
+                               placeholder="Ville, Pays" required>
+                        <div class="form-text">Cette information nous aide à comprendre la diversité géographique des participants.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Adresse email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mot de passe <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="password" name="password" 
+                               minlength="6" required>
+                        <div class="form-text">Au moins 6 caractères.</div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="consent" name="consent" required>
+                            <label class="form-check-label" for="consent">
+                                J'accepte que mes données personnelles et mes enregistrements vocaux soient 
+                                collectés et utilisés dans le cadre de ce projet de préservation linguistique, 
+                                conformément à la 
+                                <a href="{{ url_for('privacy') }}" target="_blank" class="text-decoration-none">
+                                    politique de confidentialité
+                                </a>.
+                                <span class="text-danger">*</span>
+                            </label>
+                        </div>
+                        <div class="form-text">
+                            Ce consentement est obligatoire pour participer au projet.
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                </form>
+                
+                <hr class="my-4">
+                <p class="text-center">
+                    Déjà inscrit ? <a href="{{ url_for('login') }}" class="text-decoration-none">Se connecter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
