@@ -5,9 +5,14 @@
 {% block content %}
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h2>Tableau de bord administrateur</h2>
-    <a href="{{ url_for('admin_export') }}" class="btn btn-success">
-        Exporter les données (CSV)
-    </a>
+    <div>
+        <a href="{{ url_for('admin_export') }}" class="btn btn-success me-2">
+            📄 CSV
+        </a>
+        <a href="{{ url_for('admin_export_zip') }}" class="btn btn-primary">
+            🗂 ZIP Complet
+        </a>
+    </div>
 </div>
 
 <div class="row mb-4">
@@ -23,7 +28,7 @@
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title">Utilisateurs uniques</h5>
-                <h2 class="text-success">{{ recordings|map(attribute='1.id')|list|unique|length }}</h2>
+                <h2 class="text-success">{{ recordings|map(attribute='1.id')|unique|list|length }}</h2>
             </div>
         </div>
     </div>
@@ -31,7 +36,7 @@
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title">Phrases enregistrées</h5>
-                <h2 class="text-info">{{ recordings|map(attribute='2.id')|list|unique|length }}</h2>
+                <h2 class="text-info">{{ recordings|map(attribute='2.id')|unique|list|length }}</h2>
             </div>
         </div>
     </div>
@@ -139,7 +144,10 @@
                 </div>
                 <div class="card-body">
                     <a href="{{ url_for('admin_export') }}" class="btn btn-success mb-2 w-100">
-                        📊 Exporter toutes les données
+                        📄 Exporter données (CSV)
+                    </a>
+                    <a href="{{ url_for('admin_export_zip') }}" class="btn btn-primary mb-2 w-100">
+                        🗂 Export complet (ZIP)
                     </a>
                     <button class="btn btn-info mb-2 w-100" onclick="window.location.reload()">
                         🔄 Actualiser les données

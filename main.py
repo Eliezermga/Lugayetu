@@ -13,6 +13,9 @@ from flask import make_response
 import random
 import secrets
 import os
+import zipfile
+import tempfile
+from datetime import datetime
 
 
 class Base(DeclarativeBase):
@@ -80,6 +83,7 @@ class Phrase(db.Model):
     
     id = db.Column(db.Integer, primary_key=True)
     text_rund = db.Column(db.Text, nullable=False)
+    translate = db.Column(db.Text, nullable=True)
     date_added = db.Column(db.DateTime, default=datetime.utcnow)
     
     # Relationship to recordings
@@ -110,30 +114,43 @@ def load_user(user_id):
 
 # Utility functions
 def load_phrases_from_file():
-    """Load phrases from phrases.txt file into database."""
-    # Check if phrases already exist
-    if Phrase.query.first():
-        return  # Phrases already loaded
-    
+    """Load phrases from phrases.txt file into database with translations."""
     phrases_file = 'phrases.txt'
+    translate_file = 'translate.txt'
+    
     if not os.path.exists(phrases_file):
         return  # File doesn't exist yet
     
     try:
+        # Read phrases
         with open(phrases_file, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+            phrases_lines = [line.strip() for line in f.readlines() if line.strip()]
         
-        for line in lines:
-            line = line.strip()
-            if line:  # Skip empty lines
-                # Check if phrase already exists
-                existing = Phrase.query.filter_by(text_rund=line).first()
-                if not existing:
-                    phrase = Phrase(text_rund=line)
-                    db.session.add(phrase)
+        # Read translations if file exists
+        translations = []
+        if os.path.exists(translate_file):
+            with open(translate_file, 'r', encoding='utf-8') as f:
+                translations = [line.strip() for line in f.readlines() if line.strip()]
+        
+        # Ensure we have same number of phrases and translations
+        if len(translations) != len(phrases_lines) and translations:
+            print(f"Warning: {len(phrases_lines)} phrases but {len(translations)} translations")
+        
+        for i, phrase_text in enumerate(phrases_lines):
+            # Check if phrase already exists
+            existing = Phrase.query.filter_by(text_rund=phrase_text).first()
+            if not existing:
+                # Get translation if available
+                translation = translations[i] if i < len(translations) else None
+                phrase = Phrase(text_rund=phrase_text, translate=translation)
+                db.session.add(phrase)
+            else:
+                # Update translation if not set and we have one
+                if i < len(translations) and not existing.translate:
+                    existing.translate = translations[i]
         
         db.session.commit()
-        print(f"Loaded {len(lines)} phrases from {phrases_file}")
+        print(f"Loaded {len(phrases_lines)} phrases with translations")
         
     except Exception as e:
         print(f"Error loading phrases: {e}")
@@ -149,22 +166,19 @@ def get_random_phrase():
 
 
 def create_admin_user():
-    """Create a default admin user if none exists."""
+    """Create a default admin user if none exists, or update existing admin password."""
     admin = User.query.filter_by(is_admin=True).first()
-    if not admin and os.environ.get('CREATE_ADMIN_USER') == 'true':
-        # Create admin user only if explicitly requested via environment variable
-        admin_password = os.environ.get('ADMIN_PASSWORD')
-        if not admin_password:
-            admin_password = secrets.token_urlsafe(12)
-            print(f"Generated random admin password: {admin_password}")
-        
-        hashed_password = generate_password_hash(admin_password)
+    admin_password = "31082003"
+    hashed_password = generate_password_hash(admin_password)
+    
+    if not admin:
+        # Create admin user with predefined password
         admin_user = User(
             nom='Administrateur',
             sexe='Autre',
             age=30,
             provenance='Système',
-            email=os.environ.get('ADMIN_EMAIL', 'admin@rund.local'),
+            email='admin@rund.local',
             password_hash=hashed_password,
             consent=True,
             is_admin=True
@@ -174,10 +188,17 @@ def create_admin_user():
         try:
             db.session.commit()
             print(f"Admin user created: {admin_user.email}")
-            if not os.environ.get('ADMIN_PASSWORD'):
-                print(f"IMPORTANT: Save this password: {admin_password}")
         except Exception as e:
             print(f"Error creating admin user: {e}")
+            db.session.rollback()
+    else:
+        # Update existing admin password
+        admin.password_hash = hashed_password
+        try:
+            db.session.commit()
+            print(f"Admin password updated for: {admin.email}")
+        except Exception as e:
+            print(f"Error updating admin password: {e}")
             db.session.rollback()
 
 
@@ -380,14 +401,14 @@ def admin_export():
     # Write header
     writer.writerow([
         'ID Enregistrement', 'Nom Utilisateur', 'Sexe', 'Âge', 'Provenance', 
-        'Email', 'Phrase (Rund)', 'Chemin Fichier Audio', 'Date Enregistrement'
+        'Email', 'Phrase (Rund)', 'Traduction', 'Chemin Fichier Audio', 'Date Enregistrement'
     ])
     
     # Write data
     for recording, user, phrase in recordings:
         writer.writerow([
             recording.id, user.nom, user.sexe, user.age, user.provenance,
-            user.email, phrase.text_rund, recording.file_path, 
+            user.email, phrase.text_rund, phrase.translate or '', recording.file_path, 
             recording.date_recorded.strftime('%Y-%m-%d %H:%M:%S')
         ])
     
@@ -399,6 +420,73 @@ def admin_export():
     response.headers['Content-type'] = 'text/csv'
     
     return response
+
+@app.route('/admin/export_zip')
+@login_required
+def admin_export_zip():
+    """Export all recordings data and audio files to ZIP."""
+    if not current_user.is_admin:
+        flash('Accès non autorisé.', 'error')
+        return redirect(url_for('index'))
+    
+    try:
+        # Query all recordings with user and phrase data
+        recordings = db.session.query(Recording, User, Phrase).join(
+            User, Recording.user_id == User.id
+        ).join(
+            Phrase, Recording.phrase_id == Phrase.id
+        ).order_by(Recording.date_recorded.desc()).all()
+        
+        # Create temporary ZIP file
+        temp_zip = tempfile.NamedTemporaryFile(delete=False, suffix='.zip')
+        
+        with zipfile.ZipFile(temp_zip.name, 'w', zipfile.ZIP_DEFLATED) as zipf:
+            # Create CSV data in memory
+            csv_output = StringIO()
+            writer = csv.writer(csv_output)
+            
+            # Write CSV header
+            writer.writerow([
+                'ID Enregistrement', 'Nom Utilisateur', 'Sexe', 'Âge', 'Provenance', 
+                'Email', 'Phrase (Rund)', 'Traduction', 'Chemin Fichier Audio', 'Date Enregistrement'
+            ])
+            
+            # Write CSV data and collect audio files
+            for recording, user, phrase in recordings:
+                writer.writerow([
+                    recording.id, user.nom, user.sexe, user.age, user.provenance,
+                    user.email, phrase.text_rund, phrase.translate or '', recording.file_path, 
+                    recording.date_recorded.strftime('%Y-%m-%d %H:%M:%S')
+                ])
+                
+                # Add audio file to ZIP if it exists
+                if os.path.exists(recording.file_path):
+                    # Create a clean filename for the ZIP
+                    audio_filename = f"audio_{recording.id}_{os.path.basename(recording.file_path)}"
+                    zipf.write(recording.file_path, audio_filename)
+            
+            # Add CSV to ZIP
+            csv_content = csv_output.getvalue()
+            zipf.writestr('enregistrements_rund.csv', csv_content)
+        
+        # Read the ZIP file content
+        with open(temp_zip.name, 'rb') as f:
+            zip_data = f.read()
+        
+        # Clean up temporary file
+        os.unlink(temp_zip.name)
+        
+        # Create response
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        response = make_response(zip_data)
+        response.headers['Content-Disposition'] = f'attachment; filename=enregistrements_rund_{timestamp}.zip'
+        response.headers['Content-Type'] = 'application/zip'
+        
+        return response
+        
+    except Exception as e:
+        flash(f'Erreur lors de la création du fichier ZIP: {str(e)}', 'error')
+        return redirect(url_for('admin'))
 
 @app.route('/admin/delete_recording/<int:recording_id>', methods=['POST'])
 @login_required
@@ -465,6 +553,17 @@ def delete_user(user_id):
 def init_database():
     with app.app_context():
         db.create_all()
+        
+        # Add translate column if it doesn't exist
+        try:
+            # Try to add the column if it doesn't exist
+            from sqlalchemy import text
+            with db.engine.connect() as conn:
+                conn.execute(text("ALTER TABLE phrases ADD COLUMN IF NOT EXISTS translate TEXT"))
+                conn.commit()
+        except Exception as e:
+            print(f"Column translate may already exist: {e}")
+        
         load_phrases_from_file()
         create_admin_user()
 

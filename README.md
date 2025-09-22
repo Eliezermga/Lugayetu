@@ -1,227 +1,94 @@
+# Application de Préservation de la Langue Rund
 
-# Préservation de la Langue Rund
+Cette application Flask permet de préserver la langue Rund, une langue parlée rare, en créant une archive numérique d'enregistrements vocaux pour la recherche linguistique.
 
-Une application web Flask dédiée à la sauvegarde numérique de la langue Rund, une langue rare et précieuse qui fait partie du patrimoine culturel de l'humanité.
-
-## 📋 Table des matières
-
-- [À propos du projet](#à-propos-du-projet)
-- [Fonctionnalités](#fonctionnalités)
-- [Prérequis](#prérequis)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Utilisation](#utilisation)
-- [Interface administrateur](#interface-administrateur)
-- [Structure du projet](#structure-du-projet)
-- [Technologies utilisées](#technologies-utilisées)
-- [Contribution](#contribution)
-- [Sécurité et confidentialité](#sécurité-et-confidentialité)
-
-## 🎯 À propos du projet
-
-Cette application web permet de collecter et préserver des enregistrements vocaux de la langue Rund. Les utilisateurs peuvent s'inscrire, lire des phrases en langue Rund et enregistrer leur prononciation pour créer une archive audio numérique accessible aux générations futures et aux chercheurs en linguistique.
-
-### Objectifs du projet
-
-- **Préservation culturelle** : Sauvegarder une langue en voie de disparition
-- **Recherche linguistique** : Fournir des données pour la recherche académique
-- **Accessibilité** : Créer une archive numérique facilement accessible
-- **Participation communautaire** : Permettre à chacun de contribuer à la préservation
-
-## ✨ Fonctionnalités
-
-### Pour les utilisateurs
-- **Inscription sécurisée** avec consentement explicite
-- **Authentification** par email et mot de passe
-- **Enregistrement audio** en temps réel dans le navigateur
-- **Interface intuitive** pour lire et enregistrer des phrases
-- **Prévisualisation** des enregistrements avant sauvegarde
-- **Navigation responsive** adaptée aux appareils mobiles
-
-### Pour les administrateurs
-- **Tableau de bord** avec statistiques en temps réel
-- **Gestion des utilisateurs** et de leurs enregistrements
-- **Export des données** au format CSV
-- **Lecture des enregistrements** directement dans l'interface
-- **Suppression sélective** des données
-
-## 🔧 Prérequis
-
-- Python 3.11 ou supérieur
-- PostgreSQL (base de données)
-- Navigateur web moderne avec support audio
-- Microphone pour les enregistrements
-
-## 🚀 Installation
-
-### 1. Cloner le projet
-```bash
-git clone [URL_DU_REPO]
-cd preservation-langue-rund
-```
-
-### 2. Installer les dépendances
-```bash
-pip install -r pyproject.toml
-```
-
-### 3. Configurer la base de données
-Assurez-vous que PostgreSQL est installé et démarré, puis créez une base de données pour l'application.
-
-## ⚙️ Configuration
-
-### Variables d'environnement requises
-
-Créez les variables d'environnement suivantes (dans Replit, utilisez l'outil Secrets) :
-
-```bash
-# OBLIGATOIRE - Clé secrète pour les sessions (générez une clé aléatoire forte)
-SESSION_SECRET=votre_cle_secrete_forte_et_unique
-
-# OBLIGATOIRE - URL de connexion à la base de données PostgreSQL
-DATABASE_URL=postgresql://username:password@host:port/database_name
-```
-
-### Variables d'environnement optionnelles
-
-```bash
-# Création automatique d'un compte administrateur (optionnel)
-CREATE_ADMIN_USER=true
-
-# Email de l'administrateur (par défaut: admin@rund.local)
-ADMIN_EMAIL=admin@votre-domaine.com
-
-# Mot de passe administrateur (si non défini, un mot de passe aléatoire sera généré)
-ADMIN_PASSWORD=votre_mot_de_passe_admin
-```
-
-## 🎮 Utilisation
+## Comment utiliser l'application
 
 ### Démarrage de l'application
 
-```bash
-python main.py
-```
+#### Configuration préalable
 
-L'application sera accessible sur `http://0.0.0.0:5000`
+1. **Installer les dépendances** :
+   ```bash
+   pip install -r requirement.txt
+   ```
 
-### Première utilisation
+2. **Variables d'environnement obligatoires** :
+   - `SESSION_SECRET` : Clé secrète pour sécuriser les sessions (exemple: "votre-cle-secrete-tres-longue")
+   - `DATABASE_URL` : URL de connexion à la base de données PostgreSQL (exemple: "postgresql://user:password@localhost/rund_db")
 
-1. **Démarrez l'application** - Les tables de la base de données seront créées automatiquement
-2. **Chargement des phrases** - Les phrases du fichier `phrases.txt` seront importées
-3. **Création de l'admin** (si configuré) - Un compte administrateur sera créé
+   Exemple de configuration :
+   ```bash
+   export SESSION_SECRET="votre-cle-secrete-tres-longue"
+   export DATABASE_URL="postgresql://user:password@localhost/rund_db"
+   ```
 
-### Workflow utilisateur
+#### Lancement
 
-1. **Accueil** - Visitez la page d'accueil pour comprendre le projet
-2. **Inscription** - Créez un compte avec vos informations personnelles
-3. **Consentement** - Acceptez la politique de confidentialité
-4. **Connexion** - Connectez-vous avec vos identifiants
-5. **Enregistrement** - Lisez et enregistrez les phrases proposées
-6. **Contribution** - Répétez le processus pour enrichir l'archive
+1. Configurez les variables d'environnement ci-dessus
+2. Lancez l'application avec : `python main.py`
+3. Ouvrez votre navigateur et allez à l'adresse indiquée (généralement http://localhost:5000)
 
-## 👨‍💼 Interface administrateur
+### Pour les utilisateurs
 
-### Accès administrateur
+#### 1. Inscription
+- Cliquez sur "S'inscrire" sur la page d'accueil
+- Remplissez tous les champs obligatoires :
+  - Nom complet
+  - Sexe
+  - Âge
+  - Provenance (lieu d'origine)
+  - Adresse email
+  - Mot de passe
+- **Important :** Vous devez accepter la politique de confidentialité pour vous inscrire
+- Cliquez sur "S'inscrire"
 
-- URL : `http://0.0.0.0:5000/admin`
-- Connectez-vous avec un compte administrateur
+#### 2. Connexion
+- Cliquez sur "Se connecter"
+- Entrez votre email et mot de passe
+- Cliquez sur "Se connecter"
 
-### Fonctionnalités disponibles
+#### 3. Enregistrement de phrases
+- Une fois connecté, vous serez automatiquement dirigé vers la page d'enregistrement
+- Une phrase en langue Rund vous sera présentée aléatoirement
+- Cliquez sur le bouton pour commencer l'enregistrement audio
+- Lisez la phrase à voix haute
+- Arrêtez l'enregistrement et sauvegardez-le
+- Répétez le processus avec de nouvelles phrases
 
-- **Statistiques** : Nombre total d'enregistrements, utilisateurs uniques, phrases enregistrées
-- **Vue d'ensemble** : Liste détaillée de tous les enregistrements
-- **Lecture audio** : Écoute directe des enregistrements
-- **Export CSV** : Téléchargement de toutes les données
-- **Gestion** : Suppression d'enregistrements ou d'utilisateurs
+### Pour l'administrateur
 
-## 📁 Structure du projet
+#### Connexion admin
+- Email : `admin@rund.local`
+- Mot de passe : `31082003`
 
-```
-├── main.py                 # Application Flask principale
-├── phrases.txt            # Phrases en langue Rund à enregistrer
-├── static/
-│   ├── css/
-│   │   └── style.css      # Styles personnalisés
-│   └── recordings/        # Dossier des enregistrements audio
-├── templates/
-│   ├── base.html         # Template de base
-│   ├── index.html        # Page d'accueil
-│   ├── register.html     # Inscription
-│   ├── login.html        # Connexion
-│   ├── record.html       # Interface d'enregistrement
-│   ├── admin.html        # Tableau de bord admin
-│   └── privacy.html      # Politique de confidentialité
-├── pyproject.toml        # Dépendances Python
-└── README.md            # Documentation
-```
+#### Fonctionnalités admin
+1. **Tableau de bord** : Accédez à `/admin` pour voir tous les enregistrements
+2. **Statistiques** : Visualisez le nombre d'enregistrements du jour
+3. **Export des données** : Téléchargez toutes les données en format CSV
+4. **Gestion des enregistrements** : Supprimez des enregistrements individuels si nécessaire
+5. **Gestion des utilisateurs** : Supprimez des utilisateurs et tous leurs enregistrements
 
-## 🛠️ Technologies utilisées
+### Structure des données
 
-### Backend
-- **Flask** - Framework web Python
-- **SQLAlchemy** - ORM pour la base de données
-- **Flask-Login** - Gestion des sessions utilisateur
-- **Flask-WTF** - Protection CSRF
-- **PostgreSQL** - Base de données relationnelle
-- **Werkzeug** - Hachage sécurisé des mots de passe
+L'application stocke :
+- **Utilisateurs** : Informations personnelles et consentement
+- **Phrases** : Textes en langue Rund à enregistrer
+- **Enregistrements** : Fichiers audio liés aux utilisateurs et phrases
 
-### Frontend
-- **Bootstrap 5** - Framework CSS responsive
-- **HTML5 Audio API** - Enregistrement audio dans le navigateur
-- **Jinja2** - Moteur de templates
-- **CSS personnalisé** - Thème avec dégradés et animations
+### Politique de confidentialité
 
-### Sécurité
-- **CSRF Protection** - Protection contre les attaques CSRF
-- **Password Hashing** - Hachage sécurisé des mots de passe
-- **File Validation** - Validation des fichiers uploadés
-- **Session Security** - Gestion sécurisée des sessions
+- Tous les utilisateurs doivent donner leur consentement explicite
+- Les données sont utilisées uniquement pour la recherche linguistique
+- L'accès aux données est restreint aux administrateurs autorisés
 
-## 🤝 Contribution
+### Fonctionnalités techniques
 
-### Ajouter de nouvelles phrases
+- **Sécurité** : Authentification sécurisée avec hashage des mots de passe
+- **Validation** : Vérification des fichiers audio (max 10MB, formats WAV/WebM/OGG/MP3)
+- **Base de données** : PostgreSQL pour un stockage fiable
+- **Interface** : Design responsive avec Bootstrap 5
 
-1. Éditez le fichier `phrases.txt`
-2. Ajoutez une phrase par ligne en langue Rund
-3. Redémarrez l'application pour charger les nouvelles phrases
+### Support
 
-### Développement
-
-1. Forkez le projet
-2. Créez une branche pour votre fonctionnalité
-3. Implémentez vos modifications
-4. Testez soigneusement
-5. Soumettez une pull request
-
-## 🔒 Sécurité et confidentialité
-
-### Protection des données
-
-- **Consentement explicite** - Les utilisateurs doivent accepter la collecte de données
-- **Hachage des mots de passe** - Aucun mot de passe n'est stocké en clair
-- **Validation des fichiers** - Les uploads sont sécurisés et validés
-- **Protection CSRF** - Tous les formulaires sont protégés
-
-### Données collectées
-
-- **Informations personnelles** : Nom, âge, sexe, lieu d'origine, email
-- **Enregistrements audio** : Fichiers audio des prononciations
-- **Métadonnées** : Dates d'enregistrement, phrases associées
-
-### Droits des utilisateurs
-
-- **Accès** : Consultation de leurs propres données
-- **Rectification** : Modification des informations personnelles
-- **Suppression** : Demande de suppression via l'administrateur
-
-## 📞 Support
-
-Pour toute question ou problème :
-1. Consultez cette documentation
-2. Vérifiez les logs de l'application
-3. Contactez l'équipe de développement
-
----
-
-**Note** : Cette application est conçue pour la préservation culturelle et la recherche académique. Traitez les données collectées avec le respect et la confidentialité qu'elles méritent.
+Si vous rencontrez des problèmes ou avez des questions, contactez l'administrateur système.
