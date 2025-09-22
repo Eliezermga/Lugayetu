@@ -547,27 +547,57 @@ def delete_user(user_id):
     
     return redirect(url_for('admin'))
 
+# ... votre code existant ...
 
 # Initialize database and data
 def init_database():
-    with app.app_context():
-        db.create_all()
-        
-        # Add translate column if it doesn't exist
-        try:
-            # Try to add the column if it doesn't exist
-            from sqlalchemy import text
-            with db.engine.connect() as conn:
-                conn.execute(text("ALTER TABLE phrases ADD COLUMN IF NOT EXISTS translate TEXT"))
-                conn.commit()
-        except Exception as e:
-            print(f"Column translate may already exist: {e}")
-        
-        load_phrases_from_file()
-        create_admin_user()
+    try:
+        with app.app_context():
+            # Créer toutes les tables
+            db.create_all()
+            print("Tables créées avec succès")
+            
+            # Vérifier si les tables existent
+            from sqlalchemy import inspect, text
+            inspector = inspect(db.engine)
+            tables = inspector.get_table_names()
+            print(f"Tables existantes: {tables}")
+            
+            # Ajouter la colonne translate si elle n'existe pas
+            try:
+                if 'phrases' in tables:
+                    with db.engine.connect() as conn:
+                        conn.execute(text("ALTER TABLE phrases ADD COLUMN IF NOT EXISTS translate TEXT"))
+                        conn.commit()
+                        print("Colonne translate vérifiée/ajoutée")
+            except Exception as e:
+                print(f"Erreur avec la colonne translate: {e}")
+            
+            # Charger les phrases et créer l'admin
+            load_phrases_from_file()
+            create_admin_user()
+            
+    except Exception as e:
+        print(f"Erreur lors de l'initialisation de la base de données: {e}")
 
+# Initialiser au démarrage
+init_database()
+
+@app.before_request
+def before_first_request():
+    """S'assurer que la base est initialisée avant chaque requête si nécessaire."""
+    try:
+        with app.app_context():
+            # Vérifier si la table users existe
+            from sqlalchemy import inspect
+            inspector = inspect(db.engine)
+            tables = inspector.get_table_names()
+            
+            if 'users' not in tables:
+                print("Table users non trouvée, réinitialisation de la base...")
+                init_database()
+    except Exception as e:
+        print(f"Erreur lors de la vérification des tables: {e}")
 
 if __name__ == '__main__':
-    # Initialize database when running directly
-    init_database()
     app.run(host='0.0.0.0', port=5000, debug=True)
