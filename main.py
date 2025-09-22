@@ -57,20 +57,19 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 # Define Models
 class User(UserMixin, db.Model):
     """User model with all required fields."""
-    __tablename__ = 'users'
+    __tablename__ = 'users'  # Supprimez tout espace/tabulation avant 'users'
     
     id = db.Column(db.Integer, primary_key=True)
     nom = db.Column(db.String(100), nullable=False)
-    sexe = db.Column(db.String(10), nullable=False)  # 'Homme', 'Femme', 'Autre'
+    sexe = db.Column(db.String(10), nullable=False)
     age = db.Column(db.Integer, nullable=False)
-    provenance = db.Column(db.String(200), nullable=False)  # Place of origin
+    provenance = db.Column(db.String(200), nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(255), nullable=False)
     consent = db.Column(db.Boolean, nullable=False, default=False)
     is_admin = db.Column(db.Boolean, nullable=False, default=False)
     date_created = db.Column(db.DateTime, default=datetime.utcnow)
     
-    # Relationship to recordings
     recordings = db.relationship('Recording', backref='user', lazy=True, cascade='all, delete-orphan')
     
     def __repr__(self):
