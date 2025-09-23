@@ -93,13 +93,15 @@ class Phrase(db.Model):
 
 
 class Recording(db.Model):
-    """Recording model to store audio recording metadata."""
+    """Recording model to store audio recording data."""
     __tablename__ = 'recordings'
     
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     phrase_id = db.Column(db.Integer, db.ForeignKey('phrases.id'), nullable=False)
-    file_path = db.Column(db.String(255), nullable=False)  # Path to audio file
+    audio_data = db.Column(db.LargeBinary, nullable=False)  # Binary audio data
+    content_type = db.Column(db.String(50), nullable=False)  # MIME type
+    filename = db.Column(db.String(255), nullable=False)  # Original filename
     date_recorded = db.Column(db.DateTime, default=datetime.utcnow)
     
     def __repr__(self):
@@ -327,20 +329,23 @@ def save_recording():
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             unique_id = str(uuid.uuid4())[:8]
             secure_name = secure_filename(f"rec_{current_user.id}_{phrase_id}_{timestamp}_{unique_id}.wav")
-            filepath = os.path.join(app.config['UPLOAD_FOLDER'], secure_name)
+
             
-            # Ensure the filepath is within the upload directory (prevent path traversal)
-            if not os.path.abspath(filepath).startswith(os.path.abspath(app.config['UPLOAD_FOLDER'])):
-                return jsonify({'success': False, 'message': 'Chemin de fichier non autorisé'})
+
+
+
             
-            # Save file
-            file.save(filepath)
+
+            # Read audio data instead of saving to file
+            audio_data = file.read()
             
             # Save to database
             recording = Recording(
                 user_id=current_user.id,
                 phrase_id=int(phrase_id),
-                file_path=filepath,
+                audio_data=audio_data,
+                content_type=file.content_type,
+                filename=secure_name,
                 date_recorded=datetime.now()
             )
             
