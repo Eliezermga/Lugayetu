@@ -89,6 +89,6 @@ L'application stocke :
 - **Base de données** : PostgreSQL pour un stockage fiable
 - **Interface** : Design responsive avec Bootstrap 5
 
-### Support
+<!-- ### Support
 
-Si vous rencontrez des problèmes ou avez des questions, contactez l'administrateur système.
+Si vous rencontrez des problèmes ou avez des questions, contactez l'administrateur système. -->
