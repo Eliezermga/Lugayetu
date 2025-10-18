@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}Tableau de bord - Admin{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-speedometer2"></i> Tableau de bord Administrateur</h2>
+
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-primary">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-people-fill"></i> Utilisateurs</h5>
+                <h2 class="mb-0">{{ total_users }}</h2>
+                <small>Approuvés</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-warning">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-clock-fill"></i> En attente</h5>
+                <h2 class="mb-0">{{ pending_users }}</h2>
+                <small>À approuver</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-mic-fill"></i> Enregistrements</h5>
+                <h2 class="mb-0">{{ total_recordings }}</h2>
+                <small>Total</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-clock-history"></i> Heures</h5>
+                <h2 class="mb-0">{{ "%.2f"|format(total_hours) }}</h2>
+                <small>Total enregistré</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h5><i class="bi bi-calendar-day"></i> Aujourd'hui</h5>
+            </div>
+            <div class="card-body">
+                <h3>{{ today_recordings }} enregistrement(s)</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="bi bi-download"></i> Exports</h5>
+            </div>
+            <div class="card-body">
+                <a href="{{ url_for('export_csv') }}" class="btn btn-success me-2">
+                    <i class="bi bi-file-earmark-spreadsheet"></i> Exporter CSV
+                </a>
+                <a href="{{ url_for('export_zip') }}" class="btn btn-primary">
+                    <i class="bi bi-file-earmark-zip"></i> Exporter ZIP (CSV + Audio)
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-dark text-white">
+        <h5><i class="bi bi-clock-history"></i> Enregistrements récents</h5>
+    </div>
+    <div class="card-body">
+        {% if recent_recordings %}
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Utilisateur</th>
+                        <th>Langue</th>
+                        <th>Phrase</th>
+                        <th>Durée</th>
+                        <th>Audio</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for recording in recent_recordings %}
+                    <tr>
+                        <td>{{ recording.id }}</td>
+                        <td>{{ recording.user.prenom }} {{ recording.user.nom }}</td>
+                        <td>{{ recording.sentence.language.name }}</td>
+                        <td>{{ recording.sentence.text[:50] }}...</td>
+                        <td>{{ recording.duration }}s</td>
+                        <td>
+                            <audio controls style="width: 200px;">
+                                <source src="{{ url_for('serve_audio', filename=recording.audio_path.split('/')[-1]) }}" type="audio/wav">
+                                Votre navigateur ne supporte pas l'élément audio.
+                            </audio>
+                        </td>
+                        <td>{{ recording.created_at.strftime('%d/%m/%Y %H:%M') }}</td>
+                        <td>
+                            <a href="{{ url_for('delete_recording', recording_id=recording.id) }}" 
+                               class="btn btn-sm btn-danger"
+                               onclick="return confirm('Voulez-vous vraiment supprimer cet enregistrement?')">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p class="text-muted">Aucun enregistrement pour le moment.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

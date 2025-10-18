@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}Gestion des langues - Admin{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-translate"></i> Gestion des langues</h2>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5><i class="bi bi-plus-circle"></i> Ajouter une nouvelle langue</h5>
+    </div>
+    <div class="card-body">
+        <form method="POST" action="{{ url_for('add_language') }}">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Nom de la langue</label>
+                    <input type="text" class="form-control" id="name" name="name" 
+                           placeholder="Ex: Kisanga" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="code" class="form-label">Code</label>
+                    <input type="text" class="form-control" id="code" name="code" 
+                           placeholder="Ex: kisanga" pattern="[a-z]+" required>
+                    <div class="form-text">Utiliser uniquement des lettres minuscules sans espaces</div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Ajouter
+            </button>
+        </form>
+        <div class="alert alert-info mt-3">
+            <i class="bi bi-info-circle"></i> Après avoir ajouté une langue, vous devrez ajouter les phrases 
+            dans les fichiers <code>languages/[code].txt</code> et <code>languages/translate_[code].txt</code>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-dark text-white">
+        <h5><i class="bi bi-list"></i> Langues disponibles</h5>
+    </div>
+    <div class="card-body">
+        {% if languages %}
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nom</th>
+                        <th>Code</th>
+                        <th>Phrases</th>
+                        <th>Enregistrements</th>
+                        <th>Fichier phrases</th>
+                        <th>Fichier traductions</th>
+                        <th>Date création</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for language in languages %}
+                    <tr>
+                        <td>{{ language.id }}</td>
+                        <td><strong>{{ language.name }}</strong></td>
+                        <td><code>{{ language.code }}</code></td>
+                        <td>{{ language.sentences|length }}</td>
+                        <td>
+                            {% set total_recordings = namespace(count=0) %}
+                            {% for sentence in language.sentences %}
+                                {% set total_recordings.count = total_recordings.count + sentence.recordings|length %}
+                            {% endfor %}
+                            {{ total_recordings.count }}
+                        </td>
+                        <td><small>{{ language.sentences_file }}</small></td>
+                        <td><small>{{ language.translations_file }}</small></td>
+                        <td>{{ language.created_at.strftime('%d/%m/%Y') }}</td>
+                        <td>
+                            <a href="{{ url_for('delete_language', language_id=language.id) }}" 
+                               class="btn btn-sm btn-danger"
+                               onclick="return confirm('Voulez-vous vraiment supprimer cette langue et tous ses enregistrements?')">
+                                <i class="bi bi-trash"></i> Supprimer
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p class="text-muted">Aucune langue pour le moment.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

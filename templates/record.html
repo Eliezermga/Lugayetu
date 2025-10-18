@@ -1,332 +1,191 @@
 {% extends "base.html" %}
 
-{% block title %}Enregistrement - Préservation de la langue Rund{% endblock %}
-
-{% block extra_head %}
-<style>
-.recording-card {
-    min-height: 400px;
-}
-
-.phrase-display {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    border-left: 5px solid #007bff;
-    margin: 2rem 0;
-}
-
-.record-button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: none;
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-
-.record-button:not(.recording) {
-    background: linear-gradient(45deg, #28a745, #20c997);
-    color: white;
-}
-
-.record-button.recording {
-    background: linear-gradient(45deg, #dc3545, #fd7e14);
-    color: white;
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
-
-.audio-visualizer {
-    height: 60px;
-    background: #e9ecef;
-    border-radius: 0.25rem;
-    margin: 1rem 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.audio-wave {
-    height: 100%;
-    background: linear-gradient(90deg, #007bff, #28a745);
-    width: 0%;
-    transition: width 0.1s ease;
-}
-
-.recording-status {
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
-.timer {
-    font-size: 1.25rem;
-    color: #007bff;
-}
-</style>
-{% endblock %}
+{% block title %}Enregistrer - Lugayetu{% endblock %}
 
 {% block content %}
-<div class="row justify-content-center">
-    <div class="col-lg-8">
-        <div class="card shadow recording-card">
-            <div class="card-body text-center">
-                <h2 class="card-title mb-4">Enregistrement vocal</h2>
-                
-                {% if phrase %}
-                    <div class="phrase-display">
-                        <h4>Phrase à prononcer :</h4>
-                        <div id="phrase-text">{{ phrase.text_rund }}</div>
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card shadow mb-4">
+            <div class="card-header bg-primary text-white">
+                <h3><i class="bi bi-mic-fill"></i> Enregistrement Vocal</h3>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> 
+                    Vous avez enregistré <strong>{{ total_recorded }}</strong> phrase(s).
+                </div>
+
+                {% if sentence %}
+                <div class="text-center mb-4">
+                    <h5>Langue: <span class="badge bg-primary">{{ language.name }}</span></h5>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Phrase à lire:</h5>
+                        <p class="lead text-primary fw-bold">{{ sentence.text }}</p>
+                        <hr>
+                        <p class="text-muted"><strong>Traduction:</strong> {{ sentence.translation }}</p>
                     </div>
-                    
-                    <div class="recording-controls">
-                        <button id="recordButton" class="btn record-button" title="Cliquer pour démarrer l'enregistrement">
-                            🎤
-                        </button>
-                        
-                        <div class="recording-status mt-3" id="status">
-                            Cliquez sur le bouton pour commencer l'enregistrement
+                </div>
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div id="recording-status" class="mb-3">
+                            <p class="text-muted">Cliquez sur le bouton pour commencer l'enregistrement</p>
                         </div>
-                        
-                        <div class="timer" id="timer" style="display: none;">
-                            00:00
-                        </div>
-                        
-                        <div class="audio-visualizer" style="display: none;">
-                            <div class="audio-wave" id="audioWave"></div>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <div id="playbackSection" style="display: none;">
-                                <h5>Écouter votre enregistrement :</h5>
-                                <audio id="audioPlayback" controls class="w-100"></audio>
-                                <div class="mt-3">
-                                    <button id="saveButton" class="btn btn-success me-2" style="display: none;">
-                                        Sauvegarder
-                                    </button>
-                                    <button id="retryButton" class="btn btn-secondary" style="display: none;">
-                                        Réessayer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <button id="newPhraseButton" class="btn btn-outline-primary">
-                                Nouvelle phrase
+
+                        <div class="mb-3">
+                            <button id="record-btn" class="btn btn-danger btn-lg">
+                                <i class="bi bi-record-circle"></i> Enregistrer
+                            </button>
+                            <button id="stop-btn" class="btn btn-secondary btn-lg" style="display: none;" disabled>
+                                <i class="bi bi-stop-circle"></i> Arrêter
                             </button>
                         </div>
+
+                        <div id="audio-playback" style="display: none;" class="mb-3">
+                            <audio id="audio-player" controls class="w-100"></audio>
+                        </div>
+
+                        <div id="action-buttons" style="display: none;">
+                            <button id="validate-btn" class="btn btn-success btn-lg me-2">
+                                <i class="bi bi-check-circle"></i> Valider et Enregistrer
+                            </button>
+                            <button id="redo-btn" class="btn btn-warning btn-lg">
+                                <i class="bi bi-arrow-clockwise"></i> Réenregistrer
+                            </button>
+                        </div>
+
+                        <div id="timer" class="mt-3 text-muted"></div>
                     </div>
+                </div>
                 {% else %}
-                    <div class="alert alert-warning">
-                        Aucune phrase disponible pour l'enregistrement.
-                    </div>
+                <div class="alert alert-success text-center">
+                    <h4><i class="bi bi-trophy"></i> Félicitations!</h4>
+                    <p class="mb-0">Vous avez enregistré toutes les phrases disponibles. Merci pour votre précieuse contribution à la préservation de notre patrimoine linguistique!</p>
+                </div>
                 {% endif %}
             </div>
         </div>
     </div>
 </div>
 
-<!-- Success Modal -->
-<div class="modal fade" id="successModal" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Enregistrement sauvegardé !</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <p>Votre enregistrement a été sauvegardé avec succès. Merci de contribuer à la préservation de la langue Rund !</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuer</button>
-            </div>
-        </div>
-    </div>
-</div>
-{% endblock %}
-
-{% block extra_scripts %}
+{% if sentence %}
 <script>
 let mediaRecorder;
 let audioChunks = [];
-let isRecording = false;
-let stream;
+let recordedBlob = null;
 let startTime;
 let timerInterval;
-let audioBlob;
 
-const recordButton = document.getElementById('recordButton');
-const status = document.getElementById('status');
-const timer = document.getElementById('timer');
-const audioWave = document.getElementById('audioWave');
-const playbackSection = document.getElementById('playbackSection');
-const audioPlayback = document.getElementById('audioPlayback');
-const saveButton = document.getElementById('saveButton');
-const retryButton = document.getElementById('retryButton');
-const newPhraseButton = document.getElementById('newPhraseButton');
+const recordBtn = document.getElementById('record-btn');
+const stopBtn = document.getElementById('stop-btn');
+const validateBtn = document.getElementById('validate-btn');
+const redoBtn = document.getElementById('redo-btn');
+const audioPlayer = document.getElementById('audio-player');
+const recordingStatus = document.getElementById('recording-status');
+const audioPlayback = document.getElementById('audio-playback');
+const actionButtons = document.getElementById('action-buttons');
+const timerDisplay = document.getElementById('timer');
 
-// Initialize audio recording
-async function initializeRecording() {
+recordBtn.addEventListener('click', async () => {
     try {
-        stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         mediaRecorder = new MediaRecorder(stream);
-        
+        audioChunks = [];
+
         mediaRecorder.ondataavailable = (event) => {
             audioChunks.push(event.data);
         };
-        
+
         mediaRecorder.onstop = () => {
-            audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
-            const audioUrl = URL.createObjectURL(audioBlob);
-            audioPlayback.src = audioUrl;
-            
-            showPlayback();
+            recordedBlob = new Blob(audioChunks, { type: 'audio/wav' });
+            const audioUrl = URL.createObjectURL(recordedBlob);
+            audioPlayer.src = audioUrl;
+            audioPlayback.style.display = 'block';
+            actionButtons.style.display = 'block';
+            recordingStatus.innerHTML = '<p class="text-success"><i class="bi bi-check-circle"></i> Enregistrement terminé. Écoutez et validez ou réenregistrez.</p>';
         };
+
+        mediaRecorder.start();
+        startTime = Date.now();
         
+        recordBtn.style.display = 'none';
+        stopBtn.style.display = 'inline-block';
+        stopBtn.disabled = false;
+        recordingStatus.innerHTML = '<p class="text-danger"><i class="bi bi-record-circle-fill blink"></i> Enregistrement en cours...</p>';
+        
+        timerInterval = setInterval(() => {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            timerDisplay.textContent = `Durée: ${elapsed}s`;
+        }, 100);
+
     } catch (error) {
-        console.error('Erreur accès microphone:', error);
-        status.textContent = 'Erreur : impossible d\'accéder au microphone';
-        status.className = 'recording-status text-danger';
+        alert('Erreur: Impossible d\'accéder au microphone. Veuillez autoriser l\'accès au microphone.');
+        console.error('Error accessing microphone:', error);
     }
-}
+});
 
-function startRecording() {
-    if (!mediaRecorder) return;
-    
-    audioChunks = [];
-    isRecording = true;
-    
-    recordButton.classList.add('recording');
-    recordButton.innerHTML = '⏹️';
-    recordButton.title = 'Cliquer pour arrêter l\'enregistrement';
-    
-    status.textContent = 'Enregistrement en cours...';
-    status.className = 'recording-status text-danger';
-    
-    timer.style.display = 'block';
-    document.querySelector('.audio-visualizer').style.display = 'block';
-    
-    startTime = Date.now();
-    timerInterval = setInterval(updateTimer, 100);
-    
-    mediaRecorder.start();
-}
-
-function stopRecording() {
-    if (!mediaRecorder || !isRecording) return;
-    
-    isRecording = false;
+stopBtn.addEventListener('click', () => {
     mediaRecorder.stop();
-    
-    recordButton.classList.remove('recording');
-    recordButton.innerHTML = '🎤';
-    recordButton.title = 'Cliquer pour démarrer l\'enregistrement';
-    
-    status.textContent = 'Enregistrement terminé';
-    status.className = 'recording-status text-success';
-    
+    mediaRecorder.stream.getTracks().forEach(track => track.stop());
+    stopBtn.disabled = true;
     clearInterval(timerInterval);
-    document.querySelector('.audio-visualizer').style.display = 'none';
-}
+});
 
-function updateTimer() {
-    const elapsed = (Date.now() - startTime) / 1000;
-    const minutes = Math.floor(elapsed / 60);
-    const seconds = Math.floor(elapsed % 60);
-    timer.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-    
-    // Simple audio wave animation
-    const waveWidth = (elapsed % 2) * 50;
-    audioWave.style.width = `${Math.min(waveWidth, 100)}%`;
-}
-
-function showPlayback() {
-    playbackSection.style.display = 'block';
-    saveButton.style.display = 'inline-block';
-    retryButton.style.display = 'inline-block';
-    
-    timer.style.display = 'none';
-}
-
-function saveRecording() {
-    if (!audioBlob) return;
-    
+validateBtn.addEventListener('click', async () => {
+    const duration = (Date.now() - startTime) / 1000;
     const formData = new FormData();
-    formData.append('audio', audioBlob, 'recording.wav');
-    formData.append('phrase_id', {{ phrase.id if phrase else 0 }});
-    
-    // Get CSRF token from meta tag
-    const csrfToken = document.querySelector('meta[name=csrf-token]').getAttribute('content');
-    
-    fetch('/save_recording', {
-        method: 'POST',
-        headers: {
-            'X-CSRFToken': csrfToken
-        },
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // Show success modal
-            const modal = new bootstrap.Modal(document.getElementById('successModal'));
-            modal.show();
-            
-            // Reset interface
-            resetInterface();
+    formData.append('audio', recordedBlob, 'recording.wav');
+    formData.append('sentence_id', '{{ sentence.id }}');
+    formData.append('duration', duration);
+
+    validateBtn.disabled = true;
+    validateBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Enregistrement...';
+
+    try {
+        const response = await fetch('{{ url_for("save_recording") }}', {
+            method: 'POST',
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert(result.message);
+            window.location.reload();
         } else {
-            alert('Erreur: ' + data.message);
+            alert('Erreur: ' + result.message);
+            validateBtn.disabled = false;
+            validateBtn.innerHTML = '<i class="bi bi-check-circle"></i> Valider et Enregistrer';
         }
-    })
-    .catch(error => {
-        console.error('Erreur:', error);
-        alert('Erreur lors de la sauvegarde');
-    });
-}
-
-function resetInterface() {
-    playbackSection.style.display = 'none';
-    audioChunks = [];
-    audioBlob = null;
-    status.textContent = 'Cliquez sur le bouton pour commencer l\'enregistrement';
-    status.className = 'recording-status';
-    timer.textContent = '00:00';
-}
-
-// Event listeners
-recordButton.addEventListener('click', () => {
-    if (isRecording) {
-        stopRecording();
-    } else {
-        startRecording();
+    } catch (error) {
+        alert('Erreur lors de l\'enregistrement. Veuillez réessayer.');
+        console.error('Error:', error);
+        validateBtn.disabled = false;
+        validateBtn.innerHTML = '<i class="bi bi-check-circle"></i> Valider et Enregistrer';
     }
 });
 
-saveButton.addEventListener('click', saveRecording);
-
-retryButton.addEventListener('click', resetInterface);
-
-newPhraseButton.addEventListener('click', () => {
-    window.location.reload();
-});
-
-// Initialize when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    initializeRecording();
-});
-
-// Cleanup on page unload
-window.addEventListener('beforeunload', () => {
-    if (stream) {
-        stream.getTracks().forEach(track => track.stop());
-    }
+redoBtn.addEventListener('click', () => {
+    audioPlayback.style.display = 'none';
+    actionButtons.style.display = 'none';
+    recordBtn.style.display = 'inline-block';
+    stopBtn.style.display = 'none';
+    recordingStatus.innerHTML = '<p class="text-muted">Cliquez sur le bouton pour commencer l\'enregistrement</p>';
+    timerDisplay.textContent = '';
 });
 </script>
+
+<style>
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0.5; }
+}
+.blink {
+    animation: blink 1.5s infinite;
+}
+</style>
+{% endif %}
 {% endblock %}
