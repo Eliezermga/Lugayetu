@@ -22,6 +22,9 @@
 - 📝 Système de phrases aléatoires sans répétition
 - 📊 Suivi du nombre d'enregistrements effectués
 - 🔒 Connexion sécurisée avec authentification
+- 👤 Modification du profil utilisateur (nom, email, mot de passe, etc.)
+- 📁 Visualisation et téléchargement de ses enregistrements audio
+- 🗑️ Suppression de compte avec tous les enregistrements associés
 
 ### Pour les Administrateurs
 - 📈 Tableau de bord avec statistiques en temps réel
@@ -36,19 +39,31 @@
 - 📦 Export ZIP (CSV + fichiers audio)
 - 🌐 Gestion des langues (ajout/suppression)
 
+### API REST Complète
+- 🔌 API RESTful avec authentification JWT
+- 📝 Documentation API complète (voir `API_DOCUMENTATION.md`)
+- 🔄 Endpoints pour inscription, connexion, profil utilisateur
+- 📊 Endpoints pour statistiques et gestion des enregistrements
+- 🔐 Endpoints pour modification de profil et suppression de compte
+- 📥 Endpoint pour téléchargement des fichiers audio
+- 🌍 Support complet pour applications mobiles (React Native, Flutter)
+
 ### Fonctionnalités Techniques
 - 🗄️ Base de données PostgreSQL pour la persistence
-- 🔐 Authentification sécurisée avec Flask-Login
+- 🔐 Authentification sécurisée avec Flask-Login et JWT
 - 📱 Interface responsive avec Bootstrap 5
 - 🎨 Design moderne et accessible
 - 📄 Pages légales complètes (Politique de confidentialité, Conditions d'utilisation)
+- 🔄 Migrations de base de données avec Flask-Migrate
 
 ## 🏗️ Architecture
 
 ```
 lugayetu/
 ├── app.py                      # Application Flask principale
+├── api.py                      # API REST avec JWT
 ├── models.py                   # Modèles de base de données
+├── API_DOCUMENTATION.md        # Documentation complète de l'API
 ├── templates/                  # Templates HTML
 │   ├── base.html              # Template de base
 │   ├── index.html             # Page d'accueil
@@ -391,6 +406,8 @@ Je reviendrai
 - **Flask** : Framework web Python
 - **Flask-SQLAlchemy** : ORM pour PostgreSQL
 - **Flask-Login** : Gestion des sessions utilisateurs
+- **Flask-JWT-Extended** : Authentification JWT pour l'API
+- **Flask-CORS** : Support CORS pour applications mobiles
 - **Flask-Migrate** : Gestion des migrations de base de données (Alembic)
 - **PostgreSQL** : Base de données relationnelle
 - **Werkzeug** : Sécurité (hashage de mots de passe)

@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Mes Enregistrements - Lugayetu{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h3><i class="bi bi-music-note-list"></i> Mes Enregistrements</h3>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> 
+                    Vous avez effectué <strong>{{ recordings|length }}</strong> enregistrement(s).
+                </div>
+
+                {% if recordings %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Langue</th>
+                                <th>Phrase</th>
+                                <th>Traduction</th>
+                                <th>Durée</th>
+                                <th>Date</th>
+                                <th>Audio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for recording in recordings %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td><span class="badge bg-primary">{{ recording.sentence.language.name }}</span></td>
+                                <td>{{ recording.sentence.text[:50] }}{% if recording.sentence.text|length > 50 %}...{% endif %}</td>
+                                <td>{{ recording.sentence.translation[:50] }}{% if recording.sentence.translation|length > 50 %}...{% endif %}</td>
+                                <td>{{ "%.1f"|format(recording.duration) }}s</td>
+                                <td>{{ recording.created_at.strftime('%d/%m/%Y %H:%M') }}</td>
+                                <td>
+                                    <audio controls class="audio-player">
+                                        <source src="{{ url_for('serve_audio', filename=recording.audio_path.split('/')[-1]) }}" type="audio/wav">
+                                        Votre navigateur ne supporte pas la lecture audio.
+                                    </audio>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-3">
+                    <h5>Statistiques</h5>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card bg-light">
+                                <div class="card-body text-center">
+                                    <h6>Total enregistrements</h6>
+                                    <h3 class="text-primary">{{ recordings|length }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light">
+                                <div class="card-body text-center">
+                                    <h6>Durée totale</h6>
+                                    <h3 class="text-success">{{ "%.1f"|format(total_duration / 60) }} min</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light">
+                                <div class="card-body text-center">
+                                    <h6>Durée moyenne</h6>
+                                    <h3 class="text-info">{{ "%.1f"|format(total_duration / recordings|length if recordings|length > 0 else 0) }}s</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div class="alert alert-warning text-center">
+                    <h5><i class="bi bi-exclamation-triangle"></i> Aucun enregistrement</h5>
+                    <p>Vous n'avez pas encore effectué d'enregistrement. <a href="{{ url_for('record') }}">Commencez maintenant!</a></p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.audio-player {
+    width: 200px;
+    height: 30px;
+}
+</style>
+{% endblock %}

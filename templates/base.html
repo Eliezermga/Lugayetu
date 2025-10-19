@@ -50,6 +50,16 @@
                                     <i class="bi bi-mic"></i> Enregistrer
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('my_recordings') }}">
+                                    <i class="bi bi-music-note-list"></i> Mes Enregistrements
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('profile') }}">
+                                    <i class="bi bi-person-circle"></i> Mon Profil
+                                </a>
+                            </li>
                         {% endif %}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('logout') }}">

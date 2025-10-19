@@ -182,7 +182,80 @@ Authorization: Bearer <access_token>
 
 ---
 
-### 4. Statistiques utilisateur
+### 4. Modifier le profil utilisateur
+
+Mettre à jour les informations du profil de l'utilisateur connecté.
+
+**Endpoint :** `PUT /api/user/profile`
+
+**Authentification :** Requise
+
+**Headers :**
+```
+Authorization: Bearer <access_token>
+Content-Type: application/json
+```
+
+**Corps de la requête :**
+```json
+{
+  "nom": "Nouveaunom",
+  "prenom": "Nouveauprenom",
+  "age": 26,
+  "sexe": "Homme",
+  "langue_parlee": "Rund",
+  "province": "Kinshasa",
+  "ville_village": "Kinshasa",
+  "email": "nouveau.email@example.com",
+  "password": "nouveaumotdepasse"
+}
+```
+
+**Champs modifiables (tous optionnels) :**
+- `nom` (string) : Nouveau nom de famille
+- `prenom` (string) : Nouveau prénom
+- `age` (number) : Nouvel âge
+- `sexe` (string) : "Homme", "Femme" ou "Autre"
+- `langue_parlee` (string) : Nouvelle langue parlée
+- `province` (string) : Nouvelle province (doit être dans la liste des provinces)
+- `ville_village` (string) : Nouvelle ville ou village
+- `email` (string) : Nouvelle adresse email (doit être unique)
+- `password` (string) : Nouveau mot de passe
+
+**Note :** Vous pouvez envoyer uniquement les champs que vous souhaitez modifier.
+
+**Réponse réussie (200) :**
+```json
+{
+  "success": true,
+  "message": "Profil mis à jour avec succès",
+  "data": {
+    "id": 123,
+    "user_id": "user123",
+    "nom": "Nouveaunom",
+    "prenom": "Nouveauprenom",
+    "age": 26,
+    "sexe": "Homme",
+    "langue_parlee": "Rund",
+    "province": "Kinshasa",
+    "ville_village": "Kinshasa",
+    "email": "nouveau.email@example.com",
+    "is_approved": true,
+    "created_at": "2025-10-18T10:30:00"
+  }
+}
+```
+
+**Erreurs possibles :**
+- `400` : Données invalides (âge non numérique, sexe invalide, province invalide)
+- `401` : Token invalide ou expiré
+- `404` : Utilisateur non trouvé
+- `409` : Email déjà utilisé par un autre compte
+- `500` : Erreur serveur
+
+---
+
+### 5. Statistiques utilisateur
 
 Obtenir les statistiques d'enregistrement de l'utilisateur.
 
@@ -215,7 +288,7 @@ Authorization: Bearer <access_token>
 
 ---
 
-### 5. Liste des langues
+### 6. Liste des langues
 
 Obtenir toutes les langues disponibles dans l'application.
 
@@ -257,7 +330,7 @@ Authorization: Bearer <access_token>
 
 ---
 
-### 6. Prochaine phrase à enregistrer
+### 7. Prochaine phrase à enregistrer
 
 Obtenir une phrase aléatoire non encore enregistrée par l'utilisateur.
 
@@ -316,7 +389,7 @@ GET /api/sentences/next?language_id=1
 
 ---
 
-### 7. Sauvegarder un enregistrement
+### 8. Sauvegarder un enregistrement
 
 Envoyer un fichier audio enregistré pour une phrase.
 
@@ -382,7 +455,7 @@ axios.post('/api/recordings', formData, {
 
 ---
 
-### 8. Liste des enregistrements
+### 9. Liste des enregistrements
 
 Obtenir la liste paginée des enregistrements de l'utilisateur.
 
@@ -444,7 +517,73 @@ GET /api/recordings?page=2&per_page=10
 
 ---
 
-### 9. Liste des provinces
+### 10. Télécharger un fichier audio
+
+Télécharger le fichier audio d'un enregistrement spécifique.
+
+**Endpoint :** `GET /api/recordings/<recording_id>/audio`
+
+**Authentification :** Requise
+
+**Headers :**
+```
+Authorization: Bearer <access_token>
+```
+
+**Paramètres d'URL :**
+- `recording_id` : ID de l'enregistrement
+
+**Exemple :**
+```
+GET /api/recordings/456/audio
+```
+
+**Réponse réussie (200) :**
+Le fichier audio est téléchargé directement au format binaire avec les headers appropriés.
+
+**Erreurs possibles :**
+- `401` : Token invalide ou expiré
+- `403` : Accès non autorisé (l'enregistrement appartient à un autre utilisateur)
+- `404` : Enregistrement ou fichier audio non trouvé
+- `500` : Erreur serveur
+
+---
+
+### 11. Supprimer le compte utilisateur
+
+Supprimer définitivement le compte de l'utilisateur connecté ainsi que tous ses enregistrements et fichiers audio.
+
+**Endpoint :** `DELETE /api/user/account`
+
+**Authentification :** Requise
+
+**Headers :**
+```
+Authorization: Bearer <access_token>
+```
+
+**⚠️ ATTENTION :** Cette action est irréversible. Toutes les données de l'utilisateur seront supprimées définitivement, y compris :
+- Les informations du profil
+- Tous les enregistrements audio
+- Tous les fichiers audio associés
+
+**Réponse réussie (200) :**
+```json
+{
+  "success": true,
+  "message": "Votre compte et tous vos enregistrements ont été supprimés avec succès"
+}
+```
+
+**Erreurs possibles :**
+- `401` : Token invalide ou expiré
+- `403` : Impossible de supprimer un compte administrateur
+- `404` : Utilisateur non trouvé
+- `500` : Erreur serveur
+
+---
+
+### 12. Liste des provinces
 
 Obtenir la liste des provinces de la RDC (endpoint public).
 

@@ -77,15 +77,25 @@
 
                     <div class="mb-3">
                         <label for="password" class="form-label">Mot de passe *</label>
-                        <input type="password" class="form-control" id="password" name="password" 
-                               minlength="6" required>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" name="password" 
+                                   minlength="6" required>
+                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                <i class="bi bi-eye" id="passwordIcon"></i>
+                            </button>
+                        </div>
                         <div class="form-text">Minimum 6 caractères</div>
                     </div>
 
                     <div class="mb-3">
                         <label for="confirm_password" class="form-label">Confirmer le mot de passe *</label>
-                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" 
-                               minlength="6" required>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" 
+                                   minlength="6" required>
+                            <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword">
+                                <i class="bi bi-eye" id="confirmPasswordIcon"></i>
+                            </button>
+                        </div>
                     </div>
 
                     <div class="mb-3 form-check">
@@ -115,4 +125,36 @@
         </div>
     </div>
 </div>
+
+<script>
+document.getElementById('togglePassword').addEventListener('click', function() {
+    const passwordField = document.getElementById('password');
+    const passwordIcon = document.getElementById('passwordIcon');
+    
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text';
+        passwordIcon.classList.remove('bi-eye');
+        passwordIcon.classList.add('bi-eye-slash');
+    } else {
+        passwordField.type = 'password';
+        passwordIcon.classList.remove('bi-eye-slash');
+        passwordIcon.classList.add('bi-eye');
+    }
+});
+
+document.getElementById('toggleConfirmPassword').addEventListener('click', function() {
+    const confirmPasswordField = document.getElementById('confirm_password');
+    const confirmPasswordIcon = document.getElementById('confirmPasswordIcon');
+    
+    if (confirmPasswordField.type === 'password') {
+        confirmPasswordField.type = 'text';
+        confirmPasswordIcon.classList.remove('bi-eye');
+        confirmPasswordIcon.classList.add('bi-eye-slash');
+    } else {
+        confirmPasswordField.type = 'password';
+        confirmPasswordIcon.classList.remove('bi-eye-slash');
+        confirmPasswordIcon.classList.add('bi-eye');
+    }
+});
+</script>
 {% endblock %}

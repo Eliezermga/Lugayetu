@@ -177,6 +177,108 @@ def api_get_profile():
             'message': f'Erreur: {str(e)}'
         }), 500
 
+@api_bp.route('/user/profile', methods=['PUT'])
+@jwt_required()
+def api_update_profile():
+    """
+    Mettre à jour le profil de l'utilisateur connecté
+    """
+    try:
+        current_user_id = int(get_jwt_identity())
+        user = User.query.get(current_user_id)
+        
+        if not user:
+            return jsonify({
+                'success': False,
+                'message': 'Utilisateur non trouvé'
+            }), 404
+        
+        data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'success': False,
+                'message': 'Corps de la requête manquant ou format JSON invalide'
+            }), 400
+        
+        if 'nom' in data and data['nom']:
+            user.nom = data['nom']
+        
+        if 'prenom' in data and data['prenom']:
+            user.prenom = data['prenom']
+        
+        if 'age' in data and data['age']:
+            try:
+                user.age = int(data['age'])
+            except ValueError:
+                return jsonify({
+                    'success': False,
+                    'message': 'L\'âge doit être un nombre valide'
+                }), 400
+        
+        if 'sexe' in data and data['sexe']:
+            if data['sexe'] not in ['Homme', 'Femme', 'Autre']:
+                return jsonify({
+                    'success': False,
+                    'message': 'Le sexe doit être "Homme", "Femme" ou "Autre"'
+                }), 400
+            user.sexe = data['sexe']
+        
+        if 'langue_parlee' in data and data['langue_parlee']:
+            user.langue_parlee = data['langue_parlee']
+        
+        if 'province' in data and data['province']:
+            if data['province'] not in PROVINCES:
+                return jsonify({
+                    'success': False,
+                    'message': 'Province invalide'
+                }), 400
+            user.province = data['province']
+        
+        if 'ville_village' in data and data['ville_village']:
+            user.ville_village = data['ville_village']
+        
+        if 'email' in data and data['email']:
+            if data['email'] != user.email:
+                existing_user = User.query.filter_by(email=data['email']).first()
+                if existing_user:
+                    return jsonify({
+                        'success': False,
+                        'message': 'Cette adresse email est déjà utilisée'
+                    }), 409
+                user.email = data['email']
+        
+        if 'password' in data and data['password']:
+            user.set_password(data['password'])
+        
+        db.session.commit()
+        
+        return jsonify({
+            'success': True,
+            'message': 'Profil mis à jour avec succès',
+            'data': {
+                'id': user.id,
+                'user_id': user.user_id,
+                'nom': user.nom,
+                'prenom': user.prenom,
+                'age': user.age,
+                'sexe': user.sexe,
+                'langue_parlee': user.langue_parlee,
+                'province': user.province,
+                'ville_village': user.ville_village,
+                'email': user.email,
+                'is_approved': user.is_approved,
+                'created_at': user.created_at.isoformat()
+            }
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({
+            'success': False,
+            'message': f'Erreur lors de la mise à jour: {str(e)}'
+        }), 500
+
 @api_bp.route('/user/stats', methods=['GET'])
 @jwt_required()
 def api_user_stats():
@@ -469,6 +571,100 @@ def api_get_recordings():
                 }
             }
         }), 200
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'message': f'Erreur: {str(e)}'
+        }), 500
+
+@api_bp.route('/user/account', methods=['DELETE'])
+@jwt_required()
+def api_delete_account():
+    """
+    Supprimer le compte de l'utilisateur connecté et tous ses enregistrements
+    """
+    try:
+        current_user_id = int(get_jwt_identity())
+        user = User.query.get(current_user_id)
+        
+        if not user:
+            return jsonify({
+                'success': False,
+                'message': 'Utilisateur non trouvé'
+            }), 404
+        
+        if user.is_admin:
+            return jsonify({
+                'success': False,
+                'message': 'Impossible de supprimer un compte administrateur via l\'API'
+            }), 403
+        
+        for recording in user.recordings:
+            if os.path.exists(recording.audio_path):
+                try:
+                    os.remove(recording.audio_path)
+                except Exception as e:
+                    print(f"Erreur lors de la suppression du fichier {recording.audio_path}: {e}")
+        
+        db.session.delete(user)
+        db.session.commit()
+        
+        return jsonify({
+            'success': True,
+            'message': 'Votre compte et tous vos enregistrements ont été supprimés avec succès'
+        }), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({
+            'success': False,
+            'message': f'Erreur lors de la suppression du compte: {str(e)}'
+        }), 500
+
+@api_bp.route('/recordings/<int:recording_id>/audio', methods=['GET'])
+@jwt_required()
+def api_get_recording_audio(recording_id):
+    """
+    Télécharger le fichier audio d'un enregistrement spécifique
+    """
+    try:
+        current_user_id = int(get_jwt_identity())
+        user = User.query.get(current_user_id)
+        
+        if not user:
+            return jsonify({
+                'success': False,
+                'message': 'Utilisateur non trouvé'
+            }), 404
+        
+        recording = Recording.query.get(recording_id)
+        
+        if not recording:
+            return jsonify({
+                'success': False,
+                'message': 'Enregistrement non trouvé'
+            }), 404
+        
+        if recording.user_id != user.id and not user.is_admin:
+            return jsonify({
+                'success': False,
+                'message': 'Accès non autorisé à cet enregistrement'
+            }), 403
+        
+        if not os.path.exists(recording.audio_path):
+            return jsonify({
+                'success': False,
+                'message': 'Fichier audio introuvable'
+            }), 404
+        
+        from flask import send_file
+        return send_file(
+            recording.audio_path,
+            mimetype='audio/wav',
+            as_attachment=True,
+            download_name=f'recording_{recording_id}.wav'
+        )
         
     except Exception as e:
         return jsonify({

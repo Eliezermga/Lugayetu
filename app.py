@@ -637,6 +637,126 @@ def privacy():
 def terms():
     return render_template('terms.html')
 
+@app.route('/profile', methods=['GET', 'POST'])
+@login_required
+def profile():
+    if current_user.is_admin:
+        return redirect(url_for('admin_dashboard'))
+    
+    if request.method == 'POST':
+        try:
+            nom = request.form.get('nom')
+            prenom = request.form.get('prenom')
+            age = request.form.get('age')
+            sexe = request.form.get('sexe')
+            langue_parlee = request.form.get('langue_parlee')
+            province = request.form.get('province')
+            ville_village = request.form.get('ville_village')
+            
+            if not all([nom, prenom, age, sexe, langue_parlee, province, ville_village]):
+                flash('Tous les champs sont requis.', 'error')
+                return render_template('profile.html', provinces=PROVINCES)
+            
+            try:
+                age = int(age)
+                if age < 13 or age > 120:
+                    flash('L\'âge doit être entre 13 et 120 ans.', 'error')
+                    return render_template('profile.html', provinces=PROVINCES)
+            except ValueError:
+                flash('L\'âge doit être un nombre valide.', 'error')
+                return render_template('profile.html', provinces=PROVINCES)
+            
+            if sexe not in ['Homme', 'Femme', 'Autre']:
+                flash('Sexe invalide.', 'error')
+                return render_template('profile.html', provinces=PROVINCES)
+            
+            if province not in PROVINCES:
+                flash('Province invalide.', 'error')
+                return render_template('profile.html', provinces=PROVINCES)
+            
+            current_user.nom = nom
+            current_user.prenom = prenom
+            current_user.age = age
+            current_user.sexe = sexe
+            current_user.langue_parlee = langue_parlee
+            current_user.province = province
+            current_user.ville_village = ville_village
+            
+            new_email = request.form.get('email')
+            if new_email and new_email != current_user.email:
+                existing_user = User.query.filter_by(email=new_email).first()
+                if existing_user:
+                    flash('Cette adresse email est déjà utilisée.', 'error')
+                    return render_template('profile.html', provinces=PROVINCES)
+                current_user.email = new_email
+            
+            new_password = request.form.get('new_password')
+            confirm_new_password = request.form.get('confirm_new_password')
+            
+            if new_password:
+                if len(new_password) < 6:
+                    flash('Le mot de passe doit contenir au moins 6 caractères.', 'error')
+                    return render_template('profile.html', provinces=PROVINCES)
+                if new_password != confirm_new_password:
+                    flash('Les mots de passe ne correspondent pas.', 'error')
+                    return render_template('profile.html', provinces=PROVINCES)
+                current_user.set_password(new_password)
+            
+            db.session.commit()
+            flash('Profil mis à jour avec succès!', 'success')
+            return redirect(url_for('profile'))
+            
+        except Exception as e:
+            db.session.rollback()
+            flash('Une erreur est survenue. Veuillez réessayer.', 'error')
+            return render_template('profile.html', provinces=PROVINCES)
+    
+    return render_template('profile.html', provinces=PROVINCES)
+
+@app.route('/my-recordings')
+@login_required
+def my_recordings():
+    if current_user.is_admin:
+        return redirect(url_for('admin_dashboard'))
+    
+    recordings = Recording.query.filter_by(user_id=current_user.id).order_by(Recording.created_at.desc()).all()
+    total_duration = db.session.query(func.sum(Recording.duration)).filter(Recording.user_id == current_user.id).scalar() or 0
+    
+    return render_template('my_recordings.html', recordings=recordings, total_duration=total_duration)
+
+@app.route('/delete-account', methods=['POST'])
+@login_required
+def delete_account():
+    if current_user.is_admin:
+        flash('Impossible de supprimer un compte administrateur.', 'error')
+        return redirect(url_for('admin_dashboard'))
+    
+    password = request.form.get('password')
+    if not password or not current_user.check_password(password):
+        flash('Mot de passe incorrect. Suppression annulée.', 'error')
+        return redirect(url_for('profile'))
+    
+    user_id = current_user.id
+    
+    try:
+        for recording in current_user.recordings:
+            if os.path.exists(recording.audio_path):
+                os.remove(recording.audio_path)
+        
+        logout_user()
+        
+        user = User.query.get(user_id)
+        db.session.delete(user)
+        db.session.commit()
+        
+        flash('Votre compte a été supprimé avec succès.', 'success')
+        return redirect(url_for('index'))
+        
+    except Exception as e:
+        db.session.rollback()
+        flash('Une erreur est survenue lors de la suppression du compte.', 'error')
+        return redirect(url_for('profile'))
+
 if __name__ == '__main__':
     init_db()
     app.run(host='0.0.0.0', port=5000, debug=True)
