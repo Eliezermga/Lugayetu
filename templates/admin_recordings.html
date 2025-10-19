@@ -121,11 +121,10 @@
                         </td>
                         <td>{{ recording.created_at.strftime('%d/%m/%Y %H:%M') }}</td>
                         <td>
-                            <a href="{{ url_for('delete_recording', recording_id=recording.id) }}" 
-                               class="btn btn-sm btn-danger"
-                               onclick="return confirm('Voulez-vous vraiment supprimer cet enregistrement?')">
+                            <button class="btn btn-sm btn-danger"
+                                    onclick="showConfirm('Voulez-vous vraiment supprimer cet enregistrement ?', () => window.location.href='{{ url_for('delete_recording', recording_id=recording.id) }}')">
                                 <i class="bi bi-trash"></i>
-                            </a>
+                            </button>
                         </td>
                     </tr>
                     {% endfor %}

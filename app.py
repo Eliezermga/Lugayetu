@@ -577,6 +577,58 @@ def serve_audio(filename):
     
     return send_file(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
+@app.route('/api/pending_users_count')
+@login_required
+def pending_users_count():
+    if not current_user.is_admin:
+        return jsonify({'count': 0})
+    
+    count = User.query.filter_by(is_approved=False, is_admin=False).count()
+    return jsonify({'count': count})
+
+@app.route('/api/dashboard_stats')
+@login_required
+def dashboard_stats():
+    if not current_user.is_admin:
+        return jsonify({'error': 'Unauthorized'}), 403
+    
+    total_users = User.query.filter_by(is_approved=True, is_admin=False).count()
+    pending_users = User.query.filter_by(is_approved=False, is_admin=False).count()
+    total_recordings = Recording.query.count()
+    
+    total_duration = db.session.query(func.sum(Recording.duration)).scalar() or 0
+    total_hours = total_duration / 3600
+    
+    today = datetime.utcnow().date()
+    today_recordings = Recording.query.filter(
+        func.date(Recording.created_at) == today
+    ).count()
+    
+    recent_recordings = Recording.query.order_by(
+        Recording.created_at.desc()
+    ).limit(10).all()
+    
+    recent_data = []
+    for rec in recent_recordings:
+        recent_data.append({
+            'id': rec.id,
+            'user': f"{rec.user.prenom} {rec.user.nom}",
+            'language': rec.sentence.language.name,
+            'sentence': rec.sentence.text[:50] + '...',
+            'duration': rec.duration,
+            'audio_filename': rec.audio_path.split('/')[-1],
+            'created_at': rec.created_at.strftime('%d/%m/%Y %H:%M')
+        })
+    
+    return jsonify({
+        'total_users': total_users,
+        'pending_users': pending_users,
+        'total_recordings': total_recordings,
+        'total_hours': round(total_hours, 2),
+        'today_recordings': today_recordings,
+        'recent_recordings': recent_data
+    })
+
 @app.route('/privacy')
 def privacy():
     return render_template('privacy.html')

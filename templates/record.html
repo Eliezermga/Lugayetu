@@ -108,21 +108,25 @@ recordBtn.addEventListener('click', async () => {
             recordingStatus.innerHTML = '<p class="text-success"><i class="bi bi-check-circle"></i> Enregistrement terminé. Écoutez et validez ou réenregistrez.</p>';
         };
 
+        mediaRecorder.onstart = () => {
+            // Démarrer le timer APRÈS que l'enregistrement ait vraiment commencé
+            startTime = Date.now();
+            
+            timerInterval = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                timerDisplay.textContent = `Durée: ${elapsed}s`;
+            }, 100);
+        };
+
         mediaRecorder.start();
-        startTime = Date.now();
         
         recordBtn.style.display = 'none';
         stopBtn.style.display = 'inline-block';
         stopBtn.disabled = false;
         recordingStatus.innerHTML = '<p class="text-danger"><i class="bi bi-record-circle-fill blink"></i> Enregistrement en cours...</p>';
-        
-        timerInterval = setInterval(() => {
-            const elapsed = Math.floor((Date.now() - startTime) / 1000);
-            timerDisplay.textContent = `Durée: ${elapsed}s`;
-        }, 100);
 
     } catch (error) {
-        alert('Erreur: Impossible d\'accéder au microphone. Veuillez autoriser l\'accès au microphone.');
+        showAlert('Impossible d\'accéder au microphone. Veuillez autoriser l\'accès au microphone dans les paramètres de votre navigateur.', 'error');
         console.error('Error accessing microphone:', error);
     }
 });
@@ -153,15 +157,15 @@ validateBtn.addEventListener('click', async () => {
         const result = await response.json();
 
         if (result.success) {
-            alert(result.message);
-            window.location.reload();
+            showAlert(result.message, 'success');
+            setTimeout(() => window.location.reload(), 1500);
         } else {
-            alert('Erreur: ' + result.message);
+            showAlert(result.message, 'error');
             validateBtn.disabled = false;
             validateBtn.innerHTML = '<i class="bi bi-check-circle"></i> Valider et Enregistrer';
         }
     } catch (error) {
-        alert('Erreur lors de l\'enregistrement. Veuillez réessayer.');
+        showAlert('Erreur lors de l\'enregistrement. Veuillez réessayer.', 'error');
         console.error('Error:', error);
         validateBtn.disabled = false;
         validateBtn.innerHTML = '<i class="bi bi-check-circle"></i> Valider et Enregistrer';
