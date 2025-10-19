@@ -34,15 +34,28 @@ class User(UserMixin, db.Model):
     
     @staticmethod
     def generate_user_id():
-        last_user = User.query.order_by(User.id.desc()).first()
-        if last_user and last_user.user_id.startswith('user'):
-            try:
-                last_num = int(last_user.user_id.replace('user', ''))
-                return f'user{last_num + 1}'
-            except:
-                pass
-        max_id = db.session.query(db.func.max(User.id)).scalar() or 0
-        return f'user{max_id + 1}'
+        """Génère un ID utilisateur unique"""
+        try:
+            # Récupère le dernier utilisateur
+            last_user = User.query.order_by(User.id.desc()).first()
+            
+            # Vérifie si last_user existe et a un user_id valide
+            if last_user and last_user.user_id and last_user.user_id.startswith('user'):
+                try:
+                    last_num = int(last_user.user_id.replace('user', ''))
+                    return f'user{last_num + 1}'
+                except (ValueError, AttributeError):
+                    # En cas d'erreur de conversion, on utilise l'ID max
+                    pass
+            
+            # Si pas de dernier utilisateur ou format invalide, on utilise l'ID max
+            max_id = db.session.query(db.func.max(User.id)).scalar() or 0
+            return f'user{max_id + 1}'
+            
+        except Exception as e:
+            # En cas d'erreur générale, on génère un ID basé sur le timestamp
+            import time
+            return f'user{int(time.time())}'
     
     def __repr__(self):
         return f'<User {self.email}>'
