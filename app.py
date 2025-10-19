@@ -88,8 +88,8 @@ def init_db():
             rund = Language(
                 name='Rund',
                 code='rund',
-                sentences_file='rund.txt',
-                translations_file='translate_rund.txt'
+                sentences_file='languages/rund.txt',
+                translations_file='languages/translate_rund.txt'
             )
             db.session.add(rund)
             db.session.commit()
