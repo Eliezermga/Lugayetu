@@ -58,14 +58,12 @@ def init_db():
     with app.app_context():
         db.create_all()
         
-        # Correction des user_id manquants
         users_without_id = User.query.filter_by(user_id=None).all()
         for user in users_without_id:
             user.user_id = f'user{user.id}'
         if users_without_id:
             db.session.commit()
         
-        # Création de l'admin
         admin = User.query.filter_by(is_admin=True).first()
         if not admin:
             admin = User(
@@ -84,15 +82,9 @@ def init_db():
             )
             admin.set_password('31082003')
             db.session.add(admin)
-            db.session.commit()  # Important : commit pour avoir l'ID
         
-        # Chargement de toutes les langues
-        languages = Language.query.all()
-        for language in languages:
-            load_sentences_from_files(language)
-        
-        # Si aucune langue n'existe, créer Rund par défaut
-        if not languages:
+        rund = Language.query.filter_by(code='rund').first()
+        if not rund:
             rund = Language(
                 name='Rund',
                 code='rund',
@@ -101,11 +93,11 @@ def init_db():
             )
             db.session.add(rund)
             db.session.commit()
+            
             load_sentences_from_files(rund)
-            
-            
-            
-            
+        
+        db.session.commit()
+
 def load_sentences_from_files(language):
     try:
         with open(language.sentences_file, 'r', encoding='utf-8') as f:
