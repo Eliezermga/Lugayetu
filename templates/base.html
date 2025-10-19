@@ -99,7 +99,11 @@
 
     <footer class="bg-light text-center text-muted py-4 mt-5">
         <div class="container">
-            <p>&copy; 2025 Lugayetu</p>
+            <p>&copy; <span id="current-year"></span> Lugayetu</p>
+            <script>
+                document.getElementById('current-year').textContent = new Date().getFullYear();
+            </script>
+
             <p>
                 <a href="{{ url_for('privacy') }}" class="text-muted">Politique de confidentialité</a> |
                 <a href="{{ url_for('terms') }}" class="text-muted">Conditions d'utilisation</a>
