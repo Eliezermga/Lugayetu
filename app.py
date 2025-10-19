@@ -100,13 +100,33 @@ def init_db():
 
 def load_sentences_from_files(language):
     try:
+        # Vérifie si les fichiers existent
+        if not os.path.exists(language.sentences_file):
+            print(f"⚠️ Fichier non trouvé: {language.sentences_file}")
+            return
+        
+        if not os.path.exists(language.translations_file):
+            print(f"⚠️ Fichier non trouvé: {language.translations_file}")
+            return
+        
+        # Lecture des phrases
         with open(language.sentences_file, 'r', encoding='utf-8') as f:
             sentences = [line.strip() for line in f if line.strip()]
         
+        # Lecture des traductions
         with open(language.translations_file, 'r', encoding='utf-8') as f:
             translations = [line.strip() for line in f if line.strip()]
         
-        for sentence_text, translation_text in zip(sentences, translations):
+        print(f"📖 Chargement de {len(sentences)} phrases pour {language.name}")
+        print(f"📖 Chargement de {len(translations)} traductions pour {language.name}")
+        
+        # Vérification du nombre d'éléments
+        if len(sentences) != len(translations):
+            print(f"⚠️ Attention: {len(sentences)} phrases mais {len(translations)} traductions")
+        
+        # Ajout des phrases à la base de données
+        added_count = 0
+        for i, (sentence_text, translation_text) in enumerate(zip(sentences, translations)):
             existing = Sentence.query.filter_by(
                 language_id=language.id,
                 text=sentence_text
@@ -119,10 +139,14 @@ def load_sentences_from_files(language):
                     translation=translation_text
                 )
                 db.session.add(sentence)
+                added_count += 1
         
         db.session.commit()
+        print(f"✅ {added_count} nouvelles phrases ajoutées pour {language.name}")
+        
     except Exception as e:
-        print(f"Error loading sentences: {e}")
+        print(f"❌ Erreur lors du chargement des phrases pour {language.name}: {e}")
+        db.session.rollback()
 
 @app.route('/')
 def index():
