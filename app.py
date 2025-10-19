@@ -58,12 +58,14 @@ def init_db():
     with app.app_context():
         db.create_all()
         
+        # Correction des user_id manquants
         users_without_id = User.query.filter_by(user_id=None).all()
         for user in users_without_id:
             user.user_id = f'user{user.id}'
         if users_without_id:
             db.session.commit()
         
+        # Création de l'admin
         admin = User.query.filter_by(is_admin=True).first()
         if not admin:
             admin = User(
@@ -82,9 +84,15 @@ def init_db():
             )
             admin.set_password('31082003')
             db.session.add(admin)
+            db.session.commit()  # Important : commit pour avoir l'ID
         
-        rund = Language.query.filter_by(code='rund').first()
-        if not rund:
+        # Chargement de toutes les langues
+        languages = Language.query.all()
+        for language in languages:
+            load_sentences_from_files(language)
+        
+        # Si aucune langue n'existe, créer Rund par défaut
+        if not languages:
             rund = Language(
                 name='Rund',
                 code='rund',
@@ -93,40 +101,20 @@ def init_db():
             )
             db.session.add(rund)
             db.session.commit()
-            
             load_sentences_from_files(rund)
-        
-        db.session.commit()
-
+            
+            
+            
+            
 def load_sentences_from_files(language):
     try:
-        # Vérifie si les fichiers existent
-        if not os.path.exists(language.sentences_file):
-            print(f"⚠️ Fichier non trouvé: {language.sentences_file}")
-            return
-        
-        if not os.path.exists(language.translations_file):
-            print(f"⚠️ Fichier non trouvé: {language.translations_file}")
-            return
-        
-        # Lecture des phrases
         with open(language.sentences_file, 'r', encoding='utf-8') as f:
             sentences = [line.strip() for line in f if line.strip()]
         
-        # Lecture des traductions
         with open(language.translations_file, 'r', encoding='utf-8') as f:
             translations = [line.strip() for line in f if line.strip()]
         
-        print(f"📖 Chargement de {len(sentences)} phrases pour {language.name}")
-        print(f"📖 Chargement de {len(translations)} traductions pour {language.name}")
-        
-        # Vérification du nombre d'éléments
-        if len(sentences) != len(translations):
-            print(f"⚠️ Attention: {len(sentences)} phrases mais {len(translations)} traductions")
-        
-        # Ajout des phrases à la base de données
-        added_count = 0
-        for i, (sentence_text, translation_text) in enumerate(zip(sentences, translations)):
+        for sentence_text, translation_text in zip(sentences, translations):
             existing = Sentence.query.filter_by(
                 language_id=language.id,
                 text=sentence_text
@@ -139,14 +127,10 @@ def load_sentences_from_files(language):
                     translation=translation_text
                 )
                 db.session.add(sentence)
-                added_count += 1
         
         db.session.commit()
-        print(f"✅ {added_count} nouvelles phrases ajoutées pour {language.name}")
-        
     except Exception as e:
-        print(f"❌ Erreur lors du chargement des phrases pour {language.name}: {e}")
-        db.session.rollback()
+        print(f"Error loading sentences: {e}")
 
 @app.route('/')
 def index():
