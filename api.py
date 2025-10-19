@@ -238,16 +238,6 @@ def api_update_profile():
         if 'ville_village' in data and data['ville_village']:
             user.ville_village = data['ville_village']
         
-        if 'email' in data and data['email']:
-            if data['email'] != user.email:
-                existing_user = User.query.filter_by(email=data['email']).first()
-                if existing_user:
-                    return jsonify({
-                        'success': False,
-                        'message': 'Cette adresse email est déjà utilisée'
-                    }), 409
-                user.email = data['email']
-        
         if 'password' in data and data['password']:
             user.set_password(data['password'])
         

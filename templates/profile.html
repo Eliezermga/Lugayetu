@@ -39,7 +39,11 @@
 
                     <div class="mb-3">
                         <label for="langue_parlee" class="form-label">Langue parlée *</label>
-                        <input type="text" class="form-control" id="langue_parlee" name="langue_parlee" value="{{ current_user.langue_parlee }}" required>
+                        <select class="form-select" id="langue_parlee" name="langue_parlee" required>
+                            {% for language in languages %}
+                            <option value="{{ language.name }}" {% if current_user.langue_parlee == language.name %}selected{% endif %}>{{ language.name }}</option>
+                            {% endfor %}
+                        </select>
                     </div>
 
                     <div class="row">
@@ -59,7 +63,8 @@
 
                     <div class="mb-3">
                         <label for="email" class="form-label">Email *</label>
-                        <input type="email" class="form-control" id="email" name="email" value="{{ current_user.email }}" required>
+                        <input type="email" class="form-control" id="email" name="email" value="{{ current_user.email }}" readonly>
+                        <div class="form-text">L'email ne peut pas être modifié.</div>
                     </div>
 
                     <hr>

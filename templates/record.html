@@ -139,7 +139,7 @@ stopBtn.addEventListener('click', () => {
 });
 
 validateBtn.addEventListener('click', async () => {
-    const duration = (Date.now() - startTime) / 1000;
+    const duration = audioPlayer.duration || (Date.now() - startTime) / 1000;
     const formData = new FormData();
     formData.append('audio', recordedBlob, 'recording.wav');
     formData.append('sentence_id', '{{ sentence.id }}');

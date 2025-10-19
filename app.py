@@ -571,11 +571,23 @@ def admin_recordings():
 @app.route('/audio/<path:filename>')
 @login_required
 def serve_audio(filename):
-    if not current_user.is_admin:
-        flash('Accès non autorisé.', 'error')
-        return redirect(url_for('record'))
+    filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     
-    return send_file(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+    if not os.path.exists(filepath):
+        flash('Fichier audio introuvable.', 'error')
+        return redirect(url_for('my_recordings'))
+    
+    recording = Recording.query.filter_by(audio_path=filepath).first()
+    
+    if not recording:
+        flash('Enregistrement non trouvé.', 'error')
+        return redirect(url_for('my_recordings'))
+    
+    if recording.user_id != current_user.id and not current_user.is_admin:
+        flash('Accès non autorisé à cet enregistrement.', 'error')
+        return redirect(url_for('my_recordings'))
+    
+    return send_file(filepath)
 
 @app.route('/api/pending_users_count')
 @login_required
@@ -643,6 +655,8 @@ def profile():
     if current_user.is_admin:
         return redirect(url_for('admin_dashboard'))
     
+    languages = Language.query.all()
+    
     if request.method == 'POST':
         try:
             nom = request.form.get('nom')
@@ -655,24 +669,24 @@ def profile():
             
             if not all([nom, prenom, age, sexe, langue_parlee, province, ville_village]):
                 flash('Tous les champs sont requis.', 'error')
-                return render_template('profile.html', provinces=PROVINCES)
+                return render_template('profile.html', provinces=PROVINCES, languages=languages)
             
             try:
                 age = int(age)
                 if age < 13 or age > 120:
                     flash('L\'âge doit être entre 13 et 120 ans.', 'error')
-                    return render_template('profile.html', provinces=PROVINCES)
+                    return render_template('profile.html', provinces=PROVINCES, languages=languages)
             except ValueError:
                 flash('L\'âge doit être un nombre valide.', 'error')
-                return render_template('profile.html', provinces=PROVINCES)
+                return render_template('profile.html', provinces=PROVINCES, languages=languages)
             
             if sexe not in ['Homme', 'Femme', 'Autre']:
                 flash('Sexe invalide.', 'error')
-                return render_template('profile.html', provinces=PROVINCES)
+                return render_template('profile.html', provinces=PROVINCES, languages=languages)
             
             if province not in PROVINCES:
                 flash('Province invalide.', 'error')
-                return render_template('profile.html', provinces=PROVINCES)
+                return render_template('profile.html', provinces=PROVINCES, languages=languages)
             
             current_user.nom = nom
             current_user.prenom = prenom
@@ -682,24 +696,16 @@ def profile():
             current_user.province = province
             current_user.ville_village = ville_village
             
-            new_email = request.form.get('email')
-            if new_email and new_email != current_user.email:
-                existing_user = User.query.filter_by(email=new_email).first()
-                if existing_user:
-                    flash('Cette adresse email est déjà utilisée.', 'error')
-                    return render_template('profile.html', provinces=PROVINCES)
-                current_user.email = new_email
-            
             new_password = request.form.get('new_password')
             confirm_new_password = request.form.get('confirm_new_password')
             
             if new_password:
                 if len(new_password) < 6:
                     flash('Le mot de passe doit contenir au moins 6 caractères.', 'error')
-                    return render_template('profile.html', provinces=PROVINCES)
+                    return render_template('profile.html', provinces=PROVINCES, languages=languages)
                 if new_password != confirm_new_password:
                     flash('Les mots de passe ne correspondent pas.', 'error')
-                    return render_template('profile.html', provinces=PROVINCES)
+                    return render_template('profile.html', provinces=PROVINCES, languages=languages)
                 current_user.set_password(new_password)
             
             db.session.commit()
@@ -709,9 +715,9 @@ def profile():
         except Exception as e:
             db.session.rollback()
             flash('Une erreur est survenue. Veuillez réessayer.', 'error')
-            return render_template('profile.html', provinces=PROVINCES)
+            return render_template('profile.html', provinces=PROVINCES, languages=languages)
     
-    return render_template('profile.html', provinces=PROVINCES)
+    return render_template('profile.html', provinces=PROVINCES, languages=languages)
 
 @app.route('/my-recordings')
 @login_required

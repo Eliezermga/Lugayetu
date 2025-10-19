@@ -206,7 +206,6 @@ Content-Type: application/json
   "langue_parlee": "Rund",
   "province": "Kinshasa",
   "ville_village": "Kinshasa",
-  "email": "nouveau.email@example.com",
   "password": "nouveaumotdepasse"
 }
 ```
@@ -219,8 +218,9 @@ Content-Type: application/json
 - `langue_parlee` (string) : Nouvelle langue parlée
 - `province` (string) : Nouvelle province (doit être dans la liste des provinces)
 - `ville_village` (string) : Nouvelle ville ou village
-- `email` (string) : Nouvelle adresse email (doit être unique)
 - `password` (string) : Nouveau mot de passe
+
+**Note :** L'email ne peut pas être modifié pour des raisons de sécurité.
 
 **Note :** Vous pouvez envoyer uniquement les champs que vous souhaitez modifier.
 
@@ -250,7 +250,6 @@ Content-Type: application/json
 - `400` : Données invalides (âge non numérique, sexe invalide, province invalide)
 - `401` : Token invalide ou expiré
 - `404` : Utilisateur non trouvé
-- `409` : Email déjà utilisé par un autre compte
 - `500` : Erreur serveur
 
 ---
