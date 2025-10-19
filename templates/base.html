@@ -3,48 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Préservation de la langue Rund{% endblock %}</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>{% block title %}Lugayetu - Préservation des Langues en Danger{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    {% block extra_head %}{% endblock %}
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="{{ url_for('index') }}">
-                <strong>Langue Rund</strong>
+                <i class="bi bi-mic-fill"></i> Lugayetu
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('index') }}">Accueil</a>
-                    </li>
                     {% if current_user.is_authenticated %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('record') }}">Enregistrer</a>
-                        </li>
                         {% if current_user.is_admin %}
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('admin') }}">Administration</a>
+                                <a class="nav-link" href="{{ url_for('admin_dashboard') }}">
+                                    <i class="bi bi-speedometer2"></i> Tableau de bord
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link position-relative" href="{{ url_for('admin_users') }}">
+                                    <i class="bi bi-people"></i> Utilisateurs
+                                    <span id="pending-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="display: none;">
+                                        0
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('admin_recordings') }}">
+                                    <i class="bi bi-mic-fill"></i> Enregistrements
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('admin_languages') }}">
+                                    <i class="bi bi-translate"></i> Langues
+                                </a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('record') }}">
+                                    <i class="bi bi-mic"></i> Enregistrer
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('my_recordings') }}">
+                                    <i class="bi bi-music-note-list"></i> Mes Enregistrements
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('profile') }}">
+                                    <i class="bi bi-person-circle"></i> Mon Profil
+                                </a>
                             </li>
                         {% endif %}
                         <li class="nav-item">
-                            <span class="nav-link">Bonjour, {{ current_user.nom }}</span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('logout') }}">Déconnexion</a>
+                            <a class="nav-link" href="{{ url_for('logout') }}">
+                                <i class="bi bi-box-arrow-right"></i> Déconnexion
+                            </a>
                         </li>
                     {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('index') }}">Accueil</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('login') }}">Connexion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('register') }}">S'inscrire</a>
+                            <a class="nav-link" href="{{ url_for('register') }}">Inscription</a>
                         </li>
                     {% endif %}
                 </ul>
@@ -52,46 +82,148 @@
         </div>
     </nav>
 
-    <!-- Flash Messages -->
-    <div class="container mt-3">
+    <main class="container my-4">
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
-                    <div class="alert alert-{{ 'danger' if category == 'error' else 'success' if category == 'success' else 'info' if category == 'info' else 'warning' }} alert-dismissible fade show" role="alert">
+                    <div class="alert alert-{{ 'danger' if category == 'error' else category }} alert-dismissible fade show" role="alert">
                         {{ message }}
                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                     </div>
                 {% endfor %}
             {% endif %}
         {% endwith %}
-    </div>
 
-    <!-- Main Content -->
-    <main class="container mt-4">
         {% block content %}{% endblock %}
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-light mt-5 py-4">
+    <footer class="bg-light text-center text-muted py-4 mt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Projet de Préservation de la Langue Rund</h5>
-                    <p class="mb-0">Sauvegarde numérique d'une langue précieuse.</p>
-                </div>
-                <div class="col-md-6 text-end">
-                    <p class="mb-0">
-                        <a href="{{ url_for('privacy') }}" class="text-light text-decoration-none">
-                            Politique de confidentialité
-                        </a>
-                    </p>
-                </div>
-            </div>
+            <p>&copy; 2024 Lugayetu - Préservation des langues en danger de la RDC</p>
+            <p>
+                <a href="{{ url_for('privacy') }}" class="text-muted">Politique de confidentialité</a> |
+                <a href="{{ url_for('terms') }}" class="text-muted">Conditions d'utilisation</a>
+            </p>
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    {% block extra_scripts %}{% endblock %}
+    <!-- Modal pour les alertes -->
+    <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" id="alertModalHeader">
+                    <h5 class="modal-title" id="alertModalLabel">
+                        <i class="bi bi-info-circle"></i> Information
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="alertModalBody">
+                    Message
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour les confirmations -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title" id="confirmModalLabel">
+                        <i class="bi bi-exclamation-triangle"></i> Confirmation
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="confirmModalBody">
+                    Message de confirmation
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-danger" id="confirmModalBtn">Confirmer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Fonction pour afficher une alerte modale
+        function showAlert(message, type = 'info') {
+            const modal = new bootstrap.Modal(document.getElementById('alertModal'));
+            const header = document.getElementById('alertModalHeader');
+            const body = document.getElementById('alertModalBody');
+            const title = document.getElementById('alertModalLabel');
+            
+            // Changer le style selon le type
+            header.className = 'modal-header';
+            if (type === 'success') {
+                header.classList.add('bg-success', 'text-white');
+                title.innerHTML = '<i class="bi bi-check-circle"></i> Succès';
+            } else if (type === 'error') {
+                header.classList.add('bg-danger', 'text-white');
+                title.innerHTML = '<i class="bi bi-x-circle"></i> Erreur';
+            } else if (type === 'warning') {
+                header.classList.add('bg-warning', 'text-dark');
+                title.innerHTML = '<i class="bi bi-exclamation-triangle"></i> Attention';
+            } else {
+                header.classList.add('bg-info', 'text-white');
+                title.innerHTML = '<i class="bi bi-info-circle"></i> Information';
+            }
+            
+            body.textContent = message;
+            modal.show();
+        }
+
+        // Fonction pour afficher une confirmation modale
+        function showConfirm(message, onConfirm) {
+            const modal = new bootstrap.Modal(document.getElementById('confirmModal'));
+            const body = document.getElementById('confirmModalBody');
+            const confirmBtn = document.getElementById('confirmModalBtn');
+            
+            body.textContent = message;
+            
+            // Supprimer les anciens listeners
+            const newConfirmBtn = confirmBtn.cloneNode(true);
+            confirmBtn.parentNode.replaceChild(newConfirmBtn, confirmBtn);
+            
+            // Ajouter le nouveau listener
+            newConfirmBtn.addEventListener('click', () => {
+                modal.hide();
+                if (onConfirm) onConfirm();
+            });
+            
+            modal.show();
+        }
+
+        // Mettre à jour le badge des utilisateurs en attente (pour admin)
+        {% if current_user.is_authenticated and current_user.is_admin %}
+        function updatePendingBadge() {
+            fetch('{{ url_for("pending_users_count") }}')
+                .then(response => response.json())
+                .then(data => {
+                    const badge = document.getElementById('pending-badge');
+                    if (data.count > 0) {
+                        badge.textContent = data.count;
+                        badge.style.display = 'inline-block';
+                    } else {
+                        badge.style.display = 'none';
+                    }
+                })
+                .catch(error => console.error('Erreur lors de la mise à jour du badge:', error));
+        }
+
+        // Mettre à jour au chargement de la page
+        updatePendingBadge();
+        
+        // Mettre à jour toutes les 30 secondes
+        setInterval(updatePendingBadge, 30000);
+        {% endif %}
+    </script>
+    
+    {% block scripts %}{% endblock %}
 </body>
 </html>

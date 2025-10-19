@@ -1,86 +1,160 @@
 {% extends "base.html" %}
 
-{% block title %}Inscription - Préservation de la langue Rund{% endblock %}
+{% block title %}Inscription - Lugayetu{% endblock %}
 
 {% block content %}
-<div class="row justify-content-center">
-    <div class="col-md-6">
+<div class="row">
+    <div class="col-lg-8 mx-auto">
         <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h3><i class="bi bi-person-plus"></i> Inscription</h3>
+            </div>
             <div class="card-body">
-                <h2 class="card-title text-center mb-4">Inscription</h2>
-                <p class="text-center text-muted mb-4">
-                    Rejoignez notre projet de préservation de la langue Rund
-                </p>
-                
-                <form method="POST">
-                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
-                    <div class="mb-3">
-                        <label for="nom" class="form-label">Nom complet <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="nom" name="nom" required>
+                <form method="POST" action="{{ url_for('register') }}">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nom" class="form-label">Nom *</label>
+                            <input type="text" class="form-control" id="nom" name="nom" value="{{ form_data.get('nom', '') }}" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="prenom" class="form-label">Prénom *</label>
+                            <input type="text" class="form-control" id="prenom" name="prenom" value="{{ form_data.get('prenom', '') }}" required>
+                        </div>
                     </div>
-                    
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="age" class="form-label">Âge *</label>
+                            <input type="number" class="form-control" id="age" name="age" value="{{ form_data.get('age', '') }}" min="13" max="120" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="sexe" class="form-label">Sexe *</label>
+                            <select class="form-select" id="sexe" name="sexe" required>
+                                <option value="">Sélectionnez...</option>
+                                <option value="Homme" {% if form_data.get('sexe') == 'Homme' %}selected{% endif %}>Homme</option>
+                                <option value="Femme" {% if form_data.get('sexe') == 'Femme' %}selected{% endif %}>Femme</option>
+                              
+                            </select>
+                        </div>
+                    </div>
+
                     <div class="mb-3">
-                        <label for="sexe" class="form-label">Sexe <span class="text-danger">*</span></label>
-                        <select class="form-select" id="sexe" name="sexe" required>
-                            <option value="">Sélectionnez...</option>
-                            <option value="Homme">Homme</option>
-                            <option value="Femme">Femme</option>
-                            <option value="Autre">Autre</option>
+                        <label for="langue_parlee" class="form-label">Langue parlée *</label>
+                        <select class="form-select" id="langue_parlee" name="langue_parlee" required>
+                            <option value="">Sélectionnez votre langue...</option>
+                            {% for language in languages %}
+                            <option value="{{ language.name }}" {% if form_data.get('langue_parlee') == language.name %}selected{% endif %}>{{ language.name }}</option>
+                            {% endfor %}
                         </select>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="age" class="form-label">Âge <span class="text-danger">*</span></label>
-                        <input type="number" class="form-control" id="age" name="age" min="13" max="120" required>
-                        <div class="form-text">Vous devez avoir au moins 13 ans pour participer.</div>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="provenance" class="form-label">Lieu d'origine <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="provenance" name="provenance" 
-                               placeholder="Ville, Pays" required>
-                        <div class="form-text">Cette information nous aide à comprendre la diversité géographique des participants.</div>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Adresse email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Mot de passe <span class="text-danger">*</span></label>
-                        <input type="password" class="form-control" id="password" name="password" 
-                               minlength="6" required>
-                        <div class="form-text">Au moins 6 caractères.</div>
-                    </div>
-                    
-                    <div class="mb-4">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="consent" name="consent" required>
-                            <label class="form-check-label" for="consent">
-                                J'accepte que mes données personnelles et mes enregistrements vocaux soient 
-                                collectés et utilisés dans le cadre de ce projet de préservation linguistique, 
-                                conformément à la 
-                                <a href="{{ url_for('privacy') }}" target="_blank" class="text-decoration-none">
-                                    politique de confidentialité
-                                </a>.
-                                <span class="text-danger">*</span>
-                            </label>
+                        {% if languages|length == 0 %}
+                        <div class="form-text text-warning">
+                            <i class="bi bi-exclamation-triangle"></i> 
+                            Aucune langue disponible pour le moment. Veuillez contacter l'administrateur.
                         </div>
-                        <div class="form-text">
-                            Ce consentement est obligatoire pour participer au projet.
+                        {% endif %}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="province" class="form-label">Province *</label>
+                            <select class="form-select" id="province" name="province" required>
+                                <option value="">Sélectionnez...</option>
+                                {% for province in provinces %}
+                                <option value="{{ province }}" {% if form_data.get('province') == province %}selected{% endif %}>{{ province }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="ville_village" class="form-label">Ville / Village *</label>
+                            <input type="text" class="form-control" id="ville_village" name="ville_village" value="{{ form_data.get('ville_village', '') }}" required>
                         </div>
                     </div>
-                    
-                    <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" class="form-control" id="email" name="email" value="{{ form_data.get('email', '') }}" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mot de passe *</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" name="password" 
+                                   minlength="6" required>
+                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                <i class="bi bi-eye" id="passwordIcon"></i>
+                            </button>
+                        </div>
+                        <div class="form-text">Minimum 6 caractères</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirm_password" class="form-label">Confirmer le mot de passe *</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" 
+                                   minlength="6" required>
+                            <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword">
+                                <i class="bi bi-eye" id="confirmPasswordIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                        <label class="form-check-label" for="terms">
+                            J'accepte les <a href="{{ url_for('terms') }}" target="_blank">conditions d'utilisation</a> 
+                            et la <a href="{{ url_for('privacy') }}" target="_blank">politique de confidentialité</a> *
+                        </label>
+                    </div>
+
+                    <div class="alert alert-info">
+                        <i class="bi bi-info-circle"></i> 
+                        Votre inscription sera soumise à l'approbation de l'administrateur avant que vous puissiez vous connecter.
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="bi bi-check-circle"></i> S'inscrire
+                        </button>
+                    </div>
                 </form>
-                
-                <hr class="my-4">
-                <p class="text-center">
-                    Déjà inscrit ? <a href="{{ url_for('login') }}" class="text-decoration-none">Se connecter</a>
-                </p>
+
+                <div class="text-center mt-3">
+                    <p>Vous avez déjà un compte? <a href="{{ url_for('login') }}">Connectez-vous</a></p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+document.getElementById('togglePassword').addEventListener('click', function() {
+    const passwordField = document.getElementById('password');
+    const passwordIcon = document.getElementById('passwordIcon');
+    
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text';
+        passwordIcon.classList.remove('bi-eye');
+        passwordIcon.classList.add('bi-eye-slash');
+    } else {
+        passwordField.type = 'password';
+        passwordIcon.classList.remove('bi-eye-slash');
+        passwordIcon.classList.add('bi-eye');
+    }
+});
+
+document.getElementById('toggleConfirmPassword').addEventListener('click', function() {
+    const confirmPasswordField = document.getElementById('confirm_password');
+    const confirmPasswordIcon = document.getElementById('confirmPasswordIcon');
+    
+    if (confirmPasswordField.type === 'password') {
+        confirmPasswordField.type = 'text';
+        confirmPasswordIcon.classList.remove('bi-eye');
+        confirmPasswordIcon.classList.add('bi-eye-slash');
+    } else {
+        confirmPasswordField.type = 'password';
+        confirmPasswordIcon.classList.remove('bi-eye-slash');
+        confirmPasswordIcon.classList.add('bi-eye');
+    }
+});
+</script>
 {% endblock %}

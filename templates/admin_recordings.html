@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block title %}Enregistrements - Admin{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-mic-fill"></i> Tous les Enregistrements</h2>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0"><i class="bi bi-funnel"></i> Filtres et Recherche</h5>
+    </div>
+    <div class="card-body">
+        <form method="GET" action="{{ url_for('admin_recordings') }}">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="user" class="form-label">Utilisateur</label>
+                    <select class="form-select" id="user" name="user">
+                        <option value="">Tous les utilisateurs</option>
+                        {% for user in users %}
+                        <option value="{{ user.id }}" {% if user_filter == user.id|string %}selected{% endif %}>
+                            {{ user.prenom }} {{ user.nom }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <label for="language" class="form-label">Langue</label>
+                    <select class="form-select" id="language" name="language">
+                        <option value="">Toutes les langues</option>
+                        {% for language in languages %}
+                        <option value="{{ language.id }}" {% if language_filter == language.id|string %}selected{% endif %}>
+                            {{ language.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <label for="date" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="date" name="date" value="{{ date_filter }}">
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <label for="search" class="form-label">Recherche</label>
+                    <input type="text" class="form-control" id="search" name="search" 
+                           value="{{ search_query }}" placeholder="Phrase ou traduction...">
+                </div>
+            </div>
+            
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-search"></i> Filtrer
+                </button>
+                <a href="{{ url_for('admin_recordings') }}" class="btn btn-secondary">
+                    <i class="bi bi-x-circle"></i> Réinitialiser
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0"><i class="bi bi-download"></i> Exportations</h5>
+    </div>
+    <div class="card-body">
+        <a href="{{ url_for('export_csv') }}" class="btn btn-success me-2">
+            <i class="bi bi-file-earmark-spreadsheet"></i> Exporter CSV
+        </a>
+        <a href="{{ url_for('export_zip') }}" class="btn btn-primary">
+            <i class="bi bi-file-earmark-zip"></i> Exporter ZIP (CSV + Audio)
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+        <h5 class="mb-0"><i class="bi bi-list-ul"></i> Liste des enregistrements</h5>
+        <span class="badge bg-light text-dark">{{ recordings|length }} enregistrement(s)</span>
+    </div>
+    <div class="card-body">
+        {% if recordings %}
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Utilisateur</th>
+                        <th>Langue</th>
+                        <th>Phrase</th>
+                        <th>Traduction</th>
+                        <th>Durée</th>
+                        <th>Audio</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for recording in recordings %}
+                    <tr>
+                        <td>{{ recording.id }}</td>
+                        <td>{{ recording.user.prenom }} {{ recording.user.nom }}</td>
+                        <td><span class="badge bg-primary">{{ recording.sentence.language.name }}</span></td>
+                        <td>
+                            <div class="text-truncate" style="max-width: 200px;" title="{{ recording.sentence.text }}">
+                                {{ recording.sentence.text }}
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-truncate" style="max-width: 200px;" title="{{ recording.sentence.translation }}">
+                                {{ recording.sentence.translation }}
+                            </div>
+                        </td>
+                        <td>{{ recording.duration }}s</td>
+                        <td>
+                            <audio controls style="width: 200px;">
+                                <source src="{{ url_for('serve_audio', filename=recording.audio_path.split('/')[-1]) }}" type="audio/wav">
+                                Votre navigateur ne supporte pas l'élément audio.
+                            </audio>
+                        </td>
+                        <td>{{ recording.created_at.strftime('%d/%m/%Y %H:%M') }}</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger"
+                                    onclick="showConfirm('Voulez-vous vraiment supprimer cet enregistrement ?', () => window.location.href='{{ url_for('delete_recording', recording_id=recording.id) }}')">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p class="text-muted text-center">Aucun enregistrement trouvé avec ces critères de recherche.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

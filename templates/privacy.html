@@ -1,95 +1,110 @@
 {% extends "base.html" %}
 
-{% block title %}Politique de confidentialité - Préservation de la langue Rund{% endblock %}
+{% block title %}Politique de confidentialité - Lugayetu{% endblock %}
 
 {% block content %}
 <div class="row">
-    <div class="col-lg-8 mx-auto">
+    <div class="col-lg-10 mx-auto">
         <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h2><i class="bi bi-shield-check"></i> Politique de confidentialité</h2>
+            </div>
             <div class="card-body">
-                <h1 class="card-title mb-4">Politique de confidentialité</h1>
-                <p class="text-muted mb-4">Dernière mise à jour : Septembre 2025</p>
-                
-                <h3>1. Collecte des données</h3>
+                <p class="text-muted"><em>Dernière mise à jour : Octobre 2024</em></p>
+
+                <h4 class="mt-4">1. Introduction</h4>
                 <p>
-                    Dans le cadre du projet de préservation de la langue Rund, nous collectons les données suivantes :
+                    Lugayetu est une plateforme dédiée à la préservation et la numérisation des langues en danger 
+                    de la République Démocratique du Congo. Cette politique de confidentialité explique comment nous 
+                    collectons, utilisons et protégeons vos données personnelles dans le cadre de notre mission 
+                    scientifique et culturelle.
                 </p>
+
+                <h4 class="mt-4">2. Données collectées</h4>
+                <p>Nous collectons les informations suivantes :</p>
                 <ul>
-                    <li><strong>Données personnelles :</strong> nom, sexe, âge, lieu d'origine, adresse email</li>
-                    <li><strong>Enregistrements vocaux :</strong> fichiers audio de votre prononciation des phrases en langue Rund</li>
-                    <li><strong>Métadonnées :</strong> date et heure des enregistrements, informations techniques</li>
+                    <li><strong>Données d'identification :</strong> nom, prénom, âge, sexe</li>
+                    <li><strong>Coordonnées :</strong> adresse email</li>
+                    <li><strong>Informations géographiques :</strong> province, ville ou village</li>
+                    <li><strong>Informations linguistiques :</strong> langue(s) parlée(s)</li>
+                    <li><strong>Enregistrements vocaux :</strong> fichiers audio de votre voix lisant des phrases dans différentes langues</li>
+                    <li><strong>Métadonnées :</strong> date et heure des enregistrements, durée des fichiers audio</li>
                 </ul>
-                
-                <h3>2. Utilisation des données</h3>
+
+                <h4 class="mt-4">3. Utilisation des données</h4>
                 <p>Vos données sont utilisées exclusivement pour :</p>
                 <ul>
-                    <li>La constitution d'une archive numérique de la langue Rund</li>
-                    <li>La recherche linguistique et académique</li>
-                    <li>L'analyse statistique de la diversité des participants</li>
-                    <li>La gestion de votre compte utilisateur</li>
+                    <li>La recherche scientifique en linguistique et préservation des langues en danger</li>
+                    <li>La création de corpus linguistiques pour la documentation des langues locales</li>
+                    <li>L'analyse démographique et géographique de la diversité linguistique en RDC</li>
+                    <li>Le développement de technologies de traitement automatique de la parole pour les langues congolaises</li>
+                    <li>La sensibilisation à la richesse du patrimoine linguistique congolais</li>
                 </ul>
-                
-                <h3>3. Conservation des données</h3>
-                <p>
-                    Vos données personnelles et enregistrements sont conservés de manière sécurisée pendant 
-                    la durée du projet de recherche, soit un minimum de 10 ans à des fins d'archivage scientifique.
-                </p>
-                
-                <h3>4. Partage des données</h3>
+
+                <h4 class="mt-4">4. Partage des données</h4>
                 <p>
                     Vos données peuvent être partagées avec :
                 </p>
                 <ul>
-                    <li>Les chercheurs académiques travaillant sur la préservation linguistique</li>
-                    <li>Les institutions éducatives à des fins pédagogiques</li>
-                    <li>Les organisations de préservation du patrimoine culturel</li>
+                    <li>Des institutions académiques et centres de recherche en linguistique</li>
+                    <li>Des organisations culturelles et patrimoniales travaillant à la préservation des langues</li>
+                    <li>Des chercheurs qualifiés dans le cadre de projets scientifiques approuvés</li>
                 </ul>
                 <p>
-                    <strong>Important :</strong> Vos données personnelles identifiantes ne seront jamais partagées 
-                    sans votre consentement explicite. Seuls les enregistrements audio anonymisés pourront 
-                    être utilisés à des fins de recherche.
+                    <strong>Important :</strong> Vos enregistrements vocaux peuvent être utilisés à des fins de recherche, 
+                    mais votre identité personnelle (nom, prénom, email) reste confidentielle et ne sera jamais divulguée 
+                    sans votre consentement explicite.
                 </p>
-                
-                <h3>5. Sécurité</h3>
+
+                <h4 class="mt-4">5. Conservation des données</h4>
                 <p>
-                    Nous prenons la sécurité de vos données très au sérieux :
+                    Vos données sont conservées de manière sécurisée pour une durée indéterminée afin de permettre 
+                    des recherches à long terme sur l'évolution des langues. Les enregistrements constituent un 
+                    patrimoine linguistique précieux qui sera préservé pour les générations futures.
                 </p>
-                <ul>
-                    <li>Chiffrement des mots de passe avec bcrypt</li>
-                    <li>Connexions sécurisées HTTPS</li>
-                    <li>Accès restreint aux administrateurs autorisés</li>
-                    <li>Sauvegardes régulières et sécurisées</li>
-                </ul>
-                
-                <h3>6. Vos droits</h3>
+
+                <h4 class="mt-4">6. Vos droits</h4>
                 <p>Vous disposez des droits suivants :</p>
                 <ul>
-                    <li><strong>Droit d'accès :</strong> consulter vos données personnelles</li>
-                    <li><strong>Droit de rectification :</strong> corriger vos informations</li>
-                    <li><strong>Droit à l'effacement :</strong> supprimer votre compte et vos enregistrements</li>
-                    <li><strong>Droit de retrait :</strong> retirer votre consentement à tout moment</li>
+                    <li><strong>Droit d'accès :</strong> consulter les données que nous détenons sur vous</li>
+                    <li><strong>Droit de rectification :</strong> corriger vos informations personnelles</li>
+                    <li><strong>Droit de suppression :</strong> demander la suppression de vos données et enregistrements</li>
+                    <li><strong>Droit d'opposition :</strong> vous opposer à l'utilisation de vos données pour certaines finalités</li>
                 </ul>
-                
-                <h3>7. Contact</h3>
+
+                <h4 class="mt-4">7. Sécurité</h4>
                 <p>
-                    Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, 
-                    contactez-nous à l'adresse : 
-                    <strong>privacy@rund-preservation.org</strong>
+                    Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger 
+                    vos données contre tout accès non autorisé, perte, destruction ou divulgation accidentelle.
                 </p>
-                
-                <h3>8. Consentement</h3>
+
+                <h4 class="mt-4">8. Mineurs</h4>
                 <p>
-                    En vous inscrivant à ce projet, vous consentez explicitement à la collecte, 
-                    au traitement et à l'utilisation de vos données personnelles et enregistrements vocaux 
-                    selon les modalités décrites dans cette politique.
+                    Les mineurs peuvent participer avec le consentement d'un parent ou tuteur légal. 
+                    Nous recommandons que l'inscription soit effectuée en présence d'un adulte responsable.
                 </p>
-                
-                <div class="mt-5 p-4 bg-primary text-white rounded">
-                    <h5>Engagement scientifique</h5>
-                    <p class="mb-0">
-                        Ce projet s'engage à respecter les plus hauts standards éthiques en matière de 
-                        recherche linguistique et de préservation du patrimoine culturel immatériel.
-                    </p>
+
+                <h4 class="mt-4">9. Modifications</h4>
+                <p>
+                    Nous nous réservons le droit de modifier cette politique de confidentialité. 
+                    Toute modification sera communiquée via la plateforme.
+                </p>
+
+                <h4 class="mt-4">10. Contact</h4>
+                <p>
+                    Pour toute question concernant cette politique ou l'exercice de vos droits, 
+                    veuillez contacter l'administrateur via : <strong>admin@lugayetu.cd</strong>
+                </p>
+
+                <div class="alert alert-info mt-4">
+                    <i class="bi bi-info-circle"></i> 
+                    En vous inscrivant sur Lugayetu, vous acceptez cette politique de confidentialité et 
+                    consentez à ce que vos enregistrements vocaux soient utilisés pour la recherche scientifique 
+                    et la préservation du patrimoine linguistique congolais.
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">Retour à l'accueil</a>
                 </div>
             </div>
         </div>
