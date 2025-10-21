@@ -42,6 +42,12 @@ login_manager.login_view = 'login'
 from api import api_bp
 app.register_blueprint(api_bp)
 
+from api_swagger import api_swagger_bp
+app.register_blueprint(api_swagger_bp)
+
+from swagger_config import init_swagger
+swagger = init_swagger(app)
+
 PROVINCES = [
     'Kinshasa', 'Kongo-Central', 'Kwango', 'Kwilu', 'Mai-Ndombe',
     'Kasaï', 'Kasaï-Central', 'Kasaï-Oriental', 'Lomami', 'Sankuru',
@@ -127,6 +133,10 @@ def load_sentences_from_files(language):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/api-home')
+def api_home():
+    return render_template('api_home.html')
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():

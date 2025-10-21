@@ -92,7 +92,7 @@ flask db migrate -m "Description"
 
 **Exemple** :
 ```
-languages/lingala.txt          languages/translate_kisanga.txt
+languages/kisanga.txt          languages/translate_kisanga.txt
 -------------------            ---------------------------
 Mbote                         Bonjour
 Sango nini?                   Comment allez-vous?

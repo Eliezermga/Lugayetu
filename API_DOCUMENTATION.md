@@ -6,7 +6,7 @@ Cette documentation décrit l'API REST de Lugayetu pour l'intégration avec des 
 
 ### URL de base
 ```
-https://votre-domaine.com/api
+https://votre-domaine.repl.co/api
 ```
 
 ### Authentification

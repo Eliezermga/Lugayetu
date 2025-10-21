@@ -5,7 +5,7 @@ echo "TESTS DE L'API LUGAYETU"
 echo "========================================="
 echo ""
 
-BASE_URL="https://lugayetu.onrender.com/api"
+BASE_URL="http://localhost:5000/api"
 
 echo "1. TEST: Liste des provinces (endpoint public)"
 echo "GET $BASE_URL/provinces"
