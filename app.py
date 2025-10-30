@@ -40,7 +40,12 @@ login_manager.init_app(app)
 login_manager.login_view = 'login'
 
 from api import api_bp
+from api_swagger import api_swagger_bp
+from swagger_config import init_swagger
+
 app.register_blueprint(api_bp)
+app.register_blueprint(api_swagger_bp)
+swagger = init_swagger(app)
 
 PROVINCES = [
     'Kinshasa', 'Kongo-Central', 'Kwango', 'Kwilu', 'Mai-Ndombe',
@@ -145,6 +150,10 @@ def load_sentences_from_csv(language):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/api-home')
+def api_home():
+    return render_template('api_home.html')
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -547,6 +556,60 @@ def reload_sentences(language_id):
 
     flash(f'Phrases de la langue {language.name} rechargées avec succès.', 'success')
     return redirect(url_for('admin_languages'))
+
+@app.route('/admin/edit_csv/<int:language_id>', methods=['GET', 'POST'])
+@login_required
+def edit_csv(language_id):
+    if not current_user.is_admin:
+        return redirect(url_for('record'))
+
+    language = Language.query.get_or_404(language_id)
+    
+    if request.method == 'POST':
+        csv_content = request.form.get('csv_content')
+        
+        try:
+            import csv
+            from io import StringIO
+            
+            # Valider le contenu CSV
+            csv_reader = csv.DictReader(StringIO(csv_content))
+            rows = list(csv_reader)
+            
+            if not rows:
+                flash('Le fichier CSV ne peut pas être vide.', 'error')
+                return redirect(url_for('edit_csv', language_id=language_id))
+            
+            # Vérifier que les colonnes sont correctes
+            if 'text' not in csv_reader.fieldnames or 'translation' not in csv_reader.fieldnames:
+                flash('Le CSV doit contenir les colonnes "text" et "translation".', 'error')
+                return redirect(url_for('edit_csv', language_id=language_id))
+            
+            # Sauvegarder le fichier
+            os.makedirs(os.path.dirname(language.csv_file), exist_ok=True)
+            with open(language.csv_file, 'w', encoding='utf-8', newline='') as f:
+                f.write(csv_content)
+            
+            # Recharger les phrases
+            load_sentences_from_csv(language)
+            
+            flash('Fichier CSV mis à jour avec succès!', 'success')
+            return redirect(url_for('admin_languages'))
+            
+        except Exception as e:
+            flash(f'Erreur lors de la sauvegarde: {str(e)}', 'error')
+            return redirect(url_for('edit_csv', language_id=language_id))
+    
+    # Lire le contenu actuel du CSV
+    csv_content = ""
+    if os.path.exists(language.csv_file):
+        with open(language.csv_file, 'r', encoding='utf-8') as f:
+            csv_content = f.read()
+    else:
+        # Créer un fichier vide avec les en-têtes
+        csv_content = "text,translation\n"
+    
+    return render_template('admin_edit_csv.html', language=language, csv_content=csv_content)
 
 @app.route('/admin/recordings')
 @login_required
