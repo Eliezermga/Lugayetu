@@ -35,14 +35,17 @@ class User(UserMixin, db.Model):
     @staticmethod
     def generate_user_id():
         last_user = User.query.order_by(User.id.desc()).first()
-        if last_user and last_user.user_id and last_user.user_id.startswith('user'):
-            try:
-                last_num = int(last_user.user_id.replace('user', ''))
-                return f'user{last_num + 1}'
-            except:
-                pass
-        max_id = db.session.query(db.func.max(User.id)).scalar() or 0
-        return f'user{max_id + 1}'
+        if last_user:
+            if last_user.user_id and last_user.user_id.startswith('user'):
+                try:
+                    last_num = int(last_user.user_id.replace('user', ''))
+                    return f'user{last_num + 1}'
+                except:
+                    pass
+            # Si user_id est NULL ou invalide, utiliser l'ID de l'utilisateur
+            return f'user{last_user.id + 1}'
+        # Aucun utilisateur dans la base, commencer à user1
+        return 'user1'
 
     def __repr__(self):
         return f'<User {self.email}>'
