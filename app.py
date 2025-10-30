@@ -47,6 +47,12 @@ app.register_blueprint(api_bp)
 app.register_blueprint(api_swagger_bp)
 swagger = init_swagger(app)
 
+from api_swagger import api_swagger_bp
+app.register_blueprint(api_swagger_bp)
+
+from swagger_config import init_swagger
+swagger = init_swagger(app)
+
 PROVINCES = [
     'Kinshasa', 'Kongo-Central', 'Kwango', 'Kwilu', 'Mai-Ndombe',
     'Kasaï', 'Kasaï-Central', 'Kasaï-Oriental', 'Lomami', 'Sankuru',
