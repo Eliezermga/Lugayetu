@@ -763,8 +763,7 @@ def delete_account():
         flash('Une erreur est survenue lors de la suppression du compte.', 'error')
         return redirect(url_for('profile'))
 
-<<<<<<< Updated upstream
-=======
+
 # @app.errorhandler(404)
 # def page_not_found(e):
 #     return render_template('404.html', url=request.url), 404
@@ -773,7 +772,6 @@ def delete_account():
 # def internal_error(e):
 #     return render_template('500.html', error=str(e)), 500
 
->>>>>>> Stashed changes
 if __name__ == '__main__':
     init_db()
     app.run(host='0.0.0.0', port=5000, debug=True)
