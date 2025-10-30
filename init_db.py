@@ -1,6 +1,8 @@
+
 # init_db.py
 import os
 import sys
+import csv
 from app import app, db
 
 def init_database():
@@ -41,12 +43,55 @@ def init_database():
                 rund = Language(
                     name='Rund',
                     code='rund',
-                    sentences_file='languages/rund.txt',
-                    translations_file='languages/translate_rund.txt'
+                    csv_file='languages/rund.csv'
                 )
                 db.session.add(rund)
                 db.session.commit()
                 print("✅ Langue Rund créée")
+                
+                # Créer le fichier CSV s'il n'existe pas
+                if not os.path.exists(rund.csv_file):
+                    os.makedirs(os.path.dirname(rund.csv_file), exist_ok=True)
+                    with open(rund.csv_file, 'w', encoding='utf-8', newline='') as f:
+                        writer = csv.writer(f)
+                        writer.writerow(['text', 'translation'])
+                        writer.writerow(['Bonjour', 'Hello'])
+                        writer.writerow(['Merci', 'Thank you'])
+                    print("✅ Fichier CSV créé avec des exemples")
+            
+            # Charger les phrases depuis le CSV
+            if os.path.exists(rund.csv_file):
+                with open(rund.csv_file, 'r', encoding='utf-8') as f:
+                    csv_reader = csv.DictReader(f)
+                    sentences_added = 0
+                    
+                    for row in csv_reader:
+                        text = row.get('text', '').strip()
+                        translation = row.get('translation', '').strip()
+                        
+                        if text and translation:
+                            # Vérifier si la phrase existe déjà
+                            existing = Sentence.query.filter_by(
+                                language_id=rund.id,
+                                text=text
+                            ).first()
+                            
+                            if not existing:
+                                sentence = Sentence(
+                                    language_id=rund.id,
+                                    text=text,
+                                    translation=translation
+                                )
+                                db.session.add(sentence)
+                                sentences_added += 1
+                
+                if sentences_added > 0:
+                    db.session.commit()
+                    print(f"✅ {sentences_added} phrases chargées depuis {rund.csv_file}")
+                else:
+                    print("ℹ️  Toutes les phrases sont déjà en base")
+            else:
+                print(f"⚠️  Fichier CSV introuvable: {rund.csv_file}")
             
             db.session.commit()
             print("🎉 Base de données initialisée avec succès!")
@@ -54,6 +99,8 @@ def init_database():
             
         except Exception as e:
             print(f"❌ Erreur lors de l'initialisation: {e}")
+            import traceback
+            traceback.print_exc()
             db.session.rollback()
             return False
 

@@ -3,7 +3,6 @@ import random
 from datetime import datetime, timedelta
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
-from flasgger import swag_from
 from werkzeug.utils import secure_filename
 from models import db, User, Language, Sentence, Recording
 from sqlalchemy import func
