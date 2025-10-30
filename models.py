@@ -35,7 +35,7 @@ class User(UserMixin, db.Model):
     @staticmethod
     def generate_user_id():
         last_user = User.query.order_by(User.id.desc()).first()
-        if last_user and last_user.user_id.startswith('user'):
+        if last_user and last_user.user_id and last_user.user_id.startswith('user'):
             try:
                 last_num = int(last_user.user_id.replace('user', ''))
                 return f'user{last_num + 1}'
