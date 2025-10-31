@@ -8,7 +8,7 @@ Vous avez maintenant une interface de test API **similaire à Django REST Framew
 
 - **Page d'accueil API** : `/api-home`
 - **Interface Swagger UI** : `/api-docs/`
-- **API v2 (documentée)** : `/api/v2/*`
+- **API v2 (documentée)** : `/api//*`
 - **API v1 (originale)** : `/api/*`
 
 ## 🎯 Comment tester l'API avec Swagger UI
@@ -27,7 +27,7 @@ Vous verrez une interface interactive avec tous vos endpoints organisés par cat
 
 ### Étape 2 : Se connecter
 
-1. Cliquez sur **POST /api/v2/login**
+1. Cliquez sur **POST /api//login**
 2. Cliquez sur le bouton **"Try it out"**
 3. Modifiez le JSON avec vos identifiants :
    ```json
@@ -56,24 +56,24 @@ Vous verrez une interface interactive avec tous vos endpoints organisés par cat
 Maintenant vous êtes authentifié ! Vous pouvez tester tous les endpoints :
 
 #### 📊 Obtenir les statistiques utilisateur
-- Cliquez sur **GET /api/v2/user/stats**
+- Cliquez sur **GET /api//user/stats**
 - Cliquez sur **"Try it out"**
 - Cliquez sur **"Execute"**
 - Vous verrez vos statistiques !
 
 #### 🌍 Lister les langues disponibles
-- Cliquez sur **GET /api/v2/languages**
+- Cliquez sur **GET /api//languages**
 - Cliquez sur **"Try it out"**
 - Cliquez sur **"Execute"**
 
 #### 📝 Obtenir la prochaine phrase
-- Cliquez sur **GET /api/v2/sentences/next**
+- Cliquez sur **GET /api//sentences/next**
 - Cliquez sur **"Try it out"**
 - (Optionnel) Entrez un `language_id` pour filtrer
 - Cliquez sur **"Execute"**
 
 #### 🎙️ Sauvegarder un enregistrement
-- Cliquez sur **POST /api/v2/recordings**
+- Cliquez sur **POST /api//recordings**
 - Cliquez sur **"Try it out"**
 - Remplissez les champs :
   - `audio` : Sélectionnez un fichier audio
@@ -85,7 +85,7 @@ Maintenant vous êtes authentifié ! Vous pouvez tester tous les endpoints :
 
 ### Login
 ```bash
-curl -X POST "http://localhost:5000/api/v2/login" \
+curl -X POST "http://localhost:5000/api//login" \
   -H "Content-Type: application/json" \
   -d '{
     "email": "votre.email@example.com",
@@ -95,13 +95,13 @@ curl -X POST "http://localhost:5000/api/v2/login" \
 
 ### Obtenir le profil (avec token)
 ```bash
-curl -X GET "http://localhost:5000/api/v2/user/profile" \
+curl -X GET "http://localhost:5000/api//user/profile" \
   -H "Authorization: Bearer VOTRE_TOKEN_ICI"
 ```
 
 ### Lister les provinces (endpoint public)
 ```bash
-curl -X GET "http://localhost:5000/api/v2/provinces"
+curl -X GET "http://localhost:5000/api//provinces"
 ```
 
 ## 🔑 Authentification JWT
@@ -113,19 +113,19 @@ curl -X GET "http://localhost:5000/api/v2/provinces"
 ## 📊 Endpoints disponibles
 
 ### Public (sans authentification)
-- `POST /api/v2/register` - Créer un compte
-- `POST /api/v2/login` - Se connecter
-- `GET /api/v2/provinces` - Liste des provinces
+- `POST /api//register` - Créer un compte
+- `POST /api//login` - Se connecter
+- `GET /api//provinces` - Liste des provinces
 
 ### Authentifié (avec token JWT)
-- `GET /api/v2/user/profile` - Profil utilisateur
-- `PUT /api/v2/user/profile` - Modifier le profil
-- `GET /api/v2/user/stats` - Statistiques
-- `GET /api/v2/languages` - Liste des langues
-- `GET /api/v2/sentences/next` - Prochaine phrase
-- `POST /api/v2/recordings` - Sauvegarder enregistrement
-- `GET /api/v2/recordings` - Liste des enregistrements
-- `DELETE /api/v2/user/account` - Supprimer le compte
+- `GET /api//user/profile` - Profil utilisateur
+- `PUT /api//user/profile` - Modifier le profil
+- `GET /api//user/stats` - Statistiques
+- `GET /api//languages` - Liste des langues
+- `GET /api//sentences/next` - Prochaine phrase
+- `POST /api//recordings` - Sauvegarder enregistrement
+- `GET /api//recordings` - Liste des enregistrements
+- `DELETE /api//user/account` - Supprimer le compte
 
 ## 🎨 Différences API v1 vs v2
 
@@ -134,7 +134,7 @@ curl -X GET "http://localhost:5000/api/v2/provinces"
 - ❌ Pas de documentation Swagger
 - ✅ Tous les endpoints disponibles
 
-### API v2 (`/api/v2/*`)
+### API v2 (`/api//*`)
 - ✅ Fonctionnelle
 - ✅ Documentation Swagger complète
 - ✅ Interface de test interactive

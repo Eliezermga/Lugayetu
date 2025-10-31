@@ -16,7 +16,7 @@ Vous verrez tous les endpoints organisés par catégories.
 ### Étape 2 : Inscription d'un nouvel utilisateur
 
 1. **Trouvez l'endpoint** : Cliquez sur la section **"Authentification"**
-2. **Sélectionnez** : `POST /api/v2/register`
+2. **Sélectionnez** : `POST /api//register`
 3. **Cliquez** : Bouton **"Try it out"** (en haut à droite de l'endpoint)
 4. **Modifiez le JSON** avec vos données :
 
@@ -55,7 +55,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### Étape 3 : Connexion
 
-1. **Trouvez** : `POST /api/v2/login` (dans "Authentification")
+1. **Trouvez** : `POST /api//login` (dans "Authentification")
 2. **Cliquez** : "Try it out"
 3. **Entrez** : Utilisez vos identifiants
 
@@ -110,7 +110,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### Étape 5 : Obtenir les statistiques utilisateur
 
-1. **Trouvez** : `GET /api/v2/user/stats` (dans "Utilisateur")
+1. **Trouvez** : `GET /api//user/stats` (dans "Utilisateur")
 2. **Cliquez** : "Try it out"
 3. **Cliquez** : "Execute"
 4. **Regardez la réponse** :
@@ -133,7 +133,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### Étape 6 : Lister les langues disponibles
 
-1. **Trouvez** : `GET /api/v2/languages` (dans "Langues")
+1. **Trouvez** : `GET /api//languages` (dans "Langues")
 2. **Cliquez** : "Try it out"
 3. **Cliquez** : "Execute"
 4. **Regardez la réponse** :
@@ -160,7 +160,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### Étape 7 : Obtenir une phrase à enregistrer
 
-1. **Trouvez** : `GET /api/v2/sentences/next` (dans "Phrases")
+1. **Trouvez** : `GET /api//sentences/next` (dans "Phrases")
 2. **Cliquez** : "Try it out"
 3. **(Optionnel)** Filtrez par langue :
    - Dans le champ `language_id`, entrez : `1`
@@ -191,7 +191,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### Étape 8 : Lister mes enregistrements
 
-1. **Trouvez** : `GET /api/v2/recordings` (dans "Enregistrements")
+1. **Trouvez** : `GET /api//recordings` (dans "Enregistrements")
 2. **Cliquez** : "Try it out"
 3. **(Optionnel)** Paramètres de pagination :
    - `page` : 1
@@ -238,7 +238,7 @@ Vous verrez tous les endpoints organisés par catégories.
 
 ### 📥 Télécharger un fichier audio
 
-Pour tester `POST /api/v2/recordings` :
+Pour tester `POST /api//recordings` :
 
 1. **Cliquez** : "Try it out"
 2. **Fichier audio** : 
@@ -252,8 +252,8 @@ Pour tester `POST /api/v2/recordings` :
 
 Plusieurs endpoints acceptent des paramètres de requête :
 
-- `GET /api/v2/sentences/next?language_id=1` - Filtrer par langue
-- `GET /api/v2/recordings?page=2&per_page=10` - Pagination
+- `GET /api//sentences/next?language_id=1` - Filtrer par langue
+- `GET /api//recordings?page=2&per_page=10` - Pagination
 
 ### 📝 Voir les exemples
 
