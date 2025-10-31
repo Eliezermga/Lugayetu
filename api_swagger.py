@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 from models import db, User, Language, Sentence, Recording
 from sqlalchemy import func
 
-api_swagger_bp = Blueprint('api_swagger', __name__, url_prefix='/api/v2')
+api_swagger_bp = Blueprint('api_swagger', __name__, url_prefix='/api/')
 
 PROVINCES = [
     'Kinshasa', 'Kongo-Central', 'Kwango', 'Kwilu', 'Mai-Ndombe',

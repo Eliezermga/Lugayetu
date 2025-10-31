@@ -22,7 +22,7 @@
   - Exemples d'utilisation
 
 ### 3. **API v2 documentée** 🚀
-- **Base URL** : `/api/v2/`
+- **Base URL** : `/api//`
 - **Endpoints** : Tous les endpoints de l'API v1 avec documentation Swagger
 - **Avantages** :
   - Documentation interactive
@@ -35,7 +35,7 @@
 |-----------|-----|-------------|
 | **Swagger UI** | `/api-docs/` | Interface de test interactive |
 | **Page d'accueil API** | `/api-home` | Guide et documentation |
-| **API v2** | `/api/v2/*` | Endpoints documentés |
+| **API v2** | `/api//*` | Endpoints documentés |
 | **API v1** | `/api/*` | Endpoints originaux |
 
 ## 🔐 Tester rapidement
@@ -43,7 +43,7 @@
 ### Méthode 1 : Via Swagger UI (Recommandé)
 
 1. Ouvrez `/api-docs/`
-2. Testez `/api/v2/login` avec vos identifiants :
+2. Testez `/api//login` avec vos identifiants :
    ```json
    {
      "email": "votre.email@example.com",
@@ -57,31 +57,31 @@
 
 ```bash
 # Login
-curl -X POST "http://localhost:5000/api/v2/login" \
+curl -X POST "http://localhost:5000/api//login" \
   -H "Content-Type: application/json" \
   -d '{"email": "votre.email@example.com", "password": "votre_mot_de_passe"}'
 
 # Utiliser le token
-curl -X GET "http://localhost:5000/api/v2/user/profile" \
+curl -X GET "http://localhost:5000/api//user/profile" \
   -H "Authorization: Bearer VOTRE_TOKEN"
 ```
 
 ## 📊 Endpoints disponibles dans Swagger
 
 ### 🔓 Public
-- `POST /api/v2/register` - Inscription
-- `POST /api/v2/login` - Connexion
-- `GET /api/v2/provinces` - Liste des provinces
+- `POST /api//register` - Inscription
+- `POST /api//login` - Connexion
+- `GET /api//provinces` - Liste des provinces
 
 ### 🔒 Authentifié
-- `GET /api/v2/user/profile` - Profil
-- `PUT /api/v2/user/profile` - Modifier profil
-- `GET /api/v2/user/stats` - Statistiques
-- `GET /api/v2/languages` - Langues disponibles
-- `GET /api/v2/sentences/next` - Prochaine phrase
-- `POST /api/v2/recordings` - Sauvegarder enregistrement
-- `GET /api/v2/recordings` - Liste enregistrements
-- `DELETE /api/v2/user/account` - Supprimer compte
+- `GET /api//user/profile` - Profil
+- `PUT /api//user/profile` - Modifier profil
+- `GET /api//user/stats` - Statistiques
+- `GET /api//languages` - Langues disponibles
+- `GET /api//sentences/next` - Prochaine phrase
+- `POST /api//recordings` - Sauvegarder enregistrement
+- `GET /api//recordings` - Liste enregistrements
+- `DELETE /api//user/account` - Supprimer compte
 
 ## 🎨 Caractéristiques de Swagger UI
 
