@@ -87,8 +87,14 @@ def init_db():
                 is_approved=True,
                 accepted_terms=True
             )
-            admin.set_password('31082003')
+            admin_password = os.environ.get('ADMIN_PASSWORD')
+
+            if not admin_password:
+                raise ValueError("ADMIN_PASSWORD non défini dans les variables d'environnement. Ajoute-le dans ton fichier .env.")
+
+            admin.set_password(admin_password)
             db.session.add(admin)
+
 
         rund = Language.query.filter_by(code='rund').first()
         if not rund:
