@@ -1,4 +1,5 @@
 import re
+import os
 
 def analyser_patterns(contenu):
     """Analyse les patterns de références dans le fichier"""
@@ -17,7 +18,7 @@ def analyser_patterns(contenu):
     livres_trie = sorted(livres, key=len, reverse=True)
     pattern_livres = '|'.join(re.escape(l) for l in livres_trie)
     
-    print("=== ANALYSE DES PATTERNS DE RÉFÉRENCES ===")
+    print("\n=== ANALYSE DES PATTERNS DE RÉFÉRENCES ===")
     
     # Chercher tous les patterns potentiels
     motif_complet = rf'(?:#\s*)?(?:{pattern_livres})\s+[\d\s:;,]+\d+\s*\.'
@@ -26,9 +27,10 @@ def analyser_patterns(contenu):
     print(f"Nombre de références trouvées : {len(references)}")
     
     # Afficher les 20 premières pour analyse
-    print("\nÉchantillon des 20 premières références :")
-    for i, ref in enumerate(references[:20]):
-        print(f"{i+1:2d}: {ref.replace(chr(10), '↵')}")
+    if references:
+        print("\nÉchantillon des 20 premières références :")
+        for i, ref in enumerate(references[:20]):
+            print(f"{i+1:2d}: {ref.replace(chr(10), '↵')}")
     
     return livres_trie
 
@@ -90,31 +92,89 @@ def nettoyer_references_final(contenu):
     
     return '\n'.join(lignes)
 
-def main():
-    # Lecture du fichier
-    with open('matthieu_aligné.txt', 'r', encoding='utf-8') as f:
-        contenu = f.read()
+def obtenir_nom_fichier_sortie(chemin_entree):
+    """Génère le nom du fichier de sortie"""
+    dossier = os.path.dirname(chemin_entree)
+    nom_fichier = os.path.basename(chemin_entree)
     
-    # Analyser d'abord
+    # Séparer le nom et l'extension
+    if '.' in nom_fichier:
+        base, ext = nom_fichier.rsplit('.', 1)
+        nom_sortie = f"{base}_nettoye.{ext}"
+    else:
+        nom_sortie = f"{nom_fichier}_nettoye"
+    
+    # Si un dossier est spécifié, y placer le fichier
+    if dossier:
+        return os.path.join(dossier, nom_sortie)
+    else:
+        return nom_sortie
+
+def main():
+    print("=== NETTOYEUR DE RÉFÉRENCES BIBLIQUES ===")
+    print()
+    
+    # Demander le chemin du fichier à nettoyer
+    while True:
+        chemin_entree = input("Entrez le chemin du fichier à nettoyer : ").strip()
+        
+        # Supprimer les guillemets si présents (copier-coller de Windows)
+        chemin_entree = chemin_entree.strip('"\'')
+        
+        if os.path.exists(chemin_entree):
+            break
+        else:
+            print(f"Erreur : Le fichier '{chemin_entree}' n'existe pas.")
+            print("Veuillez réessayer.\n")
+    
+    # Lecture du fichier
+    try:
+        with open(chemin_entree, 'r', encoding='utf-8') as f:
+            contenu = f.read()
+        print(f"\nFichier chargé : {chemin_entree}")
+    except Exception as e:
+        print(f"Erreur lors de la lecture du fichier : {e}")
+        return
+    
+    # Analyser les patterns
     livres = analyser_patterns(contenu)
     
     # Nettoyer
+    print("\nNettoyage en cours...")
     resultat = nettoyer_references_final(contenu)
     
+    # Générer le nom du fichier de sortie
+    chemin_sortie = obtenir_nom_fichier_sortie(chemin_entree)
+    
     # Sauvegarder
-    with open('matthieu_nettoye_final.txt', 'w', encoding='utf-8') as f:
-        f.write(resultat)
+    try:
+        with open(chemin_sortie, 'w', encoding='utf-8') as f:
+            f.write(resultat)
+        print(f"Résultat enregistré dans : {chemin_sortie}")
+    except Exception as e:
+        print(f"Erreur lors de l'écriture du fichier : {e}")
+        return
     
     print("\n=== STATISTIQUES ===")
-    original_lines = len(contenu.split('\n'))
-    nettoye_lines = len(resultat.split('\n'))
-    print(f"Lignes originales : {original_lines}")
-    print(f"Lignes nettoyées  : {nettoye_lines}")
+    original_lignes = len(contenu.split('\n'))
+    nettoye_lignes = len(resultat.split('\n'))
+    original_caracteres = len(contenu)
+    nettoye_caracteres = len(resultat)
+    
+    print(f"Lignes originales : {original_lignes}")
+    print(f"Lignes nettoyées  : {nettoye_lignes}")
+    print(f"Caractères originaux : {original_caracteres}")
+    print(f"Caractères nettoyés  : {nettoye_caracteres}")
+    print(f"Réduction : {original_caracteres - nettoye_caracteres} caractères")
     
     # Afficher les 20 premières lignes du résultat
     print("\n=== APERÇU DU RÉSULTAT (20 premières lignes) ===")
-    for i, ligne in enumerate(resultat.split('\n')[:20]):
-        print(f"{i+1:2d}: {ligne[:100]}...")
+    lignes_resultat = resultat.split('\n')
+    for i, ligne in enumerate(lignes_resultat[:20]):
+        print(f"{i+1:2d}: {ligne[:100]}{'...' if len(ligne) > 100 else ''}")
+    
+    if len(lignes_resultat) > 20:
+        print(f"... et {len(lignes_resultat) - 20} lignes supplémentaires")
 
 if __name__ == "__main__":
     main()
