@@ -8,11 +8,11 @@ from app import app, db
 def init_database():
     with app.app_context():
         try:
-            print("🔄 Initialisation de la base de données...")
+            print("Initialisation de la base de données...")
             
             # Crée toutes les tables
             db.create_all()
-            print("✅ Tables créées avec succès!")
+            print("Tables créées avec succès!")
             
             # Vérifie et initialise les données de base
             from models import User, Language, Sentence
@@ -35,7 +35,7 @@ def init_database():
                 )
                 admin.set_password('31082003')
                 db.session.add(admin)
-                print("✅ Compte admin créé")
+                print("Compte admin créé")
             
             # Créer la langue Rund si elle n'existe pas
             rund = Language.query.filter_by(code='rund').first()
@@ -47,7 +47,7 @@ def init_database():
                 )
                 db.session.add(rund)
                 db.session.commit()
-                print("✅ Langue Rund créée")
+                print("Langue Rund créée")
                 
                 # Créer le fichier CSV s'il n'existe pas
                 if not os.path.exists(rund.csv_file):
@@ -57,7 +57,7 @@ def init_database():
                         writer.writerow(['text', 'translation'])
                         writer.writerow(['Bonjour', 'Hello'])
                         writer.writerow(['Merci', 'Thank you'])
-                    print("✅ Fichier CSV créé avec des exemples")
+                    print(" Fichier CSV créé avec des exemples")
             
             # Charger les phrases depuis le CSV
             if os.path.exists(rund.csv_file):
@@ -87,18 +87,18 @@ def init_database():
                 
                 if sentences_added > 0:
                     db.session.commit()
-                    print(f"✅ {sentences_added} phrases chargées depuis {rund.csv_file}")
+                    print(f" {sentences_added} phrases chargées depuis {rund.csv_file}")
                 else:
-                    print("ℹ️  Toutes les phrases sont déjà en base")
+                    print("ℹ  Toutes les phrases sont déjà en base")
             else:
-                print(f"⚠️  Fichier CSV introuvable: {rund.csv_file}")
+                print(f"  Fichier CSV introuvable: {rund.csv_file}")
             
             db.session.commit()
-            print("🎉 Base de données initialisée avec succès!")
+            print(" Base de données initialisée avec succès!")
             return True
             
         except Exception as e:
-            print(f"❌ Erreur lors de l'initialisation: {e}")
+            print(f" Erreur lors de l'initialisation: {e}")
             import traceback
             traceback.print_exc()
             db.session.rollback()
