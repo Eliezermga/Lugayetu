@@ -1,130 +1,123 @@
-# Lugayetu - Plateforme de Préservation des Langues en Danger
+# Lugayetu
 
-![Lugayetu](https://img.shields.io/badge/status-active-success.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+## Présentation du projet
 
-## Description
+**Lugayetu** est un projet de recherche et de développement dédié à la **préservation des langues congolaises à faibles ressources**, en particulier les langues parlées en **République Démocratique du Congo**.
 
-**Lugayetu** est une application web Flask dédiée à la collecte, la préservation et la numérisation des langues en danger de la République Démocratique du Congo, notamment le **Rund**, le **Kisanga** et d'autres langues locales.
+Le projet vise à créer des **ressources linguistiques numériques** et à développer des **technologies d'intelligence artificielle** capables de traiter ces langues, notamment dans le domaine de la **traduction automatique** et du **traitement automatique du langage naturel (NLP)**.
 
-### Mission
+Lugayetu combine deux objectifs principaux :
 
--  Collecter des enregistrements vocaux authentiques
--  Créer un corpus linguistique pour la recherche
--  Préserver le patrimoine culturel congolais
--  Faciliter le développement de technologies linguistiques
+1. **Développer un traducteur automatique texte-à-texte**
+2. **Construire un corpus linguistique multimodal (texte et voix)** pour les futures recherches en IA.
 
-##  Fonctionnalités
+---
 
-### Utilisateurs
--  Inscription avec validation administrative
--  Enregistrement vocal via navigateur
--  Phrases aléatoires sans répétition
--  Gestion de profil (nom, âge, langue, province, mot de passe)
--  Visualisation et lecture de ses enregistrements
--  Suppression de compte
+# Objectifs
 
-### Administrateurs
--  Tableau de bord avec statistiques temps réel
--  Gestion des utilisateurs (approbation, suppression)
--  Gestion des enregistrements
--  Export CSV et ZIP (métadonnées + audio)
--  Gestion des langues
+Le projet poursuit plusieurs objectifs scientifiques et technologiques :
 
-### API REST
--  API RESTful avec JWT
--  Documentation complète : voir [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
--  Support mobile (React Native, Flutter)
+- préserver et numériser des langues locales
+- créer des **datasets linguistiques structurés**
+- développer des **modèles d'intelligence artificielle pour les langues sous-représentées**
+- faciliter la recherche en **traitement automatique du langage naturel**
 
-##  Démarrage Rapide
+---
 
+# Traduction automatique (Text-to-Text)
 
+La première étape du projet consiste à développer un **système de traduction automatique texte-à-texte**.
 
-### Accès
-L'application est accessible sur : **http://0.0.0.0:5000**
+Le système vise à traduire automatiquement des phrases entre :
 
-##  Utilisation
+- **Ruwund (Rund)**
+- **Français**
 
-### Contributeur
-1. S'inscrire avec informations démographiques
-2. Attendre l'approbation admin
-3. Se connecter et enregistrer des phrases
-4. Écouter et valider chaque enregistrement
+Cette partie du projet consiste à :
 
-### Administrateur
-1. Se connecter avec le compte admin
-2. Approuver les nouveaux utilisateurs
-3. Consulter les statistiques
-4. Exporter les données (CSV ou ZIP)
+- construire un **corpus parallèle**
+- nettoyer et aligner les textes
+- entraîner des **modèles de traduction automatique**
 
-##  Configuration Technique
+L'objectif est de créer un **prototype de traducteur neuronal** capable de comprendre et traduire le Ruwund vers le Français.
 
-Pour les détails techniques complets (architecture, modèles, migrations, etc.), consultez [replit.md](replit.md).
+---
 
-### Variables d'Environnement
+# Collecte de données linguistiques
 
-| Variable | Description | Par défaut |
-|----------|-------------|------------|
-| `DATABASE_URL` | PostgreSQL URL | *Requis* |
-| `SESSION_SECRET` | Clé sessions/JWT | `lugayetu-secret-key-2024` |
-| `UPLOAD_FOLDER` | Dossier audio | `uploads/audio` |
-| `MAX_CONTENT_LENGTH` | Taille max fichiers | `52428800` (50MB) |
+Un des principaux défis des langues congolaises est le **manque de données numériques**.
 
-### Migrations de Base de Données
+Pour résoudre ce problème, Lugayetu met en place une plateforme permettant de :
 
-```bash
-# Appliquer les migrations
-export FLASK_APP=app.py
-flask db upgrade
+- collecter des **phrases dans différentes langues**
+- associer les **traductions correspondantes**
+- construire un **corpus parallèle pour l'entraînement des modèles**
 
-# Créer une nouvelle migration
-flask db migrate -m "Description"
-```
+Ces données sont essentielles pour développer des systèmes d'intelligence artificielle performants.
 
-##  Ajout de Langues
+---
 
-1. Via l'interface admin : "Gestion des langues"
-2. Créer deux fichiers dans `languages/` :
-   - `[code].txt` : phrases dans la langue
-   - `translate_[code].txt` : traductions françaises
+# Collecte de données vocales
 
-**Exemple** :
-```
-languages/kisanga.txt          languages/translate_kisanga.txt
--------------------            ---------------------------
-Mbote                         Bonjour
-Sango nini?                   Comment allez-vous?
-```
+En plus des données textuelles, Lugayetu collecte également des **enregistrements vocaux de locuteurs natifs**.
 
-##  Technologies
+Ces données permettront dans le futur de développer :
 
-- **Backend** : Flask, PostgreSQL, Flask-Login, Flask-JWT, Flask-Migrate
-- **Frontend** : Bootstrap 5, MediaRecorder API
-- **Déploiement** : Replit
+- des systèmes de **reconnaissance vocale**
+- des systèmes de **synthèse vocale**
+- des modèles **speech-to-text**
+- des modèles **speech-to-speech**
 
-##  Exports
+Ainsi, le projet ne se limite pas à la traduction texte, mais prépare également le terrain pour des **technologies vocales basées sur l'IA**.
 
-### CSV
-Métadonnées complètes : utilisateur, langue, phrase, traduction, durée, date
+---
 
-### ZIP
-CSV + tous les fichiers audio
+# Intelligence Artificielle et NLP
 
-##  Sécurité
+Lugayetu s'inscrit dans le domaine de :
 
-- Mots de passe hashés (Werkzeug)
-- Sessions sécurisées (Flask-Login)
-- Email non-modifiable
-- Vérification de propriété des fichiers audio
+- **l'intelligence artificielle**
+- **le traitement automatique du langage naturel (Natural Language Processing)**
+
+Les données collectées serviront à entraîner différents types de modèles :
+
+- modèles de **traduction neuronale (Neural Machine Translation)**
+- modèles de **langage**
+- systèmes de **reconnaissance vocale**
+- technologies linguistiques pour les langues à faibles ressources
+
+Le projet contribue ainsi au développement de **ressources ouvertes pour la recherche en IA appliquée aux langues congolaises**.
+
+---
+
+# Impact
+
+Lugayetu contribue à plusieurs enjeux importants :
+
+- **préservation du patrimoine linguistique**
+- **développement de technologies linguistiques congolaises**
+- **création de datasets pour la recherche en IA**
+- **promotion des langues locales dans le monde numérique**
+
+---
+
+# Vision
+
+À long terme, Lugayetu vise à devenir une **plateforme de référence pour les ressources linguistiques congolaises**, permettant le développement de :
+
+- traducteurs automatiques
+- assistants vocaux
+- outils éducatifs pour les langues locales
+- technologies NLP pour les langues sous-représentées
+
+---
+
+**Lugayetu** représente ainsi une initiative à la fois **scientifique, technologique et culturelle**, combinant **intelligence artificielle et préservation linguistique**.
 
 ##  Contact
 
 **Email** : eliezermunung@outlook.fr
 
-##  Licence
+## License
 
-Licence ouverte pour la recherche scientifique et la préservation culturelle.
-
----
-
-**Lugayetu** - *Ensemble, préservons notre héritage linguistique* 🇨🇩
+Code: MIT License  
