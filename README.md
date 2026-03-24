@@ -1,123 +1,133 @@
 # Lugayetu
 
-## Présentation du projet
+## Project Overview
 
-**Lugayetu** est un projet de recherche et de développement dédié à la **préservation des langues congolaises à faibles ressources**, en particulier les langues parlées en **République Démocratique du Congo**.
+**Lugayetu** is a research and development project dedicated to the **preservation of low-resource Congolese languages**, particularly those spoken in the **Democratic Republic of the Congo**.
 
-Le projet vise à créer des **ressources linguistiques numériques** et à développer des **technologies d'intelligence artificielle** capables de traiter ces langues, notamment dans le domaine de la **traduction automatique** et du **traitement automatique du langage naturel (NLP)**.
+The project aims to create **digital linguistic resources** and develop **artificial intelligence technologies** capable of processing these languages, especially in the fields of **machine translation** and **Natural Language Processing (NLP)**.
 
-Lugayetu combine deux objectifs principaux :
+Lugayetu combines two main objectives:
 
-1. **Développer un traducteur automatique texte-à-texte**
-2. **Construire un corpus linguistique multimodal (texte et voix)** pour les futures recherches en IA.
-
----
-
-# Objectifs
-
-Le projet poursuit plusieurs objectifs scientifiques et technologiques :
-
-- préserver et numériser des langues locales
-- créer des **datasets linguistiques structurés**
-- développer des **modèles d'intelligence artificielle pour les langues sous-représentées**
-- faciliter la recherche en **traitement automatique du langage naturel**
+1. **Develop a text-to-text automatic translator**
+2. **Build a multimodal linguistic corpus (text and speech)** for future AI research
 
 ---
 
-# Traduction automatique (Text-to-Text)
+# Objectives
 
-La première étape du projet consiste à développer un **système de traduction automatique texte-à-texte**.
+The project pursues several scientific and technological goals:
 
-Le système vise à traduire automatiquement des phrases entre :
-
-- **Ruwund (Rund)**
-- **Français**
-
-Cette partie du projet consiste à :
-
-- construire un **corpus parallèle**
-- nettoyer et aligner les textes
-- entraîner des **modèles de traduction automatique**
-
-L'objectif est de créer un **prototype de traducteur neuronal** capable de comprendre et traduire le Ruwund vers le Français.
+- preserve and digitize local languages  
+- create **structured linguistic datasets**  
+- develop **artificial intelligence models for under-resourced languages**  
+- facilitate research in **Natural Language Processing**  
 
 ---
 
-# Collecte de données linguistiques
+# Machine Translation (Text-to-Text)
 
-Un des principaux défis des langues congolaises est le **manque de données numériques**.
+The first phase of the project focuses on developing a **text-to-text machine translation system**.
 
-Pour résoudre ce problème, Lugayetu met en place une plateforme permettant de :
+The system aims to automatically translate sentences between:
 
-- collecter des **phrases dans différentes langues**
-- associer les **traductions correspondantes**
-- construire un **corpus parallèle pour l'entraînement des modèles**
+- **Ruwund (Rund)**  
+- **French**  
 
-Ces données sont essentielles pour développer des systèmes d'intelligence artificielle performants.
+This part of the project involves:
 
----
+- building a **parallel corpus**  
+- cleaning and aligning texts  
+- training **machine translation models**  
 
-# Collecte de données vocales
-
-En plus des données textuelles, Lugayetu collecte également des **enregistrements vocaux de locuteurs natifs**.
-
-Ces données permettront dans le futur de développer :
-
-- des systèmes de **reconnaissance vocale**
-- des systèmes de **synthèse vocale**
-- des modèles **speech-to-text**
-- des modèles **speech-to-speech**
-
-Ainsi, le projet ne se limite pas à la traduction texte, mais prépare également le terrain pour des **technologies vocales basées sur l'IA**.
+The goal is to create a **neural translation prototype** capable of understanding and translating Ruwund into French.
 
 ---
 
-# Intelligence Artificielle et NLP
+# Linguistic Data Collection
 
-Lugayetu s'inscrit dans le domaine de :
+One of the main challenges of Congolese languages is the **lack of digital data**.
 
-- **l'intelligence artificielle**
-- **le traitement automatique du langage naturel (Natural Language Processing)**
+To address this issue, Lugayetu provides a platform to:
 
-Les données collectées serviront à entraîner différents types de modèles :
+- collect **sentences in different languages**  
+- associate **corresponding translations**  
+- build a **parallel corpus for model training**  
 
-- modèles de **traduction neuronale (Neural Machine Translation)**
-- modèles de **langage**
-- systèmes de **reconnaissance vocale**
-- technologies linguistiques pour les langues à faibles ressources
+These data are essential for developing effective artificial intelligence systems.
 
-Le projet contribue ainsi au développement de **ressources ouvertes pour la recherche en IA appliquée aux langues congolaises**.
+---
+
+# Voice Data Collection
+
+In addition to textual data, Lugayetu also collects **voice recordings from native speakers**.
+
+These data will enable the future development of:
+
+- **speech recognition systems**  
+- **speech synthesis systems**  
+- **speech-to-text models**  
+- **speech-to-speech translation systems**  
+
+Thus, the project goes beyond text translation and lays the foundation for **AI-based speech technologies**.
+
+---
+
+# Artificial Intelligence and NLP
+
+Lugayetu operates in the fields of:
+
+- **Artificial Intelligence**  
+- **Natural Language Processing (NLP)**  
+
+The collected data will be used to train different types of models:
+
+- **Neural Machine Translation (NMT)** models  
+- **language models**  
+- **speech recognition systems**  
+- linguistic technologies for low-resource languages  
+
+The project contributes to the development of **open resources for AI research applied to Congolese languages**.
 
 ---
 
 # Impact
 
-Lugayetu contribue à plusieurs enjeux importants :
+Lugayetu contributes to several key challenges:
 
-- **préservation du patrimoine linguistique**
-- **développement de technologies linguistiques congolaises**
-- **création de datasets pour la recherche en IA**
-- **promotion des langues locales dans le monde numérique**
+- **preservation of linguistic heritage**  
+- development of **Congolese language technologies**  
+- creation of **datasets for AI research**  
+- promotion of local languages in the digital world  
 
 ---
 
 # Vision
 
-À long terme, Lugayetu vise à devenir une **plateforme de référence pour les ressources linguistiques congolaises**, permettant le développement de :
+In the long term, Lugayetu aims to become a **reference platform for Congolese linguistic resources**, enabling the development of:
 
-- traducteurs automatiques
-- assistants vocaux
-- outils éducatifs pour les langues locales
-- technologies NLP pour les langues sous-représentées
+- machine translation systems  
+- voice assistants  
+- educational tools for local languages  
+- NLP technologies for under-resourced languages  
 
 ---
 
-**Lugayetu** représente ainsi une initiative à la fois **scientifique, technologique et culturelle**, combinant **intelligence artificielle et préservation linguistique**.
+**Lugayetu** represents a **scientific, technological, and cultural initiative**, combining **artificial intelligence and linguistic preservation**.
 
-##  Contact
+---
 
-**Email** : eliezermunung@outlook.fr
+## Contact
+
+**Email**: eliezermunung@outlook.fr
+
+---
 
 ## License
 
 Code: MIT License  
+
+---
+
+## Acknowledgments
+
+Special thanks to **Egla MUTALE** for her valuable contribution to the project, particularly in assisting with the digitization and scanning of linguistic resources.
