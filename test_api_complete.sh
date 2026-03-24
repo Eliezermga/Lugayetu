@@ -16,9 +16,9 @@ echo ""
 # Fonction pour afficher les résultats
 print_result() {
     if [ $1 -eq 0 ]; then
-        echo "✅ $2"
+        echo "$2"
     else
-        echo "❌ $2"
+        echo "$2"
     fi
 }
 
@@ -29,10 +29,10 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/provinces - SUCCESS"
+    echo "GET /api/provinces - SUCCESS"
     echo "Provinces disponibles: $(echo $BODY | jq -r '.data.provinces | length') provinces"
 else
-    echo "❌ GET /api/provinces - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/provinces - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -57,10 +57,10 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "201" ]; then
-    echo "✅ POST /api/register - SUCCESS"
+    echo "POST /api/register - SUCCESS"
     echo "Utilisateur créé: $(echo $BODY | jq -r '.data.email')"
 else
-    echo "❌ POST /api/register - FAILED (HTTP $HTTP_CODE)"
+    echo "POST /api/register - FAILED (HTTP $HTTP_CODE)"
     echo "Réponse: $BODY"
 fi
 echo ""
@@ -88,11 +88,11 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ POST /api/login - SUCCESS"
+    echo "POST /api/login - SUCCESS"
     ACCESS_TOKEN=$(echo $BODY | jq -r '.data.access_token')
     echo "Token obtenu: ${ACCESS_TOKEN:0:50}..."
 else
-    echo "❌ POST /api/login - FAILED (HTTP $HTTP_CODE)"
+    echo "POST /api/login - FAILED (HTTP $HTTP_CODE)"
     echo "Réponse: $BODY"
     exit 1
 fi
@@ -106,10 +106,10 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/user/profile - SUCCESS"
+    echo "GET /api/user/profile - SUCCESS"
     echo "Profil: $(echo $BODY | jq -r '.data.prenom') $(echo $BODY | jq -r '.data.nom')"
 else
-    echo "❌ GET /api/user/profile - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/user/profile - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -128,11 +128,11 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ PUT /api/user/profile - SUCCESS"
+    echo "PUT /api/user/profile - SUCCESS"
     echo "Nouveau nom: $(echo $BODY | jq -r '.data.nom')"
     echo "Nouvel âge: $(echo $BODY | jq -r '.data.age')"
 else
-    echo "❌ PUT /api/user/profile - FAILED (HTTP $HTTP_CODE)"
+    echo "PUT /api/user/profile - FAILED (HTTP $HTTP_CODE)"
     echo "Réponse: $BODY"
 fi
 echo ""
@@ -145,11 +145,11 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/user/stats - SUCCESS"
+    echo "GET /api/user/stats - SUCCESS"
     echo "Enregistrements: $(echo $BODY | jq -r '.data.total_recordings')"
     echo "Durée totale: $(echo $BODY | jq -r '.data.total_duration_minutes') min"
 else
-    echo "❌ GET /api/user/stats - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/user/stats - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -161,10 +161,10 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/languages - SUCCESS"
+    echo "GET /api/languages - SUCCESS"
     echo "Langues disponibles: $(echo $BODY | jq -r '.data.languages | length')"
 else
-    echo "❌ GET /api/languages - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/languages - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -176,11 +176,11 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/sentences/next - SUCCESS"
+    echo "GET /api/sentences/next - SUCCESS"
     SENTENCE_ID=$(echo $BODY | jq -r '.data.sentence.id')
     echo "Prochaine phrase (ID: $SENTENCE_ID): $(echo $BODY | jq -r '.data.sentence.text')"
 else
-    echo "❌ GET /api/sentences/next - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/sentences/next - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -192,10 +192,10 @@ HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 BODY=$(echo "$RESPONSE" | head -n-1)
 
 if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ GET /api/recordings - SUCCESS"
+    echo "GET /api/recordings - SUCCESS"
     echo "Nombre d'enregistrements: $(echo $BODY | jq -r '.data.pagination.total')"
 else
-    echo "❌ GET /api/recordings - FAILED (HTTP $HTTP_CODE)"
+    echo "GET /api/recordings - FAILED (HTTP $HTTP_CODE)"
 fi
 echo ""
 
@@ -210,13 +210,13 @@ if [ "$CONFIRM_DELETE" = "o" ] || [ "$CONFIRM_DELETE" = "O" ]; then
     BODY=$(echo "$RESPONSE" | head -n-1)
 
     if [ "$HTTP_CODE" = "200" ]; then
-        echo "✅ DELETE /api/user/account - SUCCESS"
+        echo "DELETE /api/user/account - SUCCESS"
         echo "Message: $(echo $BODY | jq -r '.message')"
     else
-        echo "❌ DELETE /api/user/account - FAILED (HTTP $HTTP_CODE)"
+        echo "DELETE /api/user/account - FAILED (HTTP $HTTP_CODE)"
     fi
 else
-    echo "⏭️  Test de suppression ignoré"
+    echo "⏭Test de suppression ignoré"
 fi
 echo ""
 
