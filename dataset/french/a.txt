@@ -1,4 +1,4 @@
-Généalogie de Jésus-Christ
+0 Généalogie de Jésus-Christ
 1 Généalogie de Jésus-Christ, fils de David, fils d’Abraham.
 2 Abraham engendra Isaac; Isaac engendra Jacob; Jacob engendra Juda et ses frères;
 3 Juda engendra de Thamar Pharès et Zara; Pharès engendra Esrom; Esrom engendra Aram;
@@ -443,8 +443,7 @@ Généalogie de Jésus-Christ
 47 Le royaume des cieux est encore semblable à un filet jeté dans la mer et ramassant des poissons de toute espèce.
 48 Quand il est rempli, les pêcheurs le tirent; et, après s’être assis sur le rivage, ils mettent dans des vases ce qui est bon, et ils jettent ce qui est mauvais.
 49 Il en sera de même à la fin du monde. Les anges viendront séparer les méchants d’avec les justes,
-50 et ils les jetteront dans la fournaise ardente,#v.
-42 .où il y aura des pleurs et des grincements de dents.
+50 et ils les jetteront dans la fournaise ardente, où il y aura des pleurs et des grincements de dents.
 51 Avez-vous compris toutes ces choses?Oui, répondirent-ils.
 52 Et il leur dit:C’est pourquoi, tout scribe instruit de ce qui regarde le royaume des cieux est semblable à un maître de maison qui tire de son trésor des choses nouvelles et des choses anciennes. Jésus à Nazareth. Incrédulité des habitants
 53 Lorsque Jésus eut achevé ces paraboles, il partit de là.
@@ -823,7 +822,8 @@ Généalogie de Jésus-Christ
 8 Tout cela ne sera que le commencement des douleurs.
 9 Alors on vous livrera aux tourments, et l’on vous fera mourir; et vous serez haïs de toutes les nations, à cause de mon nom.
 10 Alors aussi plusieurs succomberont, et ils se trahiront, se haïront les uns les autres.
-11 Plusieurs faux prophètes s’élèveront, et ils séduiront beaucoup de gens. Et parce que l’iniquité se sera accrue, la charité du plus grand nombre se refroidira.
+11 Plusieurs faux prophètes s’élèveront, et ils séduiront beaucoup de gens.
+12 Et parce que l’iniquité se sera accrue, la charité du plus grand nombre se refroidira.
 13 Mais celui qui persévérera jusqu’à la fin sera sauvé.
 14 Cette bonne nouvelle du royaume sera prêchée dans le monde entier, pour servir de témoignage à toutes les nations. Alors viendra la fin.
 15 C’est pourquoi, lorsque vous verrez l’abomination de la désolation, dont a parlé le prophète Daniel, établie en lieu saint, que celui qui lit fasse attention!
