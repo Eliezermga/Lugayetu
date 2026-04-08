@@ -43,6 +43,14 @@ The goal is to create a **neural translation prototype** capable of understandin
 
 ---
 
+## Dataset
+
+The Ruwund-French dataset is available on Hugging Face:
+
+https://huggingface.co/datasets/eliezermga/ruwund-french
+
+---
+
 # Linguistic Data Collection
 
 One of the main challenges of Congolese languages is the **lack of digital data**.
