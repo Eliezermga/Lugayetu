@@ -1323,8 +1323,8 @@
 13 Puis Jésus monta sur une colline; il appela les hommes qu'il voulait et ils vinrent à lui.
 14 Il forma ainsi le groupe des douze qu'il nomma apôtres. Il fit cela pour les avoir avec lui et les envoyer annoncer la Bonne Nouvelle,
 15 avec le pouvoir de chasser les esprits mauvais.
-16 Voici ces douze: Simon – Jésus lui donna le nom de Pierre –,
-17 Jacques et son frère Jean, tous deux fils de Zébédée – Jésus leur donna le nom de Boanergès, qui signifie «les hommes semblables au tonnerre» –,
+16 Voici ces douze: Simon Jésus lui donna le nom de Pierre,
+17 Jacques et son frère Jean, tous deux fils de Zébédée Jésus leur donna le nom de Boanergès, qui signifie «les hommes semblables au tonnerre»,
 18 André, Philippe, Barthélemy, Matthieu, Thomas, Jacques le fils d'Alphée, Thaddée, Simon le nationaliste,
 19 et Judas Iscariote, celui qui trahit Jésus.
 0 La famille de Jésus veut l'emmener
@@ -1401,12 +1401,12 @@
 5 Continuellement, la nuit comme le jour, il errait parmi les tombeaux et sur les collines, en poussant des cris et en se blessant lui-même avec des pierres.
 6 Il vit Jésus de loin; alors il accourut, se jeta à genoux devant lui,
 7 et cria avec force: «Que me veux-tu, Jésus, Fils du Dieu très-haut? Je t'en conjure, au nom de Dieu, ne me tourmente pas!»
-8 – Jésus lui disait en effet: «Esprit mauvais, sors de cet homme!» –
+8 Jésus lui disait en effet: «Esprit mauvais, sors de cet homme!»
 9 Jésus l'interrogea: «Quel est ton nom?» Il répondit: «Mon nom est “Multitude”, car nous sommes nombreux.»
 10 Et il le suppliait avec insistance de ne pas envoyer les esprits mauvais hors de la région.
 11 Il y avait là un grand troupeau de porcs qui cherchait sa nourriture près de la colline.
 12 Les esprits adressèrent cette prière à Jésus: «Envoie-nous dans ces porcs, laisse nous entrer en eux!»
-13 Jésus le leur permit. Alors les esprits mauvais sortirent de l'homme et entrèrent dans les porcs. Tout le troupeau – environ deux mille porcs – se précipita du haut de la falaise dans le lac et s'y noya.
+13 Jésus le leur permit. Alors les esprits mauvais sortirent de l'homme et entrèrent dans les porcs. Tout le troupeau environ deux mille porcs se précipita du haut de la falaise dans le lac et s'y noya.
 14 Les hommes qui gardaient les porcs s'enfuirent et portèrent la nouvelle dans la ville et dans les fermes. Les gens vinrent donc voir ce qui s'était passé.
 15 Ils arrivèrent auprès de Jésus et virent l'homme qui avait été possédé d'une multitude d'esprits mauvais: il était assis, il portait des vêtements et était dans son bon sens. Et ils prirent peur.
 16 Ceux qui avaient tout vu leur racontèrent ce qui était arrivé à l'homme possédé et aux porcs.
@@ -1435,8 +1435,8 @@
 38 Ils arrivèrent chez le chef de la synagogue, où Jésus vit des gens très agités, qui pleuraient et se lamentaient à grands cris.
 39 Il entra dans la maison et leur dit: «Pourquoi toute cette agitation et ces pleurs? L'enfant n'est pas morte, elle dort.»
 40 Mais ils se moquèrent de lui. Alors il les fit tous sortir, garda avec lui le père, la mère et les trois disciples, et entra dans la chambre de l'enfant.
-41 Il la prit par la main et lui dit: «Talitha koum!» – ce qui signifie «Fillette, debout, je te le dis!».
-42 La fillette se leva aussitôt et se mit à marcher – elle avait douze ans. Aussitôt, tous furent frappés d'un très grand étonnement.
+41 Il la prit par la main et lui dit: «Talitha koum!» ce qui signifie «Fillette, debout, je te le dis!».
+42 La fillette se leva aussitôt et se mit à marcher elle avait douze ans. Aussitôt, tous furent frappés d'un très grand étonnement.
 43 Mais Jésus leur recommanda fermement de ne le faire savoir à personne; puis il leur dit: «Donnez-lui à manger.»
 0 Les gens de Nazareth ne croient pas en Jésus
 1 Jésus quitta cet endroit et se rendit dans la ville où il avait grandi; ses disciples l'accompagnaient.
@@ -1512,7 +1512,7 @@
 8 Vous laissez de côté les commandements de Dieu, dit Jésus, pour respecter les règles transmises par les hommes.»
 9 Puis il ajouta: «Vous savez fort bien rejeter le commandement de Dieu pour vous en tenir à votre propre tradition!
 10 Moïse a dit en effet: “Respecte ton père et ta mère”, et aussi “Celui qui maudit son père ou sa mère doit être mis à mort.”
-11 Mais vous, vous enseignez que si un homme déclare à son père ou à sa mère: “Ce que je pourrais te donner pour t'aider est Corban” – c'est-à-dire “offrande réservée à Dieu” –,
+11 Mais vous, vous enseignez que si un homme déclare à son père ou à sa mère: “Ce que je pourrais te donner pour t'aider est Corban” c'est-à-dire “offrande réservée à Dieu”,
 12 il n'a plus besoin de rien faire pour son père ou sa mère, vous le lui permettez.
 13 De cette façon, vous annulez l'exigence de la parole de Dieu par la tradition que vous transmettez. Et vous faites beaucoup d'autres choses semblables.»
 0 Les choses qui rendent un homme impur
@@ -1538,7 +1538,7 @@
 31 Jésus quitta ensuite le territoire de Tyr, passa par Sidon et revint vers le lac de Galilée à travers le territoire des Dix Villes.
 32 On lui amena un homme qui était sourd et avait de la peine à parler, et on le supplia de poser la main sur lui.
 33 Alors Jésus l'emmena seul avec lui, loin de la foule; il mit ses doigts dans les oreilles de l'homme et lui toucha la langue avec sa propre salive.
-34 Puis il leva les yeux vers le ciel, soupira et dit à l'homme: «Effata!» – ce qui signifie «Ouvre-toi!» –
+34 Puis il leva les yeux vers le ciel, soupira et dit à l'homme: «Effata!» ce qui signifie «Ouvre-toi!»
 35 Aussitôt, les oreilles de l'homme s'ouvrirent, sa langue fut libérée et il se mit à parler normalement.
 36 Jésus recommanda à tous de n'en parler à personne; mais plus il le leur recommandait, plus ils répandaient la nouvelle.
 37 Et les gens étaient impressionnés au plus haut point; ils disaient: «Tout ce qu'il fait est vraiment bien! Il fait même entendre les sourds et parler les muets!»
@@ -1563,8 +1563,8 @@
 16 Les disciples se mirent à discuter entre eux parce qu'ils n'avaient pas de pain.
 17 Jésus s'en aperçut et leur demanda: «Pourquoi discutez-vous parce que vous n'avez pas de pain? Ne comprenez-vous pas encore? Ne saisissez-vous pas? Avez-vous l'esprit bouché?
 18 Vous avez des yeux, ne voyez-vous pas? Vous avez des oreilles, n'entendez-vous pas? Ne vous rappelez-vous pas:
-19 quand j'ai rompu les cinq pains pour les cinq mille hommes, combien de corbeilles pleines de morceaux avez-vous emportées?» – «Douze», répondirent-ils.
-20 «Et quand j'ai rompu les sept pains pour les quatre mille personnes, demanda Jésus, combien de corbeilles pleines de morceaux avez-vous emportées?» – «Sept», répondirent-ils.
+19 quand j'ai rompu les cinq pains pour les cinq mille hommes, combien de corbeilles pleines de morceaux avez-vous emportées?» «Douze», répondirent-ils.
+20 «Et quand j'ai rompu les sept pains pour les quatre mille personnes, demanda Jésus, combien de corbeilles pleines de morceaux avez-vous emportées?» «Sept», répondirent-ils.
 21 Alors Jésus leur dit: «Et vous ne comprenez pas encore?»
 0 Jésus guérit un aveugle à Bethsaïda
 22 Ils arrivèrent à Bethsaïda; là, on amena à Jésus un aveugle et on le pria de le toucher.
@@ -1574,7 +1574,7 @@
 26 Alors Jésus le renvoya chez lui en lui disant: «N'entre pas dans le village.»
 0 Pierre déclare que Jésus est le Messie
 27 Jésus et ses disciples partirent ensuite vers les villages proches de Césarée de Philippe. En chemin, il leur demanda: «Que disent les gens à mon sujet?»
-28 Ils lui répondirent: «Certains disent que tu es Jean-Baptiste, d'autres que tu es Élie, et d'autres encore que tu es l'un des prophètes.» –
+28 Ils lui répondirent: «Certains disent que tu es Jean-Baptiste, d'autres que tu es Élie, et d'autres encore que tu es l'un des prophètes.»
 29 «Et vous, leur demanda Jésus, qui dites-vous que je suis?» Pierre lui répondit: «Tu es le Messie.»
 30 Alors, Jésus leur ordonna sévèrement de n'en parler à personne.
 0 Jésus annonce sa mort et sa résurrection
@@ -1736,8 +1736,8 @@
 29 Jésus leur répondit: «Je vais vous poser une seule question; si vous me donnez une réponse, alors je vous dirai de quel droit je fais ces choses.
 30 Qui a envoyé Jean baptiser? Est-ce Dieu ou les hommes? Répondez-moi.»
 31 Mais ils se mirent à discuter entre eux et se dirent: «Si nous répondons: “C'est Dieu qui l'a envoyé”, il nous demandera: “Pourquoi donc n'avez-vous pas cru Jean?”
-32 Mais pouvons-nous dire: “Ce sont les hommes qui l'ont envoyé…”?» – Ils avaient peur de la foule, car tous pensaient que Jean avait été un vrai prophète. –
-33 Alors ils répondirent à Jésus: «Nous ne savons pas.» – «Eh bien, répliqua Jésus, moi non plus, je ne vous dirai pas de quel droit je fais ces choses.»
+32 Mais pouvons-nous dire: “Ce sont les hommes qui l'ont envoyé…”?» Ils avaient peur de la foule, car tous pensaient que Jean avait été un vrai prophète.
+33 Alors ils répondirent à Jésus: «Nous ne savons pas.» «Eh bien, répliqua Jésus, moi non plus, je ne vous dirai pas de quel droit je fais ces choses.»
 0 La parabole des méchants vignerons
 1 Puis Jésus se mit à leur parler en utilisant des paraboles: «Un homme planta une vigne; il l'entoura d'un mur, creusa la roche pour le pressoir à raisin et bâtit une tour de garde. Ensuite, il loua la vigne à des ouvriers vignerons et partit en voyage.
 2 Au moment voulu, il envoya un serviteur aux ouvriers vignerons pour recevoir d'eux sa part de la récolte.
@@ -1755,10 +1755,10 @@
 13 On envoya auprès de Jésus quelques Pharisiens et quelques membres du parti d'Hérode pour le prendre au piège par une question.
 14 Ils vinrent lui dire: «Maître, nous savons que tu dis la vérité; tu n'as pas peur de ce que pensent les autres et tu ne tiens pas compte de l'apparence des gens, mais tu enseignes la vérité sur la conduite qui plaît à Dieu. Dis-nous, notre loi permet-elle ou non de payer des impôts à l'empereur romain? Devons-nous les payer, oui ou non?»
 15 Mais Jésus savait qu'ils cachaient leur véritable pensée; il leur dit alors: «Pourquoi me tendez-vous un piège? Apportez-moi une pièce d'argent, je voudrais la voir.»
-16 Ils en apportèrent une, et Jésus leur demanda: «Ce visage et ce nom gravés ici, de qui sont-ils?» – «De l'empereur», lui répondirent-ils.
+16 Ils en apportèrent une, et Jésus leur demanda: «Ce visage et ce nom gravés ici, de qui sont-ils?» «De l'empereur», lui répondirent-ils.
 17 Alors Jésus leur dit: «Payez donc à l'empereur ce qui lui appartient, et à Dieu ce qui lui appartient.» Et sa réponse les remplit d'étonnement.
 0 Une question sur la résurrection des morts
-18 Quelques Sadducéens vinrent auprès de Jésus. – Ce sont eux qui disent qu'il n'y a pas de résurrection. – Ils l'interrogèrent de la façon suivante:
+18 Quelques Sadducéens vinrent auprès de Jésus. Ce sont eux qui disent qu'il n'y a pas de résurrection. Ils l'interrogèrent de la façon suivante:
 19 «Maître, Moïse nous a donné ce commandement écrit: “Si un homme, qui a un frère, meurt et laisse une femme sans enfants, il faut que son frère épouse la veuve pour donner des descendants à celui qui est mort.”
 20 Or, il y avait une fois sept frères. Le premier se maria et mourut sans laisser d'enfants.
 21 Le deuxième épousa la veuve, et il mourut sans laisser d'enfants. La même chose arriva au troisième frère,
@@ -1806,7 +1806,7 @@
 12 Des frères livreront leurs propres frères pour qu'on les mette à mort, et des pères agiront de même avec leurs enfants; des enfants se tourneront contre leurs parents et les feront condamner à mort.
 13 Tout le monde vous haïra à cause de moi. Mais celui qui tiendra bon jusqu'à la fin sera sauvé.»
 0 L'Horreur abominable
-14 «Vous verrez celui qu'on appelle “l'Horreur abominable”: il sera placé là où il ne doit pas être. Que celui qui lit comprenne bien cela! – Alors, ceux qui seront en Judée devront s'enfuir vers les montagnes;
+14 «Vous verrez celui qu'on appelle “l'Horreur abominable”: il sera placé là où il ne doit pas être. Que celui qui lit comprenne bien cela! Alors, ceux qui seront en Judée devront s'enfuir vers les montagnes;
 15 celui qui sera sur la terrasse de sa maison ne devra pas descendre pour aller prendre quelque chose à l'intérieur;
 16 et celui qui sera dans les champs ne devra pas retourner chez lui pour emporter son manteau.
 17 Quel malheur ce sera, en ces jours-là, pour les femmes enceintes et pour celles qui allaiteront!
@@ -1953,7 +1953,7 @@
 32 Que le Messie, le roi d'Israël descende maintenant de la croix! Si nous voyons cela, alors nous croirons en lui.» Ceux qui avaient été mis en croix à côté de Jésus l'insultaient aussi.
 0 La mort de Jésus
 33 A midi, l'obscurité se fit sur tout le pays et dura jusqu'à trois heures de l'après-midi.
-34 Et à trois heures, Jésus cria avec force: «Éloï, Éloï, lema sabactani?» – ce qui signifie «Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?» –
+34 Et à trois heures, Jésus cria avec force: «Éloï, Éloï, lema sabactani?» ce qui signifie «Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?»
 35 Quelques-uns de ceux qui étaient là l'entendirent et s'écrièrent: «Écoutez, il appelle Élie!»
 36 L'un d'eux courut remplir une éponge de vinaigre et la fixa au bout d'un roseau, puis il la tendit à Jésus pour qu'il boive et dit: «Attendez, nous allons voir si Élie vient le descendre de la croix!»
 37 Mais Jésus poussa un grand cri et mourut.
@@ -2291,8 +2291,8 @@
 0 Jésus choisit les douze apôtres
 12 En ce temps-là, Jésus monta sur une colline pour prier et y passa toute la nuit à prier Dieu.
 13 Quand le jour parut, il appela ses disciples et en choisit douze qu'il nomma apôtres:
-14 Simon – auquel il donna aussi le nom de Pierre – et son frère André, Jacques et Jean, Philippe et Barthélemy,
-15 Matthieu et Thomas, Jacques le fils d'Alphée et Simon – dit le nationaliste –,
+14 Simon auquel il donna aussi le nom de Pierre et son frère André, Jacques et Jean, Philippe et Barthélemy,
+15 Matthieu et Thomas, Jacques le fils d'Alphée et Simon dit le nationaliste,
 16 Jude le fils de Jacques et Judas Iscariote, celui qui devint un traître.
 0 Jésus enseigne et guérit
 17 Jésus descendit de la colline avec eux et s'arrêta en un endroit plat, où se trouvait un grand nombre de ses disciples. Il y avait aussi là une foule immense: des gens de toute la Judée, de Jérusalem et des villes de la côte, Tyr et Sidon;
@@ -2389,7 +2389,7 @@
 50 Mais Jésus dit à la femme: «Ta foi t'a sauvée: va en paix.»
 0 Les femmes qui accompagnaient Jésus
 1 Ensuite, Jésus alla dans les villes et les villages pour y prêcher et annoncer la Bonne Nouvelle du Royaume de Dieu. Les douze disciples l'accompagnaient,
-2 ainsi que quelques femmes qui avaient été délivrées d'esprits mauvais et guéries de maladies: Marie – appelée Marie de Magdala –, dont sept esprits mauvais avaient été chassés;
+2 ainsi que quelques femmes qui avaient été délivrées d'esprits mauvais et guéries de maladies: Marie appelée Marie de Magdala, dont sept esprits mauvais avaient été chassés;
 3 Jeanne, femme de Chuza, un administrateur d'Hérode; Suzanne et plusieurs autres qui utilisaient leurs biens pour aider Jésus et ses disciples.
 0 La parabole du semeur
 4 De chaque ville, des gens venaient à Jésus. Comme une grande foule s'assemblait, il dit cette parabole:
@@ -2424,7 +2424,7 @@
 27 Au moment où Jésus descendait à terre, un homme de la ville vint à sa rencontre. Cet homme était possédé par des esprits mauvais; depuis longtemps il ne portait pas de vêtement et n'habitait pas dans une maison, mais vivait parmi les tombeaux.
 28 Quand il vit Jésus, il poussa un cri, se jeta à ses pieds et dit avec force: «Que me veux-tu, Jésus, fils du Dieu très-haut? Je t'en prie, ne me tourmente pas!»
 29 Jésus ordonnait en effet à l'esprit mauvais de sortir de lui. Cet esprit s'était emparé de lui bien des fois; on attachait alors les mains et les pieds de l'homme avec des chaînes pour le garder, mais il rompait ses liens et l'esprit l'entraînait vers les lieux déserts.
-30 Jésus l'interrogea: «Quel est ton nom?» – «Mon nom est “Multitude” », répondit-il. En effet, de nombreux esprits mauvais étaient entrés en lui.
+30 Jésus l'interrogea: «Quel est ton nom?» «Mon nom est “Multitude” », répondit-il. En effet, de nombreux esprits mauvais étaient entrés en lui.
 31 Et ces esprits suppliaient Jésus de ne pas les envoyer dans l'abîme.
 32 Il y avait là un grand troupeau de porcs qui cherchait sa nourriture sur la colline. Les esprits prièrent Jésus de leur permettre d'entrer dans ces porcs. Il le leur permit.
 33 Alors les esprits mauvais sortirent de l'homme et entrèrent dans les porcs. Tout le troupeau se précipita du haut de la falaise dans le lac et s'y noya.
@@ -2474,7 +2474,7 @@
 17 Chacun mangea à sa faim. On emporta douze corbeilles pleines des morceaux qu'ils eurent en trop.
 0 Pierre déclare que Jésus est le Messie
 18 Un jour, Jésus priait à l'écart et ses disciples étaient avec lui. Il leur demanda: «Que disent les foules à mon sujet?»
-19 Ils répondirent: «Certains disent que tu es Jean-Baptiste, d'autres que tu es Élie, et d'autres encore que l'un des prophètes d'autrefois s'est relevé de la mort.» –
+19 Ils répondirent: «Certains disent que tu es Jean-Baptiste, d'autres que tu es Élie, et d'autres encore que l'un des prophètes d'autrefois s'est relevé de la mort.»
 20 «Et vous, leur demanda Jésus, qui dites-vous que je suis?» Pierre répondit: «Tu es le Messie de Dieu.»
 0 Jésus annonce sa mort et sa résurrection
 21 Jésus leur ordonna sévèrement de n'en parler à personne,
@@ -2490,7 +2490,7 @@
 30 Soudain, il y eut là deux hommes qui s'entretenaient avec Jésus: c'étaient Moïse et Élie,
 31 qui apparaissaient au milieu d'une gloire céleste. Ils parlaient avec Jésus de la façon dont il allait réaliser sa mission en mourant à Jérusalem.
 32 Pierre et ses compagnons s'étaient profondément endormis; mais ils se réveillèrent et virent la gloire de Jésus et les deux hommes qui se tenaient avec lui.
-33 Au moment où ces hommes quittaient Jésus, Pierre lui dit: «Maître, il est bon que nous soyons ici. Nous allons dresser trois tentes, une pour toi, une pour Moïse et une pour Élie.» – Il ne savait pas ce qu'il disait. –
+33 Au moment où ces hommes quittaient Jésus, Pierre lui dit: «Maître, il est bon que nous soyons ici. Nous allons dresser trois tentes, une pour toi, une pour Moïse et une pour Élie.» Il ne savait pas ce qu'il disait.
 34 Pendant qu'il parlait ainsi, un nuage survint et les couvrit de son ombre. Les disciples eurent peur en voyant ce nuage les recouvrir.
 35 Du nuage une voix se fit entendre: «Celui-ci est mon Fils, que j'ai choisi. Écoutez-le!»
 36 Après que la voix eut parlé, on ne vit plus que Jésus seul. Les disciples gardèrent le silence et, en ce temps-là, ne racontèrent rien à personne de ce qu'ils avaient vu.
@@ -2827,9 +2827,9 @@
 2 Le maître l'appela et lui dit: “Qu'est-ce que j'apprends à ton sujet? Présente-moi les comptes de ta gestion, car tu ne pourras plus être mon gérant.”
 3 Le gérant se dit en lui-même: “Mon maître va me retirer ma charge. Que faire? Je ne suis pas assez fort pour travailler la terre et j'aurais honte de mendier.
 4 Ah! je sais ce que je vais faire! Et quand j'aurai perdu ma place, des gens me recevront chez eux!”
-5 Il fit alors venir un à un tous ceux qui devaient quelque chose à son maître. Il dit au premier: “Combien dois-tu à mon maître?” –
+5 Il fit alors venir un à un tous ceux qui devaient quelque chose à son maître. Il dit au premier: “Combien dois-tu à mon maître?”
 6 “Cent tonneaux d'huile d'olive”, lui répondit-il. Le gérant lui dit: “Voici ton compte; vite, assieds-toi et note cinquante.”
-7 Puis il dit à un autre: “Et toi, combien dois-tu?” – “Cent sacs de blé”, répondit-il. Le gérant lui dit: “Voici ton compte; note quatre-vingts.”
+7 Puis il dit à un autre: “Et toi, combien dois-tu?” “Cent sacs de blé”, répondit-il. Le gérant lui dit: “Voici ton compte; note quatre-vingts.”
 8 Eh bien, le maître loua le gérant malhonnête d'avoir agi si habilement. En effet, les gens de ce monde sont bien plus habiles dans leurs rapports les uns avec les autres que ceux qui appartiennent à la lumière.»
 9 Jésus ajouta: «Et moi je vous dis: faites-vous des amis avec les richesses trompeuses de ce monde, afin qu'au moment où elles n'existeront plus pour vous on vous reçoive dans les demeures éternelles.
 10 Celui qui est fidèle dans les petites choses est aussi fidèle dans les grandes; celui qui est malhonnête dans les petites choses est aussi malhonnête dans les grandes.
@@ -3006,7 +3006,7 @@
 4 qui a envoyé Jean baptiser? Est-ce Dieu ou les hommes?»
 5 Mais ils se mirent à discuter entre eux et se dirent: «Si nous répondons: “C'est Dieu qui l'a envoyé”, il nous demandera: “Pourquoi n'avez-vous pas cru Jean?”
 6 Mais si nous disons: “Ce sont les hommes qui l'ont envoyé,” le peuple tout entier nous jettera des pierres pour nous tuer, car il est persuadé que Jean a été un prophète.»
-7 Ils répondirent alors: «Nous ne savons pas qui l'a envoyé baptiser.» –
+7 Ils répondirent alors: «Nous ne savons pas qui l'a envoyé baptiser.»
 8 «Eh bien, répliqua Jésus, moi non plus, je ne vous dirai pas de quel droit je fais ces choses.»
 0 La parabole des méchants vignerons
 9 Ensuite, Jésus se mit à dire au peuple la parabole suivante: «Un homme planta une vigne, la loua à des ouvriers vignerons et partit en voyage pour longtemps.
@@ -3025,11 +3025,11 @@
 21 Ils lui posèrent cette question: «Maître, nous savons que ce que tu dis et enseignes est juste; tu ne juges personne sur les apparences, mais tu enseignes la vérité sur la conduite qui plaît à Dieu.
 22 Eh bien, dis-nous, notre loi permet-elle ou non de payer des impôts à l'empereur romain?»
 23 Mais Jésus se rendit compte de leur ruse et leur dit:
-24 «Montrez-moi une pièce d'argent. Le visage et le nom gravés sur cette pièce, de qui sont-ils?» – «De l'empereur», répondirent-ils.
+24 «Montrez-moi une pièce d'argent. Le visage et le nom gravés sur cette pièce, de qui sont-ils?» «De l'empereur», répondirent-ils.
 25 Alors Jésus leur dit: «Eh bien, payez à l'empereur ce qui lui appartient, et à Dieu ce qui lui appartient.»
 26 Ils ne purent pas le prendre en faute pour ce qu'il disait devant le peuple. Au contraire, sa réponse les remplit d'étonnement et ils gardèrent le silence.
 0 Une question sur la résurrection des morts
-27 Quelques Sadducéens vinrent auprès de Jésus. – Ce sont eux qui affirment qu'il n'y a pas de résurrection. – Ils l'interrogèrent
+27 Quelques Sadducéens vinrent auprès de Jésus. Ce sont eux qui affirment qu'il n'y a pas de résurrection. Ils l'interrogèrent
 28 de la façon suivante: «Maître, Moïse nous a donné ce commandement écrit: “Si un homme marié, qui a un frère, meurt sans avoir eu d'enfants, il faut que son frère épouse la veuve pour donner des descendants à celui qui est mort.”
 29 Or, il y avait une fois sept frères. Le premier se maria et mourut sans laisser d'enfants.
 30 Le deuxième épousa la veuve,
@@ -3138,10 +3138,10 @@
 33 Pierre lui dit: «Seigneur, je suis prêt à aller en prison avec toi et à mourir avec toi.»
 34 Jésus lui répondit: «Je te le déclare, Pierre, le coq n'aura pas encore chanté aujourd'hui que tu auras déjà prétendu trois fois ne pas me connaître.»
 0 La bourse, le sac et l'épée
-35 Puis Jésus leur dit: «Quand je vous ai envoyés en mission sans bourse, ni sac, ni chaussures, avez-vous manqué de quelque chose?» – «De rien», répondirent-ils.
+35 Puis Jésus leur dit: «Quand je vous ai envoyés en mission sans bourse, ni sac, ni chaussures, avez-vous manqué de quelque chose?» «De rien», répondirent-ils.
 36 Alors il leur dit: «Mais maintenant, celui qui a une bourse doit la prendre, de même celui qui a un sac; et celui qui n'a pas d'épée doit vendre son manteau pour en acheter une.
 37 Car, je vous le déclare, il faut que se réalise en ma personne cette parole de l'Écriture: “Il a été placé au nombre des malfaiteurs.” En effet, ce qui me concerne va se réaliser.»
-38 Les disciples dirent: «Seigneur, voici deux épées.» – «Cela suffit», répondit-il.
+38 Les disciples dirent: «Seigneur, voici deux épées.» «Cela suffit», répondit-il.
 0 Jésus prie au mont des Oliviers
 39 Jésus sortit et se rendit, selon son habitude, au mont des Oliviers. Ses disciples le suivirent.
 40 Quand il fut arrivé à cet endroit, il leur dit: «Priez afin de ne pas tomber dans la tentation.»
@@ -3201,7 +3201,7 @@
 16 Je vais donc le faire battre à coups de fouet, puis je le relâcherai.» [
 17 A chaque fête de la Pâque, Pilate devait leur libérer un prisonnier.]
 18 Mais ils se mirent à crier tous ensemble: «Fais mourir cet homme! Relâche-nous Barabbas!»
-19 Barabbas avait été mis en prison pour une révolte qui avait eu lieu dans la ville et pour un meurtre. –
+19 Barabbas avait été mis en prison pour une révolte qui avait eu lieu dans la ville et pour un meurtre.
 20 Comme Pilate désirait libérer Jésus, il leur adressa de nouveau la parole.
 21 Mais ils lui criaient: «Cloue-le sur une croix! Cloue-le sur une croix!»
 22 Pilate prit la parole une troisième fois et leur dit: «Quel mal a-t-il commis? Je n'ai trouvé en lui aucune faute pour laquelle il mériterait de mourir. Je vais donc le faire battre à coups de fouet, puis je le relâcherai.»
@@ -3261,7 +3261,7 @@
 15 Pendant qu'ils parlaient et discutaient, Jésus lui-même s'approcha et fit route avec eux.
 16 Ils le voyaient, mais quelque chose les empêchait de le reconnaître.
 17 Jésus leur demanda: «De quoi discutez-vous en marchant?» Et ils s'arrêtèrent, tout attristés.
-18 L'un d'eux, appelé Cléopas, lui dit: «Es-tu le seul habitant de Jérusalem qui ne connaisse pas ce qui s'est passé ces derniers jours?» –
+18 L'un d'eux, appelé Cléopas, lui dit: «Es-tu le seul habitant de Jérusalem qui ne connaisse pas ce qui s'est passé ces derniers jours?»
 19 «Quoi donc?» leur demanda-t-il. Ils lui répondirent: «Ce qui est arrivé à Jésus de Nazareth! C'était un prophète puissant; il l'a montré par ses actes et ses paroles devant Dieu et devant tout le peuple.
 20 Les chefs de nos prêtres et nos dirigeants l'ont livré pour le faire condamner à mort et l'ont cloué sur une croix.
 21 Nous avions l'espoir qu'il était celui qui devait délivrer Israël. Mais en plus de tout cela, c'est aujourd'hui le troisième jour depuis que ces faits se sont passés.
@@ -3317,40 +3317,45 @@
 15 Jean lui a rendu témoignage; il s'est écrié: «C'est de lui que j'ai parlé quand j'ai dit: “Il vient après moi, mais il est plus important que moi, car il existait déjà avant moi.” »
 16 Nous avons tous reçu notre part des richesses de sa grâce; nous avons reçu une bénédiction après l'autre.
 17 Dieu nous a donné la loi par Moïse; mais la grâce et la vérité sont venues par Jésus-Christ.
-18 Personne n'a jamais vu Dieu. Mais le Fils unique, qui est Dieu et demeure auprès du Père, lui seul l'a fait connaître. Le témoignage de Jean-Baptiste
+18 Personne n'a jamais vu Dieu. Mais le Fils unique, qui est Dieu et demeure auprès du Père, lui seul l'a fait connaître.
+0 Le témoignage de Jean-Baptiste
 19 Voici le témoignage rendu par Jean lorsque les autorités juives de Jérusalem envoyèrent des prêtres et des lévites pour lui demander: «Qui es-tu?»
 20 Il ne refusa pas de répondre, mais il affirma très clairement devant tous: «Je ne suis pas le Messie.»
-21 Ils lui demandèrent: «Qui es-tu donc? Es-tu Élie?» – «Non, répondit Jean, je ne le suis pas.» – «Es-tu le Prophète?» dirent-ils. «Non», répondit-il.
+21 Ils lui demandèrent: «Qui es-tu donc? Es-tu Élie?» «Non, répondit Jean, je ne le suis pas.» «Es-tu le Prophète?» dirent-ils. «Non», répondit-il.
 22 Ils lui dirent alors: «Qui es-tu donc? Nous devons donner une réponse à ceux qui nous ont envoyés. Que dis-tu à ton sujet?»
-23 Jean répondit: «Je suis “celui qui crie dans le désert: Préparez un chemin bien droit pour le Seigneur!” » – C'est ce qu'a dit le prophète Ésaïe. –
+23 Jean répondit: «Je suis “celui qui crie dans le désert: Préparez un chemin bien droit pour le Seigneur!” » C'est ce qu'a dit le prophète Ésaïe.
 24 Parmi les messagers envoyés à Jean, il y avait des Pharisiens;
 25 ils lui demandèrent encore: «Si tu n'es pas le Messie, ni Élie, ni le Prophète, pourquoi donc baptises-tu?»
 26 Jean leur répondit: «Moi, je vous baptise avec de l'eau; mais il y a au milieu de vous quelqu'un que vous ne connaissez pas.
 27 Il vient après moi, mais je ne suis pas même digne de délier la courroie de ses sandales.»
-28 Tout cela se passait à Béthanie, de l'autre côté de la rivière, le Jourdain, là où Jean baptisait. Jésus, l'Agneau de Dieu
+28 Tout cela se passait à Béthanie, de l'autre côté de la rivière, le Jourdain, là où Jean baptisait.
+0 Jésus, l'Agneau de Dieu
 29 Le lendemain, Jean vit Jésus venir à lui, et il dit: «Voici l'Agneau de Dieu qui enlève le péché du monde.
 30 C'est de lui que j'ai parlé quand j'ai dit: “Un homme vient après moi, mais il est plus important que moi, car il existait déjà avant moi.”
 31 Je ne savais pas qui ce devait être, mais je suis venu baptiser avec de l'eau afin de le faire connaître au peuple d'Israël.»
 32 Jean déclara encore: «J'ai vu l'Esprit de Dieu descendre du ciel comme une colombe et demeurer sur lui.
 33 Je ne savais pas encore qui il était, mais Dieu, qui m'a envoyé baptiser avec de l'eau, m'a dit: “Tu verras l'Esprit descendre et demeurer sur un homme; c'est lui qui va baptiser avec le Saint-Esprit.”
-34 J'ai vu cela, dit Jean, et j'atteste donc que cet homme est le Fils de Dieu.» Les premiers disciples de Jésus
+34 J'ai vu cela, dit Jean, et j'atteste donc que cet homme est le Fils de Dieu.»
+0 Les premiers disciples de Jésus
 35 Le lendemain, Jean était de nouveau là, avec deux de ses disciples.
 36 Quand il vit Jésus passer, il dit: «Voici l'Agneau de Dieu!»
 37 Les deux disciples de Jean entendirent ces paroles, et ils suivirent Jésus.
-38 Jésus se retourna, il vit qu'ils le suivaient et leur demanda: «Que cherchez-vous?» Ils lui dirent: «Où demeures-tu, Rabbi?» – Ce mot signifie «Maître». –
+38 Jésus se retourna, il vit qu'ils le suivaient et leur demanda: «Que cherchez-vous?» Ils lui dirent: «Où demeures-tu, Rabbi?» Ce mot signifie «Maître».
 39 Il leur répondit: «Venez, et vous verrez.» Ils allèrent donc et virent où il demeurait, et ils passèrent le reste de ce jour avec lui. Il était alors environ quatre heures de l'après-midi.
 40 L'un des deux qui avaient entendu les paroles de Jean et avaient suivi Jésus, était André, le frère de Simon Pierre.
-41 La première personne que rencontra André fut son frère Simon; il lui dit: «Nous avons trouvé le Messie.» – Ce mot signifie «Christ». –
-42 Et il conduisit Simon auprès de Jésus. Jésus le regarda et dit: «Tu es Simon, le fils de Jean; on t'appellera Céphas.» – Ce nom signifie «Pierre». – Philippe et Nathanaël
+41 La première personne que rencontra André fut son frère Simon; il lui dit: «Nous avons trouvé le Messie.» Ce mot signifie «Christ».
+42 Et il conduisit Simon auprès de Jésus. Jésus le regarda et dit: «Tu es Simon, le fils de Jean; on t'appellera Céphas.» Ce nom signifie «Pierre».
+0 Philippe et Nathanaël
 43 Le lendemain, Jésus décida de partir pour la Galilée. Il rencontra Philippe et lui dit: «Suis-moi!»
-44 – Philippe était de Bethsaïda, la localité d'où provenaient aussi André et Pierre. –
+44 Philippe était de Bethsaïda, la localité d'où provenaient aussi André et Pierre.
 45 Ensuite, Philippe rencontra Nathanaël et lui dit: «Nous avons trouvé celui dont Moïse a parlé dans le livre de la Loi et dont les prophètes aussi ont parlé. C'est Jésus, le fils de Joseph, de Nazareth.»
 46 Nathanaël lui dit: «Peut-il venir quelque chose de bon de Nazareth?» Philippe lui répondit: «Viens, et tu verras.»
 47 Quand Jésus vit Nathanaël s'approcher de lui, il dit à son sujet: «Voici un véritable Israélite; il n'y a rien de faux en lui.»
 48 Nathanaël lui demanda: «Comment me connais-tu?» Jésus répondit: «Je t'ai vu quand tu étais sous le figuier, avant que Philippe t'appelle.»
 49 Alors Nathanaël lui dit: «Maître, tu es le Fils de Dieu, tu es le roi d'Israël!»
 50 Jésus lui répondit: «Ainsi, tu crois en moi parce que je t'ai dit que je t'avais vu sous le figuier? Tu verras de bien plus grandes choses que celle-ci!»
-51 Et il ajouta: «Oui, je vous le déclare, c'est la vérité: vous verrez le ciel ouvert et les anges de Dieu monter et descendre au-dessus du Fils de l'homme!» Le mariage à Cana
+51 Et il ajouta: «Oui, je vous le déclare, c'est la vérité: vous verrez le ciel ouvert et les anges de Dieu monter et descendre au-dessus du Fils de l'homme!»
+0 Le mariage à Cana
 1 Deux jours après, il y eut un mariage à Cana, en Galilée. La mère de Jésus était là,
 2 et on avait aussi invité Jésus et ses disciples à ce mariage.
 3 A un moment donné, il ne resta plus de vin. La mère de Jésus lui dit alors: «Ils n'ont plus de vin.»
@@ -3362,20 +3367,23 @@
 9 Le maître de la fête goûta l'eau changée en vin. Il ne savait pas d'où venait ce vin, mais les serviteurs qui avaient puisé l'eau le savaient. Il appela donc le marié
 10 et lui dit: «Tout le monde commence par offrir le meilleur vin, puis, quand les invités ont beaucoup bu, on sert le moins bon. Mais toi, tu as gardé le meilleur vin jusqu'à maintenant!»
 11 Voilà comment Jésus fit le premier de ses signes miraculeux, à Cana en Galilée; il manifesta ainsi sa gloire, et ses disciples crurent en lui.
-12 Après cela, il se rendit à Capernaüm avec sa mère, ses frères et ses disciples. Ils n'y restèrent que peu de jours. Jésus dans le temple
+12 Après cela, il se rendit à Capernaüm avec sa mère, ses frères et ses disciples. Ils n'y restèrent que peu de jours.
+0 Jésus dans le temple
 13 La fête juive de la Pâque était proche et Jésus alla donc à Jérusalem.
 14 Dans le temple, il trouva des gens qui vendaient des bœufs, des moutons et des pigeons; il trouva aussi des changeurs d'argent assis à leurs tables.
 15 Alors, il fit un fouet avec des cordes et les chassa tous hors du temple, avec leurs moutons et leurs bœufs; il jeta par terre l'argent des changeurs en renversant leurs tables;
 16 et il dit aux vendeurs de pigeons: «Enlevez tout cela d'ici! Ne faites pas de la maison de mon Père une maison de commerce!»
 17 Ses disciples se rappelèrent ces paroles de l'Écriture: «L'amour que j'ai pour ta maison, ô Dieu, me consumera comme un feu.»
 18 Alors les chefs juifs lui demandèrent: «Quel signe miraculeux peux-tu faire pour nous prouver que tu as le droit d'agir ainsi?»
-19 Jésus leur répondit: «Détruisez ce temple, et en trois jours je le rebâtirai.» –
+19 Jésus leur répondit: «Détruisez ce temple, et en trois jours je le rebâtirai.»
 20 «On a mis quarante-six ans pour bâtir ce temple, et toi, tu vas le rebâtir en trois jours?» lui dirent-ils.
 21 Mais le temple dont parlait Jésus, c'était son corps.
-22 Plus tard, quand Jésus revint d'entre les morts, ses disciples se rappelèrent qu'il avait dit cela; et ils crurent à l'Écriture et aux paroles que Jésus avait dites. Jésus connaît bien le cœur humain
+22 Plus tard, quand Jésus revint d'entre les morts, ses disciples se rappelèrent qu'il avait dit cela; et ils crurent à l'Écriture et aux paroles que Jésus avait dites.
+0 Jésus connaît bien le cœur humain
 23 Pendant que Jésus était à Jérusalem, au moment de la fête de la Pâque, beaucoup crurent en lui en voyant les signes miraculeux qu'il faisait.
 24 Mais Jésus n'avait pas confiance en eux, parce qu'il les connaissait tous très bien.
-25 Il n'avait pas besoin qu'on le renseigne sur qui que ce soit, car il savait lui-même ce qu'il y a dans le cœur humain. Jésus et Nicodème
+25 Il n'avait pas besoin qu'on le renseigne sur qui que ce soit, car il savait lui-même ce qu'il y a dans le cœur humain.
+0 Jésus et Nicodème
 1 Il y avait un homme appelé Nicodème, qui était du parti des Pharisiens et qui était l'un des chefs juifs.
 2 Il vint une nuit trouver Jésus et lui dit: «Maître, nous savons que Dieu t'a envoyé pour nous apporter un enseignement; car personne ne peut faire des signes miraculeux comme tu en fais si Dieu n'est pas avec lui.»
 3 Jésus lui répondit: «Oui, je te le déclare, c'est la vérité: personne ne peut voir le Royaume de Dieu s'il ne naît pas de nouveau.»
@@ -3396,7 +3404,8 @@
 18 Celui qui croit au Fils n'est pas condamné; mais celui qui ne croit pas est déjà condamné, parce qu'il n'a pas cru au Fils unique de Dieu.
 19 Voici comment la condamnation se manifeste: la lumière est venue dans le monde, mais les hommes préfèrent l'obscurité à la lumière, parce qu'ils agissent mal.
 20 Quiconque fait le mal déteste la lumière et s'en écarte, car il a peur que ses mauvaises actions apparaissent en plein jour.
-21 Mais celui qui obéit à la vérité vient à la lumière, afin qu'on voie clairement que ses actions sont accomplies en accord avec Dieu.» Jésus et Jean
+21 Mais celui qui obéit à la vérité vient à la lumière, afin qu'on voie clairement que ses actions sont accomplies en accord avec Dieu.»
+0 Jésus et Jean
 22 Après cela, Jésus et ses disciples allèrent en Judée. Il y resta quelque temps avec eux, et il baptisait.
 23 Jean aussi baptisait, à Énon près de Salim, parce qu'il y avait là beaucoup d'eau. Les gens venaient à lui et il les baptisait.
 24 En effet, Jean n'avait pas encore été mis en prison.
@@ -3405,13 +3414,15 @@
 27 Jean leur répondit: «Personne ne peut avoir quoi que ce soit si Dieu ne le lui a pas donné.
 28 Vous pouvez vous-mêmes témoigner que j'ai dit: “Je ne suis pas le Messie, mais j'ai été envoyé devant lui.”
 29 Celui à qui appartient la mariée, c'est le marié; mais l'ami du marié se tient près de lui et l'écoute, et il est tout joyeux d'entendre la voix du marié. Cette joie est la mienne, et elle est maintenant complète.
-30 Il faut que son influence grandisse et que la mienne diminue.» Celui qui vient du ciel
+30 Il faut que son influence grandisse et que la mienne diminue.»
+0 Celui qui vient du ciel
 31 «Celui qui vient d'en haut est au-dessus de tous; celui qui est de la terre appartient à la terre et parle des choses de la terre. Celui qui vient du ciel [est au-dessus de tous];
 32 il témoigne de ce qu'il a vu et entendu, mais personne n'accepte son témoignage.
 33 Celui qui accepte son témoignage certifie ainsi que Dieu dit la vérité.
 34 Celui que Dieu a envoyé dit les paroles de Dieu, car Dieu lui donne pleinement son Esprit.
 35 Le Père aime le Fils et a tout mis en son pouvoir.
-36 Celui qui croit au Fils a la vie éternelle; celui qui refuse de croire au Fils n'aura pas cette vie, mais il reste exposé à la colère de Dieu.» Jésus et la femme de Samarie
+36 Celui qui croit au Fils a la vie éternelle; celui qui refuse de croire au Fils n'aura pas cette vie, mais il reste exposé à la colère de Dieu.»
+0 Jésus et la femme de Samarie
 1 Les Pharisiens entendirent raconter que Jésus faisait et baptisait plus de disciples que Jean. 
 2 En réalité, Jésus lui-même ne baptisait personne, c'étaient ses disciples qui baptisaient.
 3 Quand Jésus apprit ce que l'on racontait, il quitta la Judée et retourna en Galilée.
@@ -3419,8 +3430,8 @@
 5 Il arriva près d'une localité de Samarie appelée Sychar, qui est proche du champ que Jacob avait donné à son fils Joseph.
 6 Là se trouvait le puits de Jacob. Jésus, fatigué du voyage, s'assit au bord du puits. Il était environ midi.
 7 Une femme de Samarie vint pour puiser de l'eau et Jésus lui dit: «Donne-moi à boire.»
-8 – Ses disciples étaient allés à la ville acheter de quoi manger. –
-9 La femme samaritaine dit à Jésus: «Mais, tu es Juif! Comment oses-tu donc me demander à boire, à moi, une Samaritaine?» – En effet, les Juifs n'ont pas de relations avec les Samaritains. –
+8 Ses disciples étaient allés à la ville acheter de quoi manger.
+9 La femme samaritaine dit à Jésus: «Mais, tu es Juif! Comment oses-tu donc me demander à boire, à moi, une Samaritaine?» En effet, les Juifs n'ont pas de relations avec les Samaritains.
 10 Jésus lui répondit: «Si tu connaissais ce que Dieu donne, et qui est celui qui te demande à boire, c'est toi qui lui aurais demandé de l'eau et il t'aurait donné de l'eau vive.»
 11 La femme répliqua: «Maître, tu n'as pas de seau et le puits est profond. Comment pourrais-tu avoir cette eau vive?
 12 Notre ancêtre Jacob nous a donné ce puits; il a bu lui-même de son eau, ses fils et ses troupeaux en ont bu aussi. Penses-tu être plus grand que Jacob?»
@@ -3436,7 +3447,7 @@
 22 Vous, les Samaritains, vous adorez Dieu sans le connaître; nous, les Juifs, nous l'adorons et le connaissons, car le salut vient des Juifs.
 23 Mais le moment vient, et il est même déjà là, où les vrais adorateurs adoreront le Père en étant guidés par son Esprit et selon sa vérité; car tels sont les adorateurs que veut le Père.
 24 Dieu est Esprit, et ceux qui l'adorent doivent l'adorer en étant guidés par son Esprit et selon sa vérité.»
-25 La femme lui dit: «Je sais que le Messie – c'est-à-dire le Christ – va venir. Quand il viendra, il nous expliquera tout.»
+25 La femme lui dit: «Je sais que le Messie c'est-à-dire le Christ va venir. Quand il viendra, il nous expliquera tout.»
 26 Jésus lui répondit: «Je le suis, moi qui te parle.»
 27 A ce moment, les disciples de Jésus revinrent; et ils furent étonnés de le voir parler avec une femme. Mais aucun d'eux n'osa lui demander: «Que lui veux-tu?» ou: «Pourquoi parles-tu avec elle?»
 28 Alors la femme laissa là sa cruche d'eau et retourna à la ville, où elle dit aux gens:
@@ -3453,7 +3464,8 @@
 39 Beaucoup de Samaritains de cette ville crurent en Jésus parce que la femme leur avait déclaré: «Il m'a dit tout ce que j'ai fait.»
 40 C'est pourquoi, quand les Samaritains arrivèrent auprès de lui, ils le prièrent de rester avec eux; et Jésus resta là deux jours.
 41 Ils furent encore bien plus nombreux à croire, à cause de ce qu'il disait lui-même;
-42 et ils déclaraient à la femme: «Maintenant nous ne croyons plus seulement à cause de ce que tu as raconté, mais parce que nous l'avons entendu nous-mêmes, et nous savons qu'il est vraiment le Sauveur du monde.» Jésus guérit le fils d'un haut fonctionnaire
+42 et ils déclaraient à la femme: «Maintenant nous ne croyons plus seulement à cause de ce que tu as raconté, mais parce que nous l'avons entendu nous-mêmes, et nous savons qu'il est vraiment le Sauveur du monde.»
+0 Jésus guérit le fils d'un haut fonctionnaire
 43 Après avoir passé deux jours à cet endroit, Jésus partit et se rendit en Galilée.
 44 Il avait lui-même déclaré: «Un prophète n'est pas respecté dans son propre pays.»
 45 Cependant, quand il arriva en Galilée, les habitants de la région le reçurent bien, car ils étaient allés eux aussi à la fête de la Pâque à Jérusalem et avaient vu tout ce qu'il avait fait pendant cette fête.
@@ -3465,7 +3477,8 @@
 51 Il était sur le chemin du retour, quand ses serviteurs vinrent à sa rencontre et lui dirent: «Ton enfant a repris vie!»
 52 Il leur demanda à quelle heure son fils s'était senti mieux, et ils lui répondirent: «Il était une heure de l'après-midi, hier, quand la fièvre l'a quitté.»
 53 Le père se rendit compte que c'était l'heure même où Jésus lui avait dit: «Ton fils a repris vie». Alors lui et toute sa famille crurent en Jésus.
-54 Ce fut le second signe miraculeux que fit Jésus, après son retour de Judée en Galilée. Jésus guérit un homme paralysé
+54 Ce fut le second signe miraculeux que fit Jésus, après son retour de Judée en Galilée.
+0 Jésus guérit un homme paralysé
 1 Peu après, les Juifs célébrèrent une fête religieuse et Jésus se rendit alors à Jérusalem.
 2 Dans cette ville, il y a, près de la porte des Brebis, une piscine avec cinq galeries à colonnes; on l'appelle en hébreu Bethzatha.
 3 Dans ces galeries, une foule de malades étaient couchés: des aveugles, des boiteux, des paralysés. [Ils attendaient que l'eau fasse des remous;
@@ -3483,7 +3496,8 @@
 15 L'homme alla dire aux chefs juifs que c'était Jésus qui l'avait guéri.
 16 Ils s'en prirent alors à Jésus, parce qu'il avait fait cela le jour du sabbat.
 17 Mais Jésus leur répondit: «Mon Père est continuellement à l'œuvre et moi aussi je suis à l'œuvre.»
-18 A cause de cette parole, les autorités juives cherchaient encore plus à faire mourir Jésus; car il avait non seulement agi contre la loi du sabbat, mais il disait encore que Dieu était son propre Père et se faisait ainsi l'égal de Dieu. L'autorité du Fils de Dieu
+18 A cause de cette parole, les autorités juives cherchaient encore plus à faire mourir Jésus; car il avait non seulement agi contre la loi du sabbat, mais il disait encore que Dieu était son propre Père et se faisait ainsi l'égal de Dieu.
+0 L'autorité du Fils de Dieu
 19 Jésus reprit la parole et leur dit: «Oui, je vous le déclare, c'est la vérité: le Fils ne peut rien faire par lui-même; il ne fait que ce qu'il voit faire au Père. Tout ce que le Père fait, le Fils le fait également.
 20 Car le Père aime le Fils et lui montre tout ce qu'il fait lui-même. Il lui montrera des œuvres à faire encore plus grandes que celles-ci et vous en serez étonnés.
 21 Car, de même que le Père relève les morts et leur donne la vie, de même le Fils donne la vie à qui il veut.
@@ -3495,7 +3509,8 @@
 27 Et il a accordé au Fils le pouvoir de juger, parce qu'il est le Fils de l'homme.
 28 Ne vous en étonnez pas, car le moment vient où tous les morts qui sont enterrés entendront sa voix
 29 et sortiront de leurs tombes. Ceux qui ont fait le bien ressusciteront pour recevoir la vie, mais ceux qui ont fait le mal ressusciteront pour être condamnés.
-30 Je ne peux rien faire par moi-même. Je juge d'après ce que Dieu me dit, et mon jugement est juste parce que je ne cherche pas à faire ce que je veux, mais ce que veut celui qui m'a envoyé.» Témoignage en faveur de Jésus
+30 Je ne peux rien faire par moi-même. Je juge d'après ce que Dieu me dit, et mon jugement est juste parce que je ne cherche pas à faire ce que je veux, mais ce que veut celui qui m'a envoyé.»
+0 Témoignage en faveur de Jésus
 31 «Si je témoignais en ma faveur, mon témoignage ne serait pas valable.
 32 Mais c'est un autre qui témoigne en ma faveur et je sais que ce témoignage à mon sujet est vrai.
 33 Vous avez envoyé des messagers à Jean et il a rendu témoignage à la vérité.
@@ -3512,13 +3527,14 @@
 44 Vous aimez recevoir des éloges les uns des autres et vous ne recherchez pas l'éloge qui vient du seul Dieu; comment donc pourriez-vous me croire?
 45 Mais ne pensez pas que je vous accuserai devant mon Père. C'est Moïse qui vous accusera, lui en qui vous avez mis votre espérance.
 46 Si vous croyiez vraiment Moïse, vous me croiriez aussi, car il a écrit à mon sujet.
-47 Mais puisque vous ne croyez pas ce qu'il a écrit, comment pourriez-vous croire mes paroles?» Jésus nourrit cinq mille hommes
-1 Après cela, Jésus s'en alla de l'autre côté du lac de Galilée – appelé aussi lac de Tibériade.
+47 Mais puisque vous ne croyez pas ce qu'il a écrit, comment pourriez-vous croire mes paroles?»
+0 Jésus nourrit cinq mille hommes
+1 Après cela, Jésus s'en alla de l'autre côté du lac de Galilée appelé aussi lac de Tibériade.
 2 Une grande foule le suivait, parce que les gens voyaient les signes miraculeux qu'il faisait en guérissant les malades.
 3 Jésus monta sur une colline et s'assit là avec ses disciples.
 4 La Pâque, la fête des Juifs, était proche.
 5 Jésus regarda et vit qu'une grande foule venait à lui; il demanda donc à Philippe: «Où pourrions-nous acheter du pain pour leur donner à manger à tous?»
-6 – Il disait cela pour mettre Philippe à l'épreuve, car il savait déjà ce qu'il allait faire. –
+6 Il disait cela pour mettre Philippe à l'épreuve, car il savait déjà ce qu'il allait faire.
 7 Philippe lui répondit: «Même avec deux cents pièces d'argent, nous n'aurions pas de quoi acheter assez de pain pour que chacun d'eux en reçoive un petit morceau.»
 8 Un autre de ses disciples, André, le frère de Simon Pierre, lui dit:
 9 «Il y a ici un garçon qui a cinq pains d'orge et deux poissons. Mais qu'est-ce que cela pour un si grand nombre de personnes?»
@@ -3527,16 +3543,19 @@
 12 Quand ils eurent tous mangé à leur faim, Jésus dit à ses disciples: «Ramassez les morceaux qui restent, afin que rien ne soit perdu.»
 13 Ils les ramassèrent et remplirent douze corbeilles avec les morceaux qui restaient des cinq pains d'orge dont on avait mangé.
 14 Les gens, voyant le signe miraculeux que Jésus avait fait, déclarèrent: «Cet homme est vraiment le Prophète qui devait venir dans le monde!»
-15 Jésus se rendit compte qu'ils allaient venir l'enlever de force pour le faire roi. Il se retira donc de nouveau sur la colline, tout seul. Jésus marche sur le lac
+15 Jésus se rendit compte qu'ils allaient venir l'enlever de force pour le faire roi. Il se retira donc de nouveau sur la colline, tout seul.
+0 Jésus marche sur le lac
 16 Quand vint le soir, les disciples de Jésus descendirent au bord du lac,
 17 ils montèrent dans une barque et se mirent à traverser le lac en direction de Capernaüm. Il faisait déjà nuit et Jésus ne les avait pas encore rejoints.
 18 L'eau du lac était agitée, car le vent soufflait avec force.
 19 Les disciples avaient ramé sur une distance de cinq à six kilomètres quand ils virent Jésus s'approcher de la barque en marchant sur l'eau; et ils furent saisis de peur.
 20 Mais Jésus leur dit: «C'est moi, n'ayez pas peur!»
-21 Les disciples voulaient le prendre dans la barque, mais aussitôt la barque toucha terre, à l'endroit où ils se rendaient. La foule cherche Jésus
+21 Les disciples voulaient le prendre dans la barque, mais aussitôt la barque toucha terre, à l'endroit où ils se rendaient.
+0 La foule cherche Jésus
 22 Le lendemain, la foule qui était restée de l'autre côté du lac se rendit compte qu'il n'y avait eu là qu'une seule barque; les gens savaient que Jésus n'était pas monté dans cette barque avec ses disciples, mais que ceux-ci étaient partis seuls.
 23 Cependant, d'autres barques, venant de la ville de Tibériade, étaient arrivées près de l'endroit où ils avaient mangé le pain après que le Seigneur eut remercié Dieu.
-24 Quand les gens virent que ni Jésus ni ses disciples n'étaient là, ils montèrent dans ces barques et se rendirent à Capernaüm pour le chercher. Jésus, le pain de vie
+24 Quand les gens virent que ni Jésus ni ses disciples n'étaient là, ils montèrent dans ces barques et se rendirent à Capernaüm pour le chercher.
+0 Jésus, le pain de vie
 25 Ils trouvèrent Jésus de l'autre côté du lac et lui dirent: «Maître, quand es-tu arrivé ici?»
 26 Jésus leur répondit: «Oui, je vous le déclare, c'est la vérité: vous me cherchez parce que vous avez mangé du pain à votre faim, et non parce que vous avez saisi le sens de mes signes miraculeux.
 27 Travaillez non pas pour la nourriture qui se gâte, mais pour la nourriture qui dure et qui est source de vie éternelle. Cette nourriture, le Fils de l'homme vous la donnera, parce que Dieu, le Père, a mis sur lui la marque de son autorité.»
@@ -3553,7 +3572,7 @@
 38 car je suis descendu du ciel non pas pour faire ma volonté, mais pour faire la volonté de celui qui m'a envoyé.
 39 Et voici ce que veut celui qui m'a envoyé: c'est que je ne perde aucun de ceux qu'il m'a confiés, mais que je les relève de la mort au dernier jour.
 40 Oui, voici ce que veut mon Père: que tous ceux qui voient le Fils et croient en lui aient la vie éternelle et que je les relève de la mort au dernier jour.»
-41 Les Juifs critiquaient Jésus parce qu'il avait dit: «Je suis le pain descendu du ciel.» –
+41 Les Juifs critiquaient Jésus parce qu'il avait dit: «Je suis le pain descendu du ciel.»
 42 «N'est-ce pas Jésus, disaient-ils, le fils de Joseph? Nous connaissons bien son père et sa mère. Comment peut-il dire maintenant qu'il est descendu du ciel?»
 43 Jésus leur répondit: «Cessez de critiquer entre vous.
 44 Personne ne peut venir à moi si le Père qui m'a envoyé ne l'y conduit, et moi, je le relèverai de la mort au dernier jour.
@@ -3571,7 +3590,8 @@
 56 Celui qui mange ma chair et boit mon sang demeure uni à moi et moi à lui.
 57 Le Père qui m'a envoyé est vivant et je vis par lui; de même, celui qui me mange vivra par moi.
 58 Voici donc le pain qui est descendu du ciel. Il n'est pas comme celui qu'ont mangé vos ancêtres, qui sont morts. Mais celui qui mange ce pain vivra pour toujours.»
-59 Jésus prononça ces paroles alors qu'il enseignait dans la synagogue de Capernaüm. Les paroles de la vie éternelle
+59 Jésus prononça ces paroles alors qu'il enseignait dans la synagogue de Capernaüm.
+0 Les paroles de la vie éternelle
 60 Après avoir entendu Jésus, beaucoup de ses disciples dirent: «Là, il exagère! Comment admettre un tel discours?»
 61 Jésus s'aperçut que ses disciples le critiquaient à ce sujet. C'est pourquoi il leur dit: «Cela vous choque-t-il?
 62 Qu'arrivera-t-il alors si vous voyez le Fils de l'homme monter là où il était auparavant?
@@ -3583,7 +3603,8 @@
 68 Simon Pierre lui répondit: «Seigneur, à qui irions-nous? Tu as les paroles qui donnent la vie éternelle.
 69 Nous le croyons, nous le savons: tu es le Saint envoyé de Dieu.»
 70 Jésus leur répondit: «Ne vous ai-je pas choisis vous les douze? Et pourtant l'un de vous est un diable!»
-71 Il parlait de Judas, fils de Simon Iscariote. Car Judas, quoiqu'il fût un des douze disciples, allait le trahir. Les frères de Jésus ne croient pas en lui
+71 Il parlait de Judas, fils de Simon Iscariote. Car Judas, quoiqu'il fût un des douze disciples, allait le trahir.
+0 Les frères de Jésus ne croient pas en lui
 1 Après cela, Jésus parcourut la Galilée; il ne voulait pas aller et venir en Judée, car les autorités juives cherchaient à le faire mourir.
 2 La fête juive des Huttes était proche
 3 et les frères de Jésus lui dirent: «Pars d'ici et va en Judée, afin que tes disciples, eux aussi, voient les œuvres que tu fais.
@@ -3592,7 +3613,8 @@
 6 Jésus leur dit: «Le moment n'est pas encore venu pour moi. Pour vous, tout moment est bon.
 7 Le monde ne peut pas vous haïr, mais il a de la haine pour moi, parce que j'atteste que ses actions sont mauvaises.
 8 Allez à la fête, vous. Moi, je ne vais pas à cette fête, parce que le moment n'est pas encore arrivé pour moi.»
-9 Après avoir dit cela, il resta en Galilée. Jésus à la fête des Huttes
+9 Après avoir dit cela, il resta en Galilée.
+0 Jésus à la fête des Huttes
 10 Quand ses frères se furent rendus à la fête, Jésus y alla aussi, mais sans se faire voir, presque en secret.
 11 Les autorités juives le cherchaient pendant cette fête et demandaient: «Où donc est-il?»
 12 On discutait beaucoup à son sujet, dans la foule. «C'est un homme de bien», disaient les uns. «Non, disaient les autres, il égare les gens.»
@@ -3605,37 +3627,42 @@
 19 Moïse vous a donné la loi, n'est-ce pas? Mais aucun de vous ne la met en pratique. Pourquoi cherchez-vous à me faire mourir?»
 20 La foule lui répondit: «Tu es possédé d'un esprit mauvais! Qui cherche à te faire mourir?»
 21 Jésus leur répondit: «J'ai fait une seule œuvre et vous voilà tous étonnés!
-22 Parce que Moïse vous a donné l'ordre de circoncire les garçons – bien que ce ne soit pas Moïse qui ait commencé à le faire, mais déjà nos premiers ancêtres –, vous acceptez de circoncire quelqu'un même le jour du sabbat.
+22 Parce que Moïse vous a donné l'ordre de circoncire les garçons bien que ce ne soit pas Moïse qui ait commencé à le faire, mais déjà nos premiers ancêtres, vous acceptez de circoncire quelqu'un même le jour du sabbat.
 23 Si vous pouvez circoncire un garçon le jour du sabbat pour que la loi de Moïse soit respectée, pourquoi êtes-vous irrités contre moi parce que j'ai guéri un homme tout entier le jour du sabbat?
-24 Cessez de juger d'après les apparences. Jugez de façon correcte.» Jésus est-il le Messie?
+24 Cessez de juger d'après les apparences. Jugez de façon correcte.»
+0 Jésus est-il le Messie?
 25 Quelques habitants de Jérusalem disaient: «N'est-ce pas cet homme qu'on cherche à faire mourir?
 26 Voyez: il parle en public et on ne lui dit rien! Nos chefs auraient-ils vraiment reconnu qu'il est le Messie?
 27 Mais quand le Messie apparaîtra, personne ne saura d'où il vient, tandis que nous savons d'où vient cet homme.»
 28 Jésus enseignait alors dans le temple; il s'écria: «Savez-vous vraiment qui je suis et d'où je viens? Je ne suis pas venu de moi-même, mais celui qui m'a envoyé est digne de confiance. Vous ne le connaissez pas.
 29 Moi, je le connais parce que je viens d'auprès de lui et que c'est lui qui m'a envoyé.»
 30 Ils cherchèrent alors à l'arrêter, mais personne ne mit la main sur lui, car son heure n'était pas encore venue.
-31 Dans la foule, cependant, beaucoup crurent en lui. Ils disaient: «Quand le Messie viendra, fera-t-il plus de signes miraculeux que n'en a fait cet homme?» Des gardes sont envoyés pour arrêter Jésus
+31 Dans la foule, cependant, beaucoup crurent en lui. Ils disaient: «Quand le Messie viendra, fera-t-il plus de signes miraculeux que n'en a fait cet homme?»
+0 Des gardes sont envoyés pour arrêter Jésus
 32 Les Pharisiens apprirent ce que l'on disait à voix basse dans la foule au sujet de Jésus. Les chefs des prêtres et les Pharisiens envoyèrent alors des gardes pour l'arrêter.
 33 Jésus déclara: «Je suis avec vous pour un peu de temps encore, puis je m'en irai auprès de celui qui m'a envoyé.
 34 Vous me chercherez, mais vous ne me trouverez pas, car vous ne pouvez pas aller là où je serai.»
 35 Les Juifs se demandèrent entre eux: «Où va-t-il se rendre pour que nous ne puissions pas le trouver? Va-t-il se rendre chez les Juifs dispersés parmi les Grecs et apporter son enseignement aux Grecs?
-36 Que signifient ces mots qu'il a dits: Vous me chercherez, mais vous ne me trouverez pas, car vous ne pouvez pas aller là où je serai?» Des fleuves d'eau vive
+36 Que signifient ces mots qu'il a dits: Vous me chercherez, mais vous ne me trouverez pas, car vous ne pouvez pas aller là où je serai?»
+0 Des fleuves d'eau vive
 37 Le dernier jour de la fête était le plus solennel. Ce jour-là, Jésus, debout, s'écria: «Si quelqu'un a soif, qu'il vienne à moi et qu'il boive.
 38 “Celui qui croit en moi, des fleuves d'eau vive jailliront de son cœur”, comme dit l'Écriture.»
-39 Jésus parlait de l'Esprit de Dieu que ceux qui croyaient en lui allaient recevoir. A ce moment-là, l'Esprit n'avait pas encore été donné, parce que Jésus n'avait pas encore été élevé à la gloire. La foule se divise à cause de Jésus
+39 Jésus parlait de l'Esprit de Dieu que ceux qui croyaient en lui allaient recevoir. A ce moment-là, l'Esprit n'avait pas encore été donné, parce que Jésus n'avait pas encore été élevé à la gloire.
+0 La foule se divise à cause de Jésus
 40 Après avoir entendu ces paroles, certains, dans la foule, disaient: «Cet homme est vraiment le Prophète!»
-41 D'autres disaient: «C'est le Messie!» – «Mais, répliquaient d'autres, le Messie pourrait-il venir de Galilée?
+41 D'autres disaient: «C'est le Messie!» «Mais, répliquaient d'autres, le Messie pourrait-il venir de Galilée?
 42 L'Écriture déclare que le Messie sera un descendant de David et qu'il viendra de Bethléem, le village où a vécu David.»
 43 La foule se divisa donc à cause de Jésus.
-44 Certains d'entre eux voulaient qu'on l'arrête, mais personne ne mit la main sur lui. L'incrédulité des chefs juifs
+44 Certains d'entre eux voulaient qu'on l'arrête, mais personne ne mit la main sur lui.
+0 L'incrédulité des chefs juifs
 45 Les gardes retournèrent auprès des chefs des prêtres et des Pharisiens qui leur demandèrent: «Pourquoi n'avez-vous pas amené Jésus?»
-46 Les gardes répondirent: «Jamais personne n'a parlé comme lui!» –
+46 Les gardes répondirent: «Jamais personne n'a parlé comme lui!»
 47 «Vous êtes-vous laissé tromper, vous aussi? leur demandèrent les Pharisiens.
 48 Y a-t-il un seul membre des autorités ou un seul des Pharisiens qui ait cru en lui?
 49 Mais ces gens ne connaissent pas la loi de Moïse, ce sont des maudits!»
 50 Nicodème était l'un des Pharisiens présents: c'est lui qui était allé voir Jésus quelque temps auparavant. Il leur dit:
 51 «Selon notre loi, nous ne pouvons pas condamner un homme sans l'avoir d'abord entendu et sans savoir ce qu'il a fait.»
-52 Ils lui répondirent: «Es-tu de Galilée, toi aussi? Examine les Écritures et tu verras qu'aucun prophète n'est jamais venu de Galilée.» Jésus et la femme adultère [
+52 Ils lui répondirent: «Es-tu de Galilée, toi aussi? Examine les Écritures et tu verras qu'aucun prophète n'est jamais venu de Galilée.»
 53 Ensuite, chacun s'en alla dans sa maison.
 1 Mais Jésus se rendit au mont des Oliviers.
 2 Tôt le lendemain matin, il retourna dans le temple et tous les gens s'approchèrent de lui. Il s'assit et se mit à leur donner son enseignement.
@@ -3646,8 +3673,9 @@
 7 Comme ils continuaient à le questionner, Jésus se redressa et leur dit: «Que celui d'entre vous qui n'a jamais péché lui jette la première pierre.»
 8 Puis il se baissa de nouveau et se remit à écrire sur le sol.
 9 Quand ils entendirent ces mots, ils partirent l'un après l'autre, les plus âgés d'abord. Jésus resta seul avec la femme, qui se tenait encore devant lui.
-10 Alors il se redressa et lui dit: «Eh bien, où sont-ils? Personne ne t'a condamnée?» –
-11 «Personne, Maître», répondit-elle. «Je ne te condamne pas non plus, dit Jésus. Tu peux t'en aller, mais désormais ne pèche plus.»] Jésus, la lumière du monde
+10 Alors il se redressa et lui dit: «Eh bien, où sont-ils? Personne ne t'a condamnée?»
+11 «Personne, Maître», répondit-elle. «Je ne te condamne pas non plus, dit Jésus. Tu peux t'en aller, mais désormais ne pèche plus.»
+0 Jésus, la lumière du monde
 12 Jésus adressa de nouveau la parole à la foule et dit: «Je suis la lumière du monde. Celui qui me suit aura la lumière de la vie et ne marchera plus jamais dans l'obscurité.»
 13 Les Pharisiens lui dirent: «Tu te rends témoignage à toi-même; ton témoignage est sans valeur.»
 14 Jésus leur répondit: «Même si je me rends témoignage à moi-même, mon témoignage est valable, parce que je sais d'où je suis venu et où je vais. Mais vous, vous ne savez ni d'où je viens ni où je vais.
@@ -3656,17 +3684,19 @@
 17 Il est écrit dans votre loi que si deux personnes apportent le même témoignage, ce témoignage est valable.
 18 Je me rends témoignage à moi-même et le Père qui m'a envoyé témoigne aussi pour moi.»
 19 Ils lui demandèrent: «Où est ton Père?» Jésus répondit: «Vous ne connaissez ni moi ni mon Père. Si vous me connaissiez, vous connaîtriez aussi mon Père.»
-20 Jésus prononça ces paroles alors qu'il enseignait dans le temple, à l'endroit où se trouvent les troncs à offrandes. Personne ne l'arrêta, parce que son heure n'était pas encore venue. «Vous ne pouvez pas aller là où je vais»
+20 Jésus prononça ces paroles alors qu'il enseignait dans le temple, à l'endroit où se trouvent les troncs à offrandes. Personne ne l'arrêta, parce que son heure n'était pas encore venue.
+0 «Vous ne pouvez pas aller là où je vais»
 21 Jésus leur dit encore: «Je vais partir; vous me chercherez, mais vous mourrez dans votre péché. Vous ne pouvez pas aller là où je vais.»
 22 Les Juifs se disaient: «Va-t-il se suicider, puisqu'il dit: “Vous ne pouvez pas aller là où je vais”?»
 23 Jésus leur répondit: «Vous êtes d'en bas, mais moi je viens d'en haut. Vous appartenez à ce monde, mais moi je n'appartiens pas à ce monde.
-24 C'est pourquoi je vous ai dit que vous mourrez dans vos péchés. Car vous mourrez dans vos péchés si vous ne croyez pas que “je suis”.» –
+24 C'est pourquoi je vous ai dit que vous mourrez dans vos péchés. Car vous mourrez dans vos péchés si vous ne croyez pas que “je suis”.»
 25 «Qui es-tu?» lui demandèrent-ils. Jésus leur répondit: «Celui que je vous ai dit depuis le commencement.
 26 J'ai beaucoup à dire et à juger à votre sujet. Mais j'annonce au monde seulement ce que j'ai appris de celui qui m'a envoyé; et lui, il dit la vérité.»
 27 Ils ne comprirent pas qu'il leur parlait du Père.
 28 Jésus leur dit alors: «Quand vous aurez élevé le Fils de l'homme, vous reconnaîtrez que “je suis”; vous reconnaîtrez que je ne fais rien par moi-même: je dis seulement ce que le Père m'a enseigné.
 29 Celui qui m'a envoyé est avec moi; il ne m'a pas laissé seul, parce que je fais toujours ce qui lui plaît.»
-30 Tandis que Jésus parlait ainsi, beaucoup crurent en lui. Les hommes libres et les esclaves
+30 Tandis que Jésus parlait ainsi, beaucoup crurent en lui.
+0 Les hommes libres et les esclaves
 31 Jésus dit alors aux Juifs qui avaient cru en lui: «Si vous restez fidèles à mes paroles, vous êtes vraiment mes disciples;
 32 ainsi vous connaîtrez la vérité et la vérité vous rendra libres.»
 33 Ils lui répondirent: «Nous sommes les descendants d'Abraham et nous n'avons jamais été les esclaves de personne. Comment peux-tu nous dire: “Vous deviendrez libres”?»
@@ -3675,7 +3705,7 @@
 36 Si le Fils vous libère, vous serez alors vraiment libres.
 37 Je sais que vous êtes les descendants d'Abraham. Mais vous cherchez à me faire mourir, parce que vous refusez mes paroles.
 38 Moi, je parle de ce que mon Père m'a montré, mais vous, vous faites ce que votre père vous a dit.»
-39 Ils lui répliquèrent: «Notre père, c'est Abraham.» – «Si vous étiez vraiment les enfants d'Abraham, leur dit Jésus, vous feriez les actions qu'il a faites.
+39 Ils lui répliquèrent: «Notre père, c'est Abraham.» «Si vous étiez vraiment les enfants d'Abraham, leur dit Jésus, vous feriez les actions qu'il a faites.
 40 Mais maintenant, bien que je vous aie dit la vérité que j'ai apprise de Dieu, vous cherchez à me faire mourir. Abraham n'a rien fait de semblable!
 41 Vous, vous faites les mêmes actions que votre père.» Ils lui répondirent: «Nous ne sommes pas des enfants illégitimes. Nous avons un seul Père, Dieu.»
 42 Jésus leur dit: «Si Dieu était vraiment votre Père, vous m'aimeriez, car je suis venu de Dieu et je suis ici de sa part. Je ne suis pas venu de moi-même, mais c'est lui qui m'a envoyé.
@@ -3683,8 +3713,9 @@
 44 Vous avez pour père le diable et vous voulez faire ce que votre père désire. Il a été meurtrier dès le commencement. Il ne s'est jamais tenu dans la vérité parce qu'il n'y a pas de vérité en lui. Quand il dit des mensonges, il parle de la manière qui lui est naturelle, parce qu'il est menteur et père du mensonge.
 45 Mais moi je dis la vérité et c'est pourquoi vous ne me croyez pas.
 46 Qui d'entre vous peut prouver que j'ai péché? Et si je dis la vérité, pourquoi ne me croyez-vous pas?
-47 Celui qui est de Dieu écoute les paroles de Dieu. Mais vous n'êtes pas de Dieu et c'est pourquoi vous n'écoutez pas.» Jésus et Abraham
-48 Les Juifs répondirent à Jésus: «N'avons-nous pas raison de dire que tu es un Samaritain et que tu es possédé d'un esprit mauvais?» –
+47 Celui qui est de Dieu écoute les paroles de Dieu. Mais vous n'êtes pas de Dieu et c'est pourquoi vous n'écoutez pas.»
+0 Jésus et Abraham
+48 Les Juifs répondirent à Jésus: «N'avons-nous pas raison de dire que tu es un Samaritain et que tu es possédé d'un esprit mauvais?»
 49 «Je ne suis pas possédé, répondit Jésus, mais j'honore mon Père et vous, vous refusez de m'honorer.
 50 Je ne cherche pas la gloire pour moi-même. Il en est un qui la cherche pour moi et qui juge.
 51 Oui, je vous le déclare, c'est la vérité: celui qui obéit à mes paroles ne mourra jamais.»
@@ -3695,24 +3726,26 @@
 56 Abraham, votre père, s'est réjoui à la pensée de voir mon jour; il l'a vu et en a été heureux.»
 57 Les Juifs lui dirent: «Tu n'as pas encore cinquante ans et tu as vu Abraham?»
 58 Jésus leur répondit: «Oui, je vous le déclare, c'est la vérité: avant qu'Abraham soit né, “je suis”.»
-59 Ils ramassèrent alors des pierres pour les jeter contre lui. Mais Jésus se cacha et sortit du temple. Jésus guérit un homme aveugle de naissance
+59 Ils ramassèrent alors des pierres pour les jeter contre lui. Mais Jésus se cacha et sortit du temple.
+0 Jésus guérit un homme aveugle de naissance
 1 En chemin, Jésus vit un homme qui était aveugle depuis sa naissance.
 2 Ses disciples lui demandèrent: «Maître, pourquoi cet homme est-il né aveugle: à cause de son propre péché ou à cause du péché de ses parents?»
 3 Jésus répondit: «Ce n'est ni à cause de son péché, ni à cause du péché de ses parents. Il est aveugle pour que l'œuvre de Dieu puisse se manifester en lui.
 4 Pendant qu'il fait jour, nous devons accomplir les œuvres de celui qui m'a envoyé. La nuit s'approche, où personne ne peut travailler.
 5 Pendant que je suis dans le monde, je suis la lumière du monde.»
 6 Après avoir dit ces mots, Jésus cracha par terre et fit un peu de boue avec sa salive; il frotta les yeux de l'aveugle avec cette boue
-7 et lui dit: «Va te laver la figure à la piscine de Siloé.» – Ce nom signifie «Envoyé». – L'aveugle y alla, se lava la figure et, quand il revint, il voyait!
+7 et lui dit: «Va te laver la figure à la piscine de Siloé.» Ce nom signifie «Envoyé». L'aveugle y alla, se lava la figure et, quand il revint, il voyait!
 8 Ses voisins et ceux qui l'avaient vu mendier auparavant demandaient: «N'est-ce pas cet homme qui se tenait assis pour mendier?»
 9 Les uns disaient: «C'est lui.» D'autres disaient: «Non, ce n'est pas lui, mais il lui ressemble.» Et l'homme disait: «C'est bien moi.»
 10 Ils lui demandèrent: «Comment donc tes yeux ont-ils été guéris?»
 11 Il répondit: «L'homme appelé Jésus a fait un peu de boue, il en a frotté mes yeux et m'a dit: “Va à Siloé te laver la figure.” J'y suis allé et, après m'être lavé, je voyais!»
-12 Ils lui demandèrent: «Où est cet homme?» – «Je ne sais pas», répondit-il. Les Pharisiens interrogent l'aveugle guéri
+12 Ils lui demandèrent: «Où est cet homme?» «Je ne sais pas», répondit-il.
+0 Les Pharisiens interrogent l'aveugle guéri
 13 On amena alors aux Pharisiens l'homme qui avait été aveugle.
 14 Or, Jésus avait fait de la boue et lui avait guéri les yeux un jour de sabbat.
 15 C'est pourquoi les Pharisiens, eux aussi, demandèrent à l'homme ce qui s'était passé pour qu'il voie maintenant. Il leur dit: «Il m'a mis un peu de boue sur les yeux, je me suis lavé la figure et maintenant je vois.»
 16 Quelques Pharisiens disaient: «Celui qui a fait cela ne peut pas venir de Dieu, car il n'obéit pas à la loi du sabbat.» Mais d'autres répliquaient: «Comment un pécheur pourrait-il faire de tels signes miraculeux?» Et ils étaient divisés entre eux.
-17 Les Pharisiens demandèrent encore à l'aveugle guéri: «Et toi, que dis-tu de celui qui a guéri tes yeux?» – «C'est un prophète», répondit-il.
+17 Les Pharisiens demandèrent encore à l'aveugle guéri: «Et toi, que dis-tu de celui qui a guéri tes yeux?» «C'est un prophète», répondit-il.
 18 Cependant, les chefs juifs ne voulaient pas croire qu'il avait été aveugle et que maintenant il voyait. C'est pourquoi ils convoquèrent ses parents
 19 pour les interroger. Ils leur demandèrent: «Est-ce bien là votre fils? Affirmez-vous qu'il est né aveugle? Que s'est-il donc passé pour qu'il voie maintenant?»
 20 Les parents répondirent: «Nous savons que c'est notre fils et qu'il est né aveugle.
@@ -3721,7 +3754,7 @@
 23 Voilà pourquoi les parents dirent: «Il est d'âge à répondre, interrogez-le!»
 24 Les Pharisiens appelèrent une seconde fois l'homme qui avait été aveugle et lui dirent: «Dis la vérité devant Dieu. Nous savons que cet homme est un pécheur.»
 25 Il répondit: «Je ne sais pas s'il est pécheur ou non. Mais je sais une chose: j'étais aveugle et maintenant je vois.»
-26 Ils lui demandèrent: «Que t'a-t-il fait? Comment a-t-il guéri tes yeux?» –
+26 Ils lui demandèrent: «Que t'a-t-il fait? Comment a-t-il guéri tes yeux?»
 27 «Je vous l'ai déjà dit, répondit-il, mais vous ne m'avez pas écouté. Pourquoi voulez-vous me l'entendre dire encore une fois? Peut-être désirez-vous, vous aussi, devenir ses disciples?»
 28 Ils l'injurièrent et dirent: «C'est toi qui es disciple de cet homme! Nous, nous sommes disciples de Moïse.
 29 Nous savons que Dieu a parlé à Moïse; mais lui, nous ne savons même pas d'où il vient!»
@@ -3729,20 +3762,23 @@
 31 Nous savons que Dieu n'écoute pas les pécheurs, mais qu'il écoute tout être qui le respecte et obéit à sa volonté.
 32 On n'a jamais entendu dire que quelqu'un ait guéri les yeux d'une personne née aveugle.
 33 Si cet homme ne venait pas de Dieu, il ne pourrait rien faire.»
-34 Ils lui répondirent: «Tu es tout entier dans le péché depuis ta naissance et tu veux nous faire la leçon?» Et ils le chassèrent de la synagogue. L'aveuglement spirituel
-35 Jésus apprit qu'ils l'avaient chassé. Il le rencontra et lui demanda: «Crois-tu au Fils de l'homme?» –
+34 Ils lui répondirent: «Tu es tout entier dans le péché depuis ta naissance et tu veux nous faire la leçon?» Et ils le chassèrent de la synagogue.
+0 L'aveuglement spirituel
+35 Jésus apprit qu'ils l'avaient chassé. Il le rencontra et lui demanda: «Crois-tu au Fils de l'homme?»
 36 «Dis-moi qui c'est, Maître, répondit l'homme, pour que je puisse croire en lui.»
-37 Jésus lui dit: «Eh bien, tu le vois; c'est lui qui te parle maintenant.» –
+37 Jésus lui dit: «Eh bien, tu le vois; c'est lui qui te parle maintenant.»
 38 «Je crois, Seigneur», dit l'homme. Et il se mit à genoux devant Jésus.
 39 Jésus dit alors: «Je suis venu dans ce monde pour qu'un jugement ait lieu: pour que les aveugles voient et que ceux qui voient deviennent aveugles.»
 40 Quelques Pharisiens, qui se trouvaient près de lui, entendirent ces paroles et lui demandèrent: «Sommes-nous des aveugles, nous aussi?»
-41 Jésus leur répondit: «Si vous étiez aveugles, vous ne seriez pas coupables; mais comme vous dites: “Nous voyons”, vous restez coupables.» La parabole du berger et des brebis
+41 Jésus leur répondit: «Si vous étiez aveugles, vous ne seriez pas coupables; mais comme vous dites: “Nous voyons”, vous restez coupables.»
+0 La parabole du berger et des brebis
 1 Jésus dit: «Oui, je vous le déclare, c'est la vérité: celui qui n'entre pas par la porte dans l'enclos des brebis, mais qui passe par-dessus le mur à un autre endroit, celui-là est un voleur, un brigand.
 2 Mais celui qui entre par la porte est le berger des brebis.
 3 Le gardien lui ouvre la porte et les brebis écoutent sa voix. Il appelle ses brebis chacune par son nom et les mène dehors.
 4 Quand il les a toutes fait sortir, il marche devant elles et les brebis le suivent, parce qu'elles connaissent sa voix.
 5 Mais elles ne suivront pas un inconnu; au contraire, elles fuiront loin de lui, parce qu'elles ne connaissent pas sa voix.»
-6 Jésus leur raconta cette parabole, mais ses auditeurs ne comprirent pas ce qu'il voulait dire. Jésus, le bon berger
+6 Jésus leur raconta cette parabole, mais ses auditeurs ne comprirent pas ce qu'il voulait dire.
+0 Jésus, le bon berger
 7 Jésus dit encore: «Oui, je vous le déclare, c'est la vérité: je suis la porte de l'enclos des brebis.
 8 Tous ceux qui sont venus avant moi sont des voleurs, des brigands; mais les brebis ne les ont pas écoutés.
 9 Je suis la porte. Celui qui entre en passant par moi sera sauvé; il pourra entrer et sortir, et il trouvera sa nourriture.
@@ -3757,7 +3793,8 @@
 18 Personne ne me prend la vie, mais je la donne volontairement. J'ai le pouvoir de la donner et j'ai le pouvoir de l'obtenir à nouveau. Cela correspond à l'ordre que mon Père m'a donné.»
 19 Les Juifs furent de nouveau divisés à cause de ces paroles.
 20 Beaucoup d'entre eux disaient: «Il est possédé d'un esprit mauvais! Il est fou! Pourquoi l'écoutez-vous?»
-21 D'autres disaient: «Un possédé ne parlerait pas ainsi. Un esprit mauvais peut-il rendre la vue aux aveugles?» Jésus est rejeté
+21 D'autres disaient: «Un possédé ne parlerait pas ainsi. Un esprit mauvais peut-il rendre la vue aux aveugles?»
+0 Jésus est rejeté
 22 C'était l'hiver et l'on célébrait à Jérusalem la fête de la Dédicace.
 23 Jésus allait et venait dans la galerie à colonnes de Salomon, au temple.
 24 Les Juifs se rassemblèrent alors autour de lui et lui dirent: «Jusqu'à quand vas-tu nous maintenir dans l'incertitude? Si tu es le Messie, dis-le-nous franchement.»
@@ -3778,9 +3815,10 @@
 39 Ils cherchèrent une fois de plus à l'arrêter, mais il leur échappa.
 40 Jésus s'en alla de nouveau de l'autre côté de la rivière, le Jourdain, à l'endroit où Jean avait baptisé précédemment, et il y resta.
 41 Beaucoup de gens vinrent à lui. Ils disaient: «Jean n'a fait aucun signe miraculeux, mais tout ce qu'il a dit de cet homme était vrai.»
-42 Et là, beaucoup crurent en Jésus. La mort de Lazare
+42 Et là, beaucoup crurent en Jésus.
+0 La mort de Lazare
 1 Un homme appelé Lazare tomba malade. Il habitait Béthanie, le village où vivaient Marie et sa sœur Marthe.
-2 – Marie était cette femme qui répandit du parfum sur les pieds du Seigneur et les essuya avec ses cheveux, et c'était son frère Lazare qui était malade. –
+2 Marie était cette femme qui répandit du parfum sur les pieds du Seigneur et les essuya avec ses cheveux, et c'était son frère Lazare qui était malade.
 3 Les deux sœurs envoyèrent quelqu'un dire à Jésus: «Seigneur, ton ami est malade.»
 4 Lorsque Jésus apprit cette nouvelle, il dit: «La maladie de Lazare ne le fera pas mourir; elle doit servir à montrer la puissance glorieuse de Dieu et à manifester ainsi la gloire du Fils de Dieu.»
 5 Jésus aimait Marthe et sa sœur, ainsi que Lazare.
@@ -3794,7 +3832,8 @@
 13 En fait, Jésus avait parlé de la mort de Lazare, mais les disciples pensaient qu'il parlait du sommeil ordinaire.
 14 Jésus leur dit alors clairement: «Lazare est mort.
 15 Je me réjouis pour vous de n'avoir pas été là-bas, parce qu'ainsi vous croirez en moi. Mais allons auprès de lui.»
-16 Alors Thomas – surnommé le Jumeau – dit aux autres disciples: «Allons-y, nous aussi, pour mourir avec notre Maître!» Jésus est la résurrection et la vie
+16 Alors Thomas surnommé le Jumeau dit aux autres disciples: «Allons-y, nous aussi, pour mourir avec notre Maître!»
+0 Jésus est la résurrection et la vie
 17 Quand Jésus arriva, il apprit que Lazare était dans la tombe depuis quatre jours déjà.
 18 Béthanie est proche de Jérusalem, à moins de trois kilomètres,
 19 et beaucoup de Juifs étaient venus chez Marthe et Marie pour les consoler de la mort de leur frère.
@@ -3804,8 +3843,9 @@
 23 Jésus lui dit: «Ton frère se relèvera de la mort.»
 24 Marthe répondit: «Je sais qu'il se relèvera lors de la résurrection des morts, au dernier jour.»
 25 Jésus lui dit: «Je suis la résurrection et la vie. Celui qui croit en moi vivra, même s'il meurt;
-26 et celui qui vit et croit en moi ne mourra jamais. Crois-tu cela?» –
-27 «Oui, Seigneur, répondit-elle, je crois que tu es le Messie, le Fils de Dieu, celui qui devait venir dans le monde.» Jésus pleure
+26 et celui qui vit et croit en moi ne mourra jamais. Crois-tu cela?»
+27 «Oui, Seigneur, répondit-elle, je crois que tu es le Messie, le Fils de Dieu, celui qui devait venir dans le monde.»
+0 Jésus pleure
 28 Sur ces mots, Marthe s'en alla appeler sa sœur Marie et lui dit tout bas: «Le Maître est là et il te demande de venir.»
 29 Dès que Marie eut entendu cela, elle se leva et courut au-devant de Jésus.
 30 Or, Jésus n'était pas encore entré dans le village, mais il se trouvait toujours à l'endroit où Marthe l'avait rencontré.
@@ -3815,14 +3855,16 @@
 34 et il leur demanda: «Où l'avez-vous mis?» Ils lui répondirent: «Seigneur, viens et tu verras.»
 35 Jésus pleura.
 36 Les Juifs dirent alors: «Voyez comme il l'aimait!»
-37 Mais quelques-uns d'entre eux dirent: «Lui qui a guéri les yeux de l'aveugle, ne pouvait-il pas aussi empêcher Lazare de mourir?» Lazare est ramené à la vie
+37 Mais quelques-uns d'entre eux dirent: «Lui qui a guéri les yeux de l'aveugle, ne pouvait-il pas aussi empêcher Lazare de mourir?»
+0 Lazare est ramené à la vie
 38 Jésus, de nouveau profondément ému, se rendit au tombeau. C'était une caverne, dont l'entrée était fermée par une grosse pierre.
 39 «Enlevez la pierre», dit Jésus. Marthe, la sœur du mort, lui dit: «Seigneur, il doit sentir mauvais, car il y a déjà quatre jours qu'il est ici.»
 40 Jésus lui répondit: «Ne te l'ai-je pas dit? Si tu crois, tu verras la gloire de Dieu.»
 41 On enleva donc la pierre. Jésus leva les yeux vers le ciel et dit: «Père, je te remercie de m'avoir écouté.
 42 Je sais que tu m'écoutes toujours, mais je le dis à cause de ces gens qui m'entourent, afin qu'ils croient que tu m'as envoyé.»
 43 Cela dit, il cria très fort: «Lazare, sors de là!»
-44 Le mort sortit, les pieds et les mains entourés de bandes et le visage enveloppé d'un linge. Jésus dit alors: «Déliez-le et laissez-le aller.» Le complot contre Jésus
+44 Le mort sortit, les pieds et les mains entourés de bandes et le visage enveloppé d'un linge. Jésus dit alors: «Déliez-le et laissez-le aller.»
+0 Le complot contre Jésus
 45 Beaucoup de Juifs, parmi ceux qui étaient venus chez Marie et avaient vu ce que Jésus avait fait, crurent en lui.
 46 Mais quelques-uns d'entre eux allèrent trouver les Pharisiens et leur racontèrent ce que Jésus avait fait.
 47 Les chefs des prêtres et les Pharisiens réunirent alors le Conseil supérieur et dirent: «Qu'allons-nous faire? Car cet homme réalise beaucoup de signes miraculeux!
@@ -3835,18 +3877,21 @@
 54 C'est pourquoi Jésus cessa d'aller et venir en public parmi les Juifs. Il se rendit dans une région voisine du désert, dans une localité appelée Éfraïm, où il resta avec ses disciples.
 55 La fête juive de la Pâque était proche, et beaucoup de gens du pays se rendirent à Jérusalem pour se purifier avant cette fête.
 56 Ils cherchaient Jésus et, alors qu'ils se tenaient dans le temple, ils se demandaient les uns aux autres: «Qu'en pensez-vous? Viendra-t-il à la fête ou non?»
-57 Les chefs des prêtres et les Pharisiens avaient ordonné que si quelqu'un savait où était Jésus, il devait les avertir, afin qu'on puisse l'arrêter. Marie met du parfum sur les pieds de Jésus
+57 Les chefs des prêtres et les Pharisiens avaient ordonné que si quelqu'un savait où était Jésus, il devait les avertir, afin qu'on puisse l'arrêter.
+0 Marie met du parfum sur les pieds de Jésus
 1 Six jours avant la Pâque, Jésus se rendit à Béthanie, où vivait Lazare, l'homme qu'il avait ramené d'entre les morts.
 2 Là, on lui offrit un repas, servi par Marthe. Lazare était un de ceux qui se trouvaient à table avec Jésus.
 3 Marie prit alors un demi-litre d'un parfum très cher, fait de nard pur, et le répandit sur les pieds de Jésus, puis elle les essuya avec ses cheveux. Toute la maison se remplit de l'odeur du parfum.
-4 L'un des disciples de Jésus, Judas Iscariote – celui qui allait le trahir – dit alors:
+4 L'un des disciples de Jésus, Judas Iscariote celui qui allait le trahir dit alors:
 5 «Pourquoi n'a-t-on pas vendu ce parfum trois cents pièces d'argent pour les donner aux pauvres?»
 6 Il disait cela non parce qu'il se souciait des pauvres, mais parce qu'il était voleur: il tenait la bourse et prenait ce qu'on y mettait.
 7 Mais Jésus dit: «Laisse-la tranquille! Elle a fait cela en vue du jour où l'on me mettra dans la tombe.
-8 Vous aurez toujours des pauvres avec vous, mais moi, vous ne m'aurez pas toujours avec vous.» Le complot contre Lazare
+8 Vous aurez toujours des pauvres avec vous, mais moi, vous ne m'aurez pas toujours avec vous.»
+0 Le complot contre Lazare
 9 La foule nombreuse des Juifs apprit que Jésus était à Béthanie. Ils y allèrent non seulement à cause de Jésus, mais aussi pour voir Lazare que Jésus avait ramené d'entre les morts.
 10 Les chefs des prêtres décidèrent alors de faire mourir aussi Lazare,
-11 parce que beaucoup de Juifs les quittaient à cause de lui et croyaient en Jésus. Jésus entre à Jérusalem
+11 parce que beaucoup de Juifs les quittaient à cause de lui et croyaient en Jésus.
+0 Jésus entre à Jérusalem
 12 Le lendemain, la foule nombreuse qui était venue pour la fête de la Pâque apprit que Jésus arrivait à Jérusalem.
 13 Tous prirent alors des branches de palmiers et sortirent de la ville pour aller à sa rencontre; ils criaient: «Gloire à Dieu! Que Dieu bénisse celui qui vient au nom du Seigneur! Que Dieu bénisse le roi d'Israël!»
 14 Jésus trouva un âne et s'assit dessus, comme le déclare l'Écriture:
@@ -3854,14 +3899,16 @@
 16 Tout d'abord, ses disciples ne comprirent pas ces faits; mais lorsque Jésus eut été élevé à la gloire, ils se rappelèrent que l'Écriture avait annoncé cela à son sujet et qu'on avait accompli pour lui ce qu'elle disait.
 17 Tous ceux qui étaient avec Jésus quand il avait appelé Lazare hors du tombeau et l'avait ramené d'entre les morts, racontaient ce qu'ils avaient vu.
 18 C'est pourquoi la foule vint à sa rencontre: les gens avaient appris qu'il avait fait ce signe miraculeux.
-19 Les Pharisiens se dirent alors entre eux: «Vous voyez que vous n'y pouvez rien: tout le monde s'est mis à le suivre!» Quelques Grecs cherchent Jésus
+19 Les Pharisiens se dirent alors entre eux: «Vous voyez que vous n'y pouvez rien: tout le monde s'est mis à le suivre!»
+0 Quelques Grecs cherchent Jésus
 20 Quelques Grecs se trouvaient parmi ceux qui étaient venus à Jérusalem pour adorer Dieu pendant la fête.
 21 Ils s'approchèrent de Philippe, qui était de Bethsaïda en Galilée, et lui dirent: «Maître, nous désirons voir Jésus.»
 22 Philippe alla le dire à André, puis tous deux allèrent le dire à Jésus.
 23 Jésus leur répondit: «L'heure est maintenant venue où le Fils de l'homme va être élevé à la gloire.
 24 Oui, je vous le déclare, c'est la vérité: un grain de blé reste un seul grain s'il ne tombe pas en terre et ne meurt pas. Mais s'il meurt, il produit beaucoup de grains.
 25 Celui qui aime sa vie la perdra, mais celui qui refuse de s'y attacher dans ce monde la gardera pour la vie éternelle.
-26 Si quelqu'un veut me servir, il doit me suivre; ainsi, mon serviteur sera aussi là où je suis. Mon Père honorera celui qui me sert.» Jésus parle de sa mort
+26 Si quelqu'un veut me servir, il doit me suivre; ainsi, mon serviteur sera aussi là où je suis. Mon Père honorera celui qui me sert.»
+0 Jésus parle de sa mort
 27 «Maintenant mon cœur est troublé. Et que dirai-je? Dirai-je: Père, délivre-moi de cette heure de souffrance? Mais c'est précisément pour cette heure que je suis venu.
 28 Père, donne gloire à ton nom!» Une voix se fit alors entendre du ciel: «Je l'ai déjà glorifié et je le glorifierai de nouveau.»
 29 La foule qui se trouvait là et avait entendu la voix disait: «C'était un coup de tonnerre!» D'autres disaient: «Un ange lui a parlé!»
@@ -3871,21 +3918,25 @@
 33 Par ces mots, Jésus indiquait de quel genre de mort il allait mourir.
 34 La foule lui répondit: «Nous avons appris dans les livres de notre loi que le Messie vivra toujours. Alors, comment peux-tu dire que le Fils de l'homme doit être élevé? Qui est ce Fils de l'homme?»
 35 Jésus leur dit: «La lumière est encore parmi vous, mais pour peu de temps. Marchez pendant que vous avez la lumière, pour que l'obscurité ne vous surprenne pas, car celui qui marche dans l'obscurité ne sait pas où il va.
-36 Croyez donc en la lumière pendant que vous l'avez, afin que vous deveniez des êtres de lumière.» Les Juifs ne croient pas en Jésus Après avoir ainsi parlé, Jésus s'en alla et se cacha loin d'eux.
+36 Croyez donc en la lumière pendant que vous l'avez, afin que vous deveniez des êtres de lumière.
+0 Les Juifs ne croient pas en 
+0 Après avoir ainsi parlé, Jésus s'en alla et se cacha loin d'eux.
 37 Bien qu'il eût fait tant de signes miraculeux devant eux, ils ne croyaient pas en lui.
 38 Ainsi se réalisait ce qu'avait dit le prophète Ésaïe: «Seigneur, qui a cru notre message? A qui le Seigneur a-t-il révélé son intervention?»
 39 Ésaïe a dit aussi pourquoi ces gens ne pouvaient pas croire:
 40 «Dieu a rendu leurs yeux aveugles, il a fermé leur intelligence, afin que leurs yeux ne voient pas, que leur intelligence ne comprenne pas. Et voilà pourquoi, dit Dieu, ils ne se tournent pas vers moi pour que je les guérisse.»
 41 Ésaïe a dit cela parce qu'il avait vu la gloire de Jésus et qu'il parlait de lui.
 42 Cependant, parmi les chefs juifs eux-mêmes, beaucoup crurent en Jésus. Mais, à cause des Pharisiens, ils ne le déclaraient pas, pour ne pas être exclus de la synagogue.
-43 Ils préféraient l'approbation qui vient des hommes à celle qui vient de Dieu. Le jugement par la parole de Jésus
+43 Ils préféraient l'approbation qui vient des hommes à celle qui vient de Dieu.
+0 Le jugement par la parole de Jésus
 44 Jésus s'écria: «Celui qui croit en moi, croit en réalité non pas en moi, mais en celui qui m'a envoyé.
 45 Celui qui me voit, voit celui qui m'a envoyé.
 46 Moi, je suis venu dans le monde comme lumière, afin que quiconque croit en moi ne reste pas dans l'obscurité.
 47 Si quelqu'un entend mes paroles et ne les met pas en pratique, ce n'est pas moi qui le condamne, car je suis venu pour sauver le monde et non pas pour le condamner.
 48 Celui qui me rejette et n'accepte pas mes paroles trouve là ce qui le condamne: c'est l'enseignement que j'ai donné qui le condamnera au dernier jour.
 49 En effet, je n'ai pas parlé de ma propre initiative, mais le Père qui m'a envoyé m'a ordonné lui-même ce que je devais dire et enseigner.
-50 Et je le sais: ce qu'il ordonne produit la vie éternelle. Ainsi, ce que je dis, je le dis comme mon Père me l'a ordonné.» Jésus lave les pieds de ses disciples
+50 Et je le sais: ce qu'il ordonne produit la vie éternelle. Ainsi, ce que je dis, je le dis comme mon Père me l'a ordonné.»
+0 Jésus lave les pieds de ses disciples
 1 C'était la veille de la fête de la Pâque. Jésus savait que l'heure était venue pour lui de quitter ce monde pour aller auprès du Père. Il avait toujours aimé les siens qui étaient dans le monde et il les aima jusqu'à la fin.
 2 Jésus et ses disciples prenaient le repas du soir. Le diable avait déjà persuadé Judas, fils de Simon Iscariote, de trahir Jésus.
 3 Jésus savait que lui-même était venu de Dieu et retournait à Dieu, et que le Père avait tout mis en son pouvoir.
@@ -3905,7 +3956,8 @@
 17 Maintenant vous savez cela; vous serez heureux si vous le mettez en pratique.
 18 Je ne parle pas de vous tous; je connais ceux que j'ai choisis. Mais il faut que cette parole de l'Écriture se réalise: “Celui avec qui je partageais mon pain s'est tourné contre moi.”
 19 Je vous le dis déjà maintenant, avant que la chose arrive, afin que lorsqu'elle arrivera vous croyiez que “je suis”.
-20 Oui, je vous le déclare, c'est la vérité: quiconque reçoit celui que j'envoie me reçoit aussi; et quiconque me reçoit, reçoit celui qui m'a envoyé.» Jésus annonce que Judas va le trahir
+20 Oui, je vous le déclare, c'est la vérité: quiconque reçoit celui que j'envoie me reçoit aussi; et quiconque me reçoit, reçoit celui qui m'a envoyé.»
+0 Jésus annonce que Judas va le trahir
 21 Après ces mots, Jésus fut profondément troublé et dit solennellement: «Oui, je vous le déclare, c'est la vérité: l'un de vous me trahira.»
 22 Les disciples se regardaient les uns les autres, sans savoir du tout de qui il parlait.
 23 L'un des disciples, celui que Jésus aimait, était placé à côté de Jésus.
@@ -3915,15 +3967,18 @@
 27 Dès que Judas eut pris le morceau, Satan entra en lui. Jésus lui dit: «Ce que tu as à faire, fais-le vite!»
 28 Aucun de ceux qui étaient à table ne comprit pourquoi il lui disait cela.
 29 Comme Judas tenait la bourse, plusieurs pensaient que Jésus lui demandait d'aller acheter ce qui leur était nécessaire pour la fête, ou d'aller faire un don aux pauvres.
-30 Judas prit donc le morceau de pain et sortit aussitôt. Il faisait nuit. Le nouveau commandement
+30 Judas prit donc le morceau de pain et sortit aussitôt. Il faisait nuit.
+0 Le nouveau commandement
 31 Après que Judas fut sorti, Jésus dit: «Maintenant la gloire du Fils de l'homme est révélée et la gloire de Dieu se révèle en lui.
 32 [Et si la gloire de Dieu se révèle en lui,] Dieu aussi manifestera en lui-même la gloire du Fils et il le fera bientôt.
 33 Mes enfants, je ne suis avec vous que pour peu de temps encore. Vous me chercherez, mais je vous dis maintenant ce que j'ai dit aux autres Juifs: vous ne pouvez pas aller là où je vais.
 34 Je vous donne un commandement nouveau: aimez-vous les uns les autres. Il faut que vous vous aimiez les uns les autres comme je vous ai aimés.
-35 Si vous vous aimez les uns les autres, alors tous sauront que vous êtes mes disciples.» Jésus annonce que Pierre le reniera
+35 Si vous vous aimez les uns les autres, alors tous sauront que vous êtes mes disciples.»
+0 Jésus annonce que Pierre le reniera
 36 Simon Pierre lui demanda: «Seigneur, où vas-tu?» Jésus lui répondit: «Tu ne peux pas me suivre maintenant là où je vais, mais tu me suivras plus tard.»
 37 Pierre lui dit: «Seigneur, pourquoi ne puis-je pas te suivre maintenant? Je suis prêt à donner ma vie pour toi!»
-38 Jésus répondit: «Es-tu vraiment prêt à donner ta vie pour moi? Eh bien, je te le déclare, c'est la vérité: avant que le coq chante, tu auras prétendu trois fois ne pas me connaître.» Jésus est le chemin qui conduit au Père
+38 Jésus répondit: «Es-tu vraiment prêt à donner ta vie pour moi? Eh bien, je te le déclare, c'est la vérité: avant que le coq chante, tu auras prétendu trois fois ne pas me connaître.»
+0 Jésus est le chemin qui conduit au Père
 1 «Ne soyez pas si inquiets, leur dit Jésus. Ayez confiance en Dieu et ayez aussi confiance en moi.
 2 Il y a beaucoup de place dans la maison de mon Père; sinon vous aurais-je dit que j'allais vous préparer le lieu où vous serez?
 3 Et après être allé vous préparer une place, je reviendrai et je vous prendrai auprès de moi, afin que vous soyez, vous aussi, là où je suis.
@@ -3937,7 +3992,8 @@
 11 Croyez-moi quand je dis: je vis dans le Père et le Père vit en moi. Ou, du moins, croyez à cause de ces œuvres.
 12 Oui, je vous le déclare, c'est la vérité: celui qui croit en moi fera aussi les œuvres que je fais. Il en fera même de plus grandes, parce que je vais auprès du Père.
 13 Et je ferai tout ce que vous demanderez en mon nom, afin que le Fils manifeste la gloire du Père.
-14 Si vous me demandez quelque chose en mon nom, je le ferai.» La promesse de l'envoi du Saint-Esprit
+14 Si vous me demandez quelque chose en mon nom, je le ferai.»
+0 La promesse de l'envoi du Saint-Esprit
 15 «Si vous m'aimez, vous obéirez à mes commandements.
 16 Je demanderai au Père de vous donner quelqu'un d'autre pour vous venir en aide, afin qu'il soit toujours avec vous:
 17 c'est l'Esprit de vérité. Le monde ne peut pas le recevoir, parce qu'il ne peut ni le voir ni le connaître. Mais vous, vous le connaissez, parce qu'il demeure avec vous et qu'il sera toujours en vous.
@@ -3945,7 +4001,7 @@
 19 Dans peu de temps le monde ne me verra plus, mais vous, vous me verrez, parce que je vis et que vous vivrez aussi.
 20 Ce jour-là, vous comprendrez que je vis uni à mon Père et que vous êtes unis à moi et moi à vous.
 21 «Celui qui retient mes commandements et leur obéit, voilà celui qui m'aime. Mon Père aimera celui qui m'aime; je l'aimerai aussi et je me montrerai à lui.»
-22 Jude – non pas Judas Iscariote – lui dit: «Seigneur, comment se fait-il que tu doives te montrer à nous et non au monde?»
+22 Jude non pas Judas Iscariote lui dit: «Seigneur, comment se fait-il que tu doives te montrer à nous et non au monde?»
 23 Jésus lui répondit: «Celui qui m'aime obéira à ce que je dis. Mon Père l'aimera; nous viendrons à lui, mon Père et moi, et nous habiterons chez lui.
 24 Celui qui ne m'aime pas n'obéit pas à mes paroles. Ce que vous m'entendez dire ne vient pas de moi, mais de mon Père qui m'a envoyé.
 25 Je vous ai dit cela pendant que je suis encore avec vous.
@@ -3954,7 +4010,8 @@
 28 Vous m'avez entendu dire: “Je m'en vais, mais je reviendrai auprès de vous.” Si vous m'aimiez, vous vous réjouiriez de savoir que je vais auprès du Père, parce que le Père est plus grand que moi.
 29 Je vous l'ai dit maintenant, avant que ces choses arrivent, afin que lorsqu'elles arriveront vous croyiez.
 30 Je ne parlerai plus beaucoup avec vous, car le dominateur de ce monde vient. Il n'a aucun pouvoir sur moi,
-31 mais il faut que le monde sache que j'aime le Père et que j'agis comme le Père me l'a ordonné. Levez-vous, partons d'ici!» Jésus, la vraie vigne
+31 mais il faut que le monde sache que j'aime le Père et que j'agis comme le Père me l'a ordonné. Levez-vous, partons d'ici!»
+0 Jésus, la vraie vigne
 1 «Je suis la vraie vigne et mon Père est le vigneron.
 2 Il enlève tout rameau qui, uni à moi, ne porte pas de fruit, mais il taille, il purifie chaque rameau qui porte des fruits pour qu'il en porte encore plus.
 3 L'enseignement que je vous ai donné vous a déjà rendus purs.
@@ -3971,7 +4028,8 @@
 14 Vous êtes mes amis si vous faites ce que je vous commande.
 15 Je ne vous appelle plus serviteurs, parce que le serviteur ne sait pas ce que fait son maître. Je vous appelle amis, parce que je vous ai fait connaître tout ce que j'ai appris de mon Père.
 16 Ce n'est pas vous qui m'avez choisi, c'est moi qui vous ai choisis; je vous ai chargés d'aller, de porter des fruits et des fruits durables. Alors, le Père vous donnera tout ce que vous lui demanderez en mon nom.
-17 Ce que je vous commande, donc, c'est de vous aimer les uns les autres.» Le monde hait Jésus et les siens
+17 Ce que je vous commande, donc, c'est de vous aimer les uns les autres.»
+0 Le monde hait Jésus et les siens
 18 «Si le monde a de la haine pour vous, sachez qu'il m'a haï avant vous.
 19 Si vous apparteniez au monde, le monde vous aimerait parce que vous seriez à lui. Mais je vous ai choisis et pris hors du monde, et vous n'appartenez plus au monde: c'est pourquoi le monde vous hait.
 20 Rappelez-vous ce que je vous ai dit: “Un serviteur n'est pas plus grand que son maître.” Si les gens m'ont persécuté, ils vous persécuteront aussi; s'ils ont obéi à mon enseignement, ils obéiront aussi au vôtre.
@@ -3985,7 +4043,9 @@
 1 «Je vous ai dit cela pour que vous n'abandonniez pas la foi.
 2 On vous exclura des synagogues. Et même, le moment viendra où ceux qui vous tueront s'imagineront servir Dieu de cette façon.
 3 Ils agiront ainsi parce qu'ils n'ont connu ni le Père, ni moi.
-4 Mais je vous ai dit cela pour que, lorsque ce moment sera venu, vous vous rappeliez que je vous l'avais dit.» L'œuvre du Saint-Esprit «Je ne vous ai pas dit cela dès le commencement, car j'étais avec vous.
+4 Mais je vous ai dit cela pour que, lorsque ce moment sera venu, vous vous rappeliez que je vous l'avais dit.»
+0 L'œuvre du Saint-Esprit
+0 «Je ne vous ai pas dit cela dès le commencement, car j'étais avec vous.
 5 Maintenant, je m'en vais auprès de celui qui m'a envoyé et aucun d'entre vous ne me demande: “Où vas-tu?”
 6 Mais la tristesse a rempli votre cœur parce que je vous ai parlé ainsi.
 7 Cependant, je vous dis la vérité: il est préférable pour vous que je parte; en effet, si je ne pars pas, celui qui doit vous venir en aide ne viendra pas à vous. Mais si je pars, je vous l'enverrai.
@@ -3996,7 +4056,8 @@
 12 «J'ai encore beaucoup de choses à vous dire, mais vous ne pourriez pas les supporter maintenant.
 13 Quand viendra l'Esprit de vérité, il vous conduira dans toute la vérité. Il ne parlera pas en son propre nom, mais il dira tout ce qu'il aura entendu et vous annoncera ce qui doit arriver.
 14 Il révélera ma gloire, car il recevra de ce qui est à moi et vous l'annoncera.
-15 Tout ce que le Père possède est aussi à moi. C'est pourquoi j'ai dit que l'Esprit recevra de ce qui est à moi et vous l'annoncera.» La tristesse se changera en joie
+15 Tout ce que le Père possède est aussi à moi. C'est pourquoi j'ai dit que l'Esprit recevra de ce qui est à moi et vous l'annoncera.»
+0 La tristesse se changera en joie
 16 «D'ici peu vous ne me verrez plus, puis peu de temps après vous me reverrez.»
 17 Quelques-uns de ses disciples se dirent alors entre eux: «Qu'est-ce que cela signifie? Il nous déclare: “D'ici peu vous ne me verrez plus, puis peu de temps après vous me reverrez”, et aussi: “C'est parce que je m'en vais auprès du Père”.
 18 Que signifie ce “peu de temps” dont il parle? Nous ne comprenons pas ce qu'il veut dire.»
@@ -4005,7 +4066,8 @@
 21 Quand une femme va mettre un enfant au monde, elle est en peine parce que le moment de souffrir est arrivé pour elle; mais quand le bébé est né, elle oublie ses souffrances tant elle a de joie qu'un être humain soit venu au monde.
 22 De même, vous êtes dans la peine, vous aussi, maintenant; mais je vous reverrai, alors votre cœur se réjouira, et votre joie, personne ne peut vous l'enlever.
 23 «Quand viendra ce jour, vous ne m'interrogerez plus sur rien. Oui, je vous le déclare, c'est la vérité: le Père vous donnera tout ce que vous lui demanderez en mon nom.
-24 Jusqu'à maintenant, vous n'avez rien demandé en mon nom. Demandez et vous recevrez, et ainsi votre joie sera complète.» Jésus est vainqueur du monde
+24 Jusqu'à maintenant, vous n'avez rien demandé en mon nom. Demandez et vous recevrez, et ainsi votre joie sera complète.»
+0 Jésus est vainqueur du monde
 25 «Je vous ai dit tout cela en utilisant des paraboles. Le moment viendra où je ne vous parlerai plus ainsi, mais où je vous annoncerai clairement ce qui se rapporte au Père.
 26 Ce jour-là, vous adresserez vos demandes au Père en mon nom; et je ne vous dis pas que je le prierai pour vous,
 27 car le Père lui-même vous aime. Il vous aime parce que vous m'aimez et que vous croyez que je suis venu de Dieu.
@@ -4014,7 +4076,8 @@
 30 Maintenant nous savons que tu connais tout et que tu n'as pas besoin d'attendre qu'on t'interroge. C'est pourquoi nous croyons que tu es venu de Dieu.»
 31 Jésus leur répondit: «Vous croyez maintenant?
 32 Eh bien, le moment vient, et il est déjà là, où vous serez tous dispersés, chacun retournera chez soi et vous me laisserez seul. Non, je ne suis pas vraiment seul, car le Père est avec moi.
-33 Je vous ai dit tout cela pour que vous ayez la paix en restant unis à moi. Vous aurez à souffrir dans le monde. Mais courage! J'ai vaincu le monde!» Jésus prie pour ses disciples
+33 Je vous ai dit tout cela pour que vous ayez la paix en restant unis à moi. Vous aurez à souffrir dans le monde. Mais courage! J'ai vaincu le monde!»
+0 Jésus prie pour ses disciples
 1 Après avoir ainsi parlé, Jésus leva les yeux vers le ciel et dit: «Père, l'heure est venue. Manifeste la gloire de ton Fils, afin que le Fils manifeste aussi ta gloire.
 2 Tu lui as donné le pouvoir sur tous les êtres humains, pour qu'il donne la vie éternelle à ceux que tu lui as confiés.
 3 La vie éternelle consiste à te connaître, toi le seul véritable Dieu, et à connaître Jésus-Christ, que tu as envoyé.
@@ -4040,7 +4103,8 @@
 23 Je vis en eux, tu vis en moi; c'est ainsi qu'ils pourront être parfaitement un, afin que le monde reconnaisse que tu m'as envoyé et que tu les aimes comme tu m'aimes.
 24 Père, tu me les as donnés, et je désire qu'ils soient avec moi là où je suis, afin qu'ils voient ma gloire, la gloire que tu m'as donnée, parce que tu m'as aimé avant la création du monde.
 25 Père juste, le monde ne t'a pas connu, mais moi je t'ai connu et ceux-ci ont reconnu que tu m'as envoyé.
-26 Je t'ai fait connaître à eux et te ferai encore connaître, afin que l'amour que tu as pour moi soit en eux et que je sois moi-même en eux.» L'arrestation de Jésus
+26 Je t'ai fait connaître à eux et te ferai encore connaître, afin que l'amour que tu as pour moi soit en eux et que je sois moi-même en eux.»
+0 L'arrestation de Jésus
 1 Après ces mots, Jésus s'en alla avec ses disciples de l'autre côté du ruisseau du Cédron. Il y avait là un jardin dans lequel il entra avec ses disciples.
 2 Judas, celui qui le trahissait, connaissait aussi l'endroit, parce que Jésus et ses disciples y étaient souvent venus ensemble.
 3 Judas se rendit donc au jardin, emmenant avec lui une troupe de soldats et des gardes fournis par les chefs des prêtres et le parti des Pharisiens; ils étaient armés et portaient des lanternes et des flambeaux.
@@ -4051,34 +4115,41 @@
 8 Jésus leur répondit: «Je vous l'ai déjà dit, c'est moi. Si donc c'est moi que vous cherchez, laissez partir les autres.»
 9 C'est ainsi que devait se réaliser la parole qu'il avait dite: «Je n'ai perdu aucun de ceux que toi, Père, tu m'as confiés.»
 10 Simon Pierre avait une épée; il la tira, frappa le serviteur du grand-prêtre et lui coupa l'oreille droite. Ce serviteur s'appelait Malchus.
-11 Mais Jésus dit à Pierre: «Remets ton épée dans son fourreau. Penses-tu que je ne boirai pas la coupe de douleur que le Père m'a donnée?» Jésus est amené devant Hanne
+11 Mais Jésus dit à Pierre: «Remets ton épée dans son fourreau. Penses-tu que je ne boirai pas la coupe de douleur que le Père m'a donnée?»
+0 Jésus est amené devant Hanne
 12 La troupe de soldats avec leur commandant et les gardes des autorités juives se saisirent alors de Jésus et le ligotèrent.
 13 Ils le conduisirent tout d'abord chez Hanne. Celui-ci était le beau-père de Caïphe qui était grand-prêtre cette année-là.
-14 Or, c'est Caïphe qui avait donné ce conseil aux autorités juives: «Il est de votre intérêt qu'un seul homme meure pour tout le peuple.» Pierre nie être disciple de Jésus
+14 Or, c'est Caïphe qui avait donné ce conseil aux autorités juives: «Il est de votre intérêt qu'un seul homme meure pour tout le peuple.»
+0 Pierre nie être disciple de Jésus
 15 Simon Pierre et un autre disciple suivaient Jésus. Cet autre disciple était connu du grand-prêtre, si bien qu'il entra en même temps que Jésus dans la cour intérieure de la maison du grand-prêtre.
 16 Mais Pierre resta dehors, près de la porte. Alors l'autre disciple, celui qui était connu du grand-prêtre, sortit et parla à la femme qui gardait la porte, puis il fit entrer Pierre.
-17 La servante qui gardait la porte dit à Pierre: «N'es-tu pas, toi aussi, un des disciples de cet homme-là?» – «Non, je n'en suis pas», répondit-il.
-18 Il faisait froid; c'est pourquoi les serviteurs et les gardes avaient allumé un feu autour duquel ils se tenaient pour se réchauffer. Pierre aussi se tenait avec eux et se réchauffait. Le grand-prêtre interroge Jésus
+17 La servante qui gardait la porte dit à Pierre: «N'es-tu pas, toi aussi, un des disciples de cet homme-là?» «Non, je n'en suis pas», répondit-il.
+18 Il faisait froid; c'est pourquoi les serviteurs et les gardes avaient allumé un feu autour duquel ils se tenaient pour se réchauffer. Pierre aussi se tenait avec eux et se réchauffait.
+0 Le grand-prêtre interroge Jésus
 19 Le grand-prêtre interrogea alors Jésus sur ses disciples et sur l'enseignement qu'il donnait.
 20 Jésus lui répondit: «J'ai parlé ouvertement à tout le monde; j'ai toujours enseigné dans les synagogues et dans le temple, où se rassemblent tous les Juifs; je n'ai rien dit en cachette.
 21 Pourquoi m'interroges-tu? Demande à ceux qui m'ont entendu ce que je leur ai dit: ils savent bien, eux, de quoi je leur ai parlé.»
 22 A ces mots, un des gardes qui se trouvaient là donna une gifle à Jésus en disant: «Est-ce ainsi que tu réponds au grand-prêtre?»
 23 Jésus lui répondit: «Si j'ai dit quelque chose de mal, montre-nous en quoi; mais si ce que j'ai dit est juste, pourquoi me frappes-tu?»
-24 Hanne l'envoya alors, toujours ligoté, à Caïphe le grand-prêtre. Pierre renie de nouveau Jésus
+24 Hanne l'envoya alors, toujours ligoté, à Caïphe le grand-prêtre.
+0 Pierre renie de nouveau Jésus
 25 Pendant ce temps, Simon Pierre, lui, restait là à se réchauffer. On lui demanda: «N'es-tu pas, toi aussi, un des disciples de cet homme?» Mais Pierre le nia en disant: «Non, je n'en suis pas.»
 26 L'un des serviteurs du grand-prêtre, qui était parent de l'homme à qui Pierre avait coupé l'oreille, lui dit: «Est-ce que je ne t'ai pas vu avec lui dans le jardin?»
-27 Mais Pierre le nia de nouveau. Et à ce moment même un coq chanta. Jésus devant Pilate
+27 Mais Pierre le nia de nouveau. Et à ce moment même un coq chanta.
+0 Jésus devant Pilate
 28 Puis on emmena Jésus de chez Caïphe au palais du gouverneur romain. C'était tôt le matin. Mais les chefs juifs n'entrèrent pas dans le palais afin de ne pas se rendre impurs et de pouvoir manger le repas de la Pâque.
 29 C'est pourquoi le gouverneur Pilate vint les trouver au dehors. Il leur demanda: «De quoi accusez-vous cet homme?»
 30 Ils lui répondirent: «Si ce n'était pas un malfaiteur, nous ne serions pas venus te le livrer.»
-31 Pilate leur dit: «Prenez-le vous-mêmes et jugez-le selon votre loi.» – «Nous n'avons pas le droit de condamner quelqu'un à mort», répondirent-ils.
+31 Pilate leur dit: «Prenez-le vous-mêmes et jugez-le selon votre loi.» «Nous n'avons pas le droit de condamner quelqu'un à mort», répondirent-ils.
 32 C'est ainsi que devait se réaliser la parole que Jésus avait dite pour indiquer de quelle mort il allait mourir.
 33 Pilate rentra alors dans le palais; il fit venir Jésus et lui demanda: «Es-tu le roi des Juifs?»
 34 Jésus répondit: «Dis-tu cela parce que tu y as pensé toi-même ou parce que d'autres te l'ont dit de moi?»
 35 Pilate répondit: «Suis-je un Juif, moi? Ceux de ta nation et les chefs des prêtres t'ont livré à moi; qu'as-tu donc fait?»
 36 Jésus répondit: «Mon royaume n'appartient pas à ce monde; si mon royaume appartenait à ce monde, mes serviteurs auraient combattu pour empêcher qu'on me livre aux autorités juives. Mais non, mon royaume n'est pas d'ici-bas.»
-37 Pilate lui dit alors: «Tu es donc roi?» Jésus répondit: «Tu le dis: je suis roi. Je suis né et je suis venu dans le monde pour rendre témoignage à la vérité. Quiconque appartient à la vérité écoute ce que je dis.» –
-38 «Qu'est-ce que la vérité?» lui demanda Pilate. Jésus est condamné à mort Après ces mots, Pilate alla de nouveau trouver les Juifs au dehors. Il leur déclara: «Je ne trouve aucune raison de condamner cet homme.
+37 Pilate lui dit alors: «Tu es donc roi?» Jésus répondit: «Tu le dis: je suis roi. Je suis né et je suis venu dans le monde pour rendre témoignage à la vérité. Quiconque appartient à la vérité écoute ce que je dis.»
+38 «Qu'est-ce que la vérité?» lui demanda Pilate.
+0 Jésus est condamné à mort
+0 Après ces mots, Pilate alla de nouveau trouver les Juifs au dehors. Il leur déclara: «Je ne trouve aucune raison de condamner cet homme.
 39 Mais selon la coutume que vous avez, je vous libère toujours un prisonnier à la fête de la Pâque. Voulez-vous que je vous libère le roi des Juifs?»
 40 Ils lui répondirent en criant: «Non, pas lui! C'est Barabbas que nous voulons!» Or, ce Barabbas était un brigand.
 1 Alors Pilate ordonna d'emmener Jésus et de le frapper à coups de fouet.
@@ -4093,11 +4164,13 @@
 10 Pilate lui dit alors: «Tu ne veux pas me répondre? Ne sais-tu pas que j'ai le pouvoir de te relâcher et aussi celui de te faire clouer sur une croix?»
 11 Jésus lui répondit: «Tu n'as aucun pouvoir sur moi à part celui que Dieu t'a accordé. C'est pourquoi, l'homme qui m'a livré à toi est plus coupable que toi.»
 12 Dès ce moment, Pilate cherchait un moyen de relâcher Jésus. Mais les Juifs se mirent à crier: «Si tu relâches cet homme, tu n'es pas un ami de l'empereur! Quiconque se prétend roi est un ennemi de l'empereur!»
-13 Quand Pilate entendit ces mots, il fit amener Jésus dehors; il s'assit sur le siège du juge à l'endroit appelé «Place pavée» – qu'on nomme «Gabbatha» en hébreu.
+13 Quand Pilate entendit ces mots, il fit amener Jésus dehors; il s'assit sur le siège du juge à l'endroit appelé «Place pavée» qu'on nomme «Gabbatha» en hébreu.
 14 C'était le jour qui précédait la fête de la Pâque, vers midi. Pilate dit aux Juifs: «Voilà votre roi!»
 15 Mais ils se mirent à crier: «A mort! A mort! Cloue-le sur une croix!» Pilate leur dit: «Faut-il que je cloue votre roi sur une croix?» Les chefs des prêtres répondirent: «Nous n'avons pas d'autre roi que l'empereur.»
-16 Alors Pilate leur livra Jésus, pour qu'on le cloue sur une croix. Jésus est cloué sur une croix Ils emmenèrent donc Jésus.
-17 Celui-ci dut porter lui-même sa croix pour sortir de la ville et aller à un endroit appelé «le lieu du Crâne» – qu'on nomme «Golgotha» en hébreu.
+16 Alors Pilate leur livra Jésus, pour qu'on le cloue sur une croix.
+0 Jésus est cloué sur une croix
+0 Ils emmenèrent donc Jésus.
+17 Celui-ci dut porter lui-même sa croix pour sortir de la ville et aller à un endroit appelé «le lieu du Crâne» qu'on nomme «Golgotha» en hébreu.
 18 C'est là que les soldats clouèrent Jésus sur la croix. En même temps, ils mirent deux autres hommes en croix, de chaque côté de Jésus, qui se trouvait ainsi au milieu.
 19 Pilate ordonna aussi de faire un écriteau et de le mettre sur la croix; il portait cette inscription: «Jésus de Nazareth, le roi des Juifs.»
 20 Beaucoup de Juifs lurent cet écriteau, car l'endroit où l'on avait mis Jésus en croix était près de la ville et l'inscription était en hébreu, en latin et en grec.
@@ -4107,22 +4180,26 @@
 24 Les soldats se dirent les uns aux autres: «Ne déchirons pas cette tunique, mais tirons au sort pour savoir à qui elle appartiendra.» C'est ainsi que devait se réaliser le passage de l'Écriture qui déclare: «Ils se sont partagé mes habits et ils ont tiré au sort mon vêtement.» Voilà ce que firent les soldats.
 25 Près de la croix de Jésus se tenaient sa mère, la sœur de sa mère, Marie la femme de Clopas et Marie du village de Magdala.
 26 Jésus vit sa mère et, auprès d'elle, le disciple qu'il aimait. Il dit à sa mère: «Voici ton fils, mère.»
-27 Puis il dit au disciple: «Voici ta mère.» Et dès ce moment, le disciple la prit chez lui. La mort de Jésus
+27 Puis il dit au disciple: «Voici ta mère.» Et dès ce moment, le disciple la prit chez lui.
+0 La mort de Jésus
 28 Après cela, comme Jésus savait que, maintenant, tout était achevé, il dit pour accomplir le texte de l'Écriture: «J'ai soif.»
 29 Il y avait là un vase plein de vinaigre. Les soldats trempèrent donc une éponge dans le vinaigre, la fixèrent à une branche d'hysope et l'approchèrent de la bouche de Jésus.
-30 Jésus prit le vinaigre, puis il dit: «Tout est achevé!» Alors, il baissa la tête et mourut. Un soldat perce le côté de Jésus
+30 Jésus prit le vinaigre, puis il dit: «Tout est achevé!» Alors, il baissa la tête et mourut.
+0 Un soldat perce le côté de Jésus
 31 C'était vendredi et les chefs juifs ne voulaient pas que les corps restent sur les croix durant le sabbat, d'autant plus que ce sabbat-là était spécialement important; ils demandèrent donc à Pilate de faire briser les jambes des crucifiés et de faire enlever les corps.
 32 Alors les soldats vinrent briser les jambes du premier condamné mis en croix en même temps que Jésus, puis du second.
 33 Quand ils arrivèrent à Jésus, ils virent qu'il était déjà mort; c'est pourquoi ils ne lui brisèrent pas les jambes.
 34 Mais un des soldats lui perça le côté avec sa lance, et du sang et de l'eau en sortirent aussitôt.
 35 L'homme qui témoigne de ces faits les a vus, et son témoignage est vrai; il sait, lui, qu'il dit la vérité. Il en témoigne afin que vous aussi vous croyiez.
 36 En effet, cela est arrivé pour que ce passage de l'Écriture se réalise: «On ne lui brisera aucun os.»
-37 Et un autre texte dit encore: «Ils regarderont à celui qu'ils ont transpercé.» Jésus est mis dans un tombeau
-38 Après cela, Joseph, qui était d'Arimathée, demanda à Pilate l'autorisation d'emporter le corps de Jésus. – Joseph était un disciple de Jésus, mais en secret parce qu'il avait peur des autorités juives. – Et Pilate le lui permit. Joseph alla donc emporter le corps de Jésus.
+37 Et un autre texte dit encore: «Ils regarderont à celui qu'ils ont transpercé.»
+0 Jésus est mis dans un tombeau
+38 Après cela, Joseph, qui était d'Arimathée, demanda à Pilate l'autorisation d'emporter le corps de Jésus. Joseph était un disciple de Jésus, mais en secret parce qu'il avait peur des autorités juives. Et Pilate le lui permit. Joseph alla donc emporter le corps de Jésus.
 39 Nicodème, cet homme qui était allé trouver une fois Jésus pendant la nuit, vint aussi et apporta environ trente kilos d'un mélange de myrrhe et d'aloès.
 40 Tous deux prirent le corps de Jésus et l'enveloppèrent de bandes de lin, en y mettant les huiles parfumées, comme les Juifs ont coutume de le faire quand ils enterrent leurs morts.
 41 A l'endroit où l'on avait mis Jésus en croix, il y avait un jardin, et dans ce jardin il y avait un tombeau neuf dans lequel on n'avait jamais déposé personne.
-42 Comme c'était la veille du sabbat des Juifs et que le tombeau était tout proche, ils y déposèrent Jésus. Le tombeau vide
+42 Comme c'était la veille du sabbat des Juifs et que le tombeau était tout proche, ils y déposèrent Jésus.
+0 Le tombeau vide
 1 Tôt le dimanche matin, alors qu'il faisait encore nuit, Marie de Magdala se rendit au tombeau. Elle vit que la pierre avait été ôtée de l'entrée du tombeau.
 2 Elle courut alors trouver Simon Pierre et l'autre disciple, celui qu'aimait Jésus, et leur dit: «On a enlevé le Seigneur de son tombeau, et nous ne savons pas où on l'a mis.»
 3 Pierre et l'autre disciple partirent et se rendirent au tombeau.
@@ -4132,33 +4209,38 @@
 7 et aussi le linge qui avait recouvert la tête de Jésus; ce linge n'était pas avec les bandes de lin, mais il était enroulé à part, à une autre place.
 8 Alors, l'autre disciple, celui qui était arrivé le premier au tombeau, entra aussi. Il vit et il crut.
 9 En effet, jusqu'à ce moment les disciples n'avaient pas compris l'Écriture qui annonce que Jésus devait se relever d'entre les morts.
-10 Puis les deux disciples s'en retournèrent chez eux. Jésus se montre à Marie de Magdala
+10 Puis les deux disciples s'en retournèrent chez eux.
+0 Jésus se montre à Marie de Magdala
 11 Marie se tenait près du tombeau, dehors, et pleurait. Tandis qu'elle pleurait, elle se baissa pour regarder dans le tombeau;
 12 elle vit deux anges en vêtements blancs assis à l'endroit où avait reposé le corps de Jésus, l'un à la place de la tête et l'autre à la place des pieds.
 13 Les anges lui demandèrent: «Pourquoi pleures-tu?» Elle leur répondit: «On a enlevé mon Seigneur, et je ne sais pas où on l'a mis.»
 14 Cela dit, elle se retourna et vit Jésus qui se tenait là, mais sans se rendre compte que c'était lui.
 15 Jésus lui demanda: «Pourquoi pleures-tu? Qui cherches-tu?» Elle pensa que c'était le jardinier, c'est pourquoi elle lui dit: «Si c'est toi qui l'as emporté, dis-moi où tu l'as mis, et j'irai le reprendre.»
-16 Jésus lui dit: «Marie!» Elle se tourna vers lui et lui dit en hébreu: «Rabbouni!» – ce qui signifie «Maître».
+16 Jésus lui dit: «Marie!» Elle se tourna vers lui et lui dit en hébreu: «Rabbouni!» ce qui signifie «Maître».
 17 Jésus lui dit: «Ne me retiens pas, car je ne suis pas encore monté vers le Père. Mais va dire à mes frères que je monte vers mon Père qui est aussi votre Père, vers mon Dieu qui est aussi votre Dieu.»
-18 Alors, Marie de Magdala se rendit auprès des disciples et leur annonça: «J'ai vu le Seigneur!» Et elle leur raconta ce qu'il lui avait dit. Jésus se montre à ses disciples
+18 Alors, Marie de Magdala se rendit auprès des disciples et leur annonça: «J'ai vu le Seigneur!» Et elle leur raconta ce qu'il lui avait dit.
+0 Jésus se montre à ses disciples
 19 Le soir de ce même dimanche, les disciples étaient réunis dans une maison. Ils en avaient fermé les portes à clé, car ils craignaient les autorités juives. Jésus vint et, debout au milieu d'eux, il leur dit: «La paix soit avec vous!»
 20 Cela dit, il leur montra ses mains et son côté. Les disciples furent remplis de joie en voyant le Seigneur.
 21 Jésus leur dit de nouveau: «La paix soit avec vous! Comme le Père m'a envoyé, moi aussi je vous envoie.»
 22 Après ces mots, il souffla sur eux et leur dit: «Recevez le Saint-Esprit!
-23 Ceux à qui vous pardonnerez leurs péchés obtiendront le pardon; ceux à qui vous refuserez le pardon ne l'obtiendront pas.» Jésus et Thomas
-24 Or, l'un des douze disciples, Thomas – surnommé le Jumeau – n'était pas avec eux quand Jésus vint.
+23 Ceux à qui vous pardonnerez leurs péchés obtiendront le pardon; ceux à qui vous refuserez le pardon ne l'obtiendront pas.»
+0 Jésus et Thomas
+24 Or, l'un des douze disciples, Thomas surnommé le Jumeau n'était pas avec eux quand Jésus vint.
 25 Les autres disciples lui dirent: «Nous avons vu le Seigneur.» Mais Thomas leur répondit: «Si je ne vois pas la marque des clous dans ses mains, si je ne mets pas mon doigt à la place des clous et ma main dans son côté, je ne croirai pas.»
 26 Une semaine plus tard, les disciples de Jésus étaient de nouveau réunis dans la maison, et Thomas était avec eux. Les portes étaient fermées à clé, mais Jésus vint et, debout au milieu d'eux, il dit: «La paix soit avec vous!»
 27 Puis il dit à Thomas: «Mets ton doigt ici et regarde mes mains; avance ta main et mets-la dans mon côté. Cesse de douter et crois!»
 28 Thomas lui répondit: «Mon Seigneur et mon Dieu!»
-29 Jésus lui dit: «C'est parce que tu m'as vu que tu as cru? Heureux sont ceux qui croient sans m'avoir vu!» Le but de ce livre
+29 Jésus lui dit: «C'est parce que tu m'as vu que tu as cru? Heureux sont ceux qui croient sans m'avoir vu!»
+0 Le but de ce livre
 30 Jésus a fait encore, devant ses disciples, beaucoup d'autres signes miraculeux qui ne sont pas racontés dans ce livre.
-31 Mais ce qui s'y trouve a été écrit pour que vous croyiez que Jésus est le Messie, le Fils de Dieu. Et si vous croyez en lui, vous aurez la vie par lui. Jésus se montre à sept disciples
+31 Mais ce qui s'y trouve a été écrit pour que vous croyiez que Jésus est le Messie, le Fils de Dieu. Et si vous croyez en lui, vous aurez la vie par lui.
+0 Jésus se montre à sept disciples
 1 Quelque temps après, Jésus se montra de nouveau à ses disciples, au bord du lac de Tibériade. Voici dans quelles circonstances il leur apparut:
-2 Simon Pierre, Thomas – surnommé le Jumeau –, Nathanaël – qui était de Cana en Galilée –, les fils de Zébédée, et deux autres disciples de Jésus, étaient ensemble.
+2 Simon Pierre, Thomas surnommé le Jumeau, Nathanaël qui était de Cana en Galilée, les fils de Zébédée, et deux autres disciples de Jésus, étaient ensemble.
 3 Simon Pierre leur dit: «Je vais à la pêche.» Ils lui dirent: «Nous aussi, nous allons avec toi.» Ils partirent donc et montèrent dans la barque. Mais ils ne prirent rien cette nuit-là.
 4 Quand il commença à faire jour, Jésus se tenait là, au bord de l'eau, mais les disciples ne savaient pas que c'était lui.
-5 Jésus leur dit alors: «Avez-vous pris du poisson, mes enfants?» – «Non», lui répondirent-ils.
+5 Jésus leur dit alors: «Avez-vous pris du poisson, mes enfants?» «Non», lui répondirent-ils.
 6 Il leur dit: «Jetez le filet du côté droit de la barque et vous en trouverez.» Ils jetèrent donc le filet, et ils n'arrivaient plus à le retirer de l'eau, tant il était plein de poissons.
 7 Le disciple que Jésus aimait dit à Pierre: «C'est le Seigneur!» Quand Simon Pierre entendit ces mots: «C'est le Seigneur», il remit son vêtement de dessus, car il l'avait enlevé pour pêcher, et il se jeta à l'eau.
 8 Les autres disciples revinrent en barque, en tirant le filet plein de poissons: ils n'étaient pas très loin du bord, à cent mètres environ.
@@ -4167,17 +4249,20 @@
 11 Simon Pierre monta dans la barque et tira à terre le filet plein de gros poissons: cent cinquante-trois en tout. Et quoiqu'il y en eût tant, le filet ne se déchira pas.
 12 Jésus leur dit: «Venez manger.» Aucun des disciples n'osait lui demander: «Qui es-tu?», car ils savaient que c'était le Seigneur.
 13 Jésus s'approcha, prit le pain et le leur partagea; il leur donna aussi du poisson.
-14 C'était la troisième fois que Jésus se montrait à ses disciples, depuis qu'il était revenu d'entre les morts. Jésus et Pierre
-15 Après le repas, Jésus demanda à Simon Pierre: «Simon, fils de Jean, m'aimes-tu plus que ceux-ci?» – «Oui, Seigneur, répondit-il, tu sais que je t'aime.» Jésus lui dit: «Prends soin de mes agneaux.»
-16 Puis il lui demanda une deuxième fois: «Simon, fils de Jean, m'aimes-tu?» – «Oui, Seigneur, répondit-il, tu sais que je t'aime.» Jésus lui dit: «Prends soin de mes brebis.»
+14 C'était la troisième fois que Jésus se montrait à ses disciples, depuis qu'il était revenu d'entre les morts.
+0 Jésus et Pierre
+15 Après le repas, Jésus demanda à Simon Pierre: «Simon, fils de Jean, m'aimes-tu plus que ceux-ci?» «Oui, Seigneur, répondit-il, tu sais que je t'aime.» Jésus lui dit: «Prends soin de mes agneaux.»
+16 Puis il lui demanda une deuxième fois: «Simon, fils de Jean, m'aimes-tu?» «Oui, Seigneur, répondit-il, tu sais que je t'aime.» Jésus lui dit: «Prends soin de mes brebis.»
 17 Puis il lui demanda une troisième fois: «Simon, fils de Jean, m'aimes-tu?» Pierre fut attristé de ce que Jésus lui avait demandé pour la troisième fois: «M'aimes-tu?» et il lui répondit: «Seigneur, tu sais tout; tu sais que je t'aime!» Jésus lui dit: «Prends soin de mes brebis.
 18 Oui, je te le déclare, c'est la vérité: quand tu étais jeune, tu attachais toi-même ta ceinture et tu allais où tu voulais; mais quand tu seras vieux, tu étendras les bras, un autre attachera ta ceinture et te mènera où tu ne voudras pas aller.»
-19 Par ces mots, Jésus indiquait de quelle façon Pierre allait mourir et servir ainsi la gloire de Dieu. Puis Jésus lui dit: «Suis-moi!» Jésus et le disciple qu'il aimait
-20 Pierre se retourna et vit derrière eux le disciple que Jésus aimait – celui qui s'était penché vers Jésus pendant le repas et lui avait demandé: «Seigneur, qui est celui qui va te trahir?» –
+19 Par ces mots, Jésus indiquait de quelle façon Pierre allait mourir et servir ainsi la gloire de Dieu. Puis Jésus lui dit: «Suis-moi!»
+0 Jésus et le disciple qu'il aimait
+20 Pierre se retourna et vit derrière eux le disciple que Jésus aimait celui qui s'était penché vers Jésus pendant le repas et lui avait demandé: «Seigneur, qui est celui qui va te trahir?»
 21 Pierre le vit donc et dit à Jésus: «Et lui, Seigneur, que lui arrivera-t-il?»
 22 Jésus lui répondit: «Si je désire qu'il vive jusqu'à ce que je revienne, que t'importe? Toi, suis-moi!»
 23 La nouvelle se répandit alors parmi les croyants que ce disciple ne mourrait pas. Pourtant Jésus n'avait pas dit à Pierre: «Il ne mourra pas», mais il avait dit: «Si je désire qu'il vive jusqu'à ce que je revienne, que t'importe?»
-24 C'est ce même disciple qui témoigne de ces faits et les a mis par écrit, et nous savons que son témoignage est vrai. Conclusion
+24 C'est ce même disciple qui témoigne de ces faits et les a mis par écrit, et nous savons que son témoignage est vrai.
+0 Conclusion
 25 Jésus a fait encore beaucoup d'autres choses. Si on les racontait par écrit l'une après l'autre, je pense que le monde entier ne pourrait pas contenir les livres qu'on écrirait.
 0 Le Saint-Esprit promis aux apôtres
 1 Cher Théophile, Dans mon premier livre j'ai raconté tout ce que Jésus a fait et enseigné dès le début
@@ -4197,8 +4282,8 @@
 15 Un de ces jours-là, les croyants réunis étaient au nombre d'environ cent vingt. Pierre se leva au milieu d'eux et leur dit:
 16 «Frères, il fallait que se réalise ce que le Saint-Esprit a annoncé dans l'Écriture: s'exprimant par l'intermédiaire de David, il y a parlé d'avance de Judas, devenu le guide de ceux qui arrêtèrent Jésus.
 17 Judas était l'un d'entre nous et il avait reçu sa part de notre mission.
-18 – Avec l'argent qu'on lui paya pour son crime, cet homme s'acheta un champ; il y tomba la tête la première, son corps éclata par le milieu et tous ses intestins se répandirent.
-19 Les habitants de Jérusalem ont appris ce fait, de sorte qu'ils ont appelé ce champ, dans leur langue, “Hakeldama”, c'est-à-dire “champ du sang”. –
+18 Avec l'argent qu'on lui paya pour son crime, cet homme s'acheta un champ; il y tomba la tête la première, son corps éclata par le milieu et tous ses intestins se répandirent.
+19 Les habitants de Jérusalem ont appris ce fait, de sorte qu'ils ont appelé ce champ, dans leur langue, “Hakeldama”, c'est-à-dire “champ du sang”.
 20 Or, voici ce qui est écrit dans le livre des Psaumes: “Que sa maison soit abandonnée, et que personne n'y habite.” Et il est encore écrit: “Qu'un autre prenne ses fonctions.”
 21 Il faut donc qu'un homme se joigne à nous pour témoigner de la résurrection du Seigneur Jésus.
 22 Cet homme doit être l'un de ceux qui nous ont accompagnés tout le temps que le Seigneur Jésus a parcouru le pays avec nous, à partir du moment où Jean l'a baptisé jusqu'au jour où il nous a été enlevé pour aller au ciel.»
@@ -4314,7 +4399,7 @@
 33 C'est avec une grande puissance que les apôtres rendaient témoignage à la résurrection du Seigneur Jésus et Dieu leur accordait à tous d'abondantes bénédictions.
 34 Personne parmi eux ne manquait du nécessaire. En effet, tous ceux qui possédaient des champs ou des maisons les vendaient, apportaient la somme produite par cette vente
 35 et la remettaient aux apôtres; on distribuait ensuite l'argent à chacun selon ses besoins.
-36 Par exemple, Joseph, un lévite né à Chypre, que les apôtres surnommaient Barnabas – ce qui signifie «l'homme qui encourage» –,
+36 Par exemple, Joseph, un lévite né à Chypre, que les apôtres surnommaient Barnabas ce qui signifie «l'homme qui encourage»,
 37 vendit un champ qu'il possédait, apporta l'argent et le remit aux apôtres. Ananias et Saphira
 1 Mais un homme appelé Ananias, dont la femme se nommait Saphira, vendit, d'accord avec elle, un terrain qui leur appartenait.
 2 Il garda une partie de l'argent pour lui et alla remettre le reste aux apôtres. Sa femme le savait.
@@ -4508,7 +4593,7 @@
 33 Il y trouva un homme appelé Énée qui était couché sur un lit depuis huit ans, parce qu'il était paralysé.
 34 Pierre lui dit: «Énée, Jésus-Christ te guérit! Lève-toi et fais ton lit.» Aussitôt Énée se leva.
 35 Tous les habitants de Lydda et de la plaine de Saron le virent et se convertirent au Seigneur. Dorcas est ramenée à la vie
-36 Il y avait à Jaffa une femme croyante appelée Tabitha. – Ce nom se traduit en grec par «Dorcas», ce qui signifie «gazelle». – Elle était continuellement occupée à faire du bien et à venir en aide aux pauvres.
+36 Il y avait à Jaffa une femme croyante appelée Tabitha. Ce nom se traduit en grec par «Dorcas», ce qui signifie «gazelle». Elle était continuellement occupée à faire du bien et à venir en aide aux pauvres.
 37 En ce temps-là, elle tomba malade et mourut. Après avoir lavé son corps, on le déposa dans une chambre, en haut de la maison.
 38 Les disciples de Jaffa avaient appris que Pierre se trouvait à Lydda, qui est proche de Jaffa. Ils lui envoyèrent deux hommes avec ce message: «Nous t'en prions, viens chez nous sans tarder.»
 39 Pierre partit tout de suite avec eux. Lorsqu'il fut arrivé, on le conduisit dans la chambre située en haut de la maison. Toutes les veuves s'approchèrent de lui en pleurant; elles lui montrèrent les chemises et les manteaux que Tabitha avait faits quand elle vivait encore.
@@ -4591,7 +4676,7 @@
 25 Barnabas partit ensuite pour Tarse afin d'y chercher Saul.
 26 Quand il l'eut trouvé, il l'amena à Antioche. Ils passèrent tous deux une année entière dans cette Église et instruisirent dans la foi un grand nombre de personnes. C'est à Antioche que, pour la première fois, les disciples furent appelés chrétiens.
 27 En ce temps-là, des prophètes se rendirent de Jérusalem à Antioche.
-28 L'un d'eux, nommé Agabus, guidé par l'Esprit Saint, se mit à annoncer qu'il y aurait bientôt une grande famine sur toute la terre. – Elle eut lieu, en effet, à l'époque où Claude était empereur. –
+28 L'un d'eux, nommé Agabus, guidé par l'Esprit Saint, se mit à annoncer qu'il y aurait bientôt une grande famine sur toute la terre. Elle eut lieu, en effet, à l'époque où Claude était empereur.
 29 Les disciples décidèrent alors que chacun d'eux donnerait ce qu'il pourrait pour envoyer de l'aide aux frères qui vivaient en Judée.
 30 C'est ce qu'ils firent et ils envoyèrent ces dons aux anciens de Judée par l'intermédiaire de Barnabas et Saul. Jacques est tué et Pierre emprisonné
 1 En ce temps-là, le roi Hérode se mit à persécuter quelques-uns des membres de l'Église.
@@ -4619,14 +4704,14 @@
 23 Mais, au même moment, un ange du Seigneur frappa Hérode, parce qu'il s'était réservé l'honneur dû à Dieu: il fut rongé par les vers et mourut.
 24 Or, la parole de Dieu se répandait de plus en plus.
 25 Quant à Barnabas et Saul, après avoir achevé leur mission à Jérusalem, ils s'en retournèrent et emmenèrent avec eux Jean surnommé Marc. Barnabas et Saul sont choisis pour partir en mission
-1 Dans l'Église d'Antioche, il y avait des prophètes et des enseignants: Barnabas, Siméon – surnommé le Noir –, Lucius – de Cyrène –, Manaën – compagnon d'enfance d'Hérode, qui régnait sur la Galilée –, et Saul.
+1 Dans l'Église d'Antioche, il y avait des prophètes et des enseignants: Barnabas, Siméon surnommé le Noir, Lucius de Cyrène, Manaën compagnon d'enfance d'Hérode, qui régnait sur la Galilée, et Saul.
 2 Un jour, pendant qu'ils célébraient le culte du Seigneur et qu'ils jeûnaient, le Saint-Esprit leur dit: «Mettez à part Barnabas et Saul pour l'œuvre à laquelle je les ai appelés.»
 3 Alors, après avoir jeûné et prié, ils posèrent les mains sur eux et les laissèrent partir. Barnabas et Saul à Chypre
 4 Barnabas et Saul, ainsi envoyés en mission par le Saint-Esprit, se rendirent à Séleucie d'où ils partirent en bateau pour l'île de Chypre.
 5 Quand ils furent arrivés à Salamine, ils se mirent à annoncer la parole de Dieu dans les synagogues juives. Ils avaient avec eux Jean-Marc pour les aider.
 6 Ils traversèrent toute l'île jusqu'à Paphos. Là, ils rencontrèrent un magicien appelé Bar-Jésus, un Juif qui se faisait passer pour prophète.
 7 Il vivait auprès du gouverneur de l'île, Sergius Paulus, qui était un homme intelligent. Celui-ci fit appeler Barnabas et Saul, car il désirait entendre la parole de Dieu.
-8 Mais le magicien Élymas – tel est son nom en grec – s'opposait à eux et cherchait à détourner de la foi le gouverneur.
+8 Mais le magicien Élymas tel est son nom en grec s'opposait à eux et cherchait à détourner de la foi le gouverneur.
 9 Alors Saul, appelé aussi Paul, rempli du Saint-Esprit, fixa son regard sur lui
 10 et dit: «Homme plein de ruse et de méchanceté, fils du diable, ennemi de tout ce qui est bien! Ne cesseras-tu jamais de vouloir fausser les plans du Seigneur?
 11 Maintenant, écoute: le Seigneur va te frapper, tu seras aveugle et tu ne verras plus la lumière du soleil pendant un certain temps.» Aussitôt, les yeux d'Élymas s'obscurcirent et il se trouva dans la nuit: il se tournait de tous côtés, cherchant quelqu'un pour le conduire par la main.
@@ -4797,10 +4882,10 @@
 15 Ceux qui conduisaient Paul le menèrent jusqu'à Athènes. Puis ils retournèrent à Bérée avec les instructions de Paul pour Silas et Timothée; il leur demandait de le rejoindre le plus tôt possible. Paul à Athènes
 16 Pendant que Paul attendait Silas et Timothée à Athènes, il était profondément indigné de voir à quel point cette ville était pleine d'idoles.
 17 Il discutait dans la synagogue avec les Juifs et les non-Juifs qui adoraient Dieu, et sur la place publique, chaque jour, avec les gens qu'il pouvait y rencontrer.
-18 Quelques philosophes épicuriens et stoïciens se mirent aussi à parler avec lui. Les uns demandaient: «Que veut dire ce bavard?» – «Il semble annoncer des dieux étrangers», déclaraient d'autres en entendant Paul prêcher Jésus et la résurrection.
+18 Quelques philosophes épicuriens et stoïciens se mirent aussi à parler avec lui. Les uns demandaient: «Que veut dire ce bavard?» «Il semble annoncer des dieux étrangers», déclaraient d'autres en entendant Paul prêcher Jésus et la résurrection.
 19 Ils le prirent alors avec eux, le menèrent devant le conseil de l'Aréopage et lui dirent: «Pourrions-nous savoir quel est ce nouvel enseignement dont tu parles?
 20 Tu nous fais entendre des choses étranges et nous aimerions bien savoir ce qu'elles signifient.»
-21 – Tous les Athéniens, en effet, et les étrangers qui vivaient parmi eux passaient leur temps uniquement à dire ou écouter les dernières nouveautés. –
+21 Tous les Athéniens, en effet, et les étrangers qui vivaient parmi eux passaient leur temps uniquement à dire ou écouter les dernières nouveautés.
 22 Paul, debout au milieu de l'Aréopage, dit alors: «Athéniens, je constate que vous êtes des hommes très religieux à tous points de vue.
 23 En effet, tandis que je parcourais votre ville et regardais vos monuments sacrés, j'ai trouvé même un autel avec cette inscription: “A un dieu inconnu.” Eh bien, ce que vous adorez sans le connaître, je viens vous l'annoncer.
 24 Dieu, qui a fait le monde et tout ce qui s'y trouve, est le Seigneur du ciel et de la terre, et il n'habite pas dans des temples construits par les hommes.
@@ -4816,7 +4901,7 @@
 34 Quelques-uns, pourtant, se joignirent à lui et crurent: parmi eux, il y avait Denys, membre du conseil de l'Aréopage, une femme nommée Damaris, et d'autres encore. Paul à Corinthe
 1 Après cela, Paul partit d'Athènes et se rendit à Corinthe.
 2 Il y rencontra un Juif appelé Aquilas, né dans la province du Pont: il venait d'arriver d'Italie avec sa femme, Priscille, parce que l'empereur Claude avait ordonné à tous les Juifs de quitter Rome. Paul alla les trouver
-3 et, comme il avait le même métier qu'eux – ils fabriquaient des tentes –, il demeura chez eux pour y travailler.
+3 et, comme il avait le même métier qu'eux ils fabriquaient des tentes, il demeura chez eux pour y travailler.
 4 A chaque sabbat, Paul prenait la parole dans la synagogue et cherchait à convaincre aussi bien les Juifs que les Grecs.
 5 Quand Silas et Timothée furent arrivés de Macédoine, Paul put consacrer tout son temps à prêcher; il attestait devant les Juifs que Jésus est le Messie.
 6 Mais les Juifs s'opposaient à lui et l'insultaient; alors il secoua contre eux la poussière de ses vêtements et leur dit: «Si vous êtes perdus, ce sera par votre propre faute. Je n'en suis pas responsable. Dès maintenant, j'irai vers ceux qui ne sont pas juifs.»
@@ -4987,8 +5072,8 @@
 24 Le commandant romain ordonna de faire entrer Paul dans la forteresse et de le battre à coups de fouet pour l'obliger à parler, afin de savoir pour quelle raison la foule criait ainsi contre lui.
 25 Mais quand on l'eut attaché pour le fouetter, Paul dit à l'officier qui était là: «Avez-vous le droit de fouetter un citoyen romain qui n'a même pas été jugé?»
 26 Dès qu'il eut entendu ces mots, l'officier alla avertir le commandant: «Qu'allais-tu faire? lui dit-il. Cet homme est citoyen romain!»
-27 Le commandant vint auprès de Paul et lui demanda: «Dis-moi, es-tu vraiment citoyen romain?» – «Oui», répondit Paul.
-28 Le commandant dit alors: «J'ai dû payer une grosse somme d'argent pour devenir citoyen romain.» – «Et moi, répondit Paul, je le suis de naissance.»
+27 Le commandant vint auprès de Paul et lui demanda: «Dis-moi, es-tu vraiment citoyen romain?» «Oui», répondit Paul.
+28 Le commandant dit alors: «J'ai dû payer une grosse somme d'argent pour devenir citoyen romain.» «Et moi, répondit Paul, je le suis de naissance.»
 29 Aussitôt, ceux qui allaient le battre pour le faire parler s'éloignèrent de lui; le commandant lui-même eut peur, quand il se rendit compte que Paul était citoyen romain et qu'il l'avait fait enchaîner. Paul devant le Conseil supérieur
 30 Le commandant voulait savoir de façon précise de quoi les Juifs accusaient Paul; c'est pourquoi, le lendemain, il le fit délier de ses chaînes et convoqua les chefs des prêtres et tout le Conseil supérieur. Puis il amena Paul et le fit comparaître devant eux.
 1 Paul fixa les yeux sur les membres du Conseil et dit: «Frères, c'est avec une conscience tout à fait tranquille que j'ai servi Dieu jusqu'à ce jour.»
@@ -5074,7 +5159,7 @@
 19 Ils avaient seulement avec lui des discussions au sujet de leur propre religion et d'un certain Jésus, qui est mort et que Paul affirmait être vivant.
 20 Quant à moi, je ne voyais pas comment procéder dans un tel cas, c'est pourquoi j'ai proposé à Paul d'aller à Jérusalem pour y être jugé au sujet de cette affaire.
 21 Mais Paul a fait appel: il a demandé que sa cause soit réservée à la décision de l'empereur. J'ai donc donné l'ordre de le garder en prison jusqu'à ce que je puisse l'envoyer à l'empereur.»
-22 Agrippa dit à Festus: «Je voudrais bien entendre moi-même cet homme.» – «Demain, tu l'entendras», répondit Festus.
+22 Agrippa dit à Festus: «Je voudrais bien entendre moi-même cet homme.» «Demain, tu l'entendras», répondit Festus.
 23 Le lendemain donc, Agrippa et Bérénice vinrent en cortège solennel et entrèrent dans la salle d'audience avec les chefs militaires et les notables de la ville. Sur un ordre de Festus, Paul fut amené.
 24 Puis Festus déclara: «Roi Agrippa et vous tous qui êtes présents avec nous, vous voyez cet homme: toute la population juive est venue se plaindre de lui auprès de moi, aussi bien à Jérusalem qu'ici, en criant qu'il n'était plus digne de vivre.
 25 Quant à moi, j'ai constaté qu'il n'a commis aucune action pour laquelle il mériterait la mort. Cependant, lui-même en a appelé à l'empereur; j'ai donc décidé de le lui envoyer.
@@ -5754,7 +5839,7 @@
 8 Voici ce que je déclare aux célibataires et aux veuves: il serait bon pour vous que vous continuiez à vivre seuls, comme moi.
 9 Mais si vous ne pouvez pas vous maîtriser, mariez-vous: il vaut mieux se marier que de brûler de désir.
 10 A ceux qui sont mariés, je donne cet ordre (qui ne vient pas de moi, mais du Seigneur): la femme ne doit pas se séparer de son mari,
-11 – au cas où elle en serait séparée, qu'elle ne se remarie pas, ou bien qu'elle se réconcilie avec son mari – et un mari ne doit pas renvoyer sa femme.
+11 au cas où elle en serait séparée, qu'elle ne se remarie pas, ou bien qu'elle se réconcilie avec son mari et un mari ne doit pas renvoyer sa femme.
 12 Aux autres, voici ce que je dis (moi-même, et non le Seigneur): si un mari chrétien a une femme non croyante et qu'elle soit d'accord de continuer à vivre avec lui, il ne doit pas la renvoyer;
 13 de même, si une femme chrétienne a un mari non croyant et qu'il soit d'accord de continuer à vivre avec elle, elle ne doit pas le renvoyer.
 14 En effet, le mari non croyant est proche de Dieu à cause de son union avec sa femme; de même, la femme non croyante est proche de Dieu à cause de son union avec son mari chrétien. Autrement, vos enfants seraient considérés comme impurs, alors que, en réalité, ils sont proches de Dieu.
@@ -5788,7 +5873,7 @@
 2 Celui qui s'imagine connaître quelque chose ne connaît pas encore comme il devrait connaître.
 3 Mais celui qui aime Dieu est connu par lui.
 4 La question est donc la suivante: peut-on manger de la viande provenant de sacrifices offerts aux idoles? Nous savons bien qu'une idole ne représente rien de réel dans le monde et qu'il n'y a qu'un seul Dieu.
-5 Même s'il y a de prétendus dieux au ciel et sur la terre – et, en fait, il y a beaucoup de «dieux» et de «seigneurs» –,
+5 Même s'il y a de prétendus dieux au ciel et sur la terre et, en fait, il y a beaucoup de «dieux» et de «seigneurs»,
 6 il n'en est pas moins vrai que pour nous il n'y a qu'un seul Dieu, le Père, qui a créé toutes choses et pour qui nous vivons; il n'y a également qu'un seul Seigneur, Jésus-Christ, par qui toutes choses existent et par qui nous vivons.
 7 Mais tous ne connaissent pas cette vérité. Certains ont été tellement habitués aux idoles que, maintenant encore, ils mangent la viande des sacrifices comme si elle appartenait à une idole; leur conscience est faible et ils se sentent souillés par cette viande.
 8 Ce n'est pourtant pas un aliment qui nous rapprochera de Dieu: nous ne perdrons rien si nous n'en mangeons pas, et nous ne gagnerons rien non plus si nous en mangeons.
@@ -5852,7 +5937,7 @@
 26 car, comme il est écrit, «c'est au Seigneur qu'appartient la terre avec tout ce qu'elle contient».
 27 Si un non-croyant vous invite à un repas et que vous acceptiez d'y aller, mangez de tout ce qu'on vous servira, sans poser de question par motif de conscience.
 28 Mais si quelqu'un vous dit: «Cette viande provient d'un sacrifice offert aux idoles», alors n'en mangez pas, à cause de celui qui a fait cette remarque et par motif de conscience
-29 – je parle ici non pas de votre conscience, mais de celle de l'autre. «Mais pourquoi, demandera-t-on, ma liberté devrait-elle être limitée par la conscience de quelqu'un d'autre?
+29 je parle ici non pas de votre conscience, mais de celle de l'autre. «Mais pourquoi, demandera-t-on, ma liberté devrait-elle être limitée par la conscience de quelqu'un d'autre?
 30 Si je remercie Dieu pour ce que je mange, pourquoi me critiquerait-on au sujet de cette nourriture pour laquelle j'ai dit merci?»
 31 Ainsi, que vous mangiez, que vous buviez, ou que vous fassiez quoi que ce soit, faites tout pour la gloire de Dieu.
 32 Vivez de façon à ne scandaliser ni les Juifs, ni les non-Juifs, ni l'Église de Dieu.
@@ -5874,8 +5959,8 @@
 15 tandis que c'est un honneur pour la femme de les porter ainsi. En effet, les cheveux longs ont été donnés à la femme pour lui servir de voile.
 16 Mais si quelqu'un désire encore discuter à ce sujet, qu'il sache simplement ceci: ni les Églises de Dieu, ni nous-mêmes n'avons d'autre coutume dans le culte. Le repas du Seigneur
 17 En passant aux remarques qui suivent, je ne peux pas vous féliciter, car vos réunions vous font plus de mal que de bien.
-18 Tout d'abord, on m'a dit que lorsque vous tenez des assemblées, il y a parmi vous des groupes rivaux, – et je le crois en partie.
-19 Il faut bien qu'il y ait des divisions parmi vous pour qu'on puisse reconnaître ceux d'entre vous qui sont vraiment fidèles. –
+18 Tout d'abord, on m'a dit que lorsque vous tenez des assemblées, il y a parmi vous des groupes rivaux, et je le crois en partie.
+19 Il faut bien qu'il y ait des divisions parmi vous pour qu'on puisse reconnaître ceux d'entre vous qui sont vraiment fidèles.
 20 Quand vous vous réunissez, ce n'est pas le repas du Seigneur que vous prenez:
 21 en effet, dès que vous êtes à table, chacun se hâte de prendre son propre repas, de sorte que certains ont faim tandis que d'autres s'enivrent.
 22 N'avez-vous pas vos maisons pour y manger et y boire? Ou bien méprisez-vous l'Église de Dieu et voulez-vous humilier ceux qui n'ont rien? Qu'attendez-vous que je vous dise? Faut-il que je vous félicite? Non, je ne peux vraiment pas vous féliciter à ce sujet!
@@ -5980,11 +6065,11 @@
 3 Je vous ai transmis avant tout cet enseignement que j'ai reçu moi-même: le Christ est mort pour nos péchés, comme l'avaient annoncé les Écritures;
 4 il a été mis au tombeau et il est revenu à la vie le troisième jour, comme l'avaient annoncé les Écritures;
 5 il est apparu à Pierre, puis aux douze apôtres.
-6 Ensuite, il est apparu à plus de cinq cents de ses disciples à la fois – la plupart d'entre eux sont encore vivants, mais quelques-uns sont morts.
+6 Ensuite, il est apparu à plus de cinq cents de ses disciples à la fois la plupart d'entre eux sont encore vivants, mais quelques-uns sont morts.
 7 Ensuite, il est apparu à Jacques, puis à tous les apôtres.
 8 Enfin, après eux tous, il m'est aussi apparu à moi, bien que je sois pareil à un être né avant terme.
-9 Je suis en effet le moindre des apôtres – à vrai dire, je ne mérite même pas d'être appelé apôtre –, car j'ai persécuté l'Église de Dieu.
-10 Mais par la grâce de Dieu je suis ce que je suis, et la grâce qu'il m'a accordée n'a pas été inefficace: au contraire, j'ai travaillé plus que tous les autres apôtres – non pas moi, en réalité, mais la grâce de Dieu qui agit en moi.
+9 Je suis en effet le moindre des apôtres à vrai dire, je ne mérite même pas d'être appelé apôtre, car j'ai persécuté l'Église de Dieu.
+10 Mais par la grâce de Dieu je suis ce que je suis, et la grâce qu'il m'a accordée n'a pas été inefficace: au contraire, j'ai travaillé plus que tous les autres apôtres non pas moi, en réalité, mais la grâce de Dieu qui agit en moi.
 11 Ainsi, que ce soit moi, que ce soit eux, voilà ce que nous prêchons, voilà ce que vous avez cru. Notre résurrection
 12 Nous prêchons donc que le Christ est revenu d'entre les morts: comment alors quelques-uns d'entre vous peuvent-ils dire que les morts ne se relèveront pas?
 13 Si tel est le cas, le Christ n'est pas non plus ressuscité;
@@ -6054,7 +6139,7 @@
 19 Les Églises de la province d'Asie vous saluent. Aquilas et Priscille, avec l'Église qui se réunit chez eux, vous envoient leurs cordiales salutations dans la communion du Seigneur.
 20 Tous les frères présents ici vous saluent. Saluez-vous les uns les autres d'un baiser fraternel.
 21 C'est de ma propre main que j'écris ces mots: Salutations de Paul.
-22 Si quelqu'un n'aime pas le Seigneur, qu'il soit maudit! Marana tha – Notre Seigneur, viens! –
+22 Si quelqu'un n'aime pas le Seigneur, qu'il soit maudit! Marana tha Notre Seigneur, viens!
 23 Que la grâce du Seigneur Jésus soit avec vous.
 24 Je vous aime tous dans la communion avec Jésus-Christ.
 1 De la part de Paul, qui par la volonté de Dieu est apôtre de Jésus-Christ, et de la part de Timothée, notre frère. A l'Église de Dieu qui est à Corinthe et à tous ceux qui appartiennent au peuple de Dieu dans l'Achaïe entière:
@@ -6070,7 +6155,7 @@
 11 et vous y contribuerez vous-mêmes en priant pour nous. Ainsi, Dieu répondra aux prières faites par beaucoup en notre faveur, il nous accordera ce bienfait et beaucoup le remercieront à notre sujet. Paul change ses projets
 12 Voici en quoi nous pouvons être fiers: comme notre conscience en témoigne, nous nous sommes conduits dans le monde, et particulièrement envers vous, avec la simplicité et la sincérité qui viennent de Dieu, en étant guidés par sa grâce et non par la sagesse humaine.
 13 En effet, dans nos lettres nous ne vous écrivons rien d'autre que ce que vous y lisez et comprenez. Et j'espère que vous parviendrez à comprendre parfaitement ceci
-14 – que vous comprenez maintenant en partie seulement –: au jour de la venue de Jésus, notre Seigneur, vous pourrez être fiers de nous comme nous le serons de vous.
+14 que vous comprenez maintenant en partie seulement: au jour de la venue de Jésus, notre Seigneur, vous pourrez être fiers de nous comme nous le serons de vous.
 15 J'avais une telle confiance à cet égard que j'avais d'abord projeté d'aller chez vous afin qu'un double bienfait vous soit accordé.
 16 Je voulais, en effet, passer chez vous, puis me rendre en Macédoine et vous revoir à mon retour: vous m'auriez alors aidé à poursuivre mon voyage vers la Judée.
 17 En formant ce projet, ai-je donc fait preuve de légèreté? Les plans que j'établis sont-ils inspirés par des motifs purement humains, de sorte que je serais prêt à dire «oui» et «non» en même temps?
@@ -6079,7 +6164,7 @@
 20 en effet, il est le «oui» qui confirme toutes les promesses de Dieu. C'est donc par Jésus-Christ que nous disons notre «amen» pour rendre gloire à Dieu.
 21 Et c'est Dieu lui-même qui nous affermit avec vous dans la vie avec le Christ. Dieu lui-même nous a choisis,
 22 il nous a marqués à son nom et il a répandu dans nos cœurs le Saint-Esprit comme garantie des biens qu'il nous réserve.
-23 J'en prends Dieu à témoin – qu'il me fasse mourir si je mens –: c'est pour vous épargner que j'ai décidé de ne pas retourner à Corinthe.
+23 J'en prends Dieu à témoin qu'il me fasse mourir si je mens: c'est pour vous épargner que j'ai décidé de ne pas retourner à Corinthe.
 24 Nous ne cherchons pas à vous imposer ce que vous devez croire, car vous tenez bon dans la foi; mais nous désirons contribuer à votre bonheur.
 1 Ainsi, j'ai décidé de ne pas retourner chez vous, pour ne pas vous attrister de nouveau.
 2 Car si je vous attriste, qui me donnera encore de la joie? Celui que j'aurai attristé le pourrait-il?
@@ -6090,7 +6175,7 @@
 7 c'est pourquoi, maintenant, vous devez plutôt lui pardonner et l'encourager, pour éviter qu'une trop grande tristesse ne le conduise au désespoir.
 8 Par conséquent, je vous le demande, donnez-lui la preuve de votre amour à son égard.
 9 Voici en effet pourquoi je vous ai écrit: je désirais vous mettre à l'épreuve pour voir si vous êtes toujours prêts à obéir à mes instructions.
-10 Quand vous pardonnez à quelqu'un une faute, je lui pardonne aussi. Et si je pardonne – pour autant que j'aie à pardonner quelque chose – je le fais pour vous, devant le Christ,
+10 Quand vous pardonnez à quelqu'un une faute, je lui pardonne aussi. Et si je pardonne pour autant que j'aie à pardonner quelque chose je le fais pour vous, devant le Christ,
 11 afin de ne pas laisser Satan prendre l'avantage sur nous; nous connaissons en effet fort bien ses intentions. L'inquiétude de Paul à Troas
 12 Quand je suis arrivé à Troas pour y annoncer la Bonne Nouvelle du Christ, j'ai découvert que le Seigneur m'y offrait une occasion favorable de le faire.
 13 Cependant, j'étais profondément inquiet parce que je n'avais pas trouvé notre frère Tite. C'est pourquoi j'ai fait mes adieux aux gens de Troas et je suis parti pour la Macédoine. La victoire en Jésus-Christ
@@ -6134,13 +6219,13 @@
 16 C'est pourquoi nous ne perdons jamais courage. Même si notre être physique se détruit peu à peu, notre être spirituel se renouvelle de jour en jour.
 17 La détresse que nous éprouvons en ce moment est légère en comparaison de la gloire abondante et éternelle, tellement plus importante, qu'elle nous prépare.
 18 Car nous portons notre attention non pas sur ce qui est visible, mais sur ce qui est invisible. Ce qui est visible est provisoire, mais ce qui est invisible dure toujours.
-1 Nous savons, en effet, que si la tente dans laquelle nous vivons – c'est-à-dire notre corps terrestre – est détruite, Dieu nous réserve une habitation dans les cieux, une demeure non faite par les hommes, qui durera toujours.
+1 Nous savons, en effet, que si la tente dans laquelle nous vivons c'est-à-dire notre corps terrestre est détruite, Dieu nous réserve une habitation dans les cieux, une demeure non faite par les hommes, qui durera toujours.
 2 Et nous gémissons maintenant, car notre désir est grand d'être recouverts de notre habitation céleste;
 3 en effet, nous serons vêtus et non pas nus.
 4 Oui, aussi longtemps que nous vivons dans cette tente terrestre, nous gémissons comme sous un fardeau. Ce n'est pas que nous voudrions être débarrassés de notre corps terrestre, mais nous souhaitons être revêtus du corps céleste, afin que ce qui est mortel soit absorbé par la vie.
 5 C'est Dieu lui-même qui nous a destinés à cela, et il nous a accordé son Esprit comme garantie des biens qu'il nous réserve.
 6 Nous sommes donc toujours pleins de courage. Nous savons que tant que nous demeurons dans ce corps, nous sommes loin de la demeure du Seigneur
-7 – nous marchons en effet par la foi et non par la vue.
+7 nous marchons en effet par la foi et non par la vue.
 8 Nous sommes pleins de courage et nous préférerions quitter ce corps pour aller demeurer auprès du Seigneur.
 9 Mais nous désirons avant tout lui plaire, que nous demeurions dans ce corps ou que nous le quittions.
 10 Car nous devons tous comparaître devant le Christ pour être jugés par lui; alors chacun recevra ce qui lui revient, selon ce qu'il aura fait en bien ou en mal durant sa vie terrestre. Réconciliés avec Dieu par le Christ
@@ -6228,7 +6313,7 @@
 13 Impressionnés par la valeur de ce service, beaucoup rendront gloire à Dieu pour l'obéissance témoignant de votre fidélité à la Bonne Nouvelle du Christ; ils lui rendront gloire aussi pour votre générosité dans le partage de vos biens avec eux et avec tous les autres.
 14 Ils prieront pour vous, en vous manifestant leur affection, à cause de la grâce extraordinaire que Dieu vous a accordée.
 15 Loué soit Dieu pour son don incomparable! Paul défend son ministère
-1 Moi, Paul, je vous adresse personnellement un appel – moi qui suis, à ce qu'on dit, si humble quand je suis avec vous, mais si énergique à votre égard quand je suis absent. Par la douceur et la bonté du Christ,
+1 Moi, Paul, je vous adresse personnellement un appel moi qui suis, à ce qu'on dit, si humble quand je suis avec vous, mais si énergique à votre égard quand je suis absent. Par la douceur et la bonté du Christ,
 2 je vous en supplie: ne m'obligez pas à intervenir énergiquement quand je serai chez vous; car je compte faire preuve de fermeté envers ceux qui prétendent que nous agissons selon des motifs purement humains.
 3 Certes, nous sommes des êtres humains, mais nous ne combattons pas d'une façon purement humaine.
 4 Dans notre combat, les armes que nous utilisons ne sont pas d'origine humaine: ce sont les armes puissantes de Dieu qui permettent de détruire des forteresses. Nous détruisons les faux raisonnements,
@@ -6266,9 +6351,9 @@
 18 Puisque tant d'autres se vantent pour des motifs purement humains, eh bien, je me vanterai moi aussi.
 19 Vous qui êtes des sages, vous supportez si volontiers les fous!
 20 Vous supportez qu'on vous traite comme des esclaves, qu'on vous exploite, qu'on vous dépouille, qu'on vous regarde de haut, qu'on vous frappe au visage.
-21 J'ai honte de le dire: nous avons été trop faibles à cet égard! Cependant, là où d'autres osent se vanter – je parle comme si j'étais fou – je le puis moi aussi.
+21 J'ai honte de le dire: nous avons été trop faibles à cet égard! Cependant, là où d'autres osent se vanter je parle comme si j'étais fou je le puis moi aussi.
 22 Ils sont Hébreux? Moi aussi. Israélites? Moi aussi. Descendants d'Abraham? Moi aussi.
-23 Ils sont serviteurs du Christ? Eh bien – je vais parler comme si j'avais complètement perdu la raison – je le suis plus qu'eux. J'ai peiné plus qu'eux, j'ai été en prison bien plus fréquemment, frappé beaucoup plus et en danger de mort plus souvent.
+23 Ils sont serviteurs du Christ? Eh bien je vais parler comme si j'avais complètement perdu la raison je le suis plus qu'eux. J'ai peiné plus qu'eux, j'ai été en prison bien plus fréquemment, frappé beaucoup plus et en danger de mort plus souvent.
 24 Cinq fois j'ai reçu des Juifs la série de trente-neuf coups,
 25 trois fois j'ai été battu à coups de fouet par les Romains et une fois on m'a blessé en me jetant des pierres; trois fois j'ai fait naufrage et une fois je suis resté un jour et une nuit dans les flots.
 26 Dans mes nombreux voyages j'ai connu les dangers dus aux rivières qui débordent ou aux brigands, les dangers dus à mes compatriotes juifs ou à des non-Juifs, j'ai été en danger dans les villes ou dans les lieux déserts, en danger sur la mer et en danger parmi de faux frères.
@@ -6276,14 +6361,14 @@
 28 Et sans parler du reste, il y a ma préoccupation quotidienne: le souci que j'ai de toutes les Églises.
 29 Si quelqu'un est faible, je me sens faible aussi; si quelqu'un est détourné de la foi, j'en éprouve une vive douleur.
 30 S'il faut que je me vante, je me vanterai de ma faiblesse.
-31 Dieu, le Père du Seigneur Jésus – qu'il soit loué pour toujours! – sait que je ne mens pas.
+31 Dieu, le Père du Seigneur Jésus qu'il soit loué pour toujours! sait que je ne mens pas.
 32 Quand j'étais à Damas, le gouverneur représentant le roi Arétas plaça des gardes aux portes de la ville pour m'arrêter.
 33 Mais, par une fenêtre de la muraille, on me descendit à l'extérieur dans une corbeille, et c'est ainsi que je lui échappai. Les visions et révélations accordées à Paul
 1 Il faut donc que je me vante, bien que cela ne soit pas bon. Mais je vais parler maintenant des visions et révélations que le Seigneur m'a accordées.
 2 Je connais un chrétien qui, il y a quatorze ans, fut enlevé jusqu'au plus haut des cieux. (Je ne sais pas s'il fut réellement enlevé ou s'il eut une vision, Dieu seul le sait.)
 3 -
 4 Oui, je sais que cet homme fut enlevé jusqu'au paradis (encore une fois, je ne sais pas s'il fut réellement enlevé ou s'il eut une vision, Dieu seul le sait), et là il entendit des paroles inexprimables et qu'il n'est permis à aucun être humain de répéter.
-5 Je me vanterai au sujet de cet homme – mais, quant à moi, je ne me vanterai que de ma faiblesse.
+5 Je me vanterai au sujet de cet homme mais, quant à moi, je ne me vanterai que de ma faiblesse.
 6 Si je voulais me vanter, je ne serais pas fou, car je dirais la vérité. Mais j'évite de me vanter, car je ne désire pas qu'on ait de moi une opinion qui dépasserait ce qu'on me voit faire ou m'entend dire.
 7 Cependant, afin que je ne sois pas enflé d'orgueil pour avoir reçu des révélations si extraordinaires, une dure souffrance m'a été infligée dans mon corps, comme un messager de Satan destiné à me frapper et à m'empêcher d'être enflé d'orgueil.
 8 Trois fois j'ai prié le Seigneur de me délivrer de cette souffrance.
@@ -6320,7 +6405,7 @@
 5 A Dieu soit la gloire pour toujours! Amen. La seule Bonne Nouvelle
 6 Je suis stupéfait de la rapidité avec laquelle vous vous détournez de Dieu: il vous a appelés par la grâce du Christ et vous, vous regardez à une autre Bonne Nouvelle.
 7 En réalité, il n'y en a pas d'autre; il y a seulement des gens qui vous troublent et qui veulent changer la Bonne Nouvelle du Christ.
-8 Eh bien, si quelqu'un – même si c'était nous ou un ange venu du ciel – vous annonçait une Bonne Nouvelle différente de celle que nous vous avons annoncée, qu'il soit maudit!
+8 Eh bien, si quelqu'un même si c'était nous ou un ange venu du ciel vous annonçait une Bonne Nouvelle différente de celle que nous vous avons annoncée, qu'il soit maudit!
 9 Je vous l'ai déjà dit et je le répète maintenant: si quelqu'un vous annonce une Bonne Nouvelle différente de celle que vous avez reçue, qu'il soit maudit!
 10 Est-ce que par là je cherche à gagner l'approbation des hommes? Non, c'est celle de Dieu que je désire. Est-ce que je cherche à plaire aux hommes? Si je cherchais encore à leur plaire, je ne serais pas serviteur du Christ. Comment Paul est devenu apôtre
 11 Frères, je vous le déclare: la Bonne Nouvelle que j'annonce n'est pas une invention humaine.
@@ -6342,7 +6427,7 @@
 3 Eh bien, Tite mon compagnon, qui est grec, n'a pas même été obligé de se faire circoncire,
 4 malgré des faux frères qui s'étaient mêlés à nous et voulaient le circoncire. Ces gens s'étaient glissés dans notre groupe pour espionner la liberté qui nous vient de Jésus-Christ et nous ramener à l'esclavage de la loi.
 5 Pas un seul instant nous ne leur avons cédé, afin de maintenir pour vous la vérité de la Bonne Nouvelle.
-6 Mais les personnes considérées comme les plus influentes – en fait, ce qu'elles étaient ne m'importe pas, car Dieu ne juge pas sur les apparences –, ces personnes, donc, ne m'imposèrent pas de nouvelles prescriptions.
+6 Mais les personnes considérées comme les plus influentes en fait, ce qu'elles étaient ne m'importe pas, car Dieu ne juge pas sur les apparences, ces personnes, donc, ne m'imposèrent pas de nouvelles prescriptions.
 7 Au contraire, elles virent que Dieu m'avait chargé d'annoncer la Bonne Nouvelle aux non-Juifs, tout comme il avait chargé Pierre de l'annoncer aux Juifs.
 8 Car Dieu a fait de moi l'apôtre destiné aux autres nations, tout comme il a fait de Pierre l'apôtre destiné aux Juifs.
 9 Jacques, Pierre et Jean, qui étaient considérés comme les colonnes de l'Église, reconnurent que Dieu m'avait confié cette tâche particulière; ils nous serrèrent alors la main, à Barnabas et à moi, en signe d'accord. Ainsi, nous avons convenu tous ensemble que, pour notre part, nous irions travailler parmi les non-Juifs et qu'ils iraient, eux, parmi les Juifs.
@@ -6395,7 +6480,7 @@
 6 Pour prouver que vous êtes bien ses enfants, Dieu a envoyé dans nos cœurs l'Esprit de son Fils, l'Esprit qui crie: «Abba, ô mon Père!»
 7 Ainsi, tu n'es plus esclave, mais enfant; et puisque tu es son enfant, Dieu te donnera l'héritage qu'il réserve à ses enfants. L'inquiétude que Paul ressent au sujet des Galates
 8 Autrefois, vous ne connaissiez pas Dieu et vous étiez esclaves de dieux qui n'en sont pas en réalité.
-9 Mais maintenant que vous connaissez Dieu – ou, plutôt, maintenant que Dieu vous connaît –, comment est-il possible que vous retourniez à ces faibles et misérables forces spirituelles? Voulez-vous redevenir leurs esclaves?
+9 Mais maintenant que vous connaissez Dieu ou, plutôt, maintenant que Dieu vous connaît, comment est-il possible que vous retourniez à ces faibles et misérables forces spirituelles? Voulez-vous redevenir leurs esclaves?
 10 Vous attachez une telle importance à certains jours, certains mois, certaines saisons et certaines années!
 11 Vous m'inquiétez: toute la peine que je me suis donnée pour vous serait-elle inutile?
 12 Frères, je vous en supplie, devenez semblables à moi, puisque je me suis fait semblable à vous. Vous ne m'avez causé aucun tort.
@@ -6525,7 +6610,7 @@
 16 Je lui demande que, selon la richesse de sa gloire, il fortifie votre être intérieur par la puissance de son Esprit,
 17 et que le Christ habite dans vos cœurs par la foi. Je demande que vous soyez enracinés et solidement établis dans l'amour,
 18 pour être capables de comprendre, avec l'ensemble du peuple de Dieu, combien l'amour du Christ est large et long, haut et profond.
-19 Oui, puissiez-vous connaître son amour – bien qu'il surpasse toute connaissance – et être ainsi remplis de toute la richesse de Dieu.
+19 Oui, puissiez-vous connaître son amour bien qu'il surpasse toute connaissance et être ainsi remplis de toute la richesse de Dieu.
 20 A Dieu qui a le pouvoir de faire infiniment plus que tout ce que nous demandons ou même imaginons, par la puissance qui agit en nous,
 21 à lui soit la gloire dans l'Église et par Jésus-Christ, dans tous les temps et pour toujours! Amen. L'unité du corps
 1 Je vous en supplie, donc, moi qui suis prisonnier parce que je sers le Seigneur: vous que Dieu a appelés, conduisez-vous d'une façon digne de cet appel.
@@ -6815,7 +6900,7 @@
 15 Saluez les frères qui sont à Laodicée, ainsi que Nympha et l'Église qui se réunit dans sa maison.
 16 Quand vous aurez lu cette lettre, faites en sorte qu'on la lise aussi dans l'Église de Laodicée; lisez vous-mêmes celle qu'on vous transmettra de là-bas.
 17 Dites à Archippe: «Prends soin de bien accomplir la tâche dont tu as été chargé au service du Seigneur.»
-18 C'est de ma propre main que j'écris ces mots: Salutations de Paul. – N'oubliez pas que je suis en prison. – Que la grâce de Dieu soit avec vous.
+18 C'est de ma propre main que j'écris ces mots: Salutations de Paul. N'oubliez pas que je suis en prison. Que la grâce de Dieu soit avec vous.
 1 De la part de Paul, Silas et Timothée. A l'Église de Thessalonique, qui appartient à Dieu le Père et au Seigneur Jésus-Christ: Que la grâce et la paix vous soient accordées. La vie et la foi des Thessaloniciens
 2 Nous remercions toujours Dieu pour vous tous et nous pensons sans cesse à vous dans nos prières.
 3 En effet, nous nous rappelons devant Dieu notre Père votre foi si efficace, votre amour si actif et votre espérance si ferme en notre Seigneur Jésus-Christ.
@@ -6950,7 +7035,7 @@
 14 Si quelqu'un n'obéit pas aux instructions que nous donnons dans cette lettre, notez-le et n'ayez aucun contact avec lui, afin qu'il en ait honte.
 15 Cependant, ne le traitez pas en ennemi, mais avertissez-le comme un frère. Bénédiction et salutation
 16 Que le Seigneur, source de paix, vous accorde lui-même la paix en tout temps et de toute manière. Que le Seigneur soit avec vous tous.
-17 C'est de ma propre main que j'écris ces mots: Salutations de Paul. – Voilà comment je signe toutes mes lettres; c'est ainsi que j'écris. –
+17 C'est de ma propre main que j'écris ces mots: Salutations de Paul. Voilà comment je signe toutes mes lettres; c'est ainsi que j'écris.
 18 Que la grâce de notre Seigneur Jésus-Christ soit avec vous tous.
 1 De la part de Paul, apôtre de Jésus-Christ par ordre de Dieu notre Sauveur et de Jésus-Christ notre espérance.
 2 A Timothée, mon vrai fils dans la foi: Que Dieu le Père et Jésus-Christ notre Seigneur t'accordent la grâce, le pardon et la paix. Mise en garde contre de fausses doctrines
@@ -7133,7 +7218,7 @@
 5 Mais toi, garde la tête froide en toute circonstance, supporte la souffrance, travaille activement à la diffusion de la Bonne Nouvelle et remplis ton devoir de serviteur de Dieu.
 6 Quant à moi, je suis déjà sur le point d'être offert en sacrifice; le moment de dire adieu à ce monde est arrivé.
 7 J'ai combattu le bon combat, je suis allé jusqu'au bout de la course, j'ai gardé la foi.
-8 Et maintenant, le prix de la victoire m'attend: c'est la couronne du salut que le Seigneur, le juste juge, me donnera au jour du Jugement – et pas seulement à moi, mais à tous ceux qui attendent avec amour le moment où il apparaîtra. Remarques personnelles
+8 Et maintenant, le prix de la victoire m'attend: c'est la couronne du salut que le Seigneur, le juste juge, me donnera au jour du Jugement et pas seulement à moi, mais à tous ceux qui attendent avec amour le moment où il apparaîtra. Remarques personnelles
 9 Efforce-toi de venir me rejoindre bientôt.
 10 Car Démas m'a abandonné, parce qu'il est trop attaché au monde présent; il est parti pour Thessalonique. Crescens s'est rendu en Galatie et Tite en Dalmatie.
 11 Luc seul est avec moi. Emmène Marc avec toi, car il pourra me rendre service dans ma tâche.
@@ -7212,9 +7297,9 @@
 16 Car maintenant il n'est plus un simple esclave, mais il est beaucoup mieux qu'un esclave: un frère très cher. Il m'est particulièrement cher, mais il doit l'être encore beaucoup plus pour toi, aussi bien dans sa condition humaine que comme frère chrétien.
 17 Si donc tu me considères comme ton ami, reçois-le comme si c'était moi-même.
 18 S'il t'a causé du tort, ou s'il te doit quelque chose, mets cela sur mon compte.
-19 C'est de ma propre main que j'écris ces mots: Moi, Paul, je te le rembourserai. – Je n'ai certes pas à te rappeler que toi tu me dois ta propre vie. –
+19 C'est de ma propre main que j'écris ces mots: Moi, Paul, je te le rembourserai. Je n'ai certes pas à te rappeler que toi tu me dois ta propre vie.
 20 Oui, frère, je t'en prie, accorde-moi cette faveur pour l'amour du Seigneur: réconforte mon cœur au nom de notre communion avec le Christ.
-21 Je suis convaincu, au moment où je t'écris, que tu feras ce que je te demande – je sais même que tu feras plus encore.
+21 Je suis convaincu, au moment où je t'écris, que tu feras ce que je te demande je sais même que tu feras plus encore.
 22 En même temps, prépare-moi une chambre, car j'espère que, grâce à vos prières, je vous serai rendu. Salutations finales
 23 Épaphras, qui est en prison avec moi à cause de Jésus-Christ, t'adresse ses salutations,
 24 ainsi que Marc, Aristarque, Démas et Luc, mes compagnons de travail.
@@ -7775,7 +7860,7 @@
 16 mais il reçut des reproches pour sa désobéissance. En effet, une ânesse muette se mit à parler en prenant une voix humaine et arrêta l'action insensée du prophète.
 17 Ces gens sont comme des sources taries et comme des nuages poussés par la tempête; Dieu leur a réservé une place dans la nuit la plus noire.
 18 Ils font des discours à la fois enflés et vides de sens, ils se servent de leurs désirs les plus honteux pour prendre au piège ceux qui viennent à peine d'échapper à la compagnie des hommes qui vivent dans l'erreur.
-19 Ils leur promettent la liberté, alors qu'ils sont eux-mêmes esclaves d'habitudes destructrices – car chacun est esclave de ce qui le domine.
+19 Ils leur promettent la liberté, alors qu'ils sont eux-mêmes esclaves d'habitudes destructrices car chacun est esclave de ce qui le domine.
 20 En effet, il y a ceux qui ont échappé aux mauvaises influences du monde grâce à la connaissance de notre Seigneur et Sauveur Jésus-Christ; mais s'ils se laissent ensuite reprendre et vaincre par elles, ils se trouvent finalement dans une situation pire qu'auparavant.
 21 Il aurait mieux valu pour eux ne pas avoir connu le juste chemin, que de l'avoir connu et de se détourner ensuite du saint commandement qui leur avait été transmis.
 22 Il leur est arrivé ce que le proverbe dit précisément: «Le chien retourne à ce qu'il a vomi», ou: «Le cochon, à peine lavé, va de nouveau se rouler dans la boue.» La promesse de la venue du Seigneur
@@ -7985,7 +8070,7 @@
 6 Cependant, tu as ceci en ta faveur: tout comme moi, tu détestes ce que font les Nicolaïtes.
 7 «Que chacun, s'il a des oreilles, écoute bien ce que l'Esprit dit aux Églises! «A ceux qui auront remporté la victoire je donnerai à manger les fruits de l'arbre de la vie qui se trouve dans le jardin de Dieu.» Le message adressé à l'Église de Smyrne
 8 «Écris à l'ange de l'Église de Smyrne: «Voici ce que déclare celui qui est le premier et le dernier, celui qui était mort et qui est revenu à la vie:
-9 Je connais ta détresse et ta pauvreté – mais en réalité tu es riche! – Je sais le mal que disent de toi ceux qui se prétendent Juifs mais ne le sont pas: ils sont une assemblée de Satan!
+9 Je connais ta détresse et ta pauvreté mais en réalité tu es riche! Je sais le mal que disent de toi ceux qui se prétendent Juifs mais ne le sont pas: ils sont une assemblée de Satan!
 10 Ne crains pas ce que tu vas souffrir. Écoute: le diable va vous mettre à l'épreuve en jetant plusieurs d'entre vous en prison; on vous persécutera pendant dix jours. Sois fidèle jusqu'à la mort, et je te donnerai la couronne de victoire, la vie éternelle.
 11 «Que chacun, s'il a des oreilles, écoute bien ce que l'Esprit dit aux Églises! «Ceux qui auront remporté la victoire ne subiront pas la seconde mort.» Le message adressé à l'Église de Pergame
 12 «Écris à l'ange de l'Église de Pergame: «Voici ce que déclare celui qui possède l'épée aiguë à deux tranchants:
@@ -8051,7 +8136,7 @@
 10 Tu as fait d'eux un royaume de prêtres pour servir notre Dieu, et ils régneront sur la terre.»
 11 Je regardai encore et j'entendis la voix d'une multitude d'anges: il y en avait des milliers, des dizaines de milliers. Ils se tenaient autour du trône, des êtres vivants et des anciens,
 12 et ils chantaient d'une voix forte: «L'Agneau qui a été mis à mort est digne de recevoir la puissance, la richesse, la sagesse et la force, l'honneur, la gloire et la louange!»
-13 J'entendis aussi toutes les créatures dans le ciel, sur la terre, sous la terre et dans la mer – les créatures de l'univers entier – qui chantaient: «A celui qui siège sur le trône et à l'Agneau soient la louange, l'honneur, la gloire et la puissance pour toujours!»
+13 J'entendis aussi toutes les créatures dans le ciel, sur la terre, sous la terre et dans la mer les créatures de l'univers entier qui chantaient: «A celui qui siège sur le trône et à l'Agneau soient la louange, l'honneur, la gloire et la puissance pour toujours!»
 14 Les quatre êtres vivants répondaient: «Amen!» Et les anciens s'agenouillèrent et adorèrent. Les sceaux
 1 Puis je vis l'Agneau briser le premier des sept sceaux, et j'entendis l'un des quatre êtres vivants dire d'une voix qui résonnait comme le tonnerre: «Viens!»
 2 Je regardai et je vis un cheval blanc. Celui qui le montait tenait un arc, et on lui donna une couronne. Il partit en vainqueur et pour vaincre encore.
@@ -8199,7 +8284,7 @@
 10 boira lui-même le vin de la fureur de Dieu, versé pur dans la coupe de sa colère! De tels êtres seront tourmentés dans le soufre enflammé devant les saints anges et devant l'Agneau.
 11 La fumée du feu qui les tourmente s'élève pour toujours. Ils sont privés de repos, de jour comme de nuit, ceux qui adorent la bête et sa statue, et quiconque reçoit la marque de son nom.»
 12 Voilà pourquoi ils doivent faire preuve de patience ceux qui appartiennent à Dieu, qui obéissent à ses commandements et sont fidèles à Jésus.
-13 Puis j'entendis une voix me dire du ciel: «Écris ceci: “Heureux ceux qui dès maintenant meurent au service du Seigneur!” – “Oui, heureux sont-ils, déclare l'Esprit. Ils pourront se reposer de leurs durs efforts, car le bien qu'ils ont fait les accompagne!” » Moisson et vendange de la terre
+13 Puis j'entendis une voix me dire du ciel: «Écris ceci: “Heureux ceux qui dès maintenant meurent au service du Seigneur!” “Oui, heureux sont-ils, déclare l'Esprit. Ils pourront se reposer de leurs durs efforts, car le bien qu'ils ont fait les accompagne!” » Moisson et vendange de la terre
 14 Je regardai encore, et je vis un nuage blanc, et sur ce nuage était assis un être semblable à un homme. Il avait sur la tête une couronne d'or et à la main une faucille tranchante.
 15 Un autre ange sortit du temple et cria avec force à celui qui était assis sur le nuage: «Prends ta faucille et moissonne, car le moment est arrivé pour cela: la terre est mûre pour la moisson!»
 16 Alors celui qui était assis sur le nuage fit passer sa faucille sur la terre et la terre fut moissonnée.
