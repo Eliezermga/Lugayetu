@@ -5828,13 +5828,15 @@
 27 A Dieu seul sage soit la gloire, par Jésus-Christ, pour toujours! Amen.
 1 De la part de Paul, qui par la volonté de Dieu a été appelé à être apôtre de Jésus-Christ, et de la part de Sosthène, notre frère.
 2 A l'Église de Dieu qui est à Corinthe, à ceux qui, là-bas, sont appelés à vivre pour Dieu et qui lui appartiennent par la foi en Jésus-Christ, et à tous ceux qui, partout, font appel au nom de notre Seigneur Jésus-Christ, leur Seigneur et le nôtre:
-3 Que Dieu notre Père et le Seigneur Jésus-Christ vous accordent la grâce et la paix. Les bienfaits reçus en Christ
+3 Que Dieu notre Père et le Seigneur Jésus-Christ vous accordent la grâce et la paix.
+0 Les bienfaits reçus en Christ
 4 Je remercie sans cesse mon Dieu à votre sujet pour la grâce qu'il vous a accordée par Jésus-Christ.
 5 En effet, dans l'union avec le Christ, vous avez été enrichis de tous les dons, en particulier tous ceux de la parole et de la connaissance.
 6 Le témoignage rendu au Christ a été si fermement établi parmi vous
 7 qu'il ne vous manque aucun don de Dieu, à vous qui attendez le moment où notre Seigneur Jésus-Christ apparaîtra.
 8 C'est lui qui vous maintiendra fermes jusqu'au bout pour qu'on ne puisse vous accuser d'aucune faute au jour de sa venue.
-9 Dieu lui-même vous a appelés à vivre dans l'union avec son Fils Jésus-Christ notre Seigneur: il est fidèle à ses promesses. Divisions dans l'Église
+9 Dieu lui-même vous a appelés à vivre dans l'union avec son Fils Jésus-Christ notre Seigneur: il est fidèle à ses promesses.
+0 Divisions dans l'Église
 10 Frères, je vous en supplie au nom de notre Seigneur Jésus-Christ: mettez-vous d'accord, qu'il n'y ait pas de divisions parmi vous; soyez parfaitement unis, en ayant la même façon de penser, les mêmes convictions.
 11 En effet, mes frères, des personnes de la famille de Chloé m'ont informé qu'il y a des rivalités entre vous.
 12 Voici ce que je veux dire: parmi vous, l'un déclare: «Moi, j'appartiens à Paul»; l'autre: «Moi à Apollos»; un autre encore: «Moi à Pierre»; et un autre: «Et moi au Christ.»
@@ -5842,7 +5844,8 @@
 14 Dieu merci, je n'ai baptisé aucun de vous, à part Crispus et Gaïus.
 15 Ainsi, on ne pourra pas prétendre que vous avez été baptisés en mon nom.
 16 Ah! c'est vrai, j'ai aussi baptisé la famille de Stéphanas, mais je ne crois pas avoir baptisé qui que ce soit d'autre.
-17 Le Christ ne m'a pas envoyé baptiser: il m'a envoyé annoncer la Bonne Nouvelle, et cela sans utiliser le langage de la sagesse humaine, afin de ne pas priver de son pouvoir la mort du Christ sur la croix. Jésus-Christ, puissance et sagesse de Dieu
+17 Le Christ ne m'a pas envoyé baptiser: il m'a envoyé annoncer la Bonne Nouvelle, et cela sans utiliser le langage de la sagesse humaine, afin de ne pas priver de son pouvoir la mort du Christ sur la croix.
+0 Jésus-Christ, puissance et sagesse de Dieu
 18 En effet, prêcher la mort du Christ sur la croix est une folie pour ceux qui se perdent; mais nous qui sommes sur la voie du salut, nous y discernons la puissance de Dieu.
 19 Voici ce que l'Écriture déclare: «Je détruirai la sagesse des sages, je rejetterai le savoir des gens intelligents.»
 20 Alors, que peuvent encore dire les sages? ou les gens instruits? ou les discoureurs du temps présent? Dieu a démontré que la sagesse de ce monde est folie!
@@ -5856,12 +5859,14 @@
 28 il a choisi ce qui est bas, méprisable ou ne vaut rien aux yeux du monde, pour détruire ce que celui-ci estime important.
 29 Ainsi, aucun être humain ne peut se vanter devant Dieu.
 30 Mais Dieu vous a unis à Jésus-Christ et il a fait du Christ notre sagesse: c'est le Christ qui nous rend justes devant Dieu, qui nous permet de vivre pour Dieu et qui nous délivre du péché.
-31 Par conséquent, comme le déclare l'Écriture: «Si quelqu'un veut se vanter, qu'il se vante de ce que le Seigneur a fait.» Annoncer le Christ crucifié
+31 Par conséquent, comme le déclare l'Écriture: «Si quelqu'un veut se vanter, qu'il se vante de ce que le Seigneur a fait.»
+0 Annoncer le Christ crucifié
 1 Quand je suis allé chez vous, frères, pour vous révéler le plan secret de Dieu, je n'ai pas usé d'un langage compliqué ou de connaissances impressionnantes.
 2 Car j'avais décidé de ne rien savoir d'autre, durant mon séjour parmi vous, que Jésus-Christ et, plus précisément, Jésus-Christ crucifié.
 3 C'est pourquoi, je me suis présenté à vous faible et tout tremblant de crainte;
 4 mon enseignement et ma prédication n'avaient rien des discours de la sagesse humaine, mais c'est la puissance de l'Esprit divin qui en faisait une démonstration convaincante.
-5 Ainsi, votre foi ne repose pas sur la sagesse des hommes, mais bien sur la puissance de Dieu. La sagesse de Dieu
+5 Ainsi, votre foi ne repose pas sur la sagesse des hommes, mais bien sur la puissance de Dieu.
+0 La sagesse de Dieu
 6 J'enseigne pourtant une sagesse aux chrétiens spirituellement adultes. Mais ce n'est pas la sagesse de ce monde, ni celle des puissances qui règnent sur ce monde et qui sont destinées à la destruction.
 7 Non, j'annonce la sagesse secrète de Dieu, cachée aux hommes. Dieu l'avait déjà choisie pour nous faire participer à sa gloire avant la création du monde.
 8 Aucune des puissances de ce monde n'a connu cette sagesse. Si elles l'avaient connue, elles n'auraient pas crucifié le Seigneur de la gloire.
@@ -5872,7 +5877,8 @@
 13 Et nous en parlons non pas avec le langage qu'enseigne la sagesse humaine, mais avec celui qu'enseigne l'Esprit de Dieu. C'est ainsi que nous expliquons des vérités spirituelles à ceux qui ont en eux cet Esprit.
 14 L'homme qui ne compte que sur ses facultés naturelles est incapable d'accueillir les vérités communiquées par l'Esprit de Dieu: elles sont une folie pour lui; il lui est impossible de les comprendre, car on ne peut en juger que par l'Esprit.
 15 L'homme qui a l'Esprit de Dieu peut juger de tout, mais personne ne peut le juger.
-16 Il est écrit, en effet: «Qui connaît la pensée du Seigneur? Qui peut lui donner des conseils?» Mais nous, nous avons la pensée du Christ. Serviteurs de Dieu
+16 Il est écrit, en effet: «Qui connaît la pensée du Seigneur? Qui peut lui donner des conseils?» Mais nous, nous avons la pensée du Christ.
+0 Serviteurs de Dieu
 1 En réalité, frères, je n'ai pas pu vous parler comme à des gens qui ont l'Esprit de Dieu: j'ai dû vous parler comme à des gens de ce monde, comme à des enfants dans la foi chrétienne.
 2 C'est du lait que je vous ai donné, non de la nourriture solide, car vous ne l'auriez pas supportée. Et même à présent vous ne le pourriez pas,
 3 parce que vous vivez encore comme des gens de ce monde. Du moment qu'il y a de la jalousie et des rivalités entre vous, ne montrez-vous pas que vous êtes des gens de ce monde et que vous vous conduisez d'une façon toute humaine?
@@ -5895,7 +5901,8 @@
 20 Elle déclare aussi: «Le Seigneur connaît les pensées des sages, il sait qu'elles ne valent rien.»
 21 Ainsi, personne ne doit fonder sa fierté sur des hommes. Car tout vous appartient:
 22 Paul, Apollos ou Pierre, le monde, la vie, la mort, le présent ou l'avenir, tout est à vous;
-23 mais vous, vous appartenez au Christ et le Christ appartient à Dieu. Apôtres du Christ
+23 mais vous, vous appartenez au Christ et le Christ appartient à Dieu.
+0 Apôtres du Christ
 1 Vous devez donc nous considérer comme des serviteurs du Christ, chargés de gérer les vérités secrètes de Dieu.
 2 Tout ce que l'on demande à un gérant, c'est d'être fidèle.
 3 Pour ma part, peu importe que je sois jugé par vous ou par un tribunal humain. Je ne me juge pas non plus moi-même.
@@ -5916,11 +5923,12 @@
 18 Certains d'entre vous ont fait les prétentieux en pensant que je ne viendrais pas vous voir.
 19 Mais si le Seigneur le permet, j'irai bientôt chez vous. Alors je connaîtrai non pas seulement les paroles de ces prétentieux mais ce dont ils sont capables!
 20 Car le Royaume de Dieu n'est pas une affaire de paroles mais de puissance.
-21 Que préférez-vous? que je vienne à vous avec un bâton, ou avec un cœur plein d'amour et de douceur? Immoralité dans l'Église
+21 Que préférez-vous? que je vienne à vous avec un bâton, ou avec un cœur plein d'amour et de douceur?
+0 Immoralité dans l'Église
 1 On entend dire partout qu'il y a de l'immoralité parmi vous, une immoralité si grave que même les païens ne s'en rendraient pas coupables: on raconte, en effet, que l'un de vous vit avec la femme de son père!
 2 Et vous faites encore les prétentieux! Vous devriez au contraire en être affligés, et l'auteur d'une telle action devrait être chassé du milieu de vous.
-3 -
-4 Quant à moi, même si je suis absent de corps, je suis près de vous en esprit; et j'ai déjà jugé au nom de notre Seigneur Jésus celui qui a si mal agi, comme si j'étais présent parmi vous. Lorsque vous serez assemblés, je serai avec vous en esprit et la puissance de notre Seigneur Jésus se manifestera;
+3 Quant à moi, même si je suis absent de corps, je suis près de vous en esprit; et j'ai déjà jugé au nom de notre Seigneur Jésus celui qui a si mal agi, comme si j'étais présent parmi vous.
+4 Lorsque vous serez assemblés, je serai avec vous en esprit et la puissance de notre Seigneur Jésus se manifestera;
 5 vous devrez alors livrer cet homme à Satan pour que son être pécheur soit détruit, mais qu'il puisse être spirituellement sauvé au jour du Seigneur.
 6 Il n'y a pas de quoi vous vanter! Vous le savez bien: «Un peu de levain fait lever toute la pâte.»
 7 Purifiez-vous donc! Éliminez ce vieux levain pour que vous deveniez semblables à une pâte nouvelle et sans levain. Vous l'êtes déjà en réalité depuis que le Christ, notre agneau pascal, a été sacrifié.
@@ -5928,8 +5936,9 @@
 9 Dans ma précédente lettre, je vous ai écrit de ne pas avoir de contact avec ceux qui vivent dans l'immoralité.
 10 Je ne visais pas, d'une façon générale, tous ceux qui, dans ce monde, sont immoraux, envieux, voleurs, ou adorateurs d'idoles. Sinon, vous devriez sortir du monde!
 11 Je voulais vous dire de ne pas avoir de contact avec quelqu'un qui, tout en se donnant le nom de chrétien, serait immoral, envieux, adorateur d'idoles, calomniateur, ivrogne ou voleur. Vous ne devez pas même partager un repas avec un tel homme.
-12 -
-13 Ce n'est pas mon affaire, en effet, de juger les non-chrétiens. Dieu les jugera. Mais ne devriez-vous pas juger les membres de votre communauté? Il est écrit, en effet: «Chassez le méchant du milieu de vous.» Les procès contre des frères
+12 Ce n'est pas mon affaire, en effet, de juger les non-chrétiens. Dieu les jugera. Mais ne devriez-vous pas juger les membres de votre communauté?
+13 Il est écrit, en effet: «Chassez le méchant du milieu de vous.»
+0 Les procès contre des frères
 1 Quand l'un de vous entre en conflit avec un frère, comment ose-t-il demander justice à des juges païens au lieu de s'adresser aux membres de la communauté?
 2 Ne savez-vous pas que le peuple de Dieu jugera le monde? Et si vous devez juger le monde, êtes-vous incapables de juger des affaires de peu d'importance?
 3 Ne savez-vous pas que nous jugerons les anges? A plus forte raison les affaires de cette vie!
