@@ -48,13 +48,6 @@ The goal is to create a **neural translation prototype** capable of understandin
 The Ruwund-French dataset is available on Hugging Face:
 
 https://huggingface.co/datasets/eliezermga/ruund-french-parallel-corpus
-
-<iframe
-  src="https://huggingface.co/datasets/eliezermga/ruund-french-parallel-corpus/embed/viewer/default/train"
-  frameborder="0"
-  width="100%"
-  height="560px"
-></iframe>
 ---
 
 # Linguistic Data Collection
