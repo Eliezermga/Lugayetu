@@ -7532,11 +7532,13 @@
 15 Tous ceux qui sont avec moi t'adressent leurs salutations. Salue nos amis dans la foi. Que la grâce de Dieu soit avec vous tous.
 1 De la part de Paul, mis en prison pour avoir servi Jésus-Christ, et de la part de notre frère Timothée. A toi, Philémon, notre cher ami et compagnon de travail,
 2 et à l'Église qui se réunit dans ta maison, à notre sœur Appia et à Archippe notre compagnon de combat:
-3 Que Dieu notre Père et le Seigneur Jésus-Christ vous accordent la grâce et la paix. L'amour et la foi de Philémon
+3 Que Dieu notre Père et le Seigneur Jésus-Christ vous accordent la grâce et la paix.
+0 L'amour et la foi de Philémon
 4 Toutes les fois que je prie, je pense à toi, Philémon, et je remercie mon Dieu;
 5 car j'entends parler de ton amour pour tous les croyants et de ta foi au Seigneur Jésus.
 6 Je demande à Dieu que la foi que tu as en commun avec nous soit efficace en toi pour faire mieux connaître tous les biens que nous avons dans notre vie avec le Christ.
-7 Ton amour, frère, m'a donné beaucoup de joie et d'encouragement, car tu as réconforté le cœur des croyants. Paul présente une demande en faveur d'Onésime
+7 Ton amour, frère, m'a donné beaucoup de joie et d'encouragement, car tu as réconforté le cœur des croyants.
+0 Paul présente une demande en faveur d'Onésime
 8 Ainsi, bien que dans la communion avec le Christ j'aie toute liberté de t'ordonner ce que tu dois faire,
 9 je préfère t'adresser une demande au nom de l'amour. Tel que je suis, moi Paul, un vieillard, et de plus maintenant gardé en prison à cause de Jésus-Christ,
 10 je te demande une faveur pour Onésime. Il est devenu mon fils en Jésus-Christ ici, en prison.
@@ -7551,7 +7553,8 @@
 19 C'est de ma propre main que j'écris ces mots: Moi, Paul, je te le rembourserai. Je n'ai certes pas à te rappeler que toi tu me dois ta propre vie.
 20 Oui, frère, je t'en prie, accorde-moi cette faveur pour l'amour du Seigneur: réconforte mon cœur au nom de notre communion avec le Christ.
 21 Je suis convaincu, au moment où je t'écris, que tu feras ce que je te demande je sais même que tu feras plus encore.
-22 En même temps, prépare-moi une chambre, car j'espère que, grâce à vos prières, je vous serai rendu. Salutations finales
+22 En même temps, prépare-moi une chambre, car j'espère que, grâce à vos prières, je vous serai rendu.
+0 Salutations finales
 23 Épaphras, qui est en prison avec moi à cause de Jésus-Christ, t'adresse ses salutations,
 24 ainsi que Marc, Aristarque, Démas et Luc, mes compagnons de travail.
 25 Que la grâce du Seigneur Jésus-Christ soit avec vous.
