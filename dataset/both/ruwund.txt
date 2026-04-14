@@ -3509,8 +3509,8 @@
 27 Ndiy wamwinkisha Mwanend ulabu wa kurumburishan, mulong ndiy udi Mwan a Muntu.
 28 Kangal washimwokany mulong wa chom chinech. Chisu chikat kwez chikez kuteshau afu awonsu adia mwi nzay dizu dined,
 29 chad akez kuvumbuk kwikal kand aom. Antu awonsu asala yom yiwamp akez kuvumbuk, ikal aom chikupu, pakwez antu awonsu asala nayimp akez kuvumbuk, ayifish nich.
-0 Atuman alejena ulabu wa Yesu
 30 “Kinikutwishap kusal chom ku ulabu wamam amwinam. Nikat kurumburishan mudi mwinlejinay Nzamb. Dirumburish diam didi diakin, mulong kinikatilap kusal mudi munisotila, pakwez nisadil mudi musotilay ndiy wantuma.
+0 Atuman alejena ulabu wa Yesu
 31 “Anch nilondilap uman wam amwinam, uman wam kiudiap wakin.
 32 Pakwez kudi mwin kulejan uman wamam, ndiy kamu Tatukwam, chawiy nij anch yilejenay yidi yakin.
 33 En watumanya aruu en kudi Yohan, ndiy walejana uman wakin mulong wamam.
@@ -5967,8 +5967,7 @@
 4 Mband kadiap mwant wa mujimbu wend amwinend, pakwez mujimbu wend udi wa nfumwend., Chawiy chimwing kand, niyend ikundj kadiap mwant wa mujimbu wend amwinend, pakwez mujimbu wend udi wa mukajend.
 5 Kangal wakojijanany kusankan pamwing, ching kusu anch wovijanany kulik kusal chimwing mulong wa kwipanany mu kulembil. Chad kwinyim sankanijanany kand, chamwamu Sakudimban ukez kukwozany mulong ukuburenany usu wa kwilam.
 6 Nilondil yom yiney wakad kukushindilany mulong wa kwatijan, pakwez nitiyin en usalany mwamu.
-7 Chakin, nisotil ing antu awonsu ikalang mudi munidia am. Pakwez muntu ni muntu amwinkisha chiyukish chend amwinend cha kusal nich. Chiyukish chidiokil kudi Nzamb.
-0 Muntu umwing watambula chiyukish cha mutapu umwing, muntu mukwau watambula chiyukish cha mutapu ukwau.
+7 Chakin, nisotil ing antu awonsu ikalang mudi munidia am. Pakwez muntu ni muntu amwinkisha chiyukish chend amwinend cha kusal nich. Chiyukish chidiokil kudi Nzamb. Muntu umwing watambula chiyukish cha mutapu umwing, muntu mukwau watambula chiyukish cha mutapu ukwau.
 8 Katat niyilejin ajich ni adiaafu chidi kwau chiwamp awiy kushakam ayinau mudi munishicha am.
 9 Pakwez anch awiy katwishilap kwilam ayinau, chifanyidin atijan kwau. Mulong chidi kwau chiwamp kwatijan kupandakan kwikal nich maku nakash.
 10 Nikwet chijil kudi angachik nau angatan, chawiy cha Nsalejetu kichidiap chamam, mband udia ku uruu kangal walikijan nend nfumwend, bwat.
@@ -5977,7 +5976,8 @@
 13 Chawiy chimwing kand, anch mwanamakwetu mwin Kristu ukwet nfumwend wakad kal kumwitiyij Kristu, chad ikundj winou witiy kudandamen kushakam nend, kangal mband wamulik, bwat.
 14 Mulong ikundj wakad kal kumwitiyij Kristu udi muntu wa Nzamb, mulong wibombil kal nend mband mwin Kristu. Chawiy chimwing, mband wakad kal kumwitiyij Kristu udi muntu wa Nzamb, mulong wibombil kal nend ikund lj mwin Kristu. Anch chamwamu, an akuvalau akwikal akad kwijikan kudi Nzamb, pakwez mulong nvaj umwing udi mwin Kristu, anau adi an a Nzamb.
 15 Chawiy anch ngachik ap ngatan wakad kal kumwitiyij Kristu usotil kumulik mwin Kristu mband ap ikundj, mwitiyany kwend asala mwamu. Mu chom mudi chinech ngachik ap ngatan mwin Kristu kamukasinap ku chijil cha uruu, mulong Nzamb watutazuka etu in Kristu kushakam mu chisambu.
-16 Oy, ey mband mwin Kristu wij nchik anch ukez kumupandish nfumwey? Ap niyey ikundj mwin Kristu wij nchik anch ukez kumupandish mukajey? Muntu ni muntu ashakam mutapu wamutazukau kudi Nzamb
+16 Oy, ey mband mwin Kristu wij nchik anch ukez kumupandish nfumwey? Ap niyey ikundj mwin Kristu wij nchik anch ukez kumupandish mukajey?
+0 Muntu ni muntu ashakam mutapu wamutazukau kudi Nzamb
 17 Chifanyidin muntu ni muntu ashakam mutapu wamwinkishau kudi Nsalejetu, wawiy kamu mutapu Wadingay pamutazukau kudi Nzamb. Chinech chawiy chijil cham nikata kulejan kwawonsu mu Yikumbu ya Nzamb.
 18 Anch muntu ading amutwala kal ku mukand pa chisu chamutazukau kudi Nzamb, kangal wapakish kudiosh yijingidij ya mukand. Anch muntu wading wakad kal kuya ku mukand pa chisu chamutazukau kudi Nzamb, kafanyidinap kukimb kumutwal ku mukand.
 19 Anch muntu amutwala ku mukand ap wakad kutwal ku mukand, kichikwetap usey. Chom chijim, chifanyidin muntu kuziyil ku yijil ya Nzamb.
@@ -8004,7 +8004,8 @@
 19 Anamakwam in Kristu, anch muntu umwing wa pakach pen walik uyakin, waya kulemp, chad muntu mukwau wamuchirish,
 20 vurikany chom chinech, muntu ukumukarumuna mukayitil kumudiosh mu kurumbuk kwend, ukez kupandish mwom wa mukayitil ku rufu, chad Nzamb ukez kumulikishin miril ya yitil yend.
 1 Yam Pita, kambuy wa Yesu Kristu, nifundila mukand winou kudi antu atonday Nzamb, aya mu ukatu, apalangena mu yibar ya ngand ya Pont, ni ya Galatia, ni ya Kapados, ni ya Aziy, ni ya Bitiniy.
-2 En akutondany kal pakur mudi mwading rusot ra Nzamb Tatukwetu. Ndiy wakushitwishanya en kudi Mwiku wend Utumbila chakwel umuziyilany Yesu Kristu, ni kwikal antu adia zwang mulong wa mash mend. Nilembidil anch ranaken ni chisambu yivulijan kudi en. Ruchingej ra kashinsh
+2 En akutondany kal pakur mudi mwading rusot ra Nzamb Tatukwetu. Ndiy wakushitwishanya en kudi Mwiku wend Utumbila chakwel umuziyilany Yesu Kristu, ni kwikal antu adia zwang mulong wa mash mend. Nilembidil anch ranaken ni chisambu yivulijan kudi en.
+0 Ruchingej ra kashinsh
 3 Tumujikitishany Nzamb Tatukwend wa Nsalejetu Yesu Kristu! Ku riy rend rijim twavadika kapamp kakwau mulong wa kuvumbuk kwa Yesu Kristu kwikal kand mwom. Mulong wa chom chinech tukwet ruchingej rujim ra kashinsh.
 4 Tuchingejin uswan wakad kuvund, ap kuyip, ap kusheshik, ulaminau mwiur kudi Nzamb mulong wenen.
 5 En akulaminany km dikand dia Nzamb, mulong wa ritiy ra dipandish dikez Imekeshau pa chisu cha kwisudiel.
@@ -8014,7 +8015,8 @@
 9 En ukat kutambulany difut dia ritiy ren, diawiy dipandish dia mipim yen.
 10 Aruu a Nzamb asuraba ni kwipurol mulong wa dipandish dined, awiy abwaka mulong wa ranaken rashilayimu Nzamb kupan kudi en.
 11 Awiy akasikesha mulong wa kujingunin chisu ik ni chirung ik chikeza kuwanyin yom yilejenay Mwiku wa Kristu. Mwiku winou wading ushich mu awiy wayilejanga kurutu mar makez kumanay Kristu, ni uyaj ukez kwambakenap.
-12 Nzamb wayijingunina aruu end anch kisadidilap ayinau, pakwez akusadilanya en, parurumburilangau rusangu riuteshilanya kudi in kurumburil Rusangu Ruwamp ku ukash wa Mwiku Utumbila watumau kudiokal mwiur. Yom yiney niyau aruu a mwiur akat kuyishinshik. Chifanyidin kwikal nich mwom utumbila
+12 Nzamb wayijingunina aruu end anch kisadidilap ayinau, pakwez akusadilanya en, parurumburilangau rusangu riuteshilanya kudi in kurumburil Rusangu Ruwamp ku ukash wa Mwiku Utumbila watumau kudiokal mwiur. Yom yiney niyau aruu a mwiur akat kuyishinshik.
+0 Chifanyidin kwikal nich mwom utumbila
 13 Tenchikany manangu men mulong wa kusal chom, babalany, chad tekany ruchingej ren rawonsu ku ranaken riukutambulany pakumekanay Yesu Kristu.
 14 Ikalany mudi an amuziyidina Nzamb, kangal walondulany maku mayimp ma mujimbu, mudi muwadinganya pakur, piwadinganya kand kal wijikany yom ya Nzamb.
 15 Mudi mudiay wakutazukanya utumbil, niyen ikalany atumbila mu yaku yen yawonsu.
@@ -8027,7 +8029,8 @@
 22 Katat mulong en waziyilany kal ku uyakin, wishitwishany kal ayinen, chad ukatijadinany nau anamakwen in Kristu. Chawiy katijanany nich rukat rakin nich michim yen yawonsu.
 23 Pakwez en wavadikinany kal asu, kichidiap kudi atatuku akata kufa, pakwez kwi mbut yakad kufang. Wavadikinany ku ranaken ra dizu dia Nzamb dikweta mwom, dishichinga chikupu.
 24 Mudi mufundilau mu Mukand wa Nzamb anch: "Antu awonsu adi mudi masuku, ni uyaj wau wawonsu udi mudi yisalamb ya mwisuku. Masuku makat kuum, yisalamb yikat kuruk,
-25 pakwez dizu dia Nsalejetu dishiching chikupu." Dizu dined rawiy Rusangu Ruwamp rakurumburilanyau en. Nsalejetu udi diyal dikweta mwom
+25 pakwez dizu dia Nsalejetu dishiching chikupu." Dizu dined rawiy Rusangu Ruwamp rakurumburilanyau en.
+0 Nsalejetu udi diyal dikweta mwom
 1 Chawiy djibulany rukuny rawonsu, ni kudimban kwawonsu, ni rubabek, ni mukau, ni matungu.
 2 Ikalany nich impu yikash ya yom ya Nzamb yidia zwang, mudi an achidia kwamu akweta impu ya mayel, chakwel yikutwish kukukudishany ni kukupandishany.
 3 En wamupakinany kal ni kushinshik chakin Nsalejetu udi muwamp.
@@ -8037,14 +8040,16 @@
 7 Kudi en umwitiyijinanya ndiy, chakin, ndiy ukwet usey ukash. Pakwez kudi awiy akad kumwitiyij, mudi mufundilau mu Mukand wa Nzamb anch: "Diyal diadjibulau in kutung mudi chom chamwamu, komb diawiy dikala kal diyal dia usey dia pa dikonk."
 8 Afundil kand mu Mukand wa Nzamb anch: "Dined diawiy diyal dikata kuyipwakesh antu, diawiy dikata kuyiwish." Awiy awa mulong alika kwitiy dizu dia Nzamb. Mwamu mwayitenchikinau kudi Nzamb.
 9 Pakwez en udiany muchid watonday Nzamb, udiany chisak cha in kupesh a Mwant Nzamb, udiany muchid utumbila, udiany kand antu a Nzamb a pa kampwil. Ndiy wakutondanya en chakwel ukutwishany kurumburil yisalijok yikwamushena ya Nzamb, ndiy kamu wakutazukanya en kudiokal mu mididim, wandamany mu chimunyik chend chikwamushena.
-10 Pakur en wadiany antu amwamu, pakwez katat en udiany antu a Nzamb. Pakur en kiwijikanyap riy ra Nzamb, pakwez katat Nzamb wakwovilany kal riy. Ikalany atushalapol a Nzamb
+10 Pakur en wadiany antu amwamu, pakwez katat en udiany antu a Nzamb. Pakur en kiwijikanyap riy ra Nzamb, pakwez katat Nzamb wakwovilany kal riy.
+0 Ikalany atushalapol a Nzamb
 11 Akarukat, en udianya mudi angez ap mudi aeny mu mangand minam, nikat kukushindilany anch, likany maku men mayimp ma mujimbu makata kurish njit ni mupim.
 12 Ikalany nich yaku yiwamp pakach pa antu a michid yikwau, chakwel pakez kukufundanyau anch udiany antu ayimp, awiy ayinau akez kuman yisalijok yen yiwamp, chad akumushiman Nzamb pa Dichuku dikwezay ni kuyirumburish antu.
 13 Ziyilany kudi in kutakel awonsu a antu, mulong wa kumwambat Nsalejetu. Ziyilany kudi mwant mujim wa ngand,
 14 ni kudi anyikel atuminay mulong wa kuyilej antu asadila nayimp kadimu, ni mulong wa kuyibaz antu asadila nawamp.
 15 Mulong Nzamb ukatil en usalany yisalijok yiwamp ya kunenetish nich mazu mamwamu ma antu ayisup.
 16 Ikalany nich mwom wa mutapu wa antu akwodilau kal, chawiy kangal wasadilany want ipen wen kwikal chom cha kujindjik nich kuyip kwen, pakwez ipanany kamu kwikal atushalapol a Nzamb.
-17 Yilimishany antu awonsu, yikatany anamakwen in Kristu, mwovany Nzamb wom, mulimishany kand mwant mujim wa ngand. Mu mar tumwilakej Kristu
+17 Yilimishany antu awonsu, yikatany anamakwen in Kristu, mwovany Nzamb wom, mulimishany kand mwant mujim wa ngand.
+0 Mu mar tumwilakej Kristu
 18 En udiany atushalapol, yiziyilany ansalejen ni kuyilimish mudi muchifanyidina. Salany mwamu kudi ansalejen adimukina ni adia awamp, pakwez salany kand mwamu kudi ansalejen isumina.
 19 Pakwez chidi kwau chiwamp kwitiy kuman mar ma yom yiwakad kufany nich anch en wasalany mwamu mulong wa kumuziyil Nzamb.
 20 Ov, chom ik chikukukwashanya anch akubulany mulong wa yom yiyimp yiwasalangany? Pakwez anch en wasalany yom yiwamp, akumeshany mar, chad en washimpishany muchim, chinech chidi chom chiwamp ku mes kwa Nzamb.
@@ -8052,14 +8057,15 @@
 22 Ndiy kasalap chitil, mu kan mwend kadimbanap.
 23 Pamusaalau masaal, ndiy kayichirishinap. Pamumeshau mar, ndiy kayifunyinap amumesha mar, pakwez ndiy wamuchingeja Nzamb Nkalansambu utentamina.
 24 Kristu amwinend wasenda yitil yetu mu mujimbu wend pa mutond uchikakena, chakwel kwovijan kwetu ni yitil kukufa, chad etu tukupand twikal nich mwom utentamina. En wayerikinany kal mulong chamutapolau ndiy yitat wakwambatany en.
-25 En wadiany mudi amikoku ashadikina kal, pakwez katat Nzamb wakuchirishinany kal chakwel umulondulany Kafung, ndiy kand Kalam wa mipim yen. Kushakam kwa mband ni ikundj mu uruu
+25 En wadiany mudi amikoku ashadikina kal, pakwez katat Nzamb wakuchirishinany kal chakwel umulondulany Kafung, ndiy kand Kalam wa mipim yen.
 1 Chawiy chimwing niyen amband, yiziyilany anfumwen, ap anch amwing a pakach pau kitiyinap nchik dizu dia Nzamb, ukutwishany kuyipwitany ku ritiy pakumanau yisalijok yen yiwamp. En kiukwikalanyap nich kuswir kwa kulond dizu,
 2 mulong awiy akez kuman yaku yen ya zwang ni kalimish ken.
 3 Kangal wapandakeshany kwiriyek nich nswich, ap nich yileng ya usey ukash, ap nich maswin ma usey ukash.
 4 Pakwez ufun wen wikal wa mukach mwa muchim, wawiy ufun wakad kusikang pasutap nchik mivu. Wawiy muchim udimukina wa kwitudish, muchim winou ukwet usey upandakena kujimb kurutu kwa Nzamb.
 5 Mwamu amband a pakur ading atumbila, amuchingejanga Nzamb, iriyekanga, chad kand ading ayiziyidil anfumwau.
 6 Mwamu mwadingay Sar, ndiy wamuziyila Aburaham, wamutazukanga anch: "Nsalejam." Katat en udiany anend amband, anch wasalany yom yitentamina, wakad kwov wom wa chom ap kusu chimwing.
-7 Chawiy chimwing niyen amakundj, shakamany nawamp nau akajen, yilimishany mulong awiy kakwetap usu mudi amakundj. Yilimishany kand mulong niyau adi answan a mwom pamwing ni yenen. Salany mwamu chakwel kangal kwikal chom cha kukangesh kulembil kwen. Kuman mar mulong wa kusal yom yitentamina
+7 Chawiy chimwing niyen amakundj, shakamany nawamp nau akajen, yilimishany mulong awiy kakwetap usu mudi amakundj. Yilimishany kand mulong niyau adi answan a mwom pamwing ni yenen. Salany mwamu chakwel kangal kwikal chom cha kukangesh kulembil kwen.
+0 Kuman mar mulong wa kusal yom yitentamina
 8 Chom cha kwisudiel, en awonsu ikalany nich chitongijok chimwing, bombakanany mu kuwap ap mu mar, katijanany mudi an a divumu dimwing. Ikalany in kudimuk ni in kwitudish. ·
 9 Kangal wafundakeshany kuyip ku kuyip, ap masaal ku masaal, pakwez yiyukishany akusadilanya nayimp, mulong chawiy chom chakutazukinanyau kudi Nzamb chakwel niyen ukutambulany chiyukish.
 10 Mudi mufundilau mu Mukand wa Nzamb anch: "Muntu mwawonsu ukatila kusanger mwom uwamp, ni kwikal nich machuku mawamp, chifanyidin ndiy kulik kulond nayimp, ap kudimban makasu.
@@ -8074,18 +8080,21 @@
 19 Chawiy ku Mwiku winou ndiy waya ni kurumburil Rusangu Ruwamp kudi afu ashicha mwi ndond ya afu.
 20 Charumburik anch, afu inay pakur kamuziyilap Nzamb pa chisu chachingelay nich muchim ushimpila mu chirung cha Nowa, papampay waat ujim. Mu waat winiwa mwandama chisak chikemp cha antu chinan, awiy kusu apanda pasutau pa mabeb ma mem.
 21 Mem minam chidi chijingidij cha dibatish dikata kukupandishany en katat. Dibatish dined kididiap mulong wa kwoyish majir ma mujimbu, pakwez didi mulong wa kwit kudi Nzamb kom kadia zwang. Nzamb ukat kukupandishany mulong wa kuvumbuk kwa Yesu Kristu wikala kand mwom.
-22 Ndiy waya mwiur, ushich ku chikas cha katatuku cha Nzamb, ndiy kand uyiyikedila aruu a mwiur awonsu, ni in ulabu, ni in ukash awonsu a mwiur. Mwom usu
+22 Ndiy waya mwiur, ushich ku chikas cha katatuku cha Nzamb, ndiy kand uyiyikedila aruu a mwiur awonsu, ni in ulabu, ni in ukash awonsu a mwiur.
+0 Mwom usu
 1 Chawiy mulong Kristu wamana mar ku mujimbu, chifanyidin niyen wikasikeshany kwikal nich chitongijok cha mutapu umwing mudi chendendiy. Mulong muntu mwawonsu ukata kuman mar ku mujimbu wadiokal kal ku yitil.
 2 Kudiokal katat djat ni kwisudiel kwa machuku mend makushakamay pa mangand, ndiy ufanyidin kusadil rusot ra Nzamb, wakad kusadil kand maku mayimp ma wuntu.
 3 En wawanyishinany kal chisu cha kusal yitil mudi mukat kusalau antu a michid yikwau. Wasalany kal usund, walondulanya maku mayimp ma mujimbu, wapandakeshany kukwachik ku maar, wibombany mu yisak ya kuna maar, chad wasalany yitil ya usany, chad wifukwilany kand akish atakanena.
 4 Katat antu a michid yikwau akat kushimwok mulong en kiwibombilanyap kand nau kusal yom yipandakena kuyip, chawiy mwamu akat kukusaalany masaal.
 5 Pakwez awiy akez kwilondilap ayinau kudi Nzamb mulong wa yaku yau. Ndiy ukez kuyirumburish aom ni afu wakad kulab.
-6 Mulong wa chom chinech, chawiy chalejenay Kristu Rusangu Ruwamp kudi afu, chakwel anch ayirumburishap nchik padingau aom mudi mukat kuyirumburishau antu awonsu, awiy akutwish kwikal aom mu Mwiku Utumbila mudi mudiay Nzamb mwom. Kulam nawamp yiyukish ya kusal nich yikat kupanay Nzamb
+6 Mulong wa chom chinech, chawiy chalejenay Kristu Rusangu Ruwamp kudi afu, chakwel anch ayirumburishap nchik padingau aom mudi mukat kuyirumburishau antu awonsu, awiy akutwish kwikal aom mu Mwiku Utumbila mudi mudiay Nzamb mwom.
+0 Kulam nawamp yiyukish ya kusal nich yikat kupanay Nzamb
 7 Disudiel dia yom yawonsu didi piswimp, chawiy ilamany ayinen, babalany, chakwel ukutwishany kulembil.
 8 Kupandakan yom yawonsu, dandamenany nich rukat, mulong anch wakatijanany ukulikany kusal yitil kudi muntu ni muntu.
 9 Akijanany amwing ni akwau wakad kwinan.
 10 Muntu mwawonsu wa pakach pen watambula kudi Nzamb yiyukish ya kusal nich, chawiy chifanyidin muntu ni muntu kusadil yiyukish yiney mulong wa kukwashijan nich.
-11 Muntu mwawonsu watambula dizu diwamp dia kulond, arumburil kwend mazu ma Nzamb. Niyend watambula mutapu wa kusal mudimu wa kukwashan, asala nich usu umwinkishinau kudi Nzamb, chakwel mu yom yawonsu antu akumushiman Nzamb mu Yesu Kristu, ndiy mwin uyaj ni mwin kuyikel wa mivu ni minang. Amen. Mar makat kumanau in Kristu
+11 Muntu mwawonsu watambula dizu diwamp dia kulond, arumburil kwend mazu ma Nzamb. Niyend watambula mutapu wa kusal mudimu wa kukwashan, asala nich usu umwinkishinau kudi Nzamb, chakwel mu yom yawonsu antu akumushiman Nzamb mu Yesu Kristu, ndiy mwin uyaj ni mwin kuyikel wa mivu ni minang. Amen.
+0 Mar makat kumanau in Kristu
 12 Akarukat, kangal wamanany anch chidi chom cheny cha kushimwok pakupakau ritiy ren mu ruteng ra kasu, mudi mukat kupakau utad wa or.
 13 Pakwez sangarany mulong en ukat kumanany mar mudi mwamanay Kristu mar, chakwel en ukutwishany kuzangijal ni kusangar pakumekeshau uyaj wend.
 14 Wayukany kwen pakukusaalolanyau masaal mulong wa dijin dia Kristu, mulong Mwiku wa uyaj, ndiy Mwiku wa Nzamb ushich mu en.
@@ -8093,7 +8102,8 @@
 16 Anch umwing wa pakach penen waman mar mulong udi mwin Kristu, kangal wov usany, pakwez chifanyidin amushiman Nzamb ku dijin dined.
 17 Chisu chashik kal chikuyirumburishau antu kudi Nzamb, pakusambish ukuyirumburish antu a chikumbu chend. Chawiy anch waturumburish etu pakusambish, ov, disudiel dia antu akad kwitiyij Rusangu Ruwamp ra Nzamb dikwikal nchik?
 18 Mudi mufundilau mu Mukand wa Nzamb anch: "Anch antu atentamina ayipandish kwa mar makash, ov, chikwikal nchik kudi akayitil in kumubwambwil Nzamb?"
-19 Chawiy anch antu akat kuman mar mudi mudia rusot ra Nzamb, chifanyidin awiy asala yom yitentamina ni kwipan ayinau kudi Sakatang, Mwin Yakin. Yisak ya amikoku a Nzamb
+19 Chawiy anch antu akat kuman mar mudi mudia rusot ra Nzamb, chifanyidin awiy asala yom yitentamina ni kwipan ayinau kudi Sakatang, Mwin Yakin.
+0 Yisak ya amikoku a Nzamb
 1 Chawiy katat nikat kuyishindil amakurump a Chikumbu cha Nzamb adia pakach pen. Niyam nidi mukurump, nidi kand kaman wa mar mamanay Kristu, chad nikez kuswan uyaj ukez kujinguninau.
 2 Yilamany yisak ya amikoku a Nzamb akwinkishanyau, kangal wasalany mulong wakukushindilany, pakwez salany mudi mudia rusot ra Nzamb. Kangal wasalany kusu mulong wa kupit nfalang, pakwez salany nich mushiku.
 3 Kangal wayikelany nich usu antu iulaminanya, pakwez ikalany chilik chiwamp kudi yisak ya amikoku a Nzamb.
@@ -8104,12 +8114,14 @@
 8 Ilamany ayinen, babalany! Mukankuny nen, Sakudimban, ukat kuzomb mudi ntamb wonyina ukata kukimb nany ukudiay.
 9 Imanany dang mu ritiy, rishany nend, ijikany anch anamakwen in Kristu apalangena mu mangand akat kuman kand niyau mar ma mutapu umwing.
 10 Pakwez piukumananya mar chisu chikemp, Nzamb wa ranaken rawonsu, wakutazukanya kwandam mu uyaj wa chikupu wa Kristu, ukez kukupizurishany, ni kukukasikeshany, ni kukwimikany dang.
-11 Kudi Nzamb kwikala kuyikel kwa mivu ni minang! Amen. Kulangwish kwa Pita kwa kwisudiel
+11 Kudi Nzamb kwikala kuyikel kwa mivu ni minang! Amen.
+0 Kulangwish kwa Pita kwa kwisudiel
 12 Silas wankwash kal kukufundilany mukand winou wiswimp. Ndiy udi mwanamakwam mwin Kristu wakin, nimuchingejin. Nisotil kukukasikeshany ni kukulejany uman wamam anch, riner rawiy ranaken rakin ra Nzamb. Imanany dang mu ranaken riner.
 13 In Chikumbu cha Nzamb a mu Babilon, atonday Nzamb mudi en, akulangwishany, pamwing ni Marko, mwanam ikundj mu ritiy.
 14 Langwishijanany muntu ni mukwau nich kususujan kwa rukat. Nikat kulembil anch, chisambu chikal ni yenen awonsu udiany mu Kristu!
 1 Yam Simon Pita, kashalapol ni kambuy wa Yesu Kristu, nifundila mukand winou kudi antu atambula kal ritiy ra usey ukash mudi retwetu, mulong wa kutentam kwa Nzamb ni kwa Mupandish wetu Yesu Kristu.
-2 Nikat kulembil anch, ranaken ni chisambu yivulijan kudi en mulong umwonganyinany Nzamb ni Nsalejetu Yesu. Nzamb ukat kutond antu ni kuyitazuk
+2 Nikat kulembil anch, ranaken ni chisambu yivulijan kudi en mulong umwonganyinany Nzamb ni Nsalejetu Yesu.
+0 Nzamb ukat kutond antu ni kuyitazuk
 3 Nzamb, ku ukash wend wa wiNzamb, watwinkisha yom yawonsu yituswiridina chakwel twikala nich mwom utumbila. Ndiy watwijikishay, watutazuka kwandam mu uyaj ni mu kuwap kwend.
 4 Mulong wa yom yiney ndiy watwinkisha kushilamu kwend kujim nakash kwa usey ukash. Ku kushilamu kwinoku ukutwishany kwiyep kuyip kudia mu mangand kudiokila ku maku mayimp ma mujimbu, chad mwamu en ukutwishany kwandam mu wiNzamb wend.
 5 Mulong wa chom chinech, ikasikeshany chakwel uwejanyaku ku ritiy ren yaku yidia zwang, ni ku yaku yidia zwang uwejanyaku ronganyin,
@@ -8122,13 +8134,15 @@
 12 Ap anch wijanyap nchik yom yiney, ap anch wiminyanyap nchik dang mu uyakin watambulanya, am nikez kudandamen kukuvurishany kand machuku mawonsu.
 13 Pakwez nitongil anch, pinichidia kamu mwom panap pansh, chidi chom chiwamp kukubabeshangany nich yivurikish yiney.
 14 Nij nawamp anch, katat nidi piswimp ni kudjol mujimbu wam wa mbij, mudi mwingijikishinau kudi Nsalejam Yesu Kristu.
-15 Nikasikeshin kukulejany yom yiney, chakwel pinikudiokala en ukutwishany kuvurikangany yom yiney machuku mawonsu. Atuman a uyaj wa Kristu 18
+15 Nikasikeshin kukulejany yom yiney, chakwel pinikudiokala en ukutwishany kuvurikangany yom yiney machuku mawonsu.
+0 Atuman a uyaj wa Kristu
 16 Etu kitwalondulap yishimu yatenchikau antu pitwakulejanya rusangu ra kushik kwa Nsalejetu Yesu Kristu nich dikand. Pakwez etu tudi atuman akin a katumb kend.
 17 Mulong ndiy watambula katumb ni uyaj kudi Nzamb Tatuku, pidiashika dizu diadiokala ku Uyaj wa Katumb wa Nzamb, dialonda anch: "Winou ndiy Mwanam ukatishena, am nikat kusangar mulong wendendiy!"
 18 Etu ayinetu twatesha dizu dined pidiadiokala mwiur, chisu chitwadinga nend ndiy pa mukandu utumbila.
 19 Katat etu tushinshikin nakash anch, mazu malejanau aruu a Nzamb madi kamu makin. Chifanyidin en ubabalany ku mazu minam mudi muukata kubabalany ku chimunyik chikata kumunyik mwi ndond ya mididim, djat ni pa Dichuku dikurumburishau antu kudi Nzamb, chad Kristu ukez kumunyik mu michim yen mudi mwizikuch.
 20 Chom chijim, ijikany nawamp anch kwikil kubwak kwa mu Mukand wa Nzamb kudiokila ku yitongijok ya muntu amwinend.
-21 Mulong kwikil kubwak kwadiokala kusu ku rusot ra muntu, pakwez aruu a Nzamb alondanga mazu madiokalanga kudi Nzamb payitakelangau kudi Mwiku Utumbila. Alej a makasu
+21 Mulong kwikil kubwak kwadiokala kusu ku rusot ra muntu, pakwez aruu a Nzamb alondanga mazu madiokalanga kudi Nzamb payitakelangau kudi Mwiku Utumbila.
+0 Alej a makasu
 1 Pasak kwamekana alej a makasu pakach pa antu, mudi mukez kumekanau kand pakach penen. Awiy akez ķusambish mu ujindj malejan ma makasu ma kusheshan, akez kumwitun Nsalejau wayikwola, mwamu mukez kwijiyishau ayinau kwakad kulab.
 2 Antu avud akez kulondul yaku yau ya usund, chad mulong wa yisalijok yau antu akwau akez kudiwol njil ya uyakin.
 3 Mulong wa ris rau ra kupit, akez kukwiyany nfalang pakukulejanyau yishimu ya makasu yirijekinau ayinau. Kudiokal pakur ayifish kal nich, Mwin Kuyishesh kakulabap mudi muntu ulela tul!
@@ -8150,7 +8164,8 @@
 19 Awiy akat kushilamu kuyinkish antu want ipau, pakwez ayinau adi aswik a yaku yikeza kuyishesh. Mulong muntu ni muntu udi muswik wa chom chamuyikela kal.
 20 Anch antu iyepina kal ku yaku yiyimp ya mangand mulong amwijikin kal Nsalejetu, ndiy kamu Mupandish wetu Yesu Kristu, chad anch yaku ya mangand yayikwat kand ni kuyipandakan, kwisudiel mulong wau ukwikal uyimp kupandakan wa kusambish.
 21 Chela kwikal chiwamp anch kijikap kwau njil yitentamina, kupandakan kuyijik njil yiney, chad awiy omb nyim ku malejan matumbila mayilejau.
-22 Yom yayishikena yimekeshin patok yom yafundau mu jinswir anch: "Kabu ukat kuchirikin ku yirik yend." Chikwau kand anch: "Chibond woyishangau kal ukat kuchirik kand kakwau kwisamp mu yisampisamp.' Kushilamu kwa kuchirik kwa Nsalejetu
+22 Yom yayishikena yimekeshin patok yom yafundau mu jinswir anch: "Kabu ukat kuchirikin ku yirik yend." Chikwau kand anch: "Chibond woyishangau kal ukat kuchirik kand kakwau kwisamp mu yisampisamp.'
+0 Kushilamu kwa kuchirik kwa Nsalejetu
 1 Arund nam, winou wawiy mukand wa kaad unikufundidilanya. Mu mikand yiney yawonsu yaad nikuvurishinany chakwel wikalany nich mutapu uwamp wa kutong.
 2 Nisotil ing wavurikangany mazu malondau pasak kudi aruu a Nzamb atumbila, ni chijil chapanay Nsalejetu, ndiy kamu Mupandish wetu chakulejanyau en kudi atwimbuy end.
 3 Chom cha kusambish, ijikany anch mu machuku ma kwisudiel kukez kumekan in kukudiwolany en, awiy adi antu atakedilau kudi maku mau mayimp ma mujimbu.
@@ -8173,19 +8188,22 @@
 1 Tukufundidilany mulong wa Dizu dia mwom diadingaku kudiokal ku disambishil dia yom yawonsu. Etu twaditesha, twadimana nich mes metu, twaditala, chad twadikwata kand nich makas metu.
 2 Piwamekana mwom winou, etu twaumana, tulejen kand uman wa chom chinech, chawiy turumburila kudi en mulong wa mwom wa chikupu wadinga kudi Nzamb Tatuku, wawiy kand wamekeshay kudi etu.
 3 Chom chitwamana ni chitwatesha chawiy tukurumburidilany niyen chakwel wikalany mu umwing ni yetwetu, mulong etu tudi mu umwing nend Nzamb Tatuku ni Mwanend Yesu Kristu.
-4 Tukufundidilany chom chinech chakwel musangar wetu ukwikal uwanyidina. Nzamb udi kutok
+4 Tukufundidilany chom chinech chakwel musangar wetu ukwikal uwanyidina.
+0 Nzamb udi kutok
 5 Riner rawiy rusangu ritwatesha kudi Yesu Kristu, rawiy kand riturumburila kudi en anch, Nzamb udi kutok, mwi ndiy mwikiling mididim ap kusu pakemp.
 6 Anch twafa mu kan twalond anch, tudi nend ndiy mu umwing, chad etu tukat kwendilang kand mu yaku ya mididim, tukat kulond makasu, kitukat kusalap uyakin.
 7 Pakwez anch twendil mu yaku ya kutok mudi mudiay Nzamb amwinend mu kutok, chad tudi mu umwing nau akwetu, muntu ni mukwau, chawiy mash ma rufu ra Mwanend Yesu matutokisha ku yitil yetu yawonsu.
 8 Anch twalond anch, kitudiap akayitil, tukat kwidimb ayinetu, kitukwetap uyakin wa Nzamb mu michim yetu.
 9 Pakwez anch twitiyin yitil yetu kudi Nzamb, ndiy utentamina, ukuwanyish kushilamu kwend, chawiy ndiy ukutulikishin yitil yetu, chad ukutokish kand michim yetu ku kuyip kwawonsu.
-10 Anch twafa mu kan, twalond anch kand kal tusalap yitil, mwamu tukat kumumekesh ndiy anch udi mwin makasu, chawiy mazu mend kimashichap mu michim yetu. Kristu ndiy mwin kutukwash
+10 Anch twafa mu kan, twalond anch kand kal tusalap yitil, mwamu tukat kumumekesh ndiy anch udi mwin makasu, chawiy mazu mend kimashichap mu michim yetu.
+0 Kristu ndiy mwin kutukwash
 1 Anam, akarukat mu Yesu, nikufundidilany yom yiney chakwel kangal wez wasalany yitil. Pakwez anch muntu wasal chitil tukwet kal mwin kutulondilap, ndiy kamu Yesu Kristu, utentamina, udia piswimp nend Tatuku Nzamb.
 2 Mulong Yesu Kristu udi yakupesh ya kulikishin yitil yetu yawonsu. Chawiy kiyidiap kusu yitil yetwetu ayinetu, pakwez ukulikishin kand yitil ya antu awonsu a pa mangand.
 3 Anch twaziyil ku yijil ya Nzamb, mwamu tukutwish kushinshik anch tumwij Nzamb.
 4 Anch muntu walond anch: "Nimwij Nzamb," pakwez ndiy walik kuziyil ku yijil yend, muntu mwinou udi mwin makasu, kakwetap uyakin mu muchim wend.
 5 Pakwez anch muntu waziyil ku mazu ma Nzamb, chakin rukat ra Nzamb ruwanyidin mu muchim wend. Mulong wa chom chinech tukutwish kushinshik anch tubombaken nend Yesu mu umwing.
-6 Muntu mwawonsu ukulonda anch, nibombaken nend ndiy, chifanyidin muntu mwinou kwikal nich yaku ya mutapu umwing mudi yakwetingay Yesu. Chijil chisu
+6 Muntu mwawonsu ukulonda anch, nibombaken nend ndiy, chifanyidin muntu mwinou kwikal nich yaku ya mutapu umwing mudi yakwetingay Yesu.
+0 Chijil chisu
 7 Arund nam, kinikufundidilanyap chijil chisu, pakwez chidi chijil chikur chiwateshanya kal kudiokal ku disambishil. Chijil chinech chikur ridi rusangu riwateshanya kal pakur.
 8 Pakwez chidi chijil chisu chinikufundidilanya. Uyakin wa chijil chinech umekedin mu mwom wa Kristu ni mu mwom wenen, mulong chirung cha mididim chiyil ni kupwa, chad kutok kwakin kwasambishang kal kumunyik.
 9 Muntu ukata kufa mu kan walond anch: "Am nishich mu kutok," chad ndiy umukisin mwanamakwend mwin Kristu, muntu mwinou uchidi kand kwend mu mididim ni katat.
@@ -8196,7 +8214,8 @@
 14 Nikufundidilany en anam akarukat, mulong en umwijany kal Nzamb Tatuku. Nikufundidilany en atatuku, mulong en umwijany ndiy wadingaku kudiokal ku disambishil djat ni katat. Nikufundidilany en ansangarum, mulong en ukwetany usu, chawiy mazu ma Nzamb mashich mu michim yen, chad en udiany in kumupandakan Sakudimban. Ingn
 15 Kangal wakatany mangand ap yom yau yidiamu. Anch muntu wakat mangand, rukat ra Nzamb Tatuku kirishichap mu muchim wend.
 16 Mulong yom yawonsu yidia mu mangand, charumburik anch, maku mayimp ma akayitil, ni ris ra yom yikat kumanau nich mes mau, ni kwibaz kwa yom yikwetau ni kwa yom yisadilau, yom yiney yawonsu kiyidiokilap kudi Nzamb Tatuku, pakwez yidiokil ku mangand.
-17 Mangand mayil ni kujiy pamwing ni yom yawonsu yikwetau nich antu ris, pakwez muntu mwawonsu ukata kusal rusot ra Nzamb ukez kupand chikupu. Mwin kwitek pa ndond ya Kristu
+17 Mangand mayil ni kujiy pamwing ni yom yawonsu yikwetau nich antu ris, pakwez muntu mwawonsu ukata kusal rusot ra Nzamb ukez kupand chikupu.
+0 Mwin kwitek pa ndond ya Kristu
 18 Anam akarukat, chisu cha kwisudiel chidi piswimp, chawiy chisu chikushikay mwin kwitek pa ndond ya Kristu mudi muwateshanya. Mulong wa chom chinech twijik kal nawamp anch, komb chisu cha kwisudiel chashik kal, mulong in kwitek pa ndond ya Kristu amekanang kal avud.
 19 Antu inay adiokala mu chisak chetu, pakwez kadingap kwau mu umwing ni yetwetu. Anch awiy ading mu umwing ni yetwetu, ing adandamedin kand pamwing ni yetwetu. Pakwez awiy adiokil kal chakwel chimekan patok anch, kadiap mu umwing ni yetwetu.
 20 Pakwez en watambwilany kal Mwiku Utumbila wakwinkishanyau kudi Kristu Utumbila. En awonsu wijany kal uyakin.
@@ -8208,7 +8227,8 @@
 26 Nikufundidilany yom yiney mulong wa awiy akata kupakish kukupumbulany.
 27 Pakwez en, Kristu wakwinkishany kal Mwiku wend Utumbila. Pashichay Mwiku wend Utumbila mu michim yen, kiukwetanyap kuswir kwa kukulejany chom kudi muntu. Chawiy Mwiku wend Utumbila ukat kukulejany yom yawonsu, yom yikulejinanyay yidi yakin, yakad ya makasu. Chawiy mwamu, ziyilany ku malejan ma Mwiku wend Utumbila, dandamenany mu umwing nend Kristu.
 28 Chakin, anam akarukat, dandamenany mu umwing nend Kristu, chakwel tukwikal nich ruchingej pakumekanay, wakad kwov usany pa Dichuku dikushikay.
-29 En wijany nawamp anch Kristu utentamin, chawiy ijikany kand anch muntu mwawonsu ukata kusal yom yitentamina, ndiy wavadik kal kwikal muntu musu ku rusot ra Nzamb. An a Nzamb
+29 En wijany nawamp anch Kristu utentamin, chawiy ijikany kand anch muntu mwawonsu ukata kusal yom yitentamina, ndiy wavadik kal kwikal muntu musu ku rusot ra Nzamb.
+0 An a Nzamb
 1 Talany mutapu wa rukat rujim ratukatay Tatuku chakwel atupil anch, an a Nzamb! Chakin, mwamu tudia kamu! Mulong wa chom chinech, in mangand katwijap kwau mulong kand kal amwijik Nzamb.
 2 Akarukat nam, katat tudi an a Nzamb, pakwez kand kal tushinshik nawamp mutapu tukeza kwikal. Pakwez chom chimwing chitwija chawiy chinech, pakez kumekanay Kristu tukez kufanakan nend ndiy, mulong tukez kumuman mudi mudiay.
 3 Muntu mwawonsu umuchingejina Kristu, mwamu wilamin zwang mudi mudiay Kristu zwang.
@@ -8218,7 +8238,8 @@
 7 Anam akarukat, kangal witiyany antu akupumbulany! Muntu mwawonsu ukata kusal yom yitentamina, niyend amwinend utentamin, mudi mutentaminay Yesu Kristu.
 8 Muntu mwawonsu ukata kudandamen kusal yitil, amutakedin kudi Sakudimban, mulong Sakudimban ukat kusal yitil kudiokal ku disambishil. Mwan a Nzamb weza mulong wa kushesh midimu ya Sakudimban.
 9 Muntu mwawonsu wavadikina kal kwikal muntu musu ku rusot ra Nzamb kakusalap kand chitil, mulong Nzamb wamwinkishin kal mwom usu kwikal mudi rubut. Kakutwishap kand kusal yitil mulong wavadikin kal kwikal muntu musu ku rusot ra Nzamb.
-10 Mwamu tukutwish kujingunin patok an a Nzamb ni an a Sakudimban. Muntu mwawonsu wakad kusal yom yitentamina kadiap mwan a Nzamb, chawiy chimwing kand, ni muntu mwawonsu wakad kumukat mwanamakwend. Kukatijan muntu ni mukwau
+10 Mwamu tukutwish kujingunin patok an a Nzamb ni an a Sakudimban. Muntu mwawonsu wakad kusal yom yitentamina kadiap mwan a Nzamb, chawiy chimwing kand, ni muntu mwawonsu wakad kumukat mwanamakwend.
+0 Kukatijan muntu ni mukwau
 11 Riner rawiy rusangu riwateshanya kal kudiokal ku disambishil anch: "Chifanyidin tukatijanangany muntu ni mukwau."
 12 Kitufanyidinap kwikal mudi Kain watakelau kudi Sakudimban, chad wamujip mwanamakwend Abel. Ov, mulong ik wamujipinay? Mulong yisalijok ya Kain yading yiyimp, pakwez yisalijok ya mwanamakwend yading yitentamina.
 13 Anamakwam, kangal washimwokany anch in mangand akukisany.
@@ -8226,19 +8247,22 @@
 15 Muntu mwawonsu umukisina mwanamakwend udi kabaaj mwin kujipan, chawiy en wijany nawamp anch, kabaaj mwin kujipan kakwetap mwom wa chikupu.
 16 Kwinoku kwawiy kutwijikidina kurumburik kwa rukat anch, Yesu Kristu wapana mwom wend mulong wa kutwambat etu. Chawiy niyetu tufanyidin kupan mom yetu mulong wa kuyambat anamakwetu!
 17 Anch muntu ukwet mapit ma mangand minam, chad ndiy umumen mwanamakwend uburedin chom, pakwez ndiy walik kumwovil riy, ov, rukat ra Nzamb rikwikal nchik mu muchim wend?
-18 Anam akarukat, kichifanyidinap rukat retu rikal kusu ra kulond mazu mawamp, pakwez rufanyidin kwikal rukat rakin rimekedina mu yisalijok yetu yiwamp. Ruchingej ra kusej piswimp kudi Nzamb
+18 Anam akarukat, kichifanyidinap rukat retu rikal kusu ra kulond mazu mawamp, pakwez rufanyidin kwikal rukat rakin rimekedina mu yisalijok yetu yiwamp.
+0 Ruchingej ra kusej piswimp kudi Nzamb
 19 Mulong wa chom chinech tukutwish kwijik anch tudi in yakin, tukutwish kand kupimish michim yetu kurutu kwa Nzamb.
 20 Mulong anch michim yetu yatufish nich, Nzamb udi mujim kupandakanamu michim yetu, ndiy wij kand yom yawonsu.
 21 Akarukat nam, anch kom ketu katufishilap nich, tukwikal nich ruchingej ra kusej piswimp kudi Nzamb.
 22 Chad anch twit chom kudi ndiy tukutambul, mulong tuziyidil yijil yend, tukat kusal kand yom ya kumusangarish ndiy.
 23 Chijil chend chawiy ech anch, chifanyidin tumwitiyijany Mwanend Yesu Kristu, chifanyidin kand tukatijanany muntu ni mukwau mudi mwatulejay Kristu.
-24 Muntu mwawonsu uziyidina ku yijil ya Nzamb udi mu umwing nendendiy, niyend Nzamb udi mu umwing nend muntu. Twij nawamp anch, Nzamb udi mu umwing ni yetwetu mulong wa Mwiku Utumbila watwinkishay. Mwiku Utumbila wa Nzamb ni mwiku wa Sakudimban
+24 Muntu mwawonsu uziyidina ku yijil ya Nzamb udi mu umwing nendendiy, niyend Nzamb udi mu umwing nend muntu. Twij nawamp anch, Nzamb udi mu umwing ni yetwetu mulong wa Mwiku Utumbila watwinkishay.
+0 Mwiku Utumbila wa Nzamb ni mwiku wa Sakudimban
 1 Akarukat nam, kangal wayitiyany antu awonsu afila mu kan anch, akwet Mwiku Utumbila. Pakwez yipakany bil, ushinshikany anch, chakin, mwiku ukwetau udiokil kudi Nzamb. Mulong aruu a makasu avud apalangen kal mu mangand.
 2 Talany mutapu ukutwishany kujingunin Mwiku Utumbila wa Nzamb. Muntu mwawonsu ukutwisha kwitiy anch, Yesu Kristu wikala nich mujimbu wa muntu, chakin, muntu ukwitiya mwamu ukwet Mwiku Utumbila wa Nzamb.
 3 Pakwez muntu mwawonsu ukulika kwitiy anch, Yesu Kristu wikala nich mujimbu wa muntu, chakin, muntu ukulika kwitiy mwamu kakwetap Mwiku Utumbila wa Nzamb. Muntu mwinou ukwet mwiku wa mwin kwitek pa ndond ya Kristu. En wateshany kal anch, mwiku winou ukwez, ni katat washikin kal mu mangand.
 4 Anam akarukat, en udiany ayen a Nzamb. En wayipandakenanyamu kal aruu a makasu, mulong Mwiku Utumbila udia mu michim yenen ukwet ukash kumupandakanamu mwiku wa Sakudimban ushicha mu michim ya in mangand.
 5 Aruu a makasu akat kulond yom ya mangand mulong awiy adi in mangand, chad in mangand akat kuyitesh.
-6 Etu tudi antu ayen a Nzamb, muntu mwawonsu umwija Nzamb ukat kututesh. Pakwez muntu mwawonsu wakad kwikal wa Nzamb kakat kututeshap. Winou wawiy mutapu tukata kujingunin Mwiku Utumbila wa uyakin, ni mwiku wa makasu. Nzamb udi rukat
+6 Etu tudi antu ayen a Nzamb, muntu mwawonsu umwija Nzamb ukat kututesh. Pakwez muntu mwawonsu wakad kwikal wa Nzamb kakat kututeshap. Winou wawiy mutapu tukata kujingunin Mwiku Utumbila wa uyakin, ni mwiku wa makasu.
+0 Nzamb udi rukat
 7 Akarukat nam, chifanyidin etu kudandamen kukatijan muntu ni mukwau, mulong rukat ridiokil kudi Nzamb. Muntu mwawonsu ukatena udi mwan a Nzamb, umwij kand Nzamb.
 8 Muntu mwawonsu wakad kukatan kamwijap Nzamb, mulong Nzamb udi rukat.
 9 Talany mutapu watulejay Nzamb rukat rend, ndiy wamutuma Mwanend kapwokal mu mangand chakwel etu tutambul mwom wa chikupu kudi ndiy.
@@ -8253,19 +8277,22 @@
 18 Mu rukat mwikiling wom. Rukat ruwanyidina rikat kwopat wom, chakin, wom ukat kwez mulong wa kadimu kakweza.Chawiy muntu mwawonsu ukweta wom kakwetap rukat ruwanyidina.
 19 Etu tukwet rukat mulong Nzamb watukata etu pakusambish.
 20 Anch muntu walond anch: "Am nimukatil Nzamb," chad umukisin mwanamakwend, muntu mwinou udi mukamakasu. Mulong anch muntu kamukatilap mwanamakwend umenay ku mes, kakutwishap kumukat Nzamb wakad kumekan ku mes.
-21 Talany chijil chatwinkishay Kristu, anch muntu mwawonsu umukatila Nzamb, ufanyidin kand kumukat mwanamakwend. Kupandakan kwetu kwa yom ya mangand
+21 Talany chijil chatwinkishay Kristu, anch muntu mwawonsu umukatila Nzamb, ufanyidin kand kumukat mwanamakwend.
+0 Kupandakan kwetu kwa yom ya mangand
 1 Muntu mwawonsu witiyina anch, Yesu udi Kristu Uzizidilau Many, muntu mwinou wavadikin kal kwikal muntu musu ku rusot ra Nzamb. Muntu mwawonsu umukatila tatuku umukatil kand mwan wavalay.
 2 Talany mutapu twijany anch tuyikatil an a Nzamb, chidi mulong tumukatil Nzamb ni kuziyil ku yijil yend.
 3 Anch chakin, tumukatil Nzamb, tuziyidil kand ku yijil yend. Chawiy yijil yend kiyikasikenap nakash kudi etu,
 4 mulong muntu mwawonsu wavadikina kal kwikal muntu musu ku rusot ra Nzamb udi mwin kupandakan wa yom ya mangand. Chawiy etu tukat kupandakan yom ya mangand nich ritiy retu mu Kristu.
-5 Ov, nany ukutwisha kupandakan yom ya mangand? Ching kusu muntu witiyina anch, Yesu udi Mwan a Nzamb. Uman walejanau mulong wa Yesu Kristu
+5 Ov, nany ukutwisha kupandakan yom ya mangand? Ching kusu muntu witiyina anch, Yesu udi Mwan a Nzamb.
+0 Uman walejanau mulong wa Yesu Kristu
 6 Yesu Kristu winou ndiy kamu weza, ndiy weza ku dibatish dia mem ni ku mash ma rufu rend. Ndiy kezap kusu ku mem, pakwez weza ku mem ni ku mash. Chad Mwiku Utumbila ukat kulejan uman wend anch, yom yiney yidi yakin, mulong Mwiku Utumbila ukat kulejan ching kusu yom ya uyakin.
 7 Kudi atuman asatu.
 8 Atuman inay adi Mwiku Utumbila, ni mem, ni mash, chad awonsu asatu akat kulejan uman wa mutapu umwing.
 9 Etu tukat kwitiy uman ukat kulejanau antu, pakwez uman ukat kulejanay Nzamb upandaken, mulong winou wawiy uman walejanay Nzamb, walejana uman mulong wa Mwanend.
 10 Muntu mwawonsu umwitiyijina Mwan a Nzamb, muntu mwinou ukwet uman winou mu muchim wend. Muntu mwawonsu wakad kwitiy uman winou, muntu mwinou wamumekesh kal Nzamb anch udi mwin makasu, mulong kitiyinap uman walejanay Nzamb mulong wa Mwanend.
 11 Uman winou utulejin anch, Nzamb watwinkisha mwom wa chikupu, chad mwom winou utwinkishidinau mu Mwanend.
-12 Muntu mwawonsu udia mu umwing nend Mwan a Nzamb, muntu mwinou ukwet mwom. Pakwez muntu mwawonsu wakad kwikal mu umwing nend Mwan a Nzamb, muntu mwinou kakwetap mwom winou. Mwom wa chikupu
+12 Muntu mwawonsu udia mu umwing nend Mwan a Nzamb, muntu mwinou ukwet mwom. Pakwez muntu mwawonsu wakad kwikal mu umwing nend Mwan a Nzamb, muntu mwinou kakwetap mwom winou.
+0 Mwom wa chikupu
 13 Nifundil yom yiney kudi en umwitiyijinanya Mwan a Nzamb, chakwel ushinshikany anch ukwetany mwom wa chikupu.
 14 Chawiy katat ruchingej ritukweta kudi Nzamb rawiy riner, anch twamwit chom, chad tumwit mudi mudia rusot rend, ndiy ukututesh.
 15 Twij nawamp anch, ndiy ukat kututesh ku yom yawonsu tukata kumwit, twij kand anch, tukat kutambul yom yawonsu tukata kumwit.
@@ -8277,7 +8304,8 @@
 21 Anam akarukat, iyepany, yichinany akish.
 1 Yam mukurump Yohan, nifundila mukand winou kudi ey, mband watondau kudi Nzamb, pamwing ni aney, nikukatilany kwakin. Kiyamap kusu amwinam nikukatilanya, pakwez kand antu awonsu ija uyakin akukatilany kand.
 2 Tukukatilany mulong wa uyakin utukweta mu michim yetu, wawiy uyakin tukwikala nich chikupu.
-3 Nikat kulembil anch ranaken, ni riy, ni chisambu yidiokila kudi Nzamb Tatuku ni kudi Yesu Kristu, Mwan a Tatuku, yikala ni yetwetu mu uyakin ni mu rukat. Uyakin ni rukat
+3 Nikat kulembil anch ranaken, ni riy, ni chisambu yidiokila kudi Nzamb Tatuku ni kudi Yesu Kristu, Mwan a Tatuku, yikala ni yetwetu mu uyakin ni mu rukat.
+0 Uyakin ni rukat
 4 Nikwet musangar nakash pakutesh anch, aney amwing adandamedin mu uyakin, mudi mwatulejau kudi Tatuku Nzamb.
 5 Mband mukarukat, nikwet chom cha kukulej ey. Kinikufundidilap chijil chisu, pakwez nikat kukuvurish chijil chitwatambula kudiokal ku disambishil anch, chifanyidin etu kukatijan muntu ni mukwau.
 6 Tal kurumburik kwa rukat rin kwawiy oku, chifanyidin kudandamen kuziyil yijil ya Nzamb. Chijil chend chiwatesha kudiokal ku disambishil chilejen anch, chifanyidin kudandamen mu rukat.
@@ -8285,26 +8313,31 @@
 8 Babalany, chakwel kangal midimu yiwasalanya yisheshik chamwamu. Babalany kand, chakwel en wez utambulany difut dien diawonsu dia midimu yen.
 9 Muntu mwawonsu ukupumbuka wakad kudandamen mu malejan ma Kristu, muntu mwinou kadiap kwend mu umwing nend Nzamb. Pakwez muntu mwawonsu ukudandamena mu malejan ma Kristu, muntu mwinou udi mu umwing nend Nzamb Tatuku ni Mwanend.
 10 Chawiy anch muntu wez kudi en wakad kukuletilany malejan minam, kangal wamwakany mu chikumbu chen, ap kumulangwish.
-11 Muntu mwawonsu ukumwaka muntu wa mutapu winou, wibomb kal nend mu midimu yiyimp. Mazu ma Yohan ma kwisudiel
+11 Muntu mwawonsu ukumwaka muntu wa mutapu winou, wibomb kal nend mu midimu yiyimp.
+0 Mazu ma Yohan ma kwisudiel
 12 Am nikwet yom yivud ya kukulejany, pakwez kinisotilap kuyifund pa diyij dia mukand, mulong nichingejin kwez kudi en chakwel tukwambambany pamwing ni yamam amwinam. Mwamu musangar wetu ukuwanyin.
 13 An a nambaz wey watondau kudi Nzamb akulangwishin.
 1 Yam mukurump Yohan, nifundila mukand winou kudi ey, mukarukat nam, Gayus, nikukatil kwakin.
 2 Mukarukat nam, nikat kulembil anch yom yawonsu yikala yiwamp kudi ey, nikat kulembil kand anch ushakam nawamp ku mujimbu mudi muushicha muchim wey nawamp.
 3 Nasanger nakash mulong anamakwetu in Kristu ashikena kunoku anlejin mutapu ujijamena mu uyakin. Anlejin kand mutapu udandamedina mu uyakin.
-4 Kwikil chom chikwau chinsangarishina mudi pinateshina anch anam adandamedin mu uyakin. Win yakin wa Gayus
+4 Kwikil chom chikwau chinsangarishina mudi pinateshina anch anam adandamedin mu uyakin.
+0 Win yakin wa Gayus
 5 Mukarukat nam, ey ukat kudandamen kuyikwash anamakwetu in Kristu nich muchim wa win yakin, ap anch ikalap nchik aeny.
 6 Awiy alejana mu Chikumbu cha Nzamb kunoku mulong wa rukat reyey. Nakwilembil ey anch yikwasha chakwel adandamen weny wau nawamp mudi mudia rusot ra Nzamb.
 7 Aya mulong wa kusal mudimu mu dijin dia Kristu, wakad kutambul ukwash udiokila kudi antu akad kal kwikal in Kristu.
-8 Chawiy etu in Kristu tufanyidin kuyak antu inay nawamp, chakwel tukubombakan nau mu mudimu wa uyakin wa Nzamb. Yaku ya Dioteref ni ya Demetirius
+8 Chawiy etu in Kristu tufanyidin kuyak antu inay nawamp, chakwel tukubombakan nau mu mudimu wa uyakin wa Nzamb.
+0 Yaku ya Dioteref ni ya Demetirius
 9 Nafunda mukand wiswimp ku Chikumbu cha Nzamb, pakwez Dioteref, ukatila kwikal mukurump wau, walika kutubangaku.
 10 Chawiy anch nashik kwinaku, nikez kumekesh patok yisalijok yend, ndiy ukat kupalangesh mboj mulong wetwetu nich mazu mayimp. Chad kasangerap ching kusu nich yom yiney, bwat, pakwez ulikin kand kuyak anamakwetu in Kristu akwau. Chikwau kand, ndiy ukat kuyikangesh antu akwau asotila kuyak, chad wayopat mu Chikumbu cha Nzamb.
 11 Mukarukat nam, kangal wilakej yom yiyimp, pakwez ilakej yom yiwamp. Muntu mwawonsu ukata kusal yom yiwamp udi wayen wa Nzamb. Pakwez muntu mwawonsu ukata kusal yom yiyimp kand kal amwijik Nzamb.
-12 Antu awonsu akat kulejan uman uwamp mulong wa Demetirius, ni yaku yend ya uyakin yikat kushimun kand uman wend. Niyetu tukat kushimun uman wend, chad en wijany anch, yom yitulondila yidi yakin. Mazu ma Yohan ma kwisudiel
+12 Antu awonsu akat kulejan uman uwamp mulong wa Demetirius, ni yaku yend ya uyakin yikat kushimun kand uman wend. Niyetu tukat kushimun uman wend, chad en wijany anch, yom yitulondila yidi yakin.
+0 Mazu ma Yohan ma kwisudiel
 13 Am nikwet yom yivud ya kukulej, pakwez kinisotilap kuyifund pa diyij dia mukand.
 14 Nichingejin kukuman swa, chad tukwambamb pamwing ni yamam.
 15 Nikat kulembil anch chisambu chikala kudi ey. Arund ney awonsu akulangwish. Niyey yilangwisha arund netu awonsu, muntu ni muntu.
 1 Yam Jud, kashalapol wa Yesu Kristu, nidi kand mwanchend wa Jakobu. Nifundil mukand winou kudi antu awonsu atazukau kudi Nzamb, awiy kand akatilay Nzamb, achidijinau kudi Yesu Kristu.
-2 Nikulembidilany anch riy, ni chisambu, ni rukat yivulijan kudi en. Alej a makasu
+2 Nikulembidilany anch riy, ni chisambu, ni rukat yivulijan kudi en.
+0 Alej a makasu
 3 Akarukat, nading nikwet impu ya kukufundilany mukand wa kukurumburilany mulong wa dipandish ditukwetanya etu awonsu pamwing. Pakwez namen anch, ing, nakufundilangany, chakwel nikukasikeshany urishinany ritiy rapanay Nzamb kapamp kamwing chikupu kudi antwend.
 4 Mulong antu amwing akad kumubangaku Nzamb andamin kal mu ujindj pakach pen. Antu inay akat kurumbangesh rusangu ra ranaken ra Nzamb wetu, chakwel iyingish nich mulong wa yaku yau ya usund. Awiy alikin kumwitiyij Yesu Kristu, Mwant wetu umwing, ndiy kand Nsalejetu. Kudiokal pakur afunda kal mu Mukand wa Nzamb anch, akez kuyifish nich antu inay.
 5 Ap anch wijanyap kal nchik yom yiney nawamp, nisotil kukuvurishany mudi mwayikamuninay Nsalejetu antwend in Isarel mu Idjibit, pakwez kwinyim ndiy wayijiyisha antu awonsu a mukach mwau alika kwitiy mazu mend.
@@ -8318,25 +8351,29 @@
 13 Awiy afanaken mudi mambek maswejina ma karung, chad yisalijok yau ya usany yikat kumekan mudi mafuril mijondila. Adi mudi atutumbu apumbukina, asha jinjil jau, chawiy Nzamb uyilamidin ndond ya kuyitek ya chikupu yikweta mididim yipandakena kujal.
 14 Enok wading muntu wa dijuku dia sambwad kudiokal ku Adam, ndiy wayibwakina antu inay anch: "Teshany, Chinawej ukez kwez nau aruu end a mwiur atumbila tunan ni tunan.
 15 Ukwez chakwel ayirumburish antu awonsu, mulong wa kuyifish nich in kumubwambwil ndiy mulong wa yisalijok yau yiyimp, ni mulong wa mazu ma dichim wakad kalimish mamulondau ndiy!"
-16 Antu inay akat kununganijan, akat kufundijan muntu ni mukwau. Akat kwisangarish ayinau nich maku mau mayimp. Awiy akat kwibaz nakash, chad akat kulond mazu ma rilemb kudi antu mulong achingejin kutambul chom. Malejan ma kwisudiel ni kubabesh
+16 Antu inay akat kununganijan, akat kufundijan muntu ni mukwau. Akat kwisangarish ayinau nich maku mau mayimp. Awiy akat kwibaz nakash, chad akat kulond mazu ma rilemb kudi antu mulong achingejin kutambul chom.
+0 Malejan ma kwisudiel ni kubabesh
 17 Pakwez en, akarukat nam, vurikany mazu makulejanyau kudi atwimbuy a Nsalejetu Yesu Kristu pasak.
 18 Awiy akulejanya anch: "Mu machuku ma kwisudiel kukez kwikal antu in kukusipany en, awiy kamu antu akata kwisangarish ayinau nich maku mau mayimp."
 19 Antu inay awiy akata kulet kwaurok, ayiyikedil kudi rusot ra wuntu, kakwetap kwau Mwiku Utumbila.
 20 Pakwez en, akarukat nam, kulany mu ritiy ren ritumbila nakash. Piukulembilany, londulany kuyikel kwa Mwiku Utumbila.
 21 Ilamany mu rukat ra Nzamb, piuchingedilany dichuku dikukwinkishanyau mwom wa chikupu kudi Nsalejetu Yesu Kristu ku riy rend.
 22 Iyovilany in kwidjidjek riy.
-23 Yipandishany, yilapulany mu kasu. Antu akwau iyovilany riy, pakwez ovany wom, kisany yidjal yau yijondila kal mulong wa yitil ya maku ma mijimbu yau. Kulembil kwa kushiman
+23 Yipandishany, yilapulany mu kasu. Antu akwau iyovilany riy, pakwez ovany wom, kisany yidjal yau yijondila kal mulong wa yitil ya maku ma mijimbu yau.
+0 Kulembil kwa kushiman
 24 Kudi ndiy ukutwisha kukulamany wakad kuwa, ndiy ukutwisha kand kukulamany wakad kapad, ukukushikijany nich musangar ujim mu uyaj wend,
 25 ndiy kamu Nzamb umwing, Mupandish wetu mu Yesu Kristu Nsalejetu, chifanyidin kwikala uyaj, ni kujimb, ni dikand, ni ulabu, kudiokal ku mivu ni minang, ni katat, ni chikupu! Amen.
 0 Yom Yamujinguninau Yohan kudi Yesu
 1 Mu mukand winou mudi yom yajinguninay Yesu Kristu. Nzamb wamuleja Yesu yom yikushika mu chisu chikemp, chakwel ndiy ukuyijingunin atushalapol end. Kristu watuma muruu wend wa mwiur kudi kashalapol wend Yohan chakwel amwijikisha.
 2 Winou wawiy uman walejanay Yohan mulong wa yom yawonsu yamanay ya Tusangu ra Nzamb ni ya yom ya uyakin yamujinguninau kudi Yesu Kristu.
-3 Wayuk muntu ukata kutang mazu ma mukand winou, ayuk kand antu ateshina mazu ma muruu wa Nzamb mafundilau mu mukand winou, ni kumalam mu michim yau nich kashinsh, mulong chisu cha kumekan kwa yom yiney chashik kal piswimp. Yohan ukat kuyilangwish in Yikumbu ya Nzamb sambwad
+3 Wayuk muntu ukata kutang mazu ma mukand winou, ayuk kand antu ateshina mazu ma muruu wa Nzamb mafundilau mu mukand winou, ni kumalam mu michim yau nich kashinsh, mulong chisu cha kumekan kwa yom yiney chashik kal piswimp.
+0 Yohan ukat kuyilangwish in Yikumbu ya Nzamb sambwad
 4 Yam Yohan nifundila mukand Winou mulong wa kuyilangwish in Yikumbu ya Nzamb sambwad adia mwi ngand ya Aziy. Nilembidil anch ranaken ni chisambu yikala ni yenen. Yom yiney yidiokil kudi Nzamb udiaku, ndiy kand wadiaku, ndiy kand ukwikalaku. Yidiokil kand kudi aruu a mwiur sambwad iminya kurutu kwa ditand dia Nzamb.
 5 Yidiokil kand kudi Yesu Kristu, kaman wakin, Mwan ikundj wa kusambish wa Nzamb, ndiy wasambela kuvumbuk mu rufu kwikal kand mwom, ndiy kand Mwant mujim wa ant a pa mangand. Kristu utukatil, ku mash mend watukamunina ku yitil yetu.
 6 Ndiy watwikadisha ant a in kupesh mulong wa kumusadil Tatukwend Nzamb. Chifanyidin uyaj ni dikand yikala kudi Yesu Kristu chikupu ni chikupu! Amen.
 7 Talany, ukat kwez mu madj! Antu awonsu akez kumuman, niyau amupampa akez kumuman kand. Antu awonsu a Pa mangand akez kumudil. Mwamu muchikeza kwikal! Amen!
-8 Nsalejetu Nzamb ulondil anch: “Am yam disambishil ni yam kand disudiel,” ndiy udiaku, ndiy kand wadiaku, ndiy kand ukwikalaku, ndiy kamu Mwin Dikand Diawonsu. Yohan ukat kumuman Kristu mu chishimushimu
+8 Nsalejetu Nzamb ulondil anch: “Am yam disambishil ni yam kand disudiel,” ndiy udiaku, ndiy kand wadiaku, ndiy kand ukwikalaku, ndiy kamu Mwin Dikand Diawonsu.
+0 Yohan ukat kumuman Kristu mu chishimushimu
 9 Yam Yohan, mwanamakwen mwin Kristu, nidia mu umwing Mi yenen mu mar mamenau antu adia mu Want wend, tudi kand mu umwing wa kudandamen nich muchim ushimpina. Antwala kal mu winkwal mu ditung dipidilau anch, Patimos, mulong narumburila dizu dia Nzamb ni uyakin yanjinguninay Yesu.
 10 Pa dichuku dia Nsalejetu, pawiy panwilau kudi Mwiku Utumbila, chad natesha kwinyim kwam dizu dia piur difanaken mudi chidjimin cha mpuny.
 11 Dizu dined diading ni kulond anch: “Yom yiukumana yifunda mu mukand, chad tum mukand winou kudi in Yikumbu ya Nzamb sambwad ku musumb wa Efes, ni wa Simirin, ni wa Perigam, ni wa Tiatir, ni wa Sarides, ni wa Filadelifiy, ni wa Laodisey.”
@@ -8348,24 +8385,28 @@
 17 Pinamumana, nawila ku mend yend mudi nafa kal. Ndiy wanganzuka chikas chend cha katatuku, wangel anch: “Kangal wov kwey wom! Yam disambishil, yam kand disudiel.
 18 Am nidi mwom! Nading nafa kal, pakwez katat, tak, nidi mwom chikupu ni chikupu! Nikwet anfungul a rufu ni a ndond ya afu.
 19 Chawiy fund yom yiwamananga, ni yom yidiaku katat, ni yom yikushika kurutu.
-20 Nikukujingunin ey ujindj wa atutumbu sambwad adia mu chikas cham cha katatuku, ni wa mend ya kasu sambwad ya utad wa or. Atutumbu sambwad adi aruu a mwiur a Yikumbu ya Nzamb sambwad, chad mend ya kasu sambwad yidi Yikumbu ya Nzamb yiniya sambwad. Mukand kudi in Chikumbu cha Nzamb ku Efes
+20 Nikukujingunin ey ujindj wa atutumbu sambwad adia mu chikas cham cha katatuku, ni wa mend ya kasu sambwad ya utad wa or. Atutumbu sambwad adi aruu a mwiur a Yikumbu ya Nzamb sambwad, chad mend ya kasu sambwad yidi Yikumbu ya Nzamb yiniya sambwad.
+0 Mukand kudi in Chikumbu cha Nzamb ku Efes
 1 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Efes anch: “Minam mawiy mazu mendendiy ukweta atutumbu sambwad mu chikas chend cha katatuku, ndiy kand ukata kwendil mukach mwa mend ya kasu sambwad ya utad wa or.
 2 Nij yisalijok yey yawonsu, nij kand mudimu wasadila ukash, ni kushimpish kwey kwa muchim. Nij nawamp anch, ey ukutwishap kwitiy kuyilam antu ayimp mukach mwen. Ey wayipakin kal antu awonsu akata kufa mu kan anch, adi atwimbuy a Yesu, pakwez kadiap kwau, chad wayijingunin kal anch, adi kwau in makasu.
 3 Ey washimpishin muchim wey, wamana mar mulong wamam, chad udandamedin kamu.
 4 Pakwez tal, chom chinikufishina nich chawiy ech. Ey kiwinkatilap kand mudi pakusambish.
 5 Tongijok, wawidil kal kulemp! Karumuk, diokal ku yitil yey, chad usala kand mudi muwasala pakusambish. Anch walik kukarumuk kudiokal ku yitil yey, am nikwez kudi ey, chad nikudiosh mwend wey wa kasu pa ndond pau.
 6 Pakwez chom chiwamp chinikatila kudi ey chawiy ech. Ey ukisin yisalijok ya in Nikol mudi munikisina kand am. ;
-7 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb! “Mwawonsu ukupandakana nikez kumwinkish usu wa kudia mabuj ma mutond wa mwom udia mu chir cha Nzamb. Mukand kudi in Chikumbu cha Nzamb ku Simirin
+7 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb! “Mwawonsu ukupandakana nikez kumwinkish usu wa kudia mabuj ma mutond wa mwom udia mu chir cha Nzamb.
+0 Mukand kudi in Chikumbu cha Nzamb ku Simirin
 8 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Simirin anch: “Minam mawiy mazu mendendiy udia disambishil ni disudiel, ndiy wafa, wavumbuk wikal kand mwom.
 9 Nij mar mey ob ULWELLU Woy, panwes. uu nw VY tapaware aay mee yous ya matungu yikat kukulondau kudi in kufa mu kan anch: ‘Tudi in Yuda.’» Awiy kadiap kwau in Yuda, adi in chisak cha Sakudimban.
 10 Kangal wov wom wa mar masotila kushik swa kudi ey. Nikulejin patok anch, Sakudimban ukutek amwing pakach pen mu rukan mulong wa kukupakany. Ndiy ukez kukuzengolany machuku dikum. Ikal mwin yakin, ap anch wafap nchik, chawiy am nikez kukwinkish chibangul cha mwom.
-11 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb. “Mwawonsu ukupandakana kakez kumanap mar ku rufu ra kaad. Mukand kudi in Chikumbu cha Nzamb ku Perigam
+11 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb. “Mwawonsu ukupandakana kakez kumanap mar ku rufu ra kaad.
+0 Mukand kudi in Chikumbu cha Nzamb ku Perigam
 12 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Perigam anch: “Minam mawiy mazu mendendiy ukweta mpak ya musamun yikweta jimwemu mitambu yaad.
 13 Nij ndond yiushicha ey, pawiy padia ditand dia Sakudimban. Ap anch chikalap nchik mwamu, ey udandamedin kulam dijin diam. Ey kiulikinap kwingitiyij am, ap pa chisu cha Antipas, kaman wam wakin, wajipinau mu musumb ushicha ey, ndond yishichay kand Sakudimban.
 14 Pakwez tal, yom yinikufishina nich yawiy yiney. Antu amwing a pakach pen akat kulondul malejan ma Balam. Ndiy wamuyula Balak chakwel ayipumbul in Isarel kusal yitil ya kudia yom yapeshau ku akish, ni yitil ya usund.
 15 Chikwau kand, ukwet antu akwau pakach pen akat kulondul malejan ma in Nikol.
 16 Chawiy karumuk udiokal ku yitil yey! Chamwamu nikwez kudi ey mu chisu chikemp, chad nikuyirishikish antu inay nich mpak ya musamun yidia mu kan mwam.
-17 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb. “Am nikez kupan yakudia yipidilau anch, ‘Mana, kudi mwawonsu ukupandakana. Nikez kumwinkish kand diyal ditok pafundilau dijin disu, diakad kwijikan kudi muntu mukwau, ching kusu kudi muntu ukuditambula! Mukand kudi in Chikumbu cha Nzamb ku Tiatir
+17 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb. “Am nikez kupan yakudia yipidilau anch, ‘Mana, kudi mwawonsu ukupandakana. Nikez kumwinkish kand diyal ditok pafundilau dijin disu, diakad kwijikan kudi muntu mukwau, ching kusu kudi muntu ukuditambula!
+0 Mukand kudi in Chikumbu cha Nzamb ku Tiatir
 18 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Tiatir anch: “Minam mawiy mazu ma Mwan a Nzamb ukweta mes mazazina mudi kasu, ukweta kand yidjatil yifanakena mudi utad wa bronze wa kupal.
 19 Nij yisalijok yey yawonsu, mii rukat rey, ni ritiy rey. Nij kand kuziyil kwey ku mudimu, ni kudandamen kwey, katat ey usadil yom yivud kupandakan ya kusambish.
 20 Pakwez yom yinikufishina nich yawiy yiney. Witiyin kumulam Jezabel mukach mwen, mband ufila mu kan anch udi muruu wa Nzamb. Ndiy ukat kuyipumbul atushalapol am nich malejan mend chakwel andam mu yitil ya usund, ni ya kudia yom yapeshau ku akish.
@@ -8377,20 +8418,23 @@
 26 Mwin kupandakan, ndiy kamu ukuziyila rusot ram djat ni kwisudiel, nikez kumwinkish ulabu wa kutakel michid.
 27 Ndiy ukez kuyikel nich mukombu wa utad ujal, ukez kuyibuz mudi ansab a kam,
 28 mudi kand munatambula am ulabu kudi Tatukwam. Nikez kumwinkish kand katumbu wa mwizikuch.
-29 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb! Mukand kudi in Chikumbu cha Nzamb ku Sarides
+29 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb!
+0 Mukand kudi in Chikumbu cha Nzamb ku Sarides
 1 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Sarides anch: “Minam mawiy mazu mendendiy ukweta aruu a mwiur sambwad a Nzamb ni atutumbu sambwad. Nij yisalijok yey. Nij kand antu akwau atongila anch, ey udi mwom, pakwez chakin, ey wafil kal kwey!
 2 Lank, wikasikesh, ulama yom yakin yiukweta piyakad kal kufa, mulong yisalijok yey kand kal yiwanyin ku mes ma Nzamb wam.
 3 Chawiy vurik malejan makulejau ni yom yiwatesha. Ziyil ku malejan minam, chad karumuk, udiokal ku yitil yey. Anch walik kulank, am nikwez kukukashimwish mudi mukat kwezay mwij pa chisu chiwakad ey kwijik.
 4 Pakwez ey ukwet antu amwing a mu chisak cha in Sarides akad kwikisish yidjal yau. Awiy akez kudjal yidjal yitok, chad akez kwend ni yamam pamwing mulong awiy adi antu awanyidina.
 5 Muntu mwawonsu ukupandakana, niyend ukez kudjal kand yidjal yitok mudi awiy. Am kinikez kujimangeshap dijin diend mu mukand wa mwom, pakwez nikez kumujimbul kudi Tatukwam ni kudi aruu end a mwiur anch: ‘Winou udi wamam.’ :
-6 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb! Mukand kudi in Chikumbu cha Nzamb ku Filadelifiy
+6 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb!
+0 Mukand kudi in Chikumbu cha Nzamb ku Filadelifiy
 7 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Filadelifiy anch: “Minam mawiy mazu mendendiy utumbila, ndiy kand mwin yakin, ndiy ukweta nfungul ya Mwant David. Anch ndiy wanzuril, kwikil ukutwisha kupat, ap anch ndiy wapat, kwikil ukutwisha kwanzuril.
 8 Nij yisalijok yey. Tal, nakwanzuridil kal chis, kwikil muntu ukutwisha kuchipat. Nij kand anch, ey ukwet ching ukash ukemp, pakwez ap mwamwap nchik, ey walama dizu diam, kiwatunap dijin diam.
 9 Tal, antu amwing akat kufa mu kan anch, adi in Yuda, pakwez kadiap kwau in Yuda. Kadiap kwau in Yuda, bwat, adi in makasu, adi in chisak cha Sakudimban. Am nikuyilet, awila ku mend kwey, chad awly akwijik anch, komb am nikukatiling ey.
 10 Ey walamin kal dizu diam nich kudandamen, chawiy niyam nikez kukuchidij pa chirung cha mar makeza kwez kudi antu awonsu a pa mangand, mulong wa kuyipak.
 11 Nikat kwez swa. Lam bang yom yakin yiukweta, chakwel kangal muntu wakwamuk chibangul chey cha kupandakan.
 12 Muntu ukypandakana nikez kumutek kwikal dinguj mu Chikumbu cha Nzamb wam, chad ndiy kakez kubudikap mu Chikumbu chinicha. Nikez kufund pa mujimbu wend dijin dia Nzamb wam, ni dijin dia musumb wa Nzamb wam. Musumb winou, ndiy kamu Yerusalem musu, ukeza kushirik kudiokal mwiur mwa Nzamb wam. Nikez kumufund kand dijin diam disu.
-13 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb. ’ Mukand kudi in Chikumbu cha Nzamb ku Laodisey
+13 “Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb.
+0 Mukand kudi in Chikumbu cha Nzamb ku Laodisey
 14 “Mufundila muruu wa mwiur wa Chikumbu cha Nzamb ku Laodisey anch: “Minam mawiy mazu mendendiy upidilau anch, Amen, ndiy kand udia kaman wakin wa yom yakin, ndiy mwin kutakel wa yitang yawonsu ya Nzamb.
 15 Nij yisalijok yey. Ey kiudiap utalel ap uswanyina. Am nikatil ing wadi utalela ap ing wadi uswanyina!
 16 Pakwez mulong ey udi kalengidij, kiutalelap, chad kand kiuswanyinap, am nikez kukuchil kamu mudi mat.
@@ -8399,7 +8443,8 @@
 19 Am nikat kuyipup ni kuyikand antu awonsu inikatina. Chawiy ikal nich mushiku, ukarumuk kudiokal ku yitil yey.
 20 Tal, niminy ku chis, nikat kukokal. Anch muntu watesh dizu diam, chad wanzaril ku chis, am nikwandam ni kudia nend, niyend ukudia ni yamam.
 21 Muntu. mwawonsu ukupandakana nikumwinkish usu wa kushakam pamwing ni yamam pa ditand diam, mudi munapandakana niyam, chad nashakama pa ditand dia Tatukwam.
-22 Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb.” Mutapu wa kwifukwil kwa mwiur
+22 Mwawonsu ukweta matu ma kutesh, atesha kwend yom yilondilay Mwiku Utumbila kudi in Yikumbu ya Nzamb.”
+0 Mutapu wa kwifukwil kwa mwiur
 1 Chiyapwa yom yiney, namana chis chanzurik mwiur. Dizu dinatesha pakusambish diading ni kudjim mudi mpuny dianleja kand anch: “Kandam weza kunoku, chad nikez kukulej yom yikushika kwinyim kwa yom yiney.”
 2 Kukashimuk, Mwiku Utumbila wanwila, chad namana ditand mwiur. Pa ditand dinidia pading pashich muntu.
 3 Ndiy wading pa ditand wamekana mudi diyal dia usey dilayina dia mem ma matamb, ap mudi diyal dia usey disuzina nakash. Ditand ading adiombilamu kudi nkongal ufanakena mudi diyal dia usey dia imem ma matamb.
@@ -8410,7 +8455,8 @@
 8 Chitang ni chitang chikweta mwom chading chikwet jimpur musamban, chading chibambil mes mujimbu wawonsu mukach ni pol. Yitang yiney yawanganga muten ni uchuku anch: “Utumbila, utumbila, utumbila udi Nsalejetu Nzamb Mwin Dikand Diawonsu, ndiy wadingaku, ndiy kand udiaku, ndiy kand ukeza kwikalaku.”
 9 Yitang yinying yikweta mwom yikat kuwang miminy ya uyaj, ni ya katumb, ni ya kumushiman ndiy ushicha pa ditand, ndiy kand ukweta mwom wa chikupu ni chikupu. Yisu yawonsu pawangangau mwamu,
 10 amakurump makum maad ni anying ading ni kumuzengamin ndiy ushicha pa ditand, amwifukwilanga ndiy ukweta mwom wa chikupu ni chikupu. Ading ni kutul yibangul yau kurutu kwa ditand, alond anch:
-11 “A! Nsalejetu, Nzamb wetu! Ey yey uwanyidina kutambul uyaj, ni katumb, ni ukash. Mulong yey watanga yom yawonsu, ni yom yawonsu yidiaku yishich mulong wa rusot rey.” Mwan a Mukoku ni mukand wa kuvung
+11 “A! Nsalejetu, Nzamb wetu! Ey yey uwanyidina kutambul uyaj, ni katumb, ni ukash. Mulong yey watanga yom yawonsu, ni yom yawonsu yidiaku yishich mulong wa rusot rey.”
+0 Mwan a Mukoku ni mukand wa kuvung
 1 Chad namana mukand wa kuvung mu chikas cha katatuk chendendiy ushicha pa ditand: Mukand winou ading aufundil mutambu ni mutambu, ading aujikin nich yijingidij sambwad.
 2 Namana muruu wa mwiur ukweta dikand wabarika nich dizu dikash anch: “Ov, nany uwanyidina kudiosh yijingidij yiney chakwel avunguril mukand winou?”
 3 Pakwez kwikil ap umwing mwiur, ap pa mangand, ap kwishin kwa divu ukutwisha kuvunguril mikand, ap kuutal mukach.
@@ -8424,7 +8470,8 @@
 11 Chad natala kand, natesha dipumb dia aruu avud a mwiur, ading tunan ni tunan, tutikit ni tutikit. Awiy ading ombilamu ditand, ni yitang yikweta mwom, pamwing nau amakurump.
 12 Chad ading ni kuwang anch: "Mwan a Mukoku wajipau, ndiy uwanyidina kutambul ukash, ni dipit, ni manangu, ni usu, ni katumb, ni uyaj, ni kushiman!"
 13 Natesha kand yitang yawonsu ya mwiur, ni ya pa mangand, ni ya kwishin kwa divu, ni ya mu karung, yawiy kamu yitang yawonsu yidiaku. Awiy ading ni kuwang anch: "Kudi ndiy ushicha pa ditand, ni kudi Mwan a Mukoku, chifanyidin kwikala kushiman, ni katumb, ni uyaj, ni dikand chikupu ni chikupu!"
-14 Yitang yinying yikweta mwom yakula anch: "Amen!" Chad amakurump awonsu asa manungun pansh ni kwifukwil. Yijingidij ya mukand
+14 Yitang yinying yikweta mwom yakula anch: "Amen!" Chad amakurump awonsu asa manungun pansh ni kwifukwil.
+0 Yijingidij ya mukand
 1 Namana padioshay Mwan a Mukoku chijingidij cha kusambish cha yijingidij sambwad, chad natesha dizu dia chitang chimwing cha yitang yinying yikweta mwom diabarika mudi chidjimin cha nzaj anch: "Ez kunoku!"
 2 Chawiy natala, chad naman kabar mutok. Mwin kukandamap wading ukwet ut wa nseu, amwinkisha chibangul, chad waya mudi mwin kupandakan uyila ni kupandakan.
 3 Chadioshay Mwan a Mukoku chijingidij cha kaad, natesha chitang cha kaad cha yitang yinying yikweta mwom walond anch: "Ez kunoku!"
@@ -8441,7 +8488,8 @@
 14 Diur diadiokala, divungol mudi mukand wa kuvung, chad mikandu yawonsu ni matung mawonsu ayishemunona kuyidiosh pa jindond jau.
 15 Chawiy ant a pa mangand, ni in kutakel, ni atulal a njit, ni ampich, ni in dikand, pamwing ni antu akwau awonsu, aswik ap ant ipau, ajingama mu mandam ni mu mayal ma mikandu.
 16 Ayileja mikandu ni mayal anch: “Tuwilany, tujindjikany ku mes mendendiy ushicha pa ditand, ni ku ujim wa Mwan a Mukoku!
-17 Mulong dichuku dijim dia ujim wau diashikang kal, ov, nany ukutwisha kushal mwom?” In Isarel 144.000
+17 Mulong dichuku dijim dia ujim wau diashikang kal, ov, nany ukutwisha kushal mwom?”
+0 In Isarel 144.000
 1 Chiyasuta yom yiney, namana aruu a mwiur anying iminy ku makonk manying ma mangand, chakwel amukangesh rinkind munying kupepet pa mangand, ap pa karung, ap pa mitond.
 2 Chad namana muruu mukwau wa mwiur, udiokil ku mutambu wa kwingangel, ukwet chijingidij cha Nzamb mwom, Wabarika nich dizu dikash kudi aruu akwau a mwiur inkishau ukash kudi Nzamb wa kuyipish mangand ni karung, wayilej anch:
 3 “Kangal wayipishany bil mangand, ap karung, ap mitond, ching anch twapwish kutek chijingidij pa jimpal jau atushalapol a Nzamb wetu.”
@@ -8449,7 +8497,8 @@
 5 Ku muchid wa in Yuda kwading antu tunan dikum ni twaad atekau chijingidij, ku muchid wa in Ruben kwading tunan dikum ni twaad, ku muchid wa in Gad kwading tunan dikum ni twaad,
 6 ku muchid wa in Azer kwading tunan dikum ni twaad, ku muchid wa in Nefitali kwading tunan dikum ni twaad, ku muchid wa in Manase kwading tunan dikum ni twaad,
 7 ku muchid wa in Simeyon kwading tunan dikum ni twaad, ku muchid wa in Levi kwading tunan dikum ni twaad, ku muchid wa in Isakar kwading tunan dikum ni twaad,
-8 ku muchid wa in Zabulon kwading tunan dikum ni twaad, ku muchid wa in Josef kwading tunan dikum ni twaad, chad ku muchid wa in Benjamin kwading tunan dikum ni twaad. Runtu ruvud kurutu kwa ditand
+8 ku muchid wa in Zabulon kwading tunan dikum ni twaad, ku muchid wa in Josef kwading tunan dikum ni twaad, chad ku muchid wa in Benjamin kwading tunan dikum ni twaad.
+0 Runtu ruvud kurutu kwa ditand
 9 Chiyasuta yom yiney, natala, chad naman runtu ruvud rakad kutwish kuchind kudi muntu. Antu inay adiokala ku mangand mawonsu, ni ku michid yawonsu, ni ku antu awonsu, ni ku jindim jawonsu. Ading iminy kurutu kwa ditand ni kwa Mwan a Mukoku. Ading adjit ankandj alemp atok, chad alamin malal ma mabu mu makas mau.
 10 Awiy abaroka nich dizu dikash anch: “Dipandish dietu didiokil kudi Nzamb wetu ushicha pa ditand, ni kudi Mwan a Mukoku!”
 11 Aruu a mwiur awonsu ading ombilamu ditand bwalakan, pamwing ni amakurump ni yitang yinying yikweta mwom. Awonsu awa pansh swa kabwikam, chad amwifukwila Nzamb.
@@ -8458,12 +8507,14 @@
 14 Namwakula anch: “Mwant, yey wija.” Ndiy wangela kand anch: “Adi antu adiokila mu mar makash mapandakena. Awiy atutin kal ankandj au ni kuyitokish mu mash ma Mwan a Mukoku.
 15 Mulong awiy asadil kal mwamu, chawiy chimanyidinau kurutu kwa ditand dia Nzamb. Akat kwmusadil ndiy muten ni uchuku mu Chikumbu chend. Ndiy wshicha pa ditand ukez kushakam nau ni kuyichidij.
 16 Awiy kakez kwovap nzal ap impu. Kakez kwovap kand kuswan kwa muten, ap kwa chirungul cha mutapu ukwau,
-17 mulong Mwan a Mukoku udia mukach mwa ditand ukez kwikal kafung wau. Ndiy ukez kuyitwal ku misul ya mem ma mwom. Chad Nzamb ukez kuyikuswol mansoj ku mes mau.” Chijingidj cha sambwad
+17 mulong Mwan a Mukoku udia mukach mwa ditand ukez kwikal kafung wau. Ndiy ukez kuyitwal ku misul ya mem ma mwom. Chad Nzamb ukez kuyikuswol mansoj ku mes mau.”
+0 Chijingidj cha sambwad
 1 Chadioshay Mwan a Mukoku chijingidij cha sambwad, mwiur mwading kamu zong mudi chikunku chimwing cha chisu.
 2 Chad namana aruu a mwiur sambwad akata kwiman kurutu kwa Nzamb, pawiy pinipa ayinkisha jimpuny sambwad.
 3 Muruu wa mwiur mukwau weza wiman ku chintamb, wading ukwet dilong dia utad wa or dia kwoshil diseng dia malash. Amwinkisha diseng divud dia malash dia kulambul pamwing ni kulembil kwa antu awonsu a Nzamb. Wayilambula pa chintamb cha or chading kurutu kwa ditand.
 4 Mish ya diseng dia malash, pamwing ni kulembil kwa antu a Nzamb, yading mu chikas cha muruu wa mwiur wading wiminy kurutu kwa Nzamb, yakakumuka yaya piur.
-5 Chad muruu wa mwiur wanona dilong dia kwoshil diseng dia malash, wadizwish nich kasu kadinga pa chintamb. Chad wadidjibul pa mangand, kwikala yidjimin ya nzaj, ni mazu, ni milayilay, ni kunyikek kwa mangand. Jimpuny :
+5 Chad muruu wa mwiur wanona dilong dia kwoshil diseng dia malash, wadizwish nich kasu kadinga pa chintamb. Chad wadidjibul pa mangand, kwikala yidjimin ya nzaj, ni mazu, ni milayilay, ni kunyikek kwa mangand.
+0 Jimpuny
 6 Chad aruu a mwiur sambwad irijeka mulong wa kubul jimpuny sambwad jading jikwetau.
 7 Muruu wa mwiur wa kusambish wabula mpuny yend, chad kweza mayal ma ruvul ni kasu kabombakena nich mash, yawonsu ayidjibwila pa mangand. Chikunku chimwing cha yisatu cha mangand chatema shat, ni chikunku chimwing cha yisatu cha mitond chatema shat, ni masuku mawonsu matalela matema kand shat.
 8 Muruu wa mwiur wa kaad wabula mpuny yend, chad chom chifanakena mukandu ujim utemina kasu, achidjibwila mu karung. Chikunku chimwing cha yisatu cha karung chakarumuka chikal mash.
@@ -8492,7 +8543,8 @@
 18 Chikunku chimwing cha yisatu cha antu awonsu a pa mangand ayijipa nich yipupu yisatu, chipupu cha kasu, ni cha mish, ni cha diseng dia diyal dipidilau anch, “soufre” yabudikanga mu tun
 19 Usu wa atubar wading mu tun twau ni ku mikil yau, mulong mikil yau yading yifanaken mudi annak akweta mitu. Chad mitu yiney yading ya kuyimesh nich antu mar.
 20 Antu ashalap, alika kufa ku yipupu yiney, kakarumukap kwau kulik kwifukwil yom yasalau ayinau ku makas mau. Kalikap kwifukwil ayilembil, ap yirumbidij ya utad wa or, ap wa argent, ap wa bronze, ap ya mayal, ap ya mitond. Akish inay akad kumanang, ap kuteshang, ap kwendang.
-21 Antu inay kakarumukap kudiokal ku yitil yau ya kujipan, ni ya ulaj, ni ya usund, ni ya wij. twa atubar. Muruu wa mwiur ukweta kamukand kakemp
+21 Antu inay kakarumukap kudiokal ku yitil yau ya kujipan, ni ya ulaj, ni ya usund, ni ya wij. twa atubar.
+0 Muruu wa mwiur ukweta kamukand kakemp
 1 Namana muruu mukwau wa mwiur ukweta dikand udiokil mwiur, ukat kushirik. Wading udjit didj, ku mutu wend kwading kunyingumukin nkongal. Chifu chend chading chifanaken mudi muten, mend yend yading mudi manguj ma kasu.
 2 Wading ukwet kamukand kakemp kavungurilay mu chikas chend. Wakuna mwend wa katatuku pa karung, chad mwend wa kamaku waukuna pa divu.
 3 Wabarika nich dizu dikash diading mudi chonyin cha ntambu. Chapwishay kubarik, niyau yidjimin ya anzaj sambwad yovakesha mazu.
@@ -8503,7 +8555,8 @@
 8 Chad dizu dinatesha didiokil mwiur dianleja kand kakwau anch: “Yang utambul kamukand kakemp kavungurilau kadia mu chikas cha muruu wa mwiur wiminya mwend pa karung, mwend pa divu.”
 9 Naya kudi muruu wa mwiur, namwipula mulong wa kwinginkish kamukand kakemp ka kuvunguril. Ndiy wangakula anch: “Tambul, ukadia. Kamukand kakuril mwivumu mwey, pakwez mu kan mwey kakutal mudi woch.”
 10 Natambula kamukand, nakadia. Mu kan mwam mwatala mudi woch, pakwez pinakaminya, mwivumu mwarila.
-11 Anleja kand anch: "Chifanyidin ey ubwaka mulong wa antu avud, ni michid yivud, ni jindim jivud, ni ant avud, uyilej rusangu rukulonday Nzamb." Atuman aad
+11 Anleja kand anch: "Chifanyidin ey ubwaka mulong wa antu avud, ni michid yivud, ni jindim jivud, ni ant avud, uyilej rusangu rukulonday Nzamb."
+0 Atuman aad
 1 Anginkisha karusel kafanaken mudi kamutond ka kwilik nich, chad anleja anch: "Yang ukilik Chikumbu cha Nzamb ni chintamb, uchinda ni antu ifukwidinamu.
 2 Pakwez kangal wilik chipang cha pol cha Chikumbu cha Nzamb, mulong achipana kal kudi antu a michid yikwau. Awiy akez kudjatol Musumb Utumbila angond makum manying ni aad.
 3 Nikez kupan ukash kudi atuman am aad. Awiy akez kudjal yizanizan, akubwak machuku kanan ni yitot yaad ni makum musamban."
@@ -8517,12 +8570,14 @@
 11 Pakwez chipasuta machuku masatu ni chikunku, mwiku ukweta mwom wadiokala kudi Nzamb, wez wayandam, chad alanka, iman piur. Antu awonsu ayimana ova wom nakash.
 12 Aruu inay a Nzamb aad atesha dizu dia piur diadiokala mwiur, diayel anch: "Ezany kunoku!" Didj diayitwala mwiur, padingau akankuny nau ayitadil.
 13 Pa chisu chinicha kamu kwikala kunyikek kukash kwa ngand. Chikunku chimwing cha dikum cha musumb winiwa chawa, chad antu tunan sambwad afa mulong wa kunyikek kwa ngand. Antu ashalap aom ova wom nakash, chad apana uyaj kudi Nzamb wa mwiur.
-14 Riyind ra kaad rapwa kal, kwashal riyind rukwau ra kasatu rukat kwez swa! Mpuny ya sambwad
+14 Riyind ra kaad rapwa kal, kwashal riyind rukwau ra kasatu rukat kwez swa!
+0 Mpuny ya sambwad
 15 Muruu wa mwiur wa sambwad wabula mpuny yend, chad kwading mazu makash mwiur malonda anch: "Want wa mangand wikal kal katat wa Nsalejetu ni wa Kristu wend Uzizidilau Many, ndiy ukez kuyikel chikupu ni chikupu!"
 16 Amakurump makum maad ni anying adinga ashich pa matand mau kurutu kwa Nzamb, awa pansh kabwikam, amwifukwil Nzamb,
 17 alond anch: "Twakujikitish ey, Nsalejetu Nzamb Mwin Dikand Diawonsu, ey udiaku, yey kand wadingaku, mulong ey wasadil kal ukash wey ujim wa kuyikel.
 18 Antu a pa mangand ajimana, pakwez ujim wey washik kal, chisu cha kuyirumburish afu chashik kal, ; chawiy kand chisu cha kuyifut atushalapol ey, awiy kamu aruu a Nzamb, ye Sisk ni antwey, ni antu awonsu akata kulimish dijin diey, akemp ni ajim. Chawiy kand chisu cha kuyishesh awonsu akata kushesh mangand!”
-19 Chikumbu cha Nzamb cha mwiur chanzurik kal, chad Mushet wa Manswik mend umeken mwinimwa. Chad kweza milayilay, ni mazu, ni yidjimin ya nzaj, ni kunyikek kwa ngand, ni mayal ma ruvul mavud. Mband ni iyazangomb
+19 Chikumbu cha Nzamb cha mwiur chanzurik kal, chad Mushet wa Manswik mend umeken mwinimwa. Chad kweza milayilay, ni mazu, ni yidjimin ya nzaj, ni kunyikek kwa ngand, ni mayal ma ruvul mavud.
+0 Mband ni iyazangomb
 1 Chijingidij chijim chamekana mwiur. Kwading mband udjit muten, wading ukwet ngond mwishin mwa mend yend, chad ku mutu wend kwading chibangul cha atutumbu dikum ni aad.
 2 Wading ni madikaj, chad wadila misong ya kuval, mulong wading pa riching ra kuval. jbals
 3 Chijingidij chikwau chamekana mwiur. Kwading iyazangomb mujim usuz, wading ukwet mitu sambwad, ni misengu dikum, ni yibangul sambwad pa mitu yend.
@@ -8540,7 +8595,8 @@
 15 Chad nnak wachila mem mavud mudi wit mujim chakwel mamupwepul mband.
 16 Pakwez divu diamukwasha mband, diasula mu kan, chad diaminy wit wa mem machilay iyazangomb.
 17 Chawiy iyazangomb wamujimena mband, chad waya kurish njit nau an avalay mband. An inay adi antu awonsu akata kuziyil yijil ya Nzamb, awiy kand akata kulejan uman wau anch, adi ayen a Kristu.
-18 Chad iyazangomb wimana pa chikumu cha karung. Annam aad a yidiany
+18 Chad iyazangomb wimana pa chikumu cha karung.
+0 Annam aad a yidiany
 1 Chad namana nnam wa chidiany ubudikin mu karung. Wading ukwet misengu dikum ni mitu sambwad. Wading ukwet yibangul dikum pa misengu yend, chad pa mutu ni mutu pading dijin dia kumusaal Nzamb masaal.
 2 Nnam wa chidiany unamana wading ufanaken mudi chisump. Yidjatil yend yading yifanaken mudi ya nnam mukwau wa chidiany, upidilau anch, “ours,” kan kend kading kafanaken mudi ka ntambu. lyazangomb wamwinkisha nnam winou ukash wend, ni ditand diend, ni ulabu ujim.
 3 Mutu umwing wa nnam winou wa chidiany wading umeken anch, autapa chitat cha rufu rin kamu, pakwez chitat chinech chading chayerikin kal. Antu a mangand mawonsu ashimwoka, chad amulondula.
@@ -8558,12 +8614,14 @@
 15 Amwinkisha nnam wa kaad usu wa kutek mwiku wa mwom mu chirumbidij cha nnam wa kusambish, chakwel chikutwish kulond ni kujipesh antu awonsu akulika kuchifukwil.
 16 Nnam wa kaad wayibachika antu awonsu, akemp ni ajim, ampich ni atuzwendj, ant ipau ni aswik, kutambul chijingidij ku chikas cha katatuku ap pa mpal.
 17 Chawiy kwikil muntu ukutwisha kuland ap kulandish chom, ching anch ukwet chijingidij chinech. Kurumburik kwa chijingidij chinech didi dijin dia nnam, ap kuvul kwa kuchind kwa dijin diend.
-18 Chifanyidin muntu kwikal nich manangu mulong wa chom chinech. Anch muntu ukwet manangu, ukutwish kwijik kuvul kwa kuchind kwa dijin dia nnam winou, mulong kudi kuchind kwatenchikau antu. Kuvul kwa kuchind kwau kudi yitot musamban, ni makum musamban, ni musamban. Mwan a Mukoku ni antwend
+18 Chifanyidin muntu kwikal nich manangu mulong wa chom chinech. Anch muntu ukwet manangu, ukutwish kwijik kuvul kwa kuchind kwa dijin dia nnam winou, mulong kudi kuchind kwatenchikau antu. Kuvul kwa kuchind kwau kudi yitot musamban, ni makum musamban, ni musamban.
+0 Mwan a Mukoku ni antwend
 1 Natala, chad namana Mwan a Mukoku wiminy pa mukandu wa Sion. Wading nau antu tunan chitot ni makum manying ni tunying afundilau pa jimpal dijin diend ni dijin dia Tatukwend.
-2 . Natesha dizu didiokil mwiur difanaken mudi chidjimin cha mem ma mpol yijim, ap mudi chidjimin chikash cha nzaj. Dizu dinatesha diading mudi antu avud abudila tudiad.
+2 Natesha dizu didiokil mwiur difanaken mudi chidjimin cha mem ma mpol yijim, ap mudi chidjimin chikash cha nzaj. Dizu dinatesha diading mudi antu avud abudila tudiad.
 3 Awiy awanga muminy usu kurutu kwa ditand, ni kwa yitang yinying yikweta mwom, ni kwa amakurump. Kwikil muntu ukutwisha kwilej muminy winou, ching kusu awiy tunan chitot ni makum manying ni tunying akwolau ku mangand.
 4 Antu inay awiy akad kwijond nau amband, mulong ilama zwang. Awiy akat kumulondul Mwan a Mukoku kwawonsu kuyilay. Ayikwola antu inay mukach mwa antu akwau chakwel akwikal mulambu wa kusambish kudi Nzamb . ni kudi Mwan a Mukoku.
-5 Antu inay kand kal alondangap makasu, kand-kal asalap chitil. Aruu asatu a mwiur
+5 Antu inay kand kal alondangap makasu, kand-kal asalap chitil.
+0 Aruu asatu a mwiur
 6 Namana kand muruu mukwau wa mwiur wading utwikin piur nakash. Wading ukwet rusangu ruwamp rushichinga chikupu mulong wa kuyirumburil antu ashicha pa mangand, antu a mangand mawonsu, nia michid yawonsu, ni a jindim jawonsu, chakin, kudi antu awonsu.
 7 Muruu winou walonda nich dizu dikash anch: “Mwovany Nzamb wom, panany uyaj kudi ndiy!. Mulong chisu chend cha kuyirumburish antu chashik kal. Mwifukwilany ndiy watanga diur, ni mangand, ni karung, ni misul ya mem!”
 8 Muruu wa kaad wa mwiur wamwambakena muruu wa kusambish, walonda anch: “Babilon musumb ujim wawa kal! Ndiy wabachikanga michid yawonsu kuna maar ma nviny makata kusarumun maku mayimp ma usund, ndiy wawa kal!”
@@ -8571,14 +8629,16 @@
 10 niyend muntu mwinou ukez kuna-kand maar ma nviny ma ujim wa Nzamb, madi maar makash matekau mu rupas ra wim wend! Akez kumumesh mar makash nich kasu ka diseng dia diyal dipidilau anch, “soufre,” kurutu kwa aruu a mwiur atumbila ni kwa Mwan a Mukoku:
 11 Mish ya kasu kakumumesha mar makash yikez kukakumuk chikupu ni chikupu. Kukez kwikalap chisu cha kwiswedish muten ap uchuku kudi antu akumwifukwila nnam wa chidiany, ap chirumbidij chend, ap akutambula chijingidij cha dijin diend.”
 12 Chawiy chifanyidin antu a Nzamb akata kuziyil ku yijil yend adandamen nich kushimpish kwa michim, ni kulam rity rau mu Yesu.
-13 Chad natesha dizu didiokil mwiur, dianleja kufund anch: “Kudiokal katat, ayuk kwau antu afidila mwi Nsalejetu Yesu.” Mwiku Utumbila ulondil anch: “Chakin, ayuk kwau, awiy akez kwiswedish ku midimu yau, mulong yisalijok yau yikez kuyilondul.” Akat kwangul mabuj ma pa mangand -
+13 Chad natesha dizu didiokil mwiur, dianleja kufund anch: “Kudiokal katat, ayuk kwau antu afidila mwi Nsalejetu Yesu.” Mwiku Utumbila ulondil anch: “Chakin, ayuk kwau, awiy akez kwiswedish ku midimu yau, mulong yisalijok yau yikez kuyilondul.”
+0 Akat kwangul mabuj ma pa mangand
 14 Najikisha kutal, chad namana didj ditok. Pa didj dinidia pading pashich chom chifanakena mudi mwan a muntu. Ndiy wading udjit chibangul cha utad wa or ku mutu wend, wading ukwet kand mpak yitwila ya kwangul nich mu chikas chend.
 15 Muruu mukwau wa mwiur wabudika mu Chikumbu cha Nzamb, watoya, wamwel mukwau wadinga ushich pa didj anch: “Non mpak yiukweta, angul nich, mulong chisu cha kwangul chawanyin kal, yakwangul yaswa kal pa mangand!”
 16 Chad ndiy wadinga ushich pa didj wasutisha mpak yend pa mangand, chawiy yakwangul ya pa mangand ayangula.
 17 Muruu mukwau wa mwiur wabudika mu Chikumbu cha Nzamb cha mwiur, niyend wading ukwet mpak yitwila.
 18 Muruu mukwau kand wa mwiur wading ukweta mudimu wa kulam kasu wadiokala ku chintamb. Ndiy wamutoya muruu mukwau wadinga ukwet mpak yitwila anch: “Non mpak yey yitwila, katul yizakas ya mabuj ma nviny ya pa mangand, mulong mabuj mau maswa kal!”
 19 Chad muruu wa mwiur wasutisha mpak yend pa mangand, wakatula yizakas ya mabuj ma nviny, chad wayidjibwil mwi ndond ya kukamin maar ya ujim wa Nzamb.
-20 Amakamina mabuj ma nviny minam kuns kwa musumb, chad mash mabudika mwi ndond ya kukamin maar, mikala nich kulep kwa kuya piur kwa metre umwing ni chikunku, chad maya kulemp chintampu cha akilometre yitot yisatu. Aruu a mwiur ni yipupu ya Kwisudiel
+20 Amakamina mabuj ma nviny minam kuns kwa musumb, chad mash mabudika mwi ndond ya kukamin maar, mikala nich kulep kwa kuya piur kwa metre umwing ni chikunku, chad maya kulemp chintampu cha akilometre yitot yisatu.
+0 Aruu a mwiur ni yipupu ya Kwisudiel
 1 Namana mwiur chijingidij chikwau chijim chikwamushena. Aruu a mwiur sambwad ading akwet yipupu sambwad ya kwisudiel yikeza kuwanyish ujim wa Nzamb.
 2 Chad namana chom chifanakena mudi karung wa matalital mabombakena nich kasu. Namana in kumupandakan nnam wa chidiany, ni chirumbidij chend, ni kuchind kwa kuvul kwa dijin diend. In kumupandakan ading iminy kuns kwa karung wa matalital, akwet tudiad twayinkishau kudi Nzamb.
 3 Ading fii kuwang muminy wa Moses, kashalapol wa Nzamb, ni muminy wa Mwan a Mukoku anch: “Nsalejetu Nzamb Mwin Dikand Diawonsu, yisalijok yey yidi yijim yikwamushena! Ey udi Mwant wa michid yawonsu, jinjil jey jidi jakin jitentamina.
@@ -8586,7 +8646,8 @@
 5 Chiyasuta yom yiney, namana Chikumbu Cha Nzamb mudia Dizang dia Uman wa Nzamb chanzurik mwiur.
 6 Chad aruu a mwiur sambwad akweta yipupu sambwad abudika mu Chikumbu cha Nzamb. Ading adjit maswin ma ndand muwamp mazutila, matokila kand. Ading kand adjit nshipu ya utad wa or mwi ntul.
 7 Chitang chimwing cha yitang yinying yikweta mwom chapana kudi aruu a mwiur sambwad jimpas sambwad ja utad wa or. Jimpas jinej jading jizwila sens nich ujim wa Nzamb ushichinga mwom chikupu ni chikupu.
-8 Chikumbu cha Nzamb chizula sens nich mish yabudika ku uyaj ni ku ukash wa Nzamb. Kwikil muntu ukutwisha kwandam mu Chikumbu cha Nzamb, ching anch yipupu sambwad yikwetau aruu a mwiur sambwad yapwa. Jimpas ja ujim wa Nzamb
+8 Chikumbu cha Nzamb chizula sens nich mish yabudika ku uyaj ni ku ukash wa Nzamb. Kwikil muntu ukutwisha kwandam mu Chikumbu cha Nzamb, ching anch yipupu sambwad yikwetau aruu a mwiur sambwad yapwa.
+0 Jimpas ja ujim wa Nzamb
 1 Chad natesha dizu dikash didiokil mu Chikumbu cha Nzamb, diayilej aruu a mwiur sambwad anch: “Yangany, wichilany jimpas sambwad ja ujim wa Nzamb pa mangand!”
 2 Muruu wa kusambish waya wichil rupas rend pa mangand, chad yitat yiyimp yisansena yayibudika antu mu mijimbu. Antu inay awiy adinga akwet chijingidij cha nnam wa chidiany, ading kand ni kwifukwil chirumbidij chend.
 3 Muruu wa kaad wichila rupas rend mu karung, mem marumuka kwikal mudi mash ma muntu ufila, chad yitang yawonsu ya mu karung yikweta mwom yafa.
@@ -8607,7 +8668,8 @@
 18 Chawiy kwikala milayilay, ni mazu, ni yidjimin ya nzaj, ni kunyikek kujim kwa ngand. Kand kal kwikalangap kunyikek kujim kwa ngand mudi kwinikwa, kudiokal chisu chidiay muntu pa mangand!
 19 Musumb ujim wakatwoka mu yikunku yisatu, chad misumb ya mangand mawonsu yasheshika. Nzamb kavuramedinap musumb ujim.wa Babilon, wamunisha maar ma nviny ma mu rupas rend, mawiy maar ma ujim wend ukash.
 20 Matung mawonsu mawa kal, ni mikandu kiyimekenap kand.
-21 Mayal ma nvul majim makweta kulim kwa akilo makum manying mayiwila antu. Chad antu amusaala Nzamb masaal, mulong wa chipupu cha mayal ma nvul. Chipupu chinech chading chipandaken kuyip. Mband mwin kusochik
+21 Mayal ma nvul majim makweta kulim kwa akilo makum manying mayiwila antu. Chad antu amusaala Nzamb masaal, mulong wa chipupu cha mayal ma nvul. Chipupu chinech chading chipandaken kuyip.
+0 Mband mwin kusochik
 1 Chad umwing wa aruu a mwiur sambwad ading akwet jimpas sambwad weza kudi am, wangel anch: "Ez, nikwijikish kadimu kakumusalau mband mwin kusochik nakash, ushicha ku yikumu ya aturung.
 2 Ant a mangand mawonsu endil kal nend mband winou, ni antu awonsu a pa mangand akwachikin kal ku maar ma nviny ma usund wend."
 3 Chad muruu wa mwiur winiwa wantwala mwi mpay mu Mwiku Utumbila. Mwinimwa namumana mband ushich pa mnam usuz, amufundodil majin ma kumusaal Nzamb masaal. Nnam winou wading ukwet mitu sambwad ni misengu dikum.
@@ -8625,7 +8687,8 @@
 15 Chad muruu wa mwiur wangela anch: “Mem miwamana, padingay ushich mband wa kusochik, adi antu, ni runtu, ni michid, ni jindim.
 16 Misengu dikum yiwamana ni nnam wa chidiany, akez kumukis mband wa kusochik. Akez kumubuu yom yawonsu, amusha kanzikis. Akez kudia mbij jend, chad akumwosh mu kasu.
 17 Nzamb wayinkisha michim ya kusal mudi mwatenchikay, mulong awiy itiya kupan ulabu wau wa kuyikel kudi nnam wa chidiany, kushik djat ni pakuwanyishay Nzamb mazu mend.
-18 “Chawiy mband wamana wa udi musumb ujim uyikedila ant awonsu a pa mangand.” Kuwa kwa Babilon
+18 “Chawiy mband wamana wa udi musumb ujim uyikedila ant awonsu a pa mangand.”
+0 Kuwa kwa Babilon
 1 Chiyasuta yom yiney, namana muruu mukwau wa mwiur ukat kushirik kudiokal mwiur. Wading ukwet ulabu nakash, chad uyaj wend wamunyika pa mangand mawonsu.
 2 Ndiy wabarika nich dizu dikash anch: “Babilon musumb ujim wawa kal, wawa kalee! Katat wikal kal ndond ya kushakam ayilembil, yikal kal ndond ya kwikangil yizwepep yiyimp ya mitapu yawonsu, nindond ya kushakam ya atujil ayimp atakanena a mitapu yawonsu.
 3 Mulong in michid yawonsu anin kal maar ma nviny ma usund wend makata kuyizarish. Ant awonsu endila kal nend, niyau in kwisak a pa mangand apitil kal mulong wa yom yend ya usey ukash.”
@@ -8653,13 +8716,15 @@
 1 Chiyasuta yom yiney, natesha chom mwiur chifanakena mudi dipumb dia runtu ruvud akat kubarok anch: ‘Mushimanany Nzamb! Dipandish, ni uyaj, ni ukash yidi ya Nzamb wetu,
 2 mulong dirumburish diend didi diakin, ditentamin kand! Ndiy wamufisha nich mband wa kusochik nakash wayipisha mangand mawonsu nich usund wend. Nzamb wamufundakeshina mash ma atushalapol end!”
 3 Awiy abaroka kand anch: “Mushimanany Nzamb! Mish ya kutem kwa musumb ujim yikat kukakumuk chikupu ni chikupu!”
-4 Chawiy amakurump makum maad ni anying pamwing ni yitang yinying yikweta mwom awa pansh, amwifukwila Nzamb ushicha pa ditand, alond anch: “Amen! Mushimanany Nzamb!” Musambu wa kwatan kwa Mwan a Mukoku
+4 Chawiy amakurump makum maad ni anying pamwing ni yitang yinying yikweta mwom awa pansh, amwifukwila Nzamb ushicha pa ditand, alond anch: “Amen! Mushimanany Nzamb!”
+0 Musambu wa kwatan kwa Mwan a Mukoku
 5 Chad dizu didiokil ku ditand anch: “Mushimanany Nzamb wetu, en atushalapol end awonsu, en ukata kamwovany ndiy wom, ajim ni akemp!”
 6 Natesha dipumb dijim mudi dia runtu ruvud, difanaken mudi chidjimin cha mpol yikweta mem mavud, difanaken kand mudi chidjimin chijim cha nzaj. Ading ni kubarok anch: “Mushimanany Nzamb! Mulong Nsalejetu ndiy kamu Nzamb Mwin Dikand Diawonsu uyikedila!
 7 Tuzangijalany, tusangarany, tupanany uyaj kudi ndiy! Mulong chisu cha kwatan kwa Mwan a Mukoku chashik kal, niyend ngachik wend wirijekang kal.
 8 Amwitiyang kal kudjal maswin ma ndand muwamp mazutila ma zwang.” Charumburik anch, maswin minam ma ndand muwamp yidi yisalijok yitentamina ya antu a Nzamb.
 9 Chad muruu wa mwiur wangela kufund anch: “Ayuk kwau antu atazukinau ku musambu wa kwatan kwa Mwan a Mukoku!” Wawejaku kand mazu anch: “Minam mawiy mazu makin ma Nzamb.”
-10 Nawila ku yidjatil yend mulong wa kumwifukwil, pakwez ndiy wangela anch: “Kangal wasal mwamu! Am nidi kashalapol pamwing ni yeyey nau anamakwey akata kumekesh uman wau anch, adi ayen a Yesu. Chifanyidin kumwifukwil Nzamb!” Mulong uman wa Kristu wawiy ukash wa aruua Nzamb. Mwin kukandam pa kabar mutok
+10 Nawila ku yidjatil yend mulong wa kumwifukwil, pakwez ndiy wangela anch: “Kangal wasal mwamu! Am nidi kashalapol pamwing ni yeyey nau anamakwey akata kumekesh uman wau anch, adi ayen a Yesu. Chifanyidin kumwifukwil Nzamb!” Mulong uman wa Kristu wawiy ukash wa aruua Nzamb.
+0 Mwin kukandam pa kabar mutok
 11 Chad namana diur dianzurik, mwinimwa mwamekana kabar mutok. Mwin kukandamap amupidil anch, Wakin, dikwau anch, Ushishamena. Ndiy ukat kurumburish ni kurish njit nich kutentam.
 12 Mes mend makat kulay mudi kasu, wading udjit yibangul yivud ku mutu. Ading amufundil dijin pa ndiy diakad kutwish kwijik kudi muntu mukwau, ching ndiy amwinend.
 13 Wading udjit nkandj mulemp wandjikau mu mash, amwinend ading amupidil anch, Dizu dia Nzamb.
@@ -8670,22 +8735,26 @@
 18 Ezany, udiany mijimbu ya ant, ni ya atulal a njit, ni ya amasalay ayilabu, ni ya atubar, ni ya in kukandamap, ni ya antu awonsu, aswik ni ant ipau, ni ya antu ajim ni akemp."
 19 Chad namana nnam wa chidiany, ni ant a pa mangand pamwing ni yisak yau ya amasalay, akumangana pamwing mulong wa kurish njit nend ushicha pa kabar ni yisak yend ya amasalay.
 20 Amukwata nnam wa chidiany pamwing nend muruu wa makasu wading ni kumusadil yilay. Ku yilay yiney kwawiy kwayidimbilangay antu atambula chijingidij cha nnam wa chidiany, ni antu ifukwilanga chirumbidij chend, Awonsu mwaad wau ayidjibula aom mu Dijiy dia Kasu, diading ni kuzubuk kasu nich kasu ka diyal dipidilau anch, "soufre."
-21 Akwau awonsu ayijipa nich mpak ya musamun yabudika mu kan mwendendiy ushicha pa kabar. Atujil awonsu ayidia kwa kwifund. Mivu kanan
+21 Akwau awonsu ayijipa nich mpak ya musamun yabudika mu kan mwendendiy ushicha pa kabar. Atujil awonsu ayidia kwa kwifund.
+0 Mivu kanan
 1 Chad namana muruu wa mwiur ukat kushirik udiokil mwiur. Mu chikas chend mwading nfungul wa dibuku diakad musul, ni rubwambu rujim.
 2 Wamukwata iyazangomb, ndiy kamu nnak wa pakur, charumburik anch, Muyimp, ap anch Sakudimban, chad wamukas mivu kanan.
 3 Muruu wa mwiur wamudjibula mu dibuku diakad musul, wapataku nich nfungul, chad watekaku chijingidij chakwel kakutwishap kuyidimb in michid kapamp kakwau, djat ni pakupwila mivu kanan. Kupwish kwa mivu yiney, chifanyidin kumulikishaku kachisu kakemp.
 4 Namana matand ading ashichap atambula ulabu wa kurumburishan. Namana kand mipim ya antu akatulau mitu mulong amekesha uman anch, adi ayen a Yesu, ni mulong wa dizu dia Nzamb diarumburilangau. Awiy kamwifukwilangap nnam wa chidiany, ap chirumbidij chend, ap katambulap chijingidij cha nnam winou pa jimpal jau, ap pa makas mau. Avumbuka kwikal kand aom, chad ayikela nend Kristu mivu kanan.
 5 Afu akwau kavumbukap kwikal kand aom, ching anch mivu kanan yapwa. Kwinoku kwawiy kuvumbuk kwa kapamp ka kusambish.
-6 Ayuk kwau ni kutumb awiy adia nau mu kuvumbuk kwa kapamp ka kusambish. Rufu ra kapamp ka kaad kirukwetap ukash wa kuyikwat awiy. Akwikal in kupesh a Nzamb ni a Kristu, chad akez kuyikel pamwing nend Kristu mivu kanan. Amupandakan kal Sakudimban
+6 Ayuk kwau ni kutumb awiy adia nau mu kuvumbuk kwa kapamp ka kusambish. Rufu ra kapamp ka kaad kirukwetap ukash wa kuyikwat awiy. Akwikal in kupesh a Nzamb ni a Kristu, chad akez kuyikel pamwing nend Kristu mivu kanan.
+0 Amupandakan kal Sakudimban
 7 Piyikupwa mivu kanan, akez kumulikishaku Sakudimban mu rukan.
 8 Ndiy ukez kuya kuyidimb in michid apalangena ku mangand mawonsu, charumburik anch, Gog nend Magog. Sakudimban ukez kuyikumangej mulong wa kurish nau njit, awiy akez kwikal avud mudi usukuril wa pa chikumu cha karung.
 9 Asuta mu mangand mawonsu, chad ombamu chibeng cha antu a Nzamb ni musumb ukatilay Nzamb. Pakwez kasu kadiokala mwiur keza, chad kayosh awonsu shutit.
-10 Sakudimban, ndiy kamu wayidimba, amudjibula mu Dijiy dia Kasu kakata kulabukang nich mayal mapidilau anch, "soufre." Mwinimwa mwawiy mwamudjibwilau nnam wa chidiany nend muruu wa makasu. Akez kuman mar ni kwikonk muten ni uchuku chikupu ni chikupu. Dirumburish dia kwisudiel
+10 Sakudimban, ndiy kamu wayidimba, amudjibula mu Dijiy dia Kasu kakata kulabukang nich mayal mapidilau anch, "soufre." Mwinimwa mwawiy mwamudjibwilau nnam wa chidiany nend muruu wa makasu. Akez kuman mar ni kwikonk muten ni uchuku chikupu ni chikupu.
+0 Dirumburish dia kwisudiel
 11 Chad namana ditand dijim ditok, namana kand ndiy wading ushichap. Mangand ni diur yamuchinyina kulemp, kiyamekanakup kand.
 12 Namana afu ajim ni akemp iminy kurutu kwa ditand, mikand yading yiburikin. Mukand ukwau waburika wawiy mukand wa mwom. Afu ayirumburisha mudi mwading yisalijok yau yafundau mu mikand yiney.
 13 Karung wabudisha afu adingamu. Rufu ni ndond ya afu niyau abudisha afu adingamu. Awonsu ayirumburish mudi mwading yisalijok yau.
 14 Rufu ni ndond ya afu ayidjibula mu Dijiy dia Kasu. Dijiy dia Kasu rawiy rufu ra kapamp ka kaad.
-15 Muntu mwawonsu wakad kufundau dijin mu mukand wa mwom amudjibula kand niyend mu Dijiy dia Kasu. Diur disu ni mangand masu
+15 Muntu mwawonsu wakad kufundau dijin mu mukand wa mwom amudjibula kand niyend mu Dijiy dia Kasu.
+0 Diur disu ni mangand masu
 1 Chad namana diur disu ni mangand masu, mulong diur dia kusambish ni mangand ma kusambish kiyamekanap kand, kikwadingap kand karung.
 2 Namana Musumb Utumbila, ndiy kamu Yerusalem musu, wadinga ni kushirik, udiokil mwiur kudi Nzamb. Musumb winiwa wading uwanyidin mudi ngachik wirijekang kal nawamp mulong wa kuya kudi nfumwend.
 3 Natesha dizu dia piur didiokil ku ditand anch: "Katat ndond ya kushakam ya Nzamb yidi pakach pa antu! Ndiy ukez kushakam nau pamwing, niyau akwikal antwend. Nzamb amwinend ukez kushakam nau pamwing, chad ukwikal Nzamb wau.
@@ -8693,7 +8762,8 @@
 5 Chad ndiy ushicha pa ditand walonda anch: "Katat nikat kusal yom yawonsu yisu!" Wangela kand anch: "Fund mazu minam, mulong madi makin, mafanyidina kumachingej."
 6 Wawejaku kand anch: "Yom yiney yawanyin kal! Am nidi wa kusambish, nidi kand wa kwisudiel, yam disambishil, yam kand disudiel. Muntu mwawonsu wovila impu, am nikumwinkish mem ma kuna makad kuland, mem madiokila ku musul wa mem makata kupan mwom.
 7 Muntu mwawonsu ukupandakana ukez kutambul uswan anch, am nikez kwikal Nzamb wend, niyend ukez kwikal mwanam ikundj.
-8 Pakwez antu akad kujijaman, ni aburedina ritiy, ni atakanena, ni in kujipan, ni in usund, ni in ulaj, ni in kwifukwil yirumbidij ya akish, ni in makasu, antu inay awonsu ndond yau yikez kwikal mu Dijiy dia Kasu kakata kulabok nich mayal, mapidilau anch, 'soufre.' Riner rawiy rufu ra kapamp ka kaad." Yerusalem musu
+8 Pakwez antu akad kujijaman, ni aburedina ritiy, ni atakanena, ni in kujipan, ni in usund, ni in ulaj, ni in kwifukwil yirumbidij ya akish, ni in makasu, antu inay awonsu ndond yau yikez kwikal mu Dijiy dia Kasu kakata kulabok nich mayal, mapidilau anch, 'soufre.' Riner rawiy rufu ra kapamp ka kaad."
+0 Yerusalem musu
 9 Muruu umwing wa aruu a mwiur sambwad ading akwet jimpas jizwila sens nich yipupu sambwad ya kwisudiel wangela anch: "Ez, nikulejay ngachik, mband wa Mwan a Mukoku."
 10 Chad muruu wa mwiur winou wantwala mu Mwiku Utumbila pa mukandu ujim ulemp. Wanleja Musumb Utumbila, Yerusalem, ukat kushirik kudiokal mwiur kudi Nzamb.
 11 Musumb uzutin nich uyaj wa Nzamb, ukat kulay mudi diyal dia usey dilayina dia mem ma matamb, dimekena mutambu ni mutambu mudi matalital.
@@ -8717,7 +8787,8 @@
 2 Mem masutanga pakach pa mukombil wa mu musumb. Mutond wa mwom wading uminyin ushad ni ushad wa wit, wading ni kusong mabuj tupamp dikum ni twaad pa muvu, wasonganga mabuj ngond ni ngond. Mayij ma mutond winou mading mwon wa kuyok nich in michid.
 3 Kwikil chom ap chimwing chayindamishau kudi Nzamb chikeza kumekan mu musumb winou. Ditand dia Nzamb ni dia Mwan a Mukoku makez kwikal mu musumb, chad atushalapol a Nzamb akez kumwifukwil.
 4 Awiy akez kuman chifu chend, chad dijin diend dikez kwikal pa jimpal jau.
-5 Kikukez kwikalap kand uchuku, awiy kakuswirap kand chimunyik cha mwend wa kasu, ap chimunyik cha muten, mulong Nsalejetu Nzamb ukez kwikal chimunyik chau. Chad awiy akez kuyikel chikupu ni chikupu. Kuchirik kwa Yesu
+5 Kikukez kwikalap kand uchuku, awiy kakuswirap kand chimunyik cha mwend wa kasu, ap chimunyik cha muten, mulong Nsalejetu Nzamb ukez kwikal chimunyik chau. Chad awiy akez kuyikel chikupu ni chikupu.
+0 Kuchirik kwa Yesu
 6 Chad muruu wa mwiur wanleja anch: "Mazu minam madi makin, mafanyidina kumachingej. Nsalejetu Nzamb, ukata kupan Mwiku wend Utumbila kudi aruu end, wamutuma muruu wend wa mwiur mulong wa kuyilej atushalapol end yom yikushika swa."
 7 Yesu ulondil anch: "Talany, nikat kwez swa! Wayuk muntu ulamina mazu ma kubwak ma mukand winou!"
 8 Am, Yohan, natesha yom yiney, nayimana kand. Pinapwisha kuyitesh ni kuyiman, nawila ku yidjatil ya muruu wa mwiur wanleja yom yiney, chakwel nimwifukwil.
@@ -8729,7 +8800,8 @@
 14 "Ayuk kwau in kwoyish ankandj au alemp, chakwel akutwish kwikal nich usu wa kudia mabuj ma mutond wa mwom, chakwel akutwish kand kwandamin mu yis ya musumb.
 15 Pol pa musumb padi antu atakanena, ni alaj, ni in usund, ni in kujipan, ni in kwifukwil yirumbidij ya akish, ni antu akatila makasu ap akata kumalond.
 16 "Yam, Yesu, namutuma muruu wam wa mwiur kwez kukuletil ey uman winou wa kuyilej in Yikumbu ya Nzamb. Nidi wa mbut ni wa a majuku ma David. Yam mwizikuch, katumbu ukata kuzut pamanch."
-17 Mwiku Utumbila ni Ngachik alondil anch: "Ez!" Chifanyidin muntu mwawonsu uteshina yom yiney, niyend alond kand anch: "Ez!" Muntu mwawonsu wovila impu eza. Chifanyidin muntu mwawonsu ukatila mem ma mwom eza, amatambul mamwamu wakad kuland. Mazu ma kwisudiel
+17 Mwiku Utumbila ni Ngachik alondil anch: "Ez!" Chifanyidin muntu mwawonsu uteshina yom yiney, niyend alond kand anch: "Ez!" Muntu mwawonsu wovila impu eza. Chifanyidin muntu mwawonsu ukatila mem ma mwom eza, amatambul mamwamu wakad kuland.
+0 Mazu ma kwisudiel
 18 Am, Yohan, nimubabeshin muntu mwawonsu uteshina mazu ma kubwak ma mukand winou anch: "Anch muntu wawejaku mazu makwau, Nzamb ukez kumuwejinaku niyend yipupu yifundilau mu mukand winou.
 19 Chad kand, anch muntu wadioshaku mazu ma kubwak ma mukand winou, Nzamb ukez kumudiosh niyend chikunku chend cha mabuj ma mutond wa mwom melay kutambul mu Musumb Utumbila, mafundau mu mukand winou."
 20 Ndiy ulejena uman wend wa yom yiney ulondil anch: "Chakin, am nikat kwez swa!" Amen. Ez, Nsalejetu Yesu!
