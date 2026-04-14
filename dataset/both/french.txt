@@ -7014,7 +7014,8 @@
 22 Tous les croyants d'ici, et spécialement ceux qui sont au service de l'empereur, vous adressent leurs salutations.
 23 Que la grâce du Seigneur Jésus-Christ soit avec vous tous.
 1 De la part de Paul, qui par la volonté de Dieu est apôtre de Jésus-Christ, et de la part de Timothée, notre frère.
-2 A ceux qui appartiennent au peuple de Dieu à Colosses et qui sont nos fidèles frères dans la communion avec le Christ: Que Dieu notre Père vous accorde la grâce et la paix. Prière de reconnaissance
+2 A ceux qui appartiennent au peuple de Dieu à Colosses et qui sont nos fidèles frères dans la communion avec le Christ: Que Dieu notre Père vous accorde la grâce et la paix.
+0 Prière de reconnaissance
 3 Nous remercions toujours Dieu, le Père de notre Seigneur Jésus-Christ, quand nous prions pour vous.
 4 En effet, nous avons entendu parler de votre foi en Jésus-Christ et de l'amour que vous avez pour tous les croyants.
 5 Quand le message de la vérité, la Bonne Nouvelle, est parvenu pour la première fois chez vous, vous avez appris ce que Dieu vous réserve dans les cieux: votre foi et votre amour sont fondés sur cette espérance.
@@ -7026,7 +7027,8 @@
 11 Nous lui demandons de vous fortifier à tous égards par sa puissance glorieuse, afin que vous puissiez tout supporter avec patience.
 12 Remerciez avec joie Dieu le Père: il vous a rendus capables d'avoir part aux biens qu'il réserve dans le royaume de lumière à ceux qui lui appartiennent.
 13 Il nous a en effet arrachés à la puissance de la nuit et nous a fait passer dans le royaume de son Fils bien-aimé.
-14 C'est par lui qu'il nous a délivrés du mal et que nos péchés sont pardonnés. La personne et l'œuvre du Christ
+14 C'est par lui qu'il nous a délivrés du mal et que nos péchés sont pardonnés.
+0 La personne et l'œuvre du Christ
 15 Le Christ est l'image visible du Dieu invisible. Il est le Fils premier-né, supérieur à tout ce qui a été créé.
 16 Car c'est par lui que Dieu a tout créé dans les cieux et sur la terre, ce qui est visible et ce qui est invisible, puissances spirituelles, dominations, autorités et pouvoirs. Dieu a tout créé par lui et pour lui.
 17 Il existait avant toutes choses, et c'est par lui qu'elles sont toutes maintenues à leur place.
@@ -7035,7 +7037,8 @@
 20 et, par lui, il a voulu réconcilier l'univers entier avec lui. C'est par la mort de son Fils sur la croix qu'il a établi la paix pour tous, soit sur la terre soit dans les cieux.
 21 Vous aussi, vous étiez autrefois loin de Dieu, vous étiez ses ennemis à cause de tout le mal que vous pensiez et commettiez.
 22 Mais maintenant, par la mort que son Fils a subie dans son corps humain, Dieu vous a réconciliés avec lui, afin de vous faire paraître devant lui saints, sans défaut et irréprochables.
-23 Cependant, il faut que vous demeuriez dans la foi, fermement établis sur de solides fondations, sans vous laisser écarter de l'espérance qui est la vôtre depuis que vous avez entendu la Bonne Nouvelle. Cette Bonne Nouvelle a été annoncée à l'humanité entière, et c'est d'elle que moi, Paul, je suis devenu le serviteur. La mission de Paul en faveur de l'Église
+23 Cependant, il faut que vous demeuriez dans la foi, fermement établis sur de solides fondations, sans vous laisser écarter de l'espérance qui est la vôtre depuis que vous avez entendu la Bonne Nouvelle. Cette Bonne Nouvelle a été annoncée à l'humanité entière, et c'est d'elle que moi, Paul, je suis devenu le serviteur.
+0 La mission de Paul en faveur de l'Église
 24 Maintenant, je me réjouis des souffrances que j'éprouve pour vous. Car, en ma personne, je complète ainsi ce qui manque encore aux souffrances du Christ pour son corps, qui est l'Église.
 25 Je suis devenu serviteur de l'Église, conformément à la mission que Dieu m'a confiée à votre égard: il m'a chargé d'annoncer pleinement son message,
 26 c'est-à-dire le plan secret qu'il a tenu caché depuis toujours à toute l'humanité, mais qu'il a révélé maintenant aux croyants.
@@ -7046,7 +7049,8 @@
 2 Je désire que leur cœur soit rempli de courage, qu'ils soient unis dans l'amour et enrichis de toute la certitude que donne une vraie intelligence. Ils pourront connaître ainsi le secret de Dieu, c'est-à-dire le Christ lui-même:
 3 en lui se trouvent cachés tous les trésors de la sagesse et de la connaissance divines.
 4 Je vous dis cela afin que personne ne puisse vous tromper par des raisonnements séduisants.
-5 Même si je suis absent de corps, je suis à vos côtés en esprit, et je suis heureux de vous voir tenir bon et rester solides dans votre foi au Christ. La vie pleinement reçue en Christ
+5 Même si je suis absent de corps, je suis à vos côtés en esprit, et je suis heureux de vous voir tenir bon et rester solides dans votre foi au Christ.
+0 La vie pleinement reçue en Christ
 6 Ainsi, puisque vous avez accepté Jésus-Christ comme Seigneur, vivez dans l'union avec lui.
 7 Soyez enracinés en lui et construisez toute votre vie sur lui. Soyez toujours plus fermes dans la foi, conformément à l'enseignement que vous avez reçu, et soyez pleins de reconnaissance.
 8 Prenez garde que personne ne vous séduise par les arguments trompeurs et vides de la sagesse humaine: elle se fonde sur les traditions des hommes, sur les forces spirituelles du monde, et non sur le Christ.
@@ -7060,7 +7064,8 @@
 16 Ainsi, ne laissez personne vous juger à propos de ce que vous mangez ou buvez, ou pour une question de fête, de nouvelle lune ou de sabbat.
 17 Tout cela n'est que l'ombre des biens à venir; mais la réalité, c'est le Christ.
 18 Ne vous laissez pas condamner par des gens qui prennent plaisir à des pratiques extérieures d'humilité et au culte des anges, et qui attachent beaucoup d'importance à leurs visions. De tels êtres sont enflés d'un vain orgueil par leur façon trop humaine de penser;
-19 ils ne restent pas attachés au Christ, qui est la tête. C'est pourtant grâce au Christ que le corps entier est nourri et bien uni par ses jointures et ses articulations, et qu'il grandit comme Dieu le veut. Mourir et vivre avec le Christ
+19 ils ne restent pas attachés au Christ, qui est la tête. C'est pourtant grâce au Christ que le corps entier est nourri et bien uni par ses jointures et ses articulations, et qu'il grandit comme Dieu le veut.
+0 Mourir et vivre avec le Christ
 20 Vous êtes morts avec le Christ et avez été délivrés des forces spirituelles du monde. Alors, pourquoi vivez-vous comme si vous dépendiez de ce monde, en acceptant qu'on vous impose des règles de ce genre:
 21 «Ne prends pas ceci», «Ne goûte pas cela», «N'y touche pas»?
 22 Elles concernent des choses destinées à disparaître dès qu'on en fait usage. Il s'agit là de prescriptions et d'enseignements purement humains.
@@ -7068,7 +7073,8 @@
 1 Vous avez été ramenés de la mort à la vie avec le Christ. Alors, recherchez les choses qui sont au ciel, là où le Christ siège à la droite de Dieu.
 2 Préoccupez-vous de ce qui est là-haut et non de ce qui est sur la terre.
 3 Car vous êtes morts, et votre vie est cachée avec le Christ en Dieu.
-4 Votre véritable vie, c'est le Christ, et quand il paraîtra, alors vous paraîtrez aussi avec lui en participant à sa gloire. La vie ancienne et la vie nouvelle
+4 Votre véritable vie, c'est le Christ, et quand il paraîtra, alors vous paraîtrez aussi avec lui en participant à sa gloire.
+0 La vie ancienne et la vie nouvelle
 5 Faites donc mourir tout ce qui est terrestre en vous: l'immoralité, l'impureté, les passions, les mauvais désirs et l'avarice (car l'avarice, c'est de l'idolâtrie).
 6 Ce sont de telles fautes qui attirent la colère de Dieu sur ceux qui s'opposent à lui.
 7 Voilà comment vous vous conduisiez autrefois quand votre vie était dominée par ces péchés.
@@ -7081,7 +7087,8 @@
 14 Et par-dessus tout, mettez l'amour, ce lien qui vous permettra d'être parfaitement unis.
 15 Que la paix du Christ règne dans vos cœurs; c'est en effet à cette paix que Dieu vous a appelés, en tant que membres d'un seul corps. Soyez reconnaissants.
 16 Que la parole du Christ, avec toute sa richesse, habite en vous. Instruisez-vous et avertissez-vous les uns les autres avec une pleine sagesse. Chantez à Dieu, de tout votre cœur et avec reconnaissance, des psaumes, des hymnes et des cantiques inspirés par l'Esprit.
-17 Tout ce que vous faites, en paroles ou en actions, faites-le au nom du Seigneur Jésus, en remerciant par lui Dieu le Père. Les rapports personnels dans la vie nouvelle
+17 Tout ce que vous faites, en paroles ou en actions, faites-le au nom du Seigneur Jésus, en remerciant par lui Dieu le Père.
+0 Les rapports personnels dans la vie nouvelle
 18 Femmes, soyez soumises à vos maris, comme il convient de le faire devant le Seigneur.
 19 Maris, aimez vos femmes et ne leur montrez point de mauvaise humeur.
 20 Enfants, obéissez en tout à vos parents, car voilà ce que le Seigneur approuve.
@@ -7090,12 +7097,14 @@
 23 Quel que soit votre travail, faites-le de tout votre cœur, comme pour le Seigneur et non pour des hommes.
 24 Rappelez-vous que le Seigneur vous récompensera: vous recevrez les biens qu'il réserve aux siens. Car le véritable Maître que vous servez, c'est le Christ.
 25 Mais celui qui fait le mal en subira les conséquences, car Dieu n'avantage personne.
-1 Maîtres, traitez vos esclaves d'une façon droite et juste. Rappelez-vous que vous avez, vous aussi, un Maître dans le ciel. Recommandations
+1 Maîtres, traitez vos esclaves d'une façon droite et juste. Rappelez-vous que vous avez, vous aussi, un Maître dans le ciel.
+0 Recommandations
 2 Priez avec fidélité, demeurez vigilants par la prière adressée à Dieu avec reconnaissance.
 3 En même temps, priez aussi pour nous, afin que Dieu nous accorde une occasion favorable de prêcher sa parole, d'annoncer le secret du Christ. En effet, c'est pour cela que je suis maintenant en prison.
 4 Priez donc pour que je puisse parler de ce secret et le faire clairement connaître, comme je le dois.
 5 Conduisez-vous avec sagesse envers les non-chrétiens, en profitant de toute occasion qui se présente à vous.
-6 Que vos paroles soient toujours agréables et pleines d'intérêt; sachez répondre à chacun de la bonne manière. Salutations finales
+6 Que vos paroles soient toujours agréables et pleines d'intérêt; sachez répondre à chacun de la bonne manière.
+0 Salutations finales
 7 Tychique, notre compagnon, ce cher frère et fidèle collaborateur au service du Seigneur, vous donnera toutes les nouvelles qui me concernent.
 8 Je vous l'envoie donc en particulier pour vous dire comment nous allons et pour vous réconforter.
 9 Il est accompagné par Onésime, le cher et fidèle frère, qui est l'un des vôtres. Ils vous informeront de tout ce qui se passe ici.
