@@ -7561,7 +7561,8 @@
 0 Dieu a parlé par son Fils
 1 Autrefois Dieu a parlé à nos ancêtres à maintes reprises et de plusieurs manières par les prophètes,
 2 mais maintenant, à la fin des temps, il nous a parlé par son Fils. C'est par lui que Dieu a créé l'univers, et c'est à lui qu'il a destiné la propriété de toutes choses.
-3 Le Fils reflète la splendeur de la gloire divine, il est la représentation exacte de ce que Dieu est, il soutient l'univers par sa parole puissante. Après avoir purifié les êtres humains de leurs péchés, il s'est assis dans les cieux à la droite de Dieu, la puissance suprême. Le Fils est supérieur aux anges
+3 Le Fils reflète la splendeur de la gloire divine, il est la représentation exacte de ce que Dieu est, il soutient l'univers par sa parole puissante. Après avoir purifié les êtres humains de leurs péchés, il s'est assis dans les cieux à la droite de Dieu, la puissance suprême.
+0 Le Fils est supérieur aux anges
 4 Le Fils est devenu d'autant supérieur aux anges que Dieu lui a accordé un titre qui surpasse le leur.
 5 En effet, Dieu n'a jamais dit à l'un de ses anges: «C'est toi qui es mon Fils, à partir d'aujourd'hui je suis ton Père.» Et il n'a jamais dit à propos d'un ange: «Je serai un Père pour lui et il sera un Fils pour moi.»
 6 Mais au moment où Dieu allait envoyer son Fils premier-né dans le monde, il a dit: «Tous les anges de Dieu doivent l'adorer.»
@@ -7572,11 +7573,13 @@
 11 Tout cela disparaîtra, mais toi tu restes. Terre et ciel s'useront comme de vieux habits;
 12 tu les rouleras comme un manteau, et ils seront changés comme des vêtements. Mais toi tu demeures le même et ta vie n'a pas de fin.»
 13 Dieu n'a jamais dit à l'un de ses anges: «Viens siéger à ma droite, je veux contraindre tes ennemis à te servir de marchepied.»
-14 Les anges ne sont que des esprits au service de Dieu: il les envoie apporter de l'aide à ceux qui doivent recevoir le salut. Un si grand salut
+14 Les anges ne sont que des esprits au service de Dieu: il les envoie apporter de l'aide à ceux qui doivent recevoir le salut.
+0 Un si grand salut
 1 C'est pourquoi nous devons nous attacher d'autant plus fermement à ce que nous avons entendu, afin de ne pas être entraînés à notre perte.
 2 Le message autrefois apporté par les anges a prouvé sa valeur, et quiconque n'en a pas tenu compte ou lui a désobéi a reçu la punition qu'il méritait.
 3 Alors, comment pourrons-nous échapper à la punition si nous négligeons un tel salut? Le Seigneur lui-même l'a annoncé le premier, puis ceux qui ont entendu le Seigneur nous en ont confirmé la valeur.
-4 En même temps, Dieu a appuyé leur témoignage par des prodiges extraordinaires et toutes sortes de miracles, ainsi que par les dons du Saint-Esprit répartis selon sa volonté. Celui qui conduit les hommes au salut
+4 En même temps, Dieu a appuyé leur témoignage par des prodiges extraordinaires et toutes sortes de miracles, ainsi que par les dons du Saint-Esprit répartis selon sa volonté.
+0 Celui qui conduit les hommes au salut
 5 En effet, ce n'est pas à des anges que Dieu a soumis le monde à venir dont nous parlons.
 6 Au contraire, dans un passage de l'Écriture quelqu'un déclare: «Qu'est-ce que l'homme, ô Dieu, pour que tu penses à lui? Qu'est-ce que l'être humain, pour que tu t'occupes de lui?
 7 Tu l'as rendu pour un peu de temps inférieur aux anges, tu l'as couronné de gloire et d'honneur,
@@ -7590,13 +7593,15 @@
 15 et délivrer ceux que la peur de la mort rendait esclaves durant leur vie entière.
 16 En effet, ce n'est assurément pas aux anges qu'il vient en aide, mais c'est aux descendants d'Abraham.
 17 C'est pourquoi il devait devenir en tout semblable à ses frères, afin d'être leur grand-prêtre plein de bonté et fidèle au service de Dieu, pour assurer le pardon des péchés du peuple.
-18 Et maintenant, il peut secourir ceux qui sont tentés, parce qu'il a passé lui-même par la tentation et la souffrance. Jésus est supérieur à Moïse
+18 Et maintenant, il peut secourir ceux qui sont tentés, parce qu'il a passé lui-même par la tentation et la souffrance.
+0 Jésus est supérieur à Moïse
 1 Frères, vous appartenez à Dieu qui vous a appelés. Alors, regardez à Jésus, l'envoyé de Dieu et le grand-prêtre de la foi que nous proclamons.
 2 En effet, Dieu l'avait désigné pour cette fonction, et il lui a été fidèle tout comme Moïse dont il est écrit: «Il fut fidèle dans toute la maison de Dieu.»
 3 Celui qui construit une maison est plus honoré que la maison elle-même. Ainsi, Jésus est digne d'une gloire supérieure à celle de Moïse.
 4 Toute maison, en effet, est construite par quelqu'un; or, celui qui a construit toutes choses, c'est Dieu.
 5 Moïse, pour sa part, a été fidèle dans toute la maison de Dieu, en tant que serviteur chargé de témoigner de ce que Dieu allait dire.
-6 Mais le Christ est fidèle en tant que Fils placé à la tête de la maison de Dieu. Et nous sommes sa maison, si nous gardons notre assurance et l'espérance dont nous sommes fiers. Le repos réservé au peuple de Dieu
+6 Mais le Christ est fidèle en tant que Fils placé à la tête de la maison de Dieu. Et nous sommes sa maison, si nous gardons notre assurance et l'espérance dont nous sommes fiers.
+0 Le repos réservé au peuple de Dieu
 7 C'est pourquoi, comme le dit le Saint-Esprit: «Si vous entendez la voix de Dieu aujourd'hui,
 8 ne refusez pas de comprendre, comme lorsque vous vous êtes révoltés contre lui, le jour où vous l'avez mis à l'épreuve dans le désert.
 9 Là vos ancêtres m'ont défié et mis à l'épreuve, dit Dieu, même après avoir vu tout ce que j'avais fait
@@ -7622,7 +7627,8 @@
 10 Car celui qui entre dans le repos préparé par Dieu se repose de son travail comme Dieu s'est reposé du sien.
 11 Efforçons-nous donc d'entrer dans ce repos; faisons en sorte qu'aucun de nous ne tombe, en refusant d'obéir comme nos ancêtres.
 12 En effet, la parole de Dieu est vivante et efficace. Elle est plus tranchante qu'aucune épée à deux tranchants. Elle pénètre jusqu'au point où elle sépare âme et esprit, jointures et moelle. Elle juge les désirs et les pensées du cœur humain.
-13 Il n'est rien dans la création qui puisse être caché à Dieu. A ses yeux, tout est à nu, à découvert, et c'est à lui que nous devons tous rendre compte. Jésus le grand-prêtre souverain
+13 Il n'est rien dans la création qui puisse être caché à Dieu. A ses yeux, tout est à nu, à découvert, et c'est à lui que nous devons tous rendre compte.
+0 Jésus le grand-prêtre souverain
 14 Tenons donc fermement la foi que nous proclamons. Nous avons, en effet, un grand-prêtre souverain qui est parvenu jusqu'en la présence même de Dieu: c'est Jésus, le Fils de Dieu.
 15 Nous n'avons pas un grand-prêtre incapable de souffrir avec nous de nos faiblesses. Au contraire, notre grand-prêtre a été tenté en tout comme nous le sommes, mais sans commettre de péché.
 16 Approchons-nous donc avec confiance du trône de Dieu, où règne la grâce. Nous y obtiendrons le pardon et nous y trouverons la grâce, pour être secourus au bon moment.
@@ -7635,7 +7641,8 @@
 7 Durant sa vie terrestre, Jésus adressa des prières et des supplications, accompagnées de grands cris et de larmes, à Dieu qui pouvait le sauver de la mort. Et Dieu l'exauça à cause de sa soumission.
 8 Bien qu'il fût le Fils de Dieu, il a appris l'obéissance par tout ce qu'il a souffert.
 9 Après avoir été élevé à la perfection, il est devenu la source d'un salut éternel pour tous ceux qui lui obéissent.
-10 En effet, Dieu l'a déclaré grand-prêtre dans la tradition de Melkisédec. Mise en garde contre le danger d'abandonner la foi
+10 En effet, Dieu l'a déclaré grand-prêtre dans la tradition de Melkisédec.
+0 Mise en garde contre le danger d'abandonner la foi
 11 Nous avons beaucoup à dire sur ce sujet, mais il est difficile de vous donner des explications, car vous êtes bien lents à comprendre.
 12 Il s'est passé suffisamment de temps pour que vous deveniez des maîtres, et pourtant vous avez encore besoin qu'on vous enseigne les premiers éléments du message de Dieu. Vous avez encore besoin de lait, au lieu de nourriture solide.
 13 Celui qui se contente de lait n'est qu'un enfant, il n'a aucune expérience au sujet de ce qui est juste.
@@ -7643,15 +7650,16 @@
 1 Ainsi, tournons-nous vers un enseignement d'adulte, en laissant derrière nous les premiers éléments du message chrétien. Nous n'allons pas poser de nouveau les bases de ce message: la nécessité de se détourner des actions néfastes et de croire en Dieu,
 2 l'enseignement au sujet des baptêmes et de l'imposition des mains, l'annonce de la résurrection des morts et du jugement éternel.
 3 Progressons! C'est là ce que nous allons faire, si Dieu le permet.
-4 -
-5 -
-6 En effet, qu'en est-il de ceux qui retombent dans leur ancienne vie? Ils ont reçu une fois la lumière de Dieu. Ils ont goûté au don céleste et ont eu part au Saint-Esprit. Ils ont senti combien la parole de Dieu est bonne et ils ont fait l'expérience des puissances du monde à venir. Et pourtant, ils retombent dans leur ancienne vie! Il est impossible de les amener une nouvelle fois à changer de vie, car, pour leur part, ils remettent le Fils de Dieu sur la croix et l'exposent publiquement aux insultes.
+4 En effet, qu'en est-il de ceux qui retombent dans leur ancienne vie? Ils ont reçu une fois la lumière de Dieu. Ils ont goûté au don céleste et ont eu part au Saint-Esprit.
+5 Ils ont senti combien la parole de Dieu est bonne et ils ont fait l'expérience des puissances du monde à venir.
+6 Et pourtant, ils retombent dans leur ancienne vie! Il est impossible de les amener une nouvelle fois à changer de vie, car, pour leur part, ils remettent le Fils de Dieu sur la croix et l'exposent publiquement aux insultes.
 7 Lorsqu'une terre absorbe la pluie qui tombe fréquemment sur elle, et produit des plantes utiles à ceux pour qui elle est cultivée, Dieu la bénit.
 8 Mais si elle produit des buissons d'épines et des chardons, elle ne vaut rien; elle sera bientôt maudite par Dieu et finira par être brûlée.
 9 Cependant, même si nous parlons ainsi, mes chers amis, nous sommes convaincus que vous êtes sur la bonne voie, celle du salut.
 10 Dieu n'est pas injuste. Il n'oubliera pas votre activité, ni l'amour que vous avez montré à son égard par les services que vous avez rendus et que vous rendez encore aux autres chrétiens.
 11 Mais nous désirons que chacun de vous fasse preuve du même zèle jusqu'à la fin, afin que votre espérance se réalise pleinement.
-12 Ne devenez donc pas paresseux, mais suivez l'exemple de ceux qui croient avec persévérance et qui reçoivent ainsi ce que Dieu a promis. La ferme promesse de Dieu
+12 Ne devenez donc pas paresseux, mais suivez l'exemple de ceux qui croient avec persévérance et qui reçoivent ainsi ce que Dieu a promis.
+0 La ferme promesse de Dieu
 13 Quand Dieu fit sa promesse à Abraham, il l'accompagna d'un serment formulé en son propre nom, car il n'y avait personne de plus grand que lui par qui le faire.
 14 Il déclara: «Je jure de te bénir abondamment et de t'accorder de très nombreux descendants.»
 15 Abraham attendit avec patience, et il obtint ce que Dieu avait promis.
@@ -7659,7 +7667,8 @@
 17 Or, Dieu a voulu montrer encore plus clairement à ceux qui devaient recevoir les biens promis que sa décision était irrévocable; c'est pourquoi il ajouta un serment à la promesse.
 18 Il y a donc deux actes irrévocables, dans lesquels il est impossible que Dieu mente. Ainsi, nous qui avons trouvé un refuge en lui, nous sommes grandement encouragés à saisir avec fermeté l'espérance qui nous est proposée.
 19 Cette espérance est pour nous comme l'ancre de notre vie. Elle est sûre et solide, et pénètre à travers le rideau du temple céleste jusque dans le sanctuaire intérieur.
-20 C'est là que Jésus est entré avant nous et pour nous, car il est devenu grand-prêtre pour toujours dans la tradition de Melkisédec. Melkisédec, roi et prêtre
+20 C'est là que Jésus est entré avant nous et pour nous, car il est devenu grand-prêtre pour toujours dans la tradition de Melkisédec.
+0 Melkisédec, roi et prêtre
 1 Ce Melkisédec était roi de Salem et prêtre du Dieu très-haut. Lorsque Abraham revenait de la bataille où il avait vaincu les rois, Melkisédec est allé à sa rencontre et l'a béni.
 2 Abraham lui a donné un dixième de tout ce qu'il avait pris. Le nom de Melkisédec, tout d'abord, signifie «roi de justice»; de plus, il était roi de Salem, ce qui veut dire «roi de paix».
 3 On ne lui connaît ni père, ni mère, ni aucun ancêtre; on ne parle nulle part de sa naissance ou de sa mort. Il est semblable au Fils de Dieu: il demeure prêtre pour toujours.
@@ -7673,7 +7682,8 @@
 11 La prêtrise lévitique était à la base de la loi donnée au peuple d'Israël. Or, si les prêtres lévitiques avaient réalisé une œuvre parfaite, il n'aurait pas été nécessaire qu'apparaisse un prêtre différent, dans la tradition de Melkisédec et non plus dans la tradition d'Aaron.
 12 Car lorsque la prêtrise est changée, on doit aussi changer la loi.
 13 Et notre Seigneur, auquel ces paroles se rapportent, appartient à une autre tribu, dont personne n'a jamais effectué le service de prêtre à l'autel.
-14 Il est bien connu qu'il se rattachait, de naissance, à la tribu de Juda, dont Moïse n'a rien dit quand il a parlé des prêtres. Un autre prêtre semblable à Melkisédec
+14 Il est bien connu qu'il se rattachait, de naissance, à la tribu de Juda, dont Moïse n'a rien dit quand il a parlé des prêtres.
+0 Un autre prêtre semblable à Melkisédec
 15 Voici un fait qui rend tout cela encore plus évident: l'autre prêtre qui est apparu est semblable à Melkisédec.
 16 Il n'est pas devenu prêtre d'après des règles relatives à la descendance humaine; il l'est devenu par la puissance d'une vie qui n'a pas de fin.
 17 En effet, l'Écriture l'atteste: «Tu seras prêtre pour toujours dans la tradition de Melkisédec.»
@@ -7687,7 +7697,8 @@
 25 C'est pourquoi il peut sauver définitivement ceux qui s'approchent de Dieu par lui, car il est toujours vivant pour prier Dieu en leur faveur.
 26 Jésus est donc le grand-prêtre qu'il nous fallait. Il est saint, sans défaut, sans péché; il a été séparé des pécheurs et élevé très haut dans les cieux.
 27 Il n'est pas comme les autres grands-prêtres: il n'a pas besoin d'offrir chaque jour des sacrifices, d'abord pour ses propres péchés et ensuite pour ceux du peuple. Il a offert un sacrifice une fois pour toutes, quand il s'est offert lui-même.
-28 La loi de Moïse établit comme grands-prêtres des hommes imparfaits; mais la parole du serment de Dieu, formulé après la loi, établit comme grand-prêtre le Fils qui a été élevé à la perfection pour toujours. Jésus, notre grand-prêtre
+28 La loi de Moïse établit comme grands-prêtres des hommes imparfaits; mais la parole du serment de Dieu, formulé après la loi, établit comme grand-prêtre le Fils qui a été élevé à la perfection pour toujours.
+0 Jésus, notre grand-prêtre
 1 Voici le point le plus important de ce que nous avons à dire: c'est bien un tel grand-prêtre que nous avons, lui qui s'est assis dans les cieux à la droite du trône de Dieu, la puissance suprême.
 2 Il exerce ses fonctions dans le sanctuaire, c'est-à-dire dans la tente véritable dressée par le Seigneur et non par un homme.
 3 Tout grand-prêtre est établi pour offrir des dons et des sacrifices; il faut donc que le nôtre ait aussi quelque chose à offrir.
@@ -7700,7 +7711,8 @@
 10 Voici en quoi consistera l'alliance que je conclurai avec le peuple d'Israël après ces jours-là, déclare le Seigneur: J'inscrirai mes instructions dans leur intelligence, je les graverai dans leur cœur: je serai leur Dieu et ils seront mon peuple.
 11 Aucun d'eux n'aura plus besoin de s'adresser à son concitoyen ou à son frère pour lui enseigner à me connaître, car tous me connaîtront, tous, du plus petit jusqu'au plus grand.
 12 En effet, je pardonnerai leurs torts, je ne me souviendrai plus de leurs fautes.»
-13 En parlant d'une alliance nouvelle, Dieu a rendu ancienne la première; or, ce qui devient ancien et qui vieillit est près de disparaître. Le culte terrestre et le culte céleste
+13 En parlant d'une alliance nouvelle, Dieu a rendu ancienne la première; or, ce qui devient ancien et qui vieillit est près de disparaître.
+0 Le culte terrestre et le culte céleste
 1 La première alliance avait des règles pour le culte et un temple terrestre.
 2 Une double tente avait été installée. Dans la première partie, appelée le lieu saint, il y avait le porte-lampes et la table avec les pains offerts à Dieu.
 3 Derrière le second rideau se trouvait l'autre partie, appelée le lieu très saint,
@@ -7722,7 +7734,8 @@
 19 Moïse proclama d'abord devant l'ensemble du peuple tous les commandements, tels que la loi les présente. Puis il prit le sang des veaux et des boucs, avec de l'eau, et en répandit sur le livre de la loi et sur tout le peuple au moyen d'une branche d'hysope et d'un peu de laine rouge.
 20 Il déclara: «Ceci est le sang qui confirme l'alliance que Dieu vous a ordonné de respecter.»
 21 Moïse répandit également du sang sur la tente et sur tous les objets utilisés pour le culte.
-22 Selon la loi, on purifie presque tout avec du sang, et les péchés ne sont pardonnés que si du sang est répandu. Le sacrifice du Christ enlève les péchés
+22 Selon la loi, on purifie presque tout avec du sang, et les péchés ne sont pardonnés que si du sang est répandu.
+0 Le sacrifice du Christ enlève les péchés
 23 Toutes les copies des réalités célestes devaient être purifiées de cette façon. Mais les réalités célestes elles-mêmes ont besoin de bien meilleurs sacrifices.
 24 Car le Christ n'est pas entré dans un sanctuaire construit par des hommes, qui ne serait qu'une copie du véritable. Il est entré dans le ciel même, où il se présente maintenant devant Dieu pour nous.
 25 Le grand-prêtre du peuple juif entre chaque année dans le sanctuaire avec du sang d'animal. Mais le Christ n'est pas entré pour s'offrir plusieurs fois lui-même.
@@ -7746,7 +7759,8 @@
 15 Le Saint-Esprit nous l'atteste également. En effet, il dit tout d'abord:
 16 «Voici en quoi consistera l'alliance que je conclurai avec eux après ces jours-là, déclare le Seigneur: J'inscrirai mes instructions dans leur cœur, je les graverai dans leur intelligence.»
 17 Puis il ajoute: «Je ne me souviendrai plus de leurs fautes et de leurs péchés.»
-18 Or, si les péchés sont pardonnés, il n'est plus nécessaire de présenter une offrande à cet effet. Approchons-nous de Dieu
+18 Or, si les péchés sont pardonnés, il n'est plus nécessaire de présenter une offrande à cet effet.
+0 Approchons-nous de Dieu
 19 Ainsi, frères, nous avons la liberté d'entrer dans le lieu très saint grâce au sang du sacrifice de Jésus.
 20 Il nous a ouvert un chemin nouveau et vivant au travers du rideau, c'est-à-dire par son propre corps.
 21 Nous avons un grand-prêtre placé à la tête de la maison de Dieu.
@@ -7767,7 +7781,8 @@
 36 Vous avez besoin de persévérance pour accomplir la volonté de Dieu et obtenir ainsi ce qu'il promet.
 37 En effet, il est écrit: «Encore un peu de temps, très peu même, et celui qui doit venir viendra, il ne tardera pas.
 38 Cependant, celui qui est juste à mes yeux, dit Dieu, vivra par la foi, mais s'il retourne en arrière, je ne prendrai pas plaisir en lui.»
-39 Nous ne sommes pas de ceux qui retournent en arrière et vont à leur perte. Nous sommes de ceux qui croient et sont sur la voie du salut. La foi
+39 Nous ne sommes pas de ceux qui retournent en arrière et vont à leur perte. Nous sommes de ceux qui croient et sont sur la voie du salut.
+0 La foi
 1 Mettre sa foi en Dieu, c'est être sûr de ce que l'on espère, c'est être convaincu de la réalité de ce que l'on ne voit pas.
 2 C'est à cause de leur foi que les grands personnages du passé ont été approuvés par Dieu.
 3 Par la foi, nous comprenons que l'univers a été formé par la parole de Dieu, de sorte que ce qui est visible a été fait à partir de ce qui est invisible.
@@ -7807,7 +7822,8 @@
 37 Certains furent tués à coups de pierres, d'autres sciés en deux ou mis à mort par l'épée. Ou bien, ils allaient d'un endroit à l'autre vêtus de peaux de moutons ou de chèvres, pauvres, persécutés et maltraités.
 38 Le monde n'était pas digne de ces gens-là! Ils erraient dans les déserts et les montagnes, ils vivaient dans les cavernes et les trous de la terre.
 39 Ils ont tous été approuvés par Dieu à cause de leur foi; pourtant, ils n'ont pas obtenu ce que Dieu avait promis.
-40 En effet, Dieu avait prévu mieux encore pour nous et il n'a pas voulu qu'ils parviennent sans nous à la perfection. Dieu notre Père
+40 En effet, Dieu avait prévu mieux encore pour nous et il n'a pas voulu qu'ils parviennent sans nous à la perfection.
+0 Dieu notre Père
 1 Quant à nous, nous sommes entourés de cette grande foule de témoins. Débarrassons-nous donc de tout ce qui alourdit notre marche, en particulier du péché qui s'accroche si facilement à nous, et courons résolument la course qui nous est proposée.
 2 Gardons les yeux fixés sur Jésus, dont notre foi dépend du commencement à la fin. Il a accepté de mourir sur la croix, sans tenir compte de la honte attachée à une telle mort, parce qu'il avait en vue la joie qui lui était réservée; et maintenant il siège à la droite du trône de Dieu.
 3 Pensez à lui, à la façon dont il a supporté une telle opposition de la part des pécheurs. Et ainsi, vous ne vous laisserez pas abattre, vous ne vous découragerez pas.
@@ -7818,7 +7834,8 @@
 8 Si vous n'êtes pas corrigés comme le sont tous ses fils, alors vous n'êtes pas de vrais fils mais des enfants illégitimes.
 9 Rappelons-nous nos pères terrestres: ils nous corrigeaient et nous les respections. Nous devons donc, à plus forte raison, nous soumettre à notre Père céleste pour en recevoir la vie.
 10 Nos pères nous corrigeaient pour peu de temps, comme ils le jugeaient bon. Mais Dieu nous corrige pour notre bien, afin que nous ayons part à sa sainteté.
-11 Quand nous sommes corrigés, il nous semble au moment même que c'est là une cause de tristesse et non de joie. Mais plus tard, ceux qui ont reçu une telle formation bénéficient de l'effet qu'elle produit: la paix associée à une vie juste. Recommandations et avertissements
+11 Quand nous sommes corrigés, il nous semble au moment même que c'est là une cause de tristesse et non de joie. Mais plus tard, ceux qui ont reçu une telle formation bénéficient de l'effet qu'elle produit: la paix associée à une vie juste.
+0 Recommandations et avertissements
 12 Redressez donc vos mains fatiguées, affermissez vos genoux chancelants!
 13 Engagez vos pas sur des sentiers bien droits, afin que le pied boiteux ne se démette pas, mais qu'il guérisse plutôt.
 14 Efforcez-vous d'être en paix avec tout le monde et de mener une vie sainte; car, sans cela, aucun de vous ne pourra voir le Seigneur.
@@ -7836,7 +7853,8 @@
 26 Autrefois, sa voix a ébranlé la terre; mais maintenant il nous a fait cette promesse: «J'ébranlerai encore une fois non seulement la terre, mais aussi le ciel.»
 27 Les mots «encore une fois» montrent que les choses créées seront ébranlées et disparaîtront, afin que seul demeure ce qui est inébranlable.
 28 Soyons donc reconnaissants, puisque nous recevons un royaume inébranlable. Manifestons cette reconnaissance en servant Dieu d'une manière qui lui soit agréable, avec respect et crainte.
-29 En effet, notre Dieu est un feu qui détruit. Comment plaire à Dieu
+29 En effet, notre Dieu est un feu qui détruit.
+0 Comment plaire à Dieu
 1 Continuez à vous aimer les uns les autres comme des frères.
 2 N'oubliez pas de pratiquer l'hospitalité. En effet, en la pratiquant certains ont accueilli des anges sans le savoir.
 3 Souvenez-vous de ceux qui sont en prison, comme si vous étiez prisonniers avec eux. Souvenez-vous de ceux qui sont maltraités, puisque vous avez, vous aussi, un corps exposé à la souffrance.
@@ -7855,31 +7873,37 @@
 16 N'oubliez pas de faire le bien et de vous entraider fraternellement, car ce sont de tels sacrifices qui plaisent à Dieu.
 17 Obéissez à vos dirigeants et soyez-leur soumis. En effet, ils veillent constamment sur vous, puisqu'ils devront rendre compte à Dieu. Faites en sorte qu'ils puissent accomplir leur tâche avec joie, et non en se plaignant, ce qui ne vous serait d'aucun profit.
 18 Priez pour nous. Nous sommes convaincus d'avoir une bonne conscience, car nous désirons bien nous conduire en toute occasion.
-19 Je vous demande très particulièrement de prier pour que Dieu me permette de retourner plus vite auprès de vous. Prière
+19 Je vous demande très particulièrement de prier pour que Dieu me permette de retourner plus vite auprès de vous.
+0 Prière
 20 Dieu, source de la paix, a ramené d'entre les morts notre Seigneur Jésus, devenu le grand berger des brebis grâce au sang de son sacrifice, qui garantit l'alliance éternelle.
-21 Que ce Dieu vous rende capables de pratiquer tout ce qui est bien pour que vous fassiez sa volonté; qu'il réalise en nous, ce qui lui est agréable, par Jésus-Christ, à qui soit la gloire pour toujours! Amen. Conclusions et salutations
+21 Que ce Dieu vous rende capables de pratiquer tout ce qui est bien pour que vous fassiez sa volonté; qu'il réalise en nous, ce qui lui est agréable, par Jésus-Christ, à qui soit la gloire pour toujours! Amen.
+0 Conclusions et salutations
 22 Frères, je vous le recommande: écoutez avec patience ces paroles d'encouragement. D'ailleurs, ce que je vous ai écrit n'est pas très long.
 23 Je tiens à vous faire savoir que notre frère Timothée a été libéré. S'il arrive assez tôt, j'irai vous voir avec lui.
 24 Saluez tous vos dirigeants et tous ceux qui appartiennent au peuple de Dieu. Les frères d'Italie vous adressent leurs salutations.
 25 Que la grâce de Dieu soit avec vous tous.
-1 De la part de Jacques, serviteur de Dieu et du Seigneur Jésus-Christ. J'adresse mes salutations à l'ensemble du peuple de Dieu dispersé dans le monde entier. Foi et sagesse
+1 De la part de Jacques, serviteur de Dieu et du Seigneur Jésus-Christ. J'adresse mes salutations à l'ensemble du peuple de Dieu dispersé dans le monde entier.
+0 Foi et sagesse
 2 Mes frères, considérez-vous comme très heureux quand vous avez à passer par toutes sortes d'épreuves;
 3 car, vous le savez, si votre foi résiste à l'épreuve, celle-ci produit la persévérance.
 4 Mais veillez à ce que votre persévérance se manifeste pleinement, afin que vous soyez parfaits, sans défaut, qu'il ne vous manque rien.
 5 Cependant, si l'un de vous manque de sagesse, qu'il la demande à Dieu, qui la lui donnera; car Dieu donne à tous généreusement et avec bienveillance.
 6 Mais il faut qu'il demande avec foi, sans douter; car celui qui doute est semblable à une vague de la mer, que le vent soulève et pousse d'un côté ou de l'autre.
 7 Un tel homme ne doit pas s'imaginer qu'il recevra quelque chose du Seigneur,
-8 car il est indécis et incertain dans tout ce qu'il entreprend. La pauvreté et la richesse
+8 car il est indécis et incertain dans tout ce qu'il entreprend.
+0 La pauvreté et la richesse
 9 Que le frère pauvre se réjouisse de ce que Dieu l'élève,
 10 et le frère riche de ce que Dieu l'abaisse. En effet, le riche passera comme la fleur d'une plante sauvage.
-11 Le soleil se lève, sa chaleur brûlante dessèche la plante; sa fleur tombe et sa beauté disparaît. De même, le riche disparaîtra au milieu de ses activités. Épreuves et tentations
+11 Le soleil se lève, sa chaleur brûlante dessèche la plante; sa fleur tombe et sa beauté disparaît. De même, le riche disparaîtra au milieu de ses activités.
+0 Épreuves et tentations
 12 Heureux est l'homme qui demeure ferme dans l'épreuve; car après avoir prouvé sa fermeté, il recevra la couronne de victoire, la vie éternelle que Dieu a promise à ceux qui l'aiment.
 13 Si quelqu'un est tenté, qu'il ne dise pas: «C'est Dieu qui me tente.» Car Dieu ne peut pas être tenté de mal faire, et il ne tente lui-même personne.
 14 En réalité, tout être humain est tenté quand il se laisse entraîner et prendre au piège par ses propres désirs;
 15 ensuite, tout mauvais désir conçoit et donne naissance au péché; et quand le péché est pleinement développé, il engendre la mort.
 16 Ne vous y trompez pas, mes chers frères:
 17 tout don excellent et tout cadeau parfait descendent du ciel; ils viennent de Dieu, le créateur des lumières célestes. Et Dieu ne change pas, il ne produit pas d'ombre par des variations de position.
-18 Il a voulu lui-même nous donner la vie par sa Parole, qui est la vérité, afin que nous soyons au premier rang de toutes ses créatures. Écouter et agir
+18 Il a voulu lui-même nous donner la vie par sa Parole, qui est la vérité, afin que nous soyons au premier rang de toutes ses créatures.
+0 Écouter et agir
 19 Rappelez-vous bien ceci, mes chers frères: chacun doit être prompt à écouter, mais lent à parler et lent à se mettre en colère;
 20 car un homme en colère n'accomplit pas ce qui est juste aux yeux de Dieu.
 21 C'est pourquoi, rejetez tout ce qui salit et tous les excès dus à la méchanceté. Accueillez avec humilité la parole que Dieu plante dans votre cœur, car elle a le pouvoir de vous sauver.
@@ -7888,7 +7912,8 @@
 24 Après s'être regardé, il s'en va et oublie aussitôt comment il est.
 25 En revanche, il y a celui qui examine attentivement la loi parfaite qui nous procure la liberté, et il s'y attache fidèlement; il ne se contente pas de l'écouter pour l'oublier ensuite, mais il la met en pratique. Eh bien, celui-là sera béni dans tout ce qu'il fait.
 26 Si quelqu'un croit être religieux et ne sait pas maîtriser sa langue, il se trompe lui-même: sa religion ne vaut rien.
-27 Voici ce que Dieu, le Père, considère comme la religion pure et authentique: prendre soin des orphelins et des veuves dans leur détresse, et se garder de toute tache due à l'influence de ce monde. Ne pas agir avec partialité
+27 Voici ce que Dieu, le Père, considère comme la religion pure et authentique: prendre soin des orphelins et des veuves dans leur détresse, et se garder de toute tache due à l'influence de ce monde.
+0 Ne pas agir avec partialité
 1 Mes frères, vous qui mettez votre foi en notre glorieux Seigneur Jésus-Christ, vous ne devez pas en même temps agir avec partialité à l'égard des autres.
 2 Supposez ceci: un homme riche portant un anneau d'or et des vêtements magnifiques entre dans votre assemblée; un homme pauvre, aux vêtements usés, y entre aussi.
 3 Vous manifestez alors un respect particulier pour l'homme magnifiquement vêtu et vous lui dites: «Veuillez vous asseoir ici, à cette place d'honneur»; mais vous dites au pauvre: «Toi, reste debout, ou assieds-toi là, par terre, à mes pieds.»
@@ -7901,7 +7926,8 @@
 10 Car si quelqu'un pèche contre un seul commandement de la loi, tout en observant les autres, il se rend coupable à l'égard de tous.
 11 En effet, celui-là même qui a dit: «Ne commets pas d'adultère», a dit aussi: «Ne commets pas de meurtre.» Par conséquent, si tu ne commets pas d'adultère, mais que tu commettes un meurtre, tu désobéis à la loi.
 12 Parlez et agissez donc en hommes destinés à être jugés par la loi qui procure la liberté.
-13 En effet, Dieu sera sans pitié quand il jugera celui qui n'aura pas eu pitié des autres; mais celui qui fait preuve de pitié n'a plus rien à craindre du jugement. La foi et les actes
+13 En effet, Dieu sera sans pitié quand il jugera celui qui n'aura pas eu pitié des autres; mais celui qui fait preuve de pitié n'a plus rien à craindre du jugement.
+0 La foi et les actes
 14 Mes frères, à quoi cela sert-il à quelqu'un de dire: «J'ai la foi», s'il ne le prouve pas par ses actes? Cette foi peut-elle le sauver?
 15 Supposez qu'un frère ou une sœur n'aient pas de quoi se vêtir ni de quoi manger chaque jour.
 16 A quoi cela sert-il que vous leur disiez: «Au revoir, portez-vous bien; habillez-vous chaudement et mangez à votre faim!», si vous ne leur donnez pas ce qui est nécessaire pour vivre?
@@ -7914,7 +7940,8 @@
 23 Ainsi s'est réalisé ce que dit l'Écriture: «Abraham eut confiance en Dieu, et Dieu le considéra comme juste en tenant compte de sa foi.» Et Dieu l'appela son ami.
 24 Vous le voyez donc, un être humain est reconnu comme juste par Dieu à cause de ses actes et non pas uniquement à cause de sa foi.
 25 Il en fut de même pour Rahab la prostituée. Elle fut reconnue comme juste par Dieu à cause de ses actes, car elle avait accueilli les messagers israélites et les avait fait partir par un autre chemin.
-26 En effet, de même que le corps sans le souffle de vie est mort, de même la foi sans les actes est morte. La langue
+26 En effet, de même que le corps sans le souffle de vie est mort, de même la foi sans les actes est morte.
+0 La langue
 1 Mes frères, ne soyez pas nombreux à vouloir être des enseignants, car vous savez que nous qui enseignons, nous serons jugés plus sévèrement que les autres.
 2 Nous commettons tous des erreurs, de bien des manières. Si quelqu'un ne commet jamais d'erreur dans ce qu'il dit, c'est un homme parfait, capable de maîtriser tout son être.
 3 Nous mettons un mors dans la bouche des chevaux pour qu'ils nous obéissent, et nous pouvons ainsi diriger leur corps tout entier.
@@ -7926,13 +7953,15 @@
 9 Nous l'utilisons pour louer le Seigneur, notre Père, mais aussi pour maudire les êtres humains que Dieu a créés à sa ressemblance.
 10 Des paroles de louange ou de malédiction sortent de la même bouche. Mes frères, il ne faut pas qu'il en soit ainsi.
 11 Aucune source ne donne par la même ouverture de l'eau douce et de l'eau amère.
-12 Aucun figuier, mes frères, ne peut produire des olives, aucune vigne ne peut produire des figues; une source d'eau salée ne peut pas donner de l'eau douce. La sagesse qui vient d'en haut
+12 Aucun figuier, mes frères, ne peut produire des olives, aucune vigne ne peut produire des figues; une source d'eau salée ne peut pas donner de l'eau douce.
+0 La sagesse qui vient d'en haut
 13 Quelqu'un parmi vous pense-t-il être sage et intelligent? Qu'il le prouve par sa bonne conduite, par des actes accomplis avec humilité et sagesse.
 14 Mais si vous avez le cœur plein d'une jalousie amère et d'esprit de rivalité, cessez de vous vanter d'être sages, en faussant ainsi la vérité.
 15 Une telle sagesse ne descend pas du ciel; elle est terrestre, trop humaine, diabolique même.
 16 Car là où règnent jalousie et esprit de rivalité, il y a aussi le désordre et toute espèce de mal.
 17 Mais la sagesse d'en haut est pure, tout d'abord; ensuite, elle est pacifique, douce et raisonnable; elle est riche en bonté et en actions bonnes; elle est sans parti pris et sans hypocrisie.
-18 Ceux qui créent la paix autour d'eux sèment dans la paix et la récolte qu'ils obtiennent, c'est une vie juste. L'amitié pour le monde
+18 Ceux qui créent la paix autour d'eux sèment dans la paix et la récolte qu'ils obtiennent, c'est une vie juste.
+0 L'amitié pour le monde
 1 D'où viennent les conflits et les querelles parmi vous? Ils viennent de vos passions qui combattent sans cesse au-dedans de vous.
 2 Vous désirez quelque chose, mais vous ne pouvez pas l'avoir, et alors vous êtes prêts à tuer; vous avez envie de quelque chose, mais vous ne pouvez pas l'obtenir, et alors vous vous lancez dans des querelles et des conflits. Vous n'avez pas ce que vous voulez, parce que vous ne savez pas le demander à Dieu.
 3 Et si vous demandez, vous ne recevez pas, parce que vos intentions sont mauvaises: vous voulez tout gaspiller pour vos plaisirs.
@@ -7942,20 +7971,24 @@
 7 Soumettez-vous donc à Dieu; résistez au diable et il fuira loin de vous.
 8 Approchez-vous de Dieu et il s'approchera de vous. Nettoyez vos mains, pécheurs; purifiez vos cœurs, gens indécis!
 9 Soyez conscients de votre misère, pleurez et lamentez-vous; que votre rire se change en pleurs, et votre joie en tristesse.
-10 Abaissez-vous devant le Seigneur et il vous élèvera. Ne pas juger un frère
+10 Abaissez-vous devant le Seigneur et il vous élèvera.
+0 Ne pas juger un frère
 11 Frères, ne dites pas de mal les uns des autres. Celui qui dit du mal de son frère ou qui le juge, dit du mal de la loi de Dieu et la juge. Dans ce cas, tu te fais le juge de la loi au lieu de la pratiquer.
-12 Or, c'est Dieu seul qui donne la loi et qui peut juger; lui seul peut à la fois sauver et faire périr. Pour qui te prends-tu donc, toi qui juges ton prochain? Ne pas être orgueilleux
+12 Or, c'est Dieu seul qui donne la loi et qui peut juger; lui seul peut à la fois sauver et faire périr. Pour qui te prends-tu donc, toi qui juges ton prochain?
+0 Ne pas être orgueilleux
 13 Écoutez-moi, maintenant, vous qui dites: «Aujourd'hui ou demain nous irons dans telle ville, nous y passerons une année, nous ferons du commerce et nous gagnerons de l'argent.»
 14 Eh bien, vous ne savez pas ce que votre vie sera demain! Vous êtes, en effet, comme un léger brouillard qui apparaît pour un instant et disparaît ensuite.
 15 Voici bien plutôt ce que vous devriez dire: «Si le Seigneur le veut, nous vivrons et nous ferons ceci ou cela.»
 16 Mais, en réalité, vous êtes orgueilleux et prétentieux. Tout orgueil de ce genre est mauvais.
-17 Si donc quelqu'un sait comment faire le bien et ne le fait pas, il se rend coupable de péché. Avertissement aux riches
+17 Si donc quelqu'un sait comment faire le bien et ne le fait pas, il se rend coupable de péché.
+0 Avertissement aux riches
 1 Et maintenant écoutez-moi, vous les riches! Pleurez et gémissez à cause des malheurs qui vont s'abattre sur vous!
 2 Vos richesses sont pourries et vos vêtements sont rongés par les vers.
 3 Votre or et votre argent sont couverts de rouille, une rouille qui servira de témoignage contre vous; elle dévorera votre chair comme un feu. Vous avez amassé des trésors à la fin des temps.
 4 Vous avez refusé de payer le salaire des ouvriers qui travaillent dans vos champs. C'est une injustice criante! Les plaintes de ceux qui rentrent vos récoltes sont parvenues jusqu'aux oreilles de Dieu, le Seigneur de l'univers.
 5 Vous avez vécu sur la terre dans le luxe et les plaisirs. Vous vous êtes engraissés comme des bêtes pour le jour de la boucherie.
-6 Vous avez condamné et mis à mort des innocents; ils ne vous résistent pas. Patience et prière
+6 Vous avez condamné et mis à mort des innocents; ils ne vous résistent pas.
+0 Patience et prière
 7 Prenez donc patience, frères, jusqu'à ce que le Seigneur vienne. Voyez comment le cultivateur prend patience en attendant que la terre produise de précieuses récoltes: il sait que les pluies d'automne et de printemps doivent d'abord tomber.
 8 Prenez patience, vous aussi; soyez pleins de courage, car la venue du Seigneur est proche.
 9 Ne vous plaignez pas les uns des autres, frères, sinon Dieu vous jugera. Le juge est proche, il est prêt à entrer!
