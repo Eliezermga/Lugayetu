@@ -1,0 +1,229 @@
+{% extends 'base/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ title }} - LugaYetu{% endblock %}
+
+{% block content %}
+<section class="min-h-[80vh] flex flex-col items-center justify-center py-12 px-4 relative overflow-hidden">
+    <!-- Background Patterns -->
+    <div class="absolute inset-0 z-0 pointer-events-none opacity-5 dark:opacity-10">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] rotate-12 transform translate-x-20 -translate-y-20"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] -rotate-12 transform -translate-x-20 translate-y-20"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="w-full max-w-5xl z-10">
+        <div class="text-center mb-12">
+            <h1 class="font-display text-4xl md:text-5xl text-primary dark:text-primary-fixed mb-4">
+                {% trans "Kutafsiri" %}
+            </h1>
+            <p class="font-body-lg text-on-surface-variant dark:text-gray-400 max-w-2xl mx-auto">
+                {% trans "Traduisez vos pensées entre le Ruund et le Français." %}
+            </p>
+        </div>
+
+        <!-- Translator Interface -->
+        <div class="bg-surface-container-lowest dark:bg-surface-container-dark rounded-[2rem] shadow-2xl overflow-hidden border border-outline-variant dark:border-outline-variant/10 transition-all duration-300">
+            <!-- Language Bar -->
+            <div class="flex items-center justify-between px-6 py-4 border-b border-outline-variant dark:border-outline-variant/10 bg-surface-container-low dark:bg-surface-container-dark/50">
+                <div class="flex items-center gap-2">
+                    <button id="src-lang-btn" class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-lg shadow-md transition-all active:scale-95">
+                        {% trans "Ruund" %}
+                    </button>
+                    <button class="p-2 text-on-surface-variant hover:bg-surface-container-high rounded-full transition-colors rotate-90 md:rotate-0" id="swap-btn">
+                        <span class="material-symbols-outlined">swap_horiz</span>
+                    </button>
+                    <button id="tgt-lang-btn" class="px-4 py-2 rounded-full bg-surface-container-high dark:bg-surface-container-high text-on-surface dark:text-on-surface-dark font-label-lg hover:bg-outline-variant dark:hover:bg-surface-container-highest transition-all">
+                        {% trans "Français" %}
+                    </button>
+                </div>
+                <div class="hidden md:flex items-center gap-2 text-on-surface-variant dark:text-gray-500">
+                    <span class="material-symbols-outlined text-[20px]">auto_fix_high</span>
+                    <span class="font-label-md">{% trans "La Traduction peut etre erronee" %}</span>
+                </div>
+            </div>
+
+            <!-- Input/Output Areas -->
+            <div class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-outline-variant dark:divide-outline-variant/10">
+                <!-- Source -->
+                <div class="p-6 md:p-8">
+                    <div class="flex justify-between items-center mb-4">
+                        <label for="source-text" class="font-label-md text-primary uppercase tracking-widest">{% trans "Saisir le texte" %}</label>
+                        <button id="clear-btn" class="text-on-surface-variant hover:text-primary transition-colors">
+                            <span class="material-symbols-outlined text-[18px]">close</span>
+                        </button>
+                    </div>
+                    <textarea id="source-text" 
+                        class="w-full h-48 md:h-64 bg-transparent border-none focus:ring-0 text-xl font-body-md placeholder-on-surface-variant dark:placeholder-gray-600 resize-none"
+                        placeholder="{% trans 'Entrez votre texte ici...' %}"></textarea>
+                    <div class="flex justify-between items-center mt-4">
+                        <div class="text-on-surface-variant font-caption" id="char-count">0 / 2000</div>
+                        <button id="translate-btn" class="flex items-center gap-2 px-8 py-3 bg-primary hover:bg-primary-container text-on-primary rounded-full font-label-lg shadow-lg shadow-primary/20 transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none group">
+                            <span id="btn-text">{% trans "Traduire" %}</span>
+                            <span id="btn-loader" class="hidden">
+                                <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                            </span>
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Target -->
+                <div class="p-6 md:p-8 bg-surface-container-low/30 dark:bg-surface-container-dark/40">
+                    <div class="flex justify-between items-center mb-4">
+                        <label class="font-label-md text-secondary uppercase tracking-widest">{% trans "Traduction" %}</label>
+                        <button id="copy-btn" class="text-on-surface-variant hover:text-secondary transition-colors" title="{% trans 'Copier' %}">
+                            <span class="material-symbols-outlined text-[18px]">content_copy</span>
+                        </button>
+                    </div>
+                    <div id="target-text" class="w-full h-48 md:h-64 text-xl font-body-md text-on-surface dark:text-gray-100 overflow-y-auto whitespace-pre-wrap italic">
+                        <span class="text-on-surface-variant opacity-40 italic">{% trans "La traduction apparaîtra ici..." %}</span>
+                    </div>
+                    <div class="flex justify-end items-center mt-4 gap-2">
+                        <button class="p-2 text-on-surface-variant hover:text-green-500 hover:bg-green-50 dark:hover:bg-green-900/20 rounded-full transition-all" title="{% trans 'Bonne traduction' %}">
+                            <span class="material-symbols-outlined text-[20px]">thumb_up</span>
+                        </button>
+                        <button class="p-2 text-on-surface-variant hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-full transition-all" title="{% trans 'Mauvaise traduction' %}">
+                            <span class="material-symbols-outlined text-[20px]">thumb_down</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const sourceText = document.getElementById('source-text');
+        const targetText = document.getElementById('target-text');
+        const translateBtn = document.getElementById('translate-btn');
+        const btnText = document.getElementById('btn-text');
+        const btnLoader = document.getElementById('btn-loader');
+        const clearBtn = document.getElementById('clear-btn');
+        const copyBtn = document.getElementById('copy-btn');
+        const charCount = document.getElementById('char-count');
+        const swapBtn = document.getElementById('swap-btn');
+
+        let isRuundToFrench = true;
+
+        // Update char count
+        sourceText.addEventListener('input', () => {
+            const count = sourceText.value.length;
+            charCount.textContent = `${count} / 2000`;
+            if (count > 2000) {
+                charCount.classList.add('text-error');
+            } else {
+                charCount.classList.remove('text-error');
+            }
+        });
+
+        // Clear text
+        clearBtn.addEventListener('click', () => {
+            sourceText.value = '';
+            targetText.innerHTML = '<span class="text-on-surface-variant opacity-40 italic">{% trans "La traduction apparaîtra ici..." %}</span>';
+            charCount.textContent = '0 / 2000';
+            sourceText.focus();
+        });
+
+        // Copy text
+        copyBtn.addEventListener('click', async () => {
+            const text = targetText.innerText.trim();
+            const placeholder = '{% trans "La traduction apparaîtra ici..." %}';
+            
+            if (text && text !== placeholder && !targetText.querySelector('.text-error')) {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    // Feedback visuel
+                    const originalIcon = copyBtn.innerHTML;
+                    copyBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] text-green-500">check</span>';
+                    setTimeout(() => copyBtn.innerHTML = originalIcon, 2000);
+                } catch (err) {
+                    console.error('Erreur de copie:', err);
+                }
+            }
+        });
+
+        // Swap languages
+        swapBtn.addEventListener('click', () => {
+            isRuundToFrench = !isRuundToFrench;
+            const srcBtn = document.getElementById('src-lang-btn');
+            const tgtBtn = document.getElementById('tgt-lang-btn');
+            
+            // Visual swap
+            const tempText = srcBtn.textContent;
+            srcBtn.textContent = tgtBtn.textContent;
+            tgtBtn.textContent = tempText;
+
+            // Update classes
+            if (isRuundToFrench) {
+                srcBtn.classList.replace('bg-surface-container-high', 'bg-primary');
+                srcBtn.classList.replace('text-on-surface', 'text-on-primary');
+                tgtBtn.classList.replace('bg-primary', 'bg-surface-container-high');
+                tgtBtn.classList.replace('text-on-primary', 'text-on-surface');
+            } else {
+                tgtBtn.classList.replace('bg-surface-container-high', 'bg-primary');
+                tgtBtn.classList.replace('text-on-surface', 'text-on-primary');
+                srcBtn.classList.replace('bg-primary', 'bg-surface-container-high');
+                srcBtn.classList.replace('text-on-primary', 'text-on-surface');
+            }
+
+            // Swap text content too
+            const currentSource = sourceText.value;
+            const currentTarget = targetText.innerText;
+            if (currentTarget && !currentTarget.includes('{% trans "La traduction apparaîtra ici..." %}')) {
+                sourceText.value = currentTarget;
+                targetText.innerText = currentSource;
+            }
+        });
+
+        // Translate logic
+        translateBtn.addEventListener('click', async () => {
+            const text = sourceText.value.trim();
+            if (!text) return;
+
+            // Show loading
+            translateBtn.disabled = true;
+            btnText.classList.add('hidden');
+            btnLoader.classList.remove('hidden');
+
+            try {
+                const response = await fetch('{% url "translator:api_translate" %}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': '{{ csrf_token }}'
+                    },
+                    body: JSON.stringify({
+                        text: text,
+                        src_lang: isRuundToFrench ? 'ruu_CM' : 'fr_XX',
+                        tgt_lang: isRuundToFrench ? 'fr_XX' : 'ruu_CM'
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    targetText.textContent = data.translation;
+                    targetText.classList.remove('italic');
+                } else {
+                    targetText.innerHTML = `<span class="text-error font-body-sm">${data.error || '{% trans "Une erreur est survenue lors de la traduction." %}'}</span>`;
+                }
+            } catch (error) {
+                targetText.innerHTML = `<span class="text-error font-body-sm">{% trans "Erreur de connexion au serveur." %}</span>`;
+            } finally {
+                // Hide loading
+                translateBtn.disabled = false;
+                btnText.classList.remove('hidden');
+                btnLoader.classList.add('hidden');
+            }
+        });
+    });
+</script>
+{% endblock %}

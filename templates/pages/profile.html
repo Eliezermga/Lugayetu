@@ -1,0 +1,144 @@
+{% extends 'base/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ title }} - LugaYetu{% endblock %}
+
+{% block content %}
+<section class="min-h-[80vh] py-12 px-4 md:px-margin-desktop bg-surface-bright dark:bg-[#121212]">
+    <div class="max-w-4xl mx-auto">
+        <!-- Profile Header -->
+        <div class="relative mb-8 bg-surface-container-lowest dark:bg-[#1e1e1e] rounded-[2rem] shadow-xl overflow-hidden border border-outline-variant dark:border-gray-800 transition-all duration-300 group">
+            <!-- Header Decorative Background -->
+            <div class="h-32 bg-primary/10 dark:bg-primary-container/20 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+                <div class="absolute top-4 right-4 flex gap-2">
+                    {% if user.role == 'ADMIN' %}
+                        <span class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm shadow-md">{% trans "Administrateur" %}</span>
+                    {% elif user.role == 'SUB_ADMIN' %}
+                        <span class="px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm shadow-md">{% trans "Sous-Admin" %}</span>
+                    {% else %}
+                        <span class="px-3 py-1 rounded-full bg-tertiary text-on-tertiary font-label-sm shadow-md">{% trans "Contributeur" %}</span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Profile Info Main -->
+            <div class="px-8 pb-8 -mt-12 flex flex-col md:flex-row items-center md:items-end gap-6 relative z-10">
+                <div class="relative">
+                    <div class="w-32 h-32 rounded-3xl bg-surface-container-lowest dark:bg-[#1a1a1a] p-1 shadow-2xl border-4 border-surface-container-lowest dark:border-[#1e1e1e] flex items-center justify-center overflow-hidden transition-transform group-hover:scale-105 duration-500">
+                        <span class="material-symbols-outlined text-primary dark:text-inverse-primary" style="font-size: 80px;">account_circle</span>
+                    </div>
+                    {% if user.is_approved %}
+                        <div class="absolute -bottom-2 -right-2 bg-green-500 text-white p-1 rounded-full shadow-lg border-2 border-white dark:border-gray-800" title="{% trans 'Compte Approuvé' %}">
+                            <span class="material-symbols-outlined text-[16px] block">verified</span>
+                        </div>
+                    {% else %}
+                        <div class="absolute -bottom-2 -right-2 bg-amber-500 text-white p-1 rounded-full shadow-lg border-2 border-white dark:border-gray-800" title="{% trans 'En attente d\'approbation' %}">
+                            <span class="material-symbols-outlined text-[16px] block">pending</span>
+                        </div>
+                    {% endif %}
+                </div>
+
+                <div class="flex-grow text-center md:text-left">
+                    <h1 class="font-display text-3xl text-on-surface dark:text-white mb-1">{{ user.first_name }} {{ user.last_name }}</h1>
+                    <p class="font-body-md text-on-surface-variant dark:text-gray-400 flex items-center justify-center md:justify-start gap-2">
+                        <span class="material-symbols-outlined text-[18px]">mail</span>
+                        {{ user.email }}
+                    </p>
+                </div>
+
+                <div class="flex gap-3">
+                    <button class="flex items-center gap-2 px-6 py-2.5 bg-primary hover:bg-primary-container text-on-primary rounded-full font-label-lg shadow-lg shadow-primary/20 transition-all active:scale-95 group">
+                        <span class="material-symbols-outlined text-[20px]">edit</span>
+                        {% trans "Modifier" %}
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Details Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Account Info -->
+            <div class="bg-surface-container-lowest dark:bg-[#1e1e1e] p-8 rounded-[2rem] border border-outline-variant dark:border-gray-800 shadow-sm">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined text-primary">badge</span>
+                    <h3 class="font-h3 text-xl text-on-surface dark:text-white">{% trans "Informations du Compte" %}</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Rôle" %}</span>
+                        <span class="font-bold text-on-surface dark:text-gray-200">{{ user.get_role_display }}</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Statut" %}</span>
+                        {% if user.is_approved %}
+                            <span class="text-green-600 dark:text-green-400 font-bold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">check_circle</span>
+                                {% trans "Approuvé" %}
+                            </span>
+                        {% else %}
+                            <span class="text-amber-600 dark:text-amber-400 font-bold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">schedule</span>
+                                {% trans "En attente" %}
+                            </span>
+                        {% endif %}
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Date d'inscription" %}</span>
+                        <span class="text-on-surface dark:text-gray-200">{{ user.date_joined|date:"d F Y" }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Info -->
+            <div class="bg-surface-container-lowest dark:bg-[#1e1e1e] p-8 rounded-[2rem] border border-outline-variant dark:border-gray-800 shadow-sm">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined text-secondary">person</span>
+                    <h3 class="font-h3 text-xl text-on-surface dark:text-white">{% trans "Informations Personnelles" %}</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Âge" %}</span>
+                        <span class="font-bold text-on-surface dark:text-gray-200">{% if user.age %}{{ user.age }} {% trans "ans" %}{% else %}-{% endif %}</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Sexe" %}</span>
+                        <span class="text-on-surface dark:text-gray-200">{{ user.get_sexe_display|default:"-" }}</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Langue Maternelle" %}</span>
+                        <span class="text-on-surface dark:text-gray-200">{{ user.mother_tongue.name|default:"-" }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location Info -->
+            <div class="bg-surface-container-lowest dark:bg-[#1e1e1e] p-8 rounded-[2rem] border border-outline-variant dark:border-gray-800 shadow-sm md:col-span-2">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined text-tertiary">location_on</span>
+                    <h3 class="font-h3 text-xl text-on-surface dark:text-white">{% trans "Localisation" %}</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12">
+                    <div class="flex justify-between items-center py-3 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Province" %}</span>
+                        <span class="font-bold text-on-surface dark:text-gray-200">{{ user.get_province_display|default:"-" }}</span>
+                    </div>
+                    <div class="flex justify-between items-center py-3 border-b border-outline-variant/30 dark:border-gray-800">
+                        <span class="text-on-surface-variant dark:text-gray-400">{% trans "Ville / Village" %}</span>
+                        <span class="text-on-surface dark:text-gray-200">{{ user.city_village|default:"-" }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contributions Preview Placeholder -->
+        <div class="mt-8 bg-surface-container-low dark:bg-[#1a1a1a] p-8 rounded-[2rem] border border-dashed border-outline-variant dark:border-gray-700 flex flex-col items-center justify-center text-center">
+            <span class="material-symbols-outlined text-on-surface-variant opacity-30 mb-4" style="font-size: 48px;">history</span>
+            <h4 class="font-label-lg text-on-surface-variant dark:text-gray-400 mb-2">{% trans "Activités Récentes" %}</h4>
+            <p class="text-sm text-on-surface-variant/60 dark:text-gray-500 max-w-sm">
+                {% trans "Vos contributions récentes et votre historique de traduction apparaîtront ici prochainement." %}
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}

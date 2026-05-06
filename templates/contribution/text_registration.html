@@ -1,0 +1,143 @@
+{% extends 'base/base.html' %}
+{% load i18n static %}
+
+{% block title %}{% trans "Enregistrement de phrases" %} - LugaYetu{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-surface dark:bg-surface-dark py-12 px-margin-mobile md:px-margin-desktop">
+    <div class="max-w-2xl mx-auto">
+        <!-- Back Button -->
+        <a href="{% url 'contribution:dashboard' %}" class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors mb-8 group">
+            <span class="material-symbols-outlined group-hover:-translate-x-1 transition-transform">arrow_back</span>
+            <span class="font-label-lg">{% trans "Retour au tableau de bord" %}</span>
+        </a>
+
+        <!-- Form Card -->
+        <div class="glass-card rounded-[2.5rem] p-8 md:p-12 animate-on-scroll">
+            <div class="mb-12 text-center">
+                <h2 class="font-h1 text-on-surface dark:text-white mb-4">{% trans "Ajouter une paire de phrases" %}</h2>
+                <p class="font-body-md text-on-surface-variant dark:text-gray-400">
+                    {% trans "Contribuez en ajoutant des phrases traduites pour enrichir notre base de données." %}
+                </p>
+            </div>
+
+            <form id="text-contribution-form" class="space-y-8">
+                {% csrf_token %}
+                
+                <!-- Language Selection -->
+                <div class="space-y-2">
+                    <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">
+                        {% trans "Langue cible" %}
+                    </label>
+                    <select name="language_id" id="language_id" required class="form-input w-full rounded-2xl bg-surface-container-low dark:bg-surface-container-high border-transparent focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all p-4">
+                        {% for lang in languages %}
+                            <option value="{{ lang.id }}" {% if request.user.mother_tongue == lang %}selected{% endif %}>
+                                {{ lang.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- Native Phrase -->
+                <div class="space-y-2">
+                    <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">
+                        {% trans "Phrase dans la langue d'origine" %}
+                    </label>
+                    <textarea name="phrase_native" id="phrase_native" rows="3" required placeholder="{% trans 'Entrez la phrase ici...' %}"
+                        class="form-input w-full rounded-2xl bg-surface-container-low dark:bg-surface-container-high border-transparent focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all p-4 resize-none placeholder:text-on-surface-variant/50"></textarea>
+                </div>
+
+                <!-- French Translation -->
+                <div class="space-y-2">
+                    <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">
+                        {% trans "Traduction en Français" %}
+                    </label>
+                    <textarea name="phrase_french" id="phrase_french" rows="3" required placeholder="{% trans 'Entrez la traduction ici...' %}"
+                        class="form-input w-full rounded-2xl bg-surface-container-low dark:bg-surface-container-high border-transparent focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all p-4 resize-none placeholder:text-on-surface-variant/50"></textarea>
+                </div>
+
+                <button type="submit" id="btn-submit-text" class="w-full py-5 bg-secondary text-on-primary rounded-2xl font-label-lg hover:bg-secondary/90 transition-all shadow-xl shadow-secondary/20 flex items-center justify-center gap-2 group">
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span>
+                    {% trans "Enregistrer la paire" %}
+                </button>
+            </form>
+        </div>
+
+        <!-- Recent Contributions -->
+        <div id="recent-contributions" class="mt-12 space-y-4 hidden animate-fade-in">
+            <h4 class="font-label-lg text-on-surface-variant uppercase tracking-widest px-4">
+                {% trans "Vos dernières contributions" %}
+            </h4>
+            <div id="contributions-list" class="space-y-3">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<template id="contribution-item-template">
+    <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover:scale-[1.01] transition-transform">
+        <div class="flex-1">
+            <p class="font-body-md text-on-surface dark:text-white mb-1 contribution-native"></p>
+            <p class="font-body-sm text-on-surface-variant dark:text-gray-400 italic contribution-french"></p>
+        </div>
+        <span class="material-symbols-outlined text-green-500 scale-0 group-animate-in">check_circle</span>
+    </div>
+</template>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const form = document.getElementById('text-contribution-form');
+    const btnSubmit = document.getElementById('btn-submit-text');
+    const recentDiv = document.getElementById('recent-contributions');
+    const list = document.getElementById('contributions-list');
+    const template = document.getElementById('contribution-item-template');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        btnSubmit.disabled = true;
+        btnSubmit.innerHTML = '<span class="material-symbols-outlined animate-spin">refresh</span>';
+
+        try {
+            const response = await fetch("{% url 'contribution:save_text' %}", {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+
+            if (result.status === 'success') {
+                showToast("{% trans 'Paire de phrases enregistrée avec succès !' %}", 'success');
+                // Add to list
+                addToList(formData.get('phrase_native'), formData.get('phrase_french'));
+                // Reset form
+                form.reset();
+                form.querySelector('#phrase_native').focus();
+            } else {
+                showToast(result.message, 'error');
+            }
+        } catch (err) {
+            showToast("{% trans 'Erreur lors de l\'enregistrement' %}", 'error');
+        } finally {
+            btnSubmit.disabled = false;
+            btnSubmit.innerHTML = '<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span> {% trans "Enregistrer la paire" %}';
+        }
+    });
+
+    function addToList(native, french) {
+        recentDiv.classList.remove('hidden');
+        const clone = template.content.cloneNode(true);
+        clone.querySelector('.contribution-native').innerText = native;
+        clone.querySelector('.contribution-french').innerText = french;
+        
+        list.insertBefore(clone, list.firstChild);
+        
+        // Limit to 5
+        if (list.children.length > 5) {
+            list.lastElementChild.remove();
+        }
+    }
+</script>
+{% endblock %}

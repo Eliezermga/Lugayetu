@@ -1,0 +1,296 @@
+{% extends 'base/base.html' %}
+{% load i18n static %}
+
+{% block title %}{% trans "Enregistrement Vocal" %} - LugaYetu{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-surface dark:bg-surface-dark py-12 px-margin-mobile md:px-margin-desktop">
+    <div class="max-w-container-max mx-auto">
+        <!-- Back Button -->
+        <a href="{% url 'contribution:dashboard' %}" class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors mb-8 group">
+            <span class="material-symbols-outlined group-hover:-translate-x-1 transition-transform">arrow_back</span>
+            <span class="font-label-lg">{% trans "Retour au tableau de bord" %}</span>
+        </a>
+
+        <!-- Recording Card — full width, side-by-side on desktop -->
+        <div class="glass-card rounded-[2.5rem] p-8 md:p-12 animate-on-scroll">
+            <!-- Language Label -->
+            <div class="mb-8 text-center">
+                <span class="font-label-md uppercase tracking-widest text-primary/70 mb-2 block">
+                    {% trans "Enregistrement pour" %} :
+                    <span id="display-language" class="font-bold">{{ selected_language.name }}</span>
+                </span>
+                <div class="h-1 w-20 bg-primary/20 mx-auto rounded-full"></div>
+            </div>
+
+            <!-- Two-column layout on desktop -->
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+
+                <!-- LEFT: Phrase Display -->
+                <div id="phrase-container" class="flex-1 min-h-[12rem] flex flex-col justify-center md:text-left text-center border-r-0 md:border-r border-outline-variant/20 md:pr-12">
+                    {% if phrase %}
+                        <p class="font-label-md text-on-surface-variant mb-3 uppercase tracking-widest">{% trans "Phrase à lire" %}</p>
+                        <h2 id="phrase-native" class="font-h1 text-display-sm md:text-h1 text-on-surface dark:text-white mb-6 leading-tight">
+                            {{ phrase.phrase_native }}
+                        </h2>
+                        <p id="phrase-translation" class="font-body-lg text-on-surface-variant dark:text-gray-400 italic">
+                            {{ phrase.phrase_translation }}
+                        </p>
+                    {% else %}
+                        <p class="text-on-surface-variant italic">{% trans "Aucune phrase disponible. Veuillez ajouter des phrases en TSV pour cette langue." %}</p>
+                    {% endif %}
+                </div>
+
+                <!-- RIGHT: Recording Controls -->
+                <div class="flex flex-col items-center gap-8 md:w-72 shrink-0">
+                    <!-- Visualizer -->
+                    <div id="visualizer-container" class="w-full h-16 bg-surface-container-low dark:bg-black/20 rounded-full overflow-hidden hidden">
+                        <canvas id="visualizer" class="w-full h-full"></canvas>
+                    </div>
+
+                    <!-- Main Record Button -->
+                    <div id="record-control" class="relative">
+                        <button id="btn-record" class="w-24 h-24 bg-primary text-on-primary rounded-full flex items-center justify-center shadow-2xl shadow-primary/40 hover:scale-105 active:scale-95 transition-all z-10 relative">
+                            <span id="mic-icon" class="material-symbols-outlined text-[40px]">mic</span>
+                            <span id="stop-icon" class="material-symbols-outlined text-[40px] hidden">stop</span>
+                        </button>
+                        <div id="record-ripple" class="absolute inset-0 bg-primary/30 dark:bg-primary/50 rounded-full scale-100 opacity-0 pointer-events-none"></div>
+                    </div>
+
+                    <!-- Post-Recording Controls -->
+                    <div id="post-record-controls" class="hidden flex items-center gap-6 animate-fade-in">
+                        <button id="btn-play" class="w-14 h-14 bg-secondary/10 text-secondary rounded-full flex items-center justify-center hover:bg-secondary/20 transition-colors">
+                            <span class="material-symbols-outlined">play_arrow</span>
+                        </button>
+                        <button id="btn-retry" class="w-14 h-14 bg-surface-container-high text-on-surface-variant rounded-full flex items-center justify-center hover:bg-surface-container-highest transition-colors">
+                            <span class="material-symbols-outlined">refresh</span>
+                        </button>
+                        <button id="btn-submit" class="px-8 py-3 bg-primary text-on-primary rounded-full font-label-lg shadow-lg hover:shadow-primary/20 transition-all">
+                            {% trans "Envoyer l'enregistrement" %}
+                        </button>
+                    </div>
+
+                    <p id="recording-status" class="font-label-md text-on-surface-variant opacity-60 text-center">
+                        {% trans "Appuyez sur le micro pour commencer" %}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Hidden inputs for data -->
+        <input type="hidden" id="lang-id" value="{{ selected_language.id }}">
+    </div>
+</div>
+
+<audio id="audio-playback" class="hidden"></audio>
+
+<style>
+    @keyframes ripple {
+        0% { transform: scale(1); opacity: 0.5; }
+        100% { transform: scale(1.6); opacity: 0; }
+    }
+    .animate-ripple {
+        animation: ripple 1.5s infinite ease-out;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let audioBlob;
+    let audioUrl;
+    let stream;
+    let animationId;
+
+    const btnRecord = document.getElementById('btn-record');
+    const micIcon = document.getElementById('mic-icon');
+    const stopIcon = document.getElementById('stop-icon');
+    const ripple = document.getElementById('record-ripple');
+    const statusText = document.getElementById('recording-status');
+    const postControls = document.getElementById('post-record-controls');
+    const visualizerContainer = document.getElementById('visualizer-container');
+    const btnPlay = document.getElementById('btn-play');
+    const btnRetry = document.getElementById('btn-retry');
+    const btnSubmit = document.getElementById('btn-submit');
+    const audioPlayback = document.getElementById('audio-playback');
+
+    // Recording State
+    let isRecording = false;
+
+    btnRecord.addEventListener('click', async () => {
+        if (!isRecording) {
+            startRecording();
+        } else {
+            stopRecording();
+        }
+    });
+
+    async function startRecording() {
+        try {
+            stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+            audioChunks = [];
+
+            mediaRecorder.ondataavailable = (event) => {
+                audioChunks.push(event.data);
+            };
+
+            mediaRecorder.onstop = () => {
+                audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                audioUrl = URL.createObjectURL(audioBlob);
+                audioPlayback.src = audioUrl;
+                
+                showPostControls();
+            };
+
+            mediaRecorder.start();
+            isRecording = true;
+            
+            // UI Updates
+            micIcon.classList.add('hidden');
+            stopIcon.classList.remove('hidden');
+            ripple.classList.add('animate-ripple', 'opacity-100');
+            btnRecord.classList.replace('bg-primary', 'bg-error');
+            statusText.innerText = "{% trans 'Enregistrement en cours...' %}";
+            visualizerContainer.classList.remove('hidden');
+            postControls.classList.add('hidden');
+            
+            startVisualizer(stream);
+        } catch (err) {
+            console.error('Erreur micro:', err);
+            showToast("{% trans 'Impossible d\'accéder au micro. Veuillez vérifier vos permissions.' %}", 'error');
+        }
+    }
+
+    function stopRecording() {
+        mediaRecorder.stop();
+        stream.getTracks().forEach(track => track.stop());
+        isRecording = false;
+        
+        // UI Updates
+        micIcon.classList.remove('hidden');
+        stopIcon.classList.add('hidden');
+        ripple.classList.remove('animate-ripple', 'opacity-100');
+        btnRecord.classList.replace('bg-error', 'bg-primary');
+        statusText.innerText = "{% trans 'Enregistré' %}";
+        visualizerContainer.classList.add('hidden');
+        cancelAnimationFrame(animationId);
+    }
+
+    function showPostControls() {
+        postControls.classList.remove('hidden');
+        btnRecord.parentElement.classList.add('hidden');
+        statusText.innerText = "{% trans 'Prêt à être envoyé' %}";
+    }
+
+    btnRetry.addEventListener('click', () => {
+        postControls.classList.add('hidden');
+        btnRecord.parentElement.classList.remove('hidden');
+        statusText.innerText = "{% trans 'Appuyez sur le micro pour recommencer' %}";
+        audioPlayback.src = '';
+    });
+
+    btnPlay.addEventListener('click', () => {
+        if (audioPlayback.paused) {
+            audioPlayback.play();
+            btnPlay.innerHTML = '<span class="material-symbols-outlined">pause</span>';
+        } else {
+            audioPlayback.pause();
+            btnPlay.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+        }
+    });
+
+    audioPlayback.onended = () => {
+        btnPlay.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+    };
+
+    btnSubmit.addEventListener('click', async () => {
+        const formData = new FormData();
+        formData.append('audio_data', audioBlob, 'contribution.wav');
+        formData.append('language_id', document.getElementById('lang-id').value);
+        formData.append('phrase_native', document.getElementById('phrase-native').innerText.trim());
+        formData.append('phrase_translation', document.getElementById('phrase-translation').innerText.trim());
+        formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+
+        btnSubmit.disabled = true;
+        btnSubmit.innerText = "{% trans 'Envoi...' %}";
+
+        try {
+            const response = await fetch("{% url 'contribution:save_audio' %}", {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            
+            if (result.status === 'success') {
+                showToast("{% trans 'Enregistrement envoyé avec succès !' %}", 'success');
+                // Load next phrase
+                loadNextPhrase();
+                // Reset UI
+                btnRetry.click();
+                btnSubmit.disabled = false;
+                btnSubmit.innerText = "{% trans 'Envoyer l\'enregistrement' %}";
+            } else {
+                showToast(result.message, 'error');
+                btnSubmit.disabled = false;
+            }
+        } catch (err) {
+            showToast("{% trans 'Erreur lors de l\'envoi' %}", 'error');
+            btnSubmit.disabled = false;
+        }
+    });
+
+    async function loadNextPhrase() {
+        const langId = document.getElementById('lang-id').value;
+        try {
+            const response = await fetch(`{% url 'contribution:get_next_phrase' %}?language_id=${langId}`);
+            const result = await response.json();
+            if (result.status === 'success') {
+                document.getElementById('phrase-native').innerText = result.phrase.phrase_native;
+                document.getElementById('phrase-translation').innerText = result.phrase.phrase_translation;
+            } else {
+                document.getElementById('phrase-container').innerHTML = `<p class="text-on-surface-variant italic">${result.message}</p>`;
+            }
+        } catch (err) {
+            console.error('Next phrase error:', err);
+        }
+    }
+
+    function startVisualizer(stream) {
+        const canvas = document.getElementById('visualizer');
+        const canvasCtx = canvas.getContext('2d');
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const source = audioCtx.createMediaStreamSource(stream);
+        const analyser = audioCtx.createAnalyser();
+        analyser.fftSize = 256;
+        source.connect(analyser);
+
+        const bufferLength = analyser.frequencyBinCount;
+        const dataArray = new Uint8Array(bufferLength);
+
+        function draw() {
+            animationId = requestAnimationFrame(draw);
+            analyser.getByteFrequencyData(dataArray);
+
+            canvasCtx.fillStyle = 'rgba(0, 0, 0, 0)';
+            canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const barWidth = (canvas.width / bufferLength) * 2.5;
+            let barHeight;
+            let x = 0;
+
+            for(let i = 0; i < bufferLength; i++) {
+                barHeight = dataArray[i]/2;
+                // Use a theme-compatible color for dark/light mode
+                canvasCtx.fillStyle = document.documentElement.classList.contains('dark') ? '#ffb4a3' : '#943d28';
+                canvasCtx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+                x += barWidth + 1;
+            }
+        }
+        draw();
+    }
+</script>
+{% endblock %}
