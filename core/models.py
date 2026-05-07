@@ -133,7 +133,7 @@ class HomePageContent(models.Model):
         verbose_name_plural = _("Contenus Page d'Accueil")
 
     def __str__(self):
-        return _("Contenu de la Page d'Accueil")
+        return str(_("Contenu de la Page d'Accueil"))
 
     def save(self, *args, **kwargs):
         # Ensure only one instance exists
@@ -229,7 +229,7 @@ class AboutPageContent(models.Model):
         verbose_name_plural = _("Contenus Page À propos")
 
     def __str__(self):
-        return _("Contenu de la Page À propos")
+        return str(_("Contenu de la Page À propos"))
 
     def save(self, *args, **kwargs):
         if self.__class__.objects.count():
@@ -359,7 +359,7 @@ class LegalPage(models.Model):
         verbose_name_plural = _("Pages Légales")
 
     def __str__(self):
-        return self.get_slug_display()
+        return str(self.get_slug_display())
 
     @property
     def title(self):

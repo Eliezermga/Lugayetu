@@ -27,41 +27,80 @@ class TranslationModel:
         logger.info(f"📦 Chargement du modèle {model_id}...")
         
         try:
+            from transformers import MBartForConditionalGeneration, AutoTokenizer
             import transformers
-            # Supprimer les avertissements de chargement pour un log plus propre
-            transformers.logging.set_verbosity_error()
             
-            from transformers import MBartForConditionalGeneration, MBart50Tokenizer
+            # Utiliser le token HF s'il est présent dans l'environnement
+            hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
+            logger.info(f"🔑 Token HF trouvé: {'Oui' if hf_token else 'Non'}")
             
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
             
-            # 1. Charger le tokenizer de base
-            # On utilise le base mBART-50 car on sait qu'il est compatible
-            self.tokenizer = MBart50Tokenizer.from_pretrained("facebook/mbart-large-50")
+            # 1. Charger le tokenizer
+            logger.info("⏳ Chargement du tokenizer...")
+            # On force une langue connue au début pour éviter le KeyError pendant l'init
+            # si le fichier de config Hugging Face a 'ruu_CM' par défaut.
+            try:
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    model_id, 
+                    token=hf_token,
+                    trust_remote_code=True,
+                    src_lang="fr_XX"
+                )
+            except Exception as e:
+                logger.warning(f"⚠️ Erreur init tokenizer avec fr_XX, tentative sans src_lang: {e}")
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    model_id, 
+                    token=hf_token,
+                    trust_remote_code=True
+                )
             
-            # 2. Ajouter le token spécial Ruund s'il n'existe pas
+            # S'assurer que le token ruu_CM est présent dans le vocabulaire
             if "ruu_CM" not in self.tokenizer.get_vocab():
+                logger.info("➕ Ajout du token 'ruu_CM' au vocabulaire...")
                 self.tokenizer.add_special_tokens({"additional_special_tokens": ["ruu_CM"]})
             
+            # Enregistrement pour mBART (Fast et Slow)
+            logger.info("📝 Enregistrement du code langue 'ruu_CM'...")
+            
+            # Pour le tokenizer Fast
+            if hasattr(self.tokenizer, "_tokenizer"):
+                # On peut parfois avoir besoin d'accéder au backend
+                pass
+                
+            # Pour la compatibilité mBART
+            if not hasattr(self.tokenizer, 'lang_code_to_id'):
+                self.tokenizer.lang_code_to_id = {}
+            
+            self.tokenizer.lang_code_to_id["ruu_CM"] = self.tokenizer.convert_tokens_to_ids("ruu_CM")
+            
+            # Définir les langues par défaut
             self.src_lang = "ruu_CM"
             self.tgt_lang = "fr_XX"
             
-            # 3. Charger le modèle
-            # On utilise ignore_mismatched_sizes=True car le vocabulaire a été étendu
+            # Tester si on peut définir src_lang sur le tokenizer
+            try:
+                self.tokenizer.src_lang = "ruu_CM"
+            except Exception as e:
+                logger.warning(f"⚠️ Impossible de définir src_lang='ruu_CM' sur le tokenizer: {e}")
+            
+            # 2. Charger le modèle
+            logger.info("⏳ Chargement du modèle (peut prendre du temps)...")
             self.model = MBartForConditionalGeneration.from_pretrained(
                 model_id,
+                token=hf_token,
                 ignore_mismatched_sizes=True
             ).to(self.device)
             
-            # 4. S'assurer que le modèle est à la bonne taille de vocabulaire
+            # 3. S'assurer que le modèle est à la bonne taille de vocabulaire
             self.model.resize_token_embeddings(len(self.tokenizer))
             self.model.eval()
             
-            # Rétablir le logging normal
-            transformers.logging.set_verbosity_info()
-            logger.info("✅ Modèle chargé avec succès.")
+            logger.info(f"✅ Modèle {model_id} chargé avec succès.")
         except Exception as e:
-            logger.error(f"❌ Erreur lors du chargement du modèle: {str(e)}")
+            logger.error(f"❌ Erreur CRITIQUE lors du chargement du modèle: {str(e)}")
+            import traceback
+            logger.error(traceback.format_exc())
             self.model = None
             self.tokenizer = None
 
