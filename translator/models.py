@@ -10,47 +10,50 @@ logger = logging.getLogger(__name__)
 
 class TranslationModel:
     """
-    Singleton pour charger et gérer le modèle de traduction mBART.
-    Évite de recharger le modèle lourd (plusieurs Go) à chaque requête.
+    Gestionnaire des modèles de traduction.
+    Gère plusieurs modèles (Ruund->Français et Français->Ruund) en tant que Singletons.
     """
-    _instance = None
+    _instances = {}
 
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(TranslationModel, cls).__new__(cls)
-            cls._instance._load_model()
-        return cls._instance
+    def __new__(cls, model_type="ruu_fr"):
+        model_id = os.environ.get('MODEL_RUU_FR', 'eliezermga/ruund-translate') if model_type == "ruu_fr" else os.environ.get('MODEL_FR_RUU', 'eliezermga/french-rund-translator')
+        
+        if model_id not in cls._instances:
+            logger.info(f"🆕 Création d'une nouvelle instance pour {model_type} ({model_id})")
+            instance = super(TranslationModel, cls).__new__(cls)
+            instance.model_id = model_id
+            instance.model_type = model_type
+            instance._load_model()
+            cls._instances[model_id] = instance
+        return cls._instances[model_id]
 
     def _load_model(self):
         """Charge le modèle et le tokenizer depuis Hugging Face"""
-        model_id = os.environ.get('TRANSLATION_MODEL_ID', 'eliezermga/ruund-translate')
-        logger.info(f"📦 Chargement du modèle {model_id}...")
+        logger.info(f"📦 Chargement du modèle {self.model_id}...")
         
         try:
-            from transformers import MBartForConditionalGeneration, AutoTokenizer
-            import transformers
-            
             # Utiliser le token HF s'il est présent dans l'environnement
             hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
             logger.info(f"🔑 Token HF trouvé: {'Oui' if hf_token else 'Non'}")
             
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
+            logger.info(f"🖥️ Utilisation du périphérique: {self.device}")
             
             # 1. Charger le tokenizer
-            logger.info("⏳ Chargement du tokenizer...")
-            # On force une langue connue au début pour éviter le KeyError pendant l'init
-            # si le fichier de config Hugging Face a 'ruu_CM' par défaut.
+            logger.info(f"⏳ Chargement du tokenizer pour {self.model_id}...")
             try:
+                # On force fr_XX au début car ruu_CM n'est pas encore dans le vocabulaire
+                # et mBART crashe à l'init s'il ne connaît pas la src_lang.
                 self.tokenizer = AutoTokenizer.from_pretrained(
-                    model_id, 
+                    self.model_id, 
                     token=hf_token,
                     trust_remote_code=True,
                     src_lang="fr_XX"
                 )
             except Exception as e:
-                logger.warning(f"⚠️ Erreur init tokenizer avec fr_XX, tentative sans src_lang: {e}")
+                logger.warning(f"⚠️ Erreur init tokenizer avec fr_XX: {e}")
                 self.tokenizer = AutoTokenizer.from_pretrained(
-                    model_id, 
+                    self.model_id, 
                     token=hf_token,
                     trust_remote_code=True
                 )
@@ -60,70 +63,58 @@ class TranslationModel:
                 logger.info("➕ Ajout du token 'ruu_CM' au vocabulaire...")
                 self.tokenizer.add_special_tokens({"additional_special_tokens": ["ruu_CM"]})
             
-            # Enregistrement pour mBART (Fast et Slow)
-            logger.info("📝 Enregistrement du code langue 'ruu_CM'...")
-            
-            # Pour le tokenizer Fast
-            if hasattr(self.tokenizer, "_tokenizer"):
-                # On peut parfois avoir besoin d'accéder au backend
-                pass
-                
-            # Pour la compatibilité mBART
+            # Configuration mBART (lang_code_to_id est crucial pour mBART)
             if not hasattr(self.tokenizer, 'lang_code_to_id'):
                 self.tokenizer.lang_code_to_id = {}
             
-            self.tokenizer.lang_code_to_id["ruu_CM"] = self.tokenizer.convert_tokens_to_ids("ruu_CM")
-            
-            # Définir les langues par défaut
-            self.src_lang = "ruu_CM"
-            self.tgt_lang = "fr_XX"
-            
-            # Tester si on peut définir src_lang sur le tokenizer
-            try:
+            # Forcer l'ID du token Ruund s'il n'est pas déjà mappé
+            if "ruu_CM" not in self.tokenizer.lang_code_to_id:
+                self.tokenizer.lang_code_to_id["ruu_CM"] = self.tokenizer.convert_tokens_to_ids("ruu_CM")
+
+            # Définir les langues par défaut pour ce tokenizer
+            if self.model_type == "ruu_fr":
                 self.tokenizer.src_lang = "ruu_CM"
-            except Exception as e:
-                logger.warning(f"⚠️ Impossible de définir src_lang='ruu_CM' sur le tokenizer: {e}")
+                self.tokenizer.tgt_lang = "fr_XX"
+            else:
+                self.tokenizer.src_lang = "fr_XX"
+                self.tokenizer.tgt_lang = "ruu_CM"
             
             # 2. Charger le modèle
-            logger.info("⏳ Chargement du modèle (peut prendre du temps)...")
+            logger.info(f"⏳ Chargement du modèle {self.model_id} (peut prendre du temps)...")
             self.model = MBartForConditionalGeneration.from_pretrained(
-                model_id,
+                self.model_id,
                 token=hf_token,
                 ignore_mismatched_sizes=True
             ).to(self.device)
             
-            # 3. S'assurer que le modèle est à la bonne taille de vocabulaire
+            # 3. Ajuster le vocabulaire si nécessaire
             self.model.resize_token_embeddings(len(self.tokenizer))
             self.model.eval()
             
-            logger.info(f"✅ Modèle {model_id} chargé avec succès.")
+            logger.info(f"✅ Modèle {self.model_id} chargé avec succès.")
         except Exception as e:
-            logger.error(f"❌ Erreur CRITIQUE lors du chargement du modèle: {str(e)}")
+            logger.error(f"❌ Erreur lors du chargement du modèle {self.model_id}: {str(e)}")
             import traceback
             logger.error(traceback.format_exc())
             self.model = None
             self.tokenizer = None
 
-    def translate(self, text, src_lang=None, tgt_lang=None):
+    def translate(self, text, src_lang="ruu_CM", tgt_lang="fr_XX"):
         """Traduit le texte source vers la langue cible"""
         if self.model is None or self.tokenizer is None:
             return "Erreur: Modèle non chargé."
 
-        src_code = src_lang if src_lang else self.src_lang
-        tgt_code = tgt_lang if tgt_lang else self.tgt_lang
-
         try:
-            # On définit la langue source
-            self.tokenizer.src_lang = src_code
+            # On définit la langue source sur le tokenizer
+            self.tokenizer.src_lang = src_lang
             
             encoded_input = self.tokenizer(text, return_tensors="pt", padding=True).to(self.device)
             
             # Récupération de l'ID du token de langue cible
-            # On essaie d'abord via lang_code_to_id, sinon via convert_tokens_to_ids
             try:
-                tgt_lang_id = self.tokenizer.lang_code_to_id[tgt_code]
+                tgt_lang_id = self.tokenizer.lang_code_to_id[tgt_lang]
             except (KeyError, AttributeError):
-                tgt_lang_id = self.tokenizer.convert_tokens_to_ids(tgt_code)
+                tgt_lang_id = self.tokenizer.convert_tokens_to_ids(tgt_lang)
 
             generated_tokens = self.model.generate(
                 **encoded_input,
@@ -134,5 +125,5 @@ class TranslationModel:
             translation = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)[0]
             return translation
         except Exception as e:
-            logger.error(f"❌ Erreur pendant la traduction: {str(e)}")
+            logger.error(f"❌ Erreur pendant la traduction ({self.model_id}): {str(e)}")
             return f"Erreur de traduction: {str(e)}"

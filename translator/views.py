@@ -27,8 +27,11 @@ class TranslateAPIView(APIView):
             src_lang = serializer.validated_data['src_lang']
             tgt_lang = serializer.validated_data['tgt_lang']
             
-            # Appel du Singleton
-            model = TranslationModel()
+            # Déterminer quel modèle utiliser
+            model_type = "ruu_fr" if src_lang == "ruu_CM" else "fr_ruu"
+            
+            # Appel du Singleton/Manager
+            model = TranslationModel(model_type=model_type)
             translation = model.translate(text, src_lang, tgt_lang)
             
             return Response({
