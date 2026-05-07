@@ -1,0 +1,182 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center overflow-hidden geometric-overlay">
+    <div
+        class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-gutter items-center py-16">
+        <div class="z-10">
+            <span
+                class="inline-block px-4 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md mb-6 uppercase">
+                {% trans "Patrimoine Linguistique Vivant" %}
+            </span>
+            <h1 class="font-display text-display text-on-surface dark:text-white mb-6 leading-tight">
+                {{ content.hero_title }}
+            </h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant dark:text-gray-300 mb-10 max-w-lg">
+                {{ content.hero_description }}
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="{% url 'translator:index' %}"
+                    class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-lg text-label-lg hover:opacity-90 transition-all flex items-center gap-2">
+                    {% trans "Traduire" %} <span class="material-symbols-outlined"
+                        style="font-size: 20px;">translate</span>
+                </a>
+                <a href="{% if user.is_authenticated %}{% url 'contribution:dashboard' %}{% else %}{% url 'login' %}{% endif %}"
+                    class="border-2 border-secondary text-secondary px-8 py-4 rounded-lg font-label-lg text-label-lg hover:bg-secondary-fixed transition-all flex items-center gap-2">
+                    {% trans "Contribuer" %} <span class="material-symbols-outlined"
+                        style="font-size: 20px;">volunteer_activism</span>
+                </a>
+            </div>
+        </div>
+        <div class="relative">
+            <div
+                class="aspect-square rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 rotate-3 hover:rotate-0 transition-transform duration-700">
+                <img class="w-full h-full object-cover" data-alt="A warm, evocative portrait of a Congolese elder"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4TJxwo6G4qAw1z-FqSnf2jLobasAdyU2i6vDfsXX9mTjuXUHMByE1tP0dKrzWmJcLRsM7Sb347USFQOPb9u_GP7DhyUAJEDB0NsTa9OhcCTFoKwbNaSR7peGFmP2iOqzSAJA1NHyvJeM6TDIGMg_qggwVd4BoNuMx8t0aqkXEzsmJLAkUo_8LWaYf9enzdEdR2rsQXiN6EAm6N3cTV2GefidqU0Z67Gc7_xEXJdTWRz6ZrO1Qc-3TTNYOTSGHpYTZl7vogGhEe0SI">
+            </div>
+            <div
+                class="absolute -bottom-6 -left-6 bg-surface-container-lowest dark:bg-gray-800 p-6 rounded-xl shadow-xl border border-outline-variant/30 dark:border-gray-700 max-w-[240px]">
+                <p class="font-h3 text-h3 text-primary dark:text-inverse-primary italic mb-2">
+                    &ldquo;{% trans "Un peuple qui perd sa langue perd son âme." %}&rdquo;
+                </p>
+                <p class="font-label-md text-label-md text-on-surface-variant dark:text-gray-400">
+                    {% trans "— Eliezer Mununga" %}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-24 bg-surface-container-low dark:bg-surface-dark">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+            <div>
+                <h2 class="font-h2 text-h2 text-on-surface dark:text-white mb-4">{{ content.stats_title }}</h2>
+                <p class="font-body-md text-body-md text-on-surface-variant dark:text-gray-300 max-w-xl">
+                    {{ content.stats_description }}
+                </p>
+            </div>
+            <a href="{% url 'contribution:dashboard' %}"
+                class="text-primary dark:text-inverse-primary flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+                <span class="font-label-lg text-label-lg uppercase">{% trans "Voir le rapport complet" %}</span>
+                <span class="material-symbols-outlined">trending_up</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div
+                class="bg-surface-container-lowest dark:bg-surface-container-dark p-8 rounded-xl border border-outline-variant/20 dark:border-outline-variant/10 shadow-sm md:col-span-2 flex flex-col justify-between group hover:border-primary/40 transition-colors">
+                <span class="material-symbols-outlined text-primary dark:text-inverse-primary mb-12"
+                    style="font-size: 48px;">mic</span>
+                <div>
+                    <div class="font-display text-display text-primary dark:text-inverse-primary leading-none mb-2 stat-number"
+                        data-target="{{ stats.audio_count }}" data-suffix="+">0+</div>
+                    <div class="font-label-lg text-label-lg text-on-surface-variant dark:text-gray-300">{% trans "Enregistrements vocaux sécurisés" %}</div>
+                </div>
+            </div>
+            <div
+                class="bg-surface-container-lowest dark:bg-surface-container-dark p-8 rounded-xl border border-outline-variant/20 dark:border-outline-variant/10 shadow-sm flex flex-col justify-between hover:border-primary/40 transition-colors">
+                <span class="material-symbols-outlined text-tertiary dark:text-[#ffdf9f] mb-12"
+                    style="font-size: 48px;">menu_book</span>
+                <div>
+                    <div class="font-display text-h1 text-tertiary dark:text-[#ffdf9f] leading-none mb-2 stat-number"
+                        data-target="{{ stats.phrase_count }}" data-suffix="+">0+</div>
+                    <div class="font-label-lg text-label-lg text-on-surface-variant dark:text-gray-300">{% trans "Paires de phrases" %}</div>
+                </div>
+            </div>
+            <div
+                class="bg-primary dark:bg-primary-container p-8 rounded-xl shadow-lg flex flex-col justify-between text-on-primary dark:text-white">
+                <span class="material-symbols-outlined mb-12" style="font-size: 48px;">groups</span>
+                <div>
+                    <div class="font-display text-h1 leading-none mb-2 stat-number" data-target="{{ stats.contributor_count }}" data-suffix="+">0+</div>
+                    <div class="font-label-lg text-label-lg opacity-90">{% trans "Contributeurs actifs" %}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="py-24 overflow-hidden">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+            <div class="relative">
+                <div class="grid grid-cols-2 gap-4">
+                    <img class="rounded-lg shadow-md aspect-square object-cover"
+                        data-alt="A close-up of a hand-woven Congolese textile"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaH3T6Uqlrxl_Hb4X_wn3iyt3evjx00p7PaIXnv3NClFUXwHqgNgxflvXQgnCZfv5fFUDl_fzE4UhLlgcZlzG_Y4gLuZaakWwtZta37vOxF_Rg_iDkXg7_JkZH9y207O1mSLbf4lG97jPwGiAz-Zjjjpaw6ZygXeFuI-n999merLSqO5g40ulWprS7ueVz-N5ZNdOHdj_PxnEuiRrPzpPO8cuFk7E1kp5gPip_zrSeqGl8KGJRGapVm2eKjC8-G5U8UKce-MuvwD6J">
+                    <img class="rounded-lg shadow-md aspect-square object-cover mt-8"
+                        data-alt="A modern, high-tech recording studio setup"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpJkHJIK6myOFS6Qpl3s2RuYABEhBWMVImwh1vk2wFkWd9lxenSiQnsYiJ6uBXjSFKJItIDLngNQ_lmbrypWtAqW6gFbwCxygftS7d6Op084U_1wxM9vUo4_zFbe6BeyIXub_w2B1f49y5I7pUV-OpcH4iAHjcANfWHpVfwBRnj5j13lJVH2rUstn-tRN78ZRVS8OpMnyEdi-XG8Yc4Dod9qnzn8qNC3XdB4RaE4-WzTFNh0mLJ18_mfGIjQJsvUB7Q-fbu_dtoWDr">
+                </div>
+                <div class="absolute -top-10 -right-10 w-40 h-40 border-t-2 border-r-2 border-primary/20 -z-10"></div>
+            </div>
+            <div>
+                <h2 class="font-h2 text-h2 text-on-surface dark:text-white mb-8">{{ content.mission_title }}</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-6">
+                        <div
+                            class="w-12 h-12 rounded-full bg-secondary-container dark:bg-[#2d4d34] flex items-center justify-center shrink-0">
+                            <span
+                                class="material-symbols-outlined text-on-secondary-container dark:text-[#c8ecc9]">history_edu</span>
+                        </div>
+                        <div>
+                            <h3 class="font-h3 text-h3 dark:text-white mb-2">{% trans "Archives Numériques" %}</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant dark:text-gray-300">{% trans "Créer la plus grande base de données linguistique numérique pour les langues bantoues et nilotiques de la région." %}</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div
+                            class="w-12 h-12 rounded-full bg-primary-fixed dark:bg-[#7d2c18] flex items-center justify-center shrink-0">
+                            <span
+                                class="material-symbols-outlined text-on-primary-fixed-variant dark:text-[#ffdad2]">diversity_3</span>
+                        </div>
+                        <div>
+                            <h3 class="font-h3 text-h3 dark:text-white mb-2">{% trans "Engagement Communautaire" %}</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant dark:text-gray-300">{% trans "Impliquer les aînés et les experts locaux pour garantir l'authenticité et la nuance de chaque traduction enregistrée." %}</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div
+                            class="w-12 h-12 rounded-full bg-tertiary-fixed dark:bg-[#5c4300] flex items-center justify-center shrink-0">
+                            <span
+                                class="material-symbols-outlined text-on-tertiary-fixed-variant dark:text-[#ffdf9f]">auto_awesome</span>
+                        </div>
+                        <div>
+                            <h3 class="font-h3 text-h3 dark:text-white mb-2">{% trans "Accessibilité Moderne" %}</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant dark:text-gray-300">{% trans "Rendre ces langues accessibles via des outils d'IA et de traduction pour encourager leur usage quotidien par la jeunesse." %}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-24 px-margin-mobile">
+    <div
+        class="max-w-[1000px] mx-auto bg-inverse-surface dark:bg-surface-container-dark rounded-2xl p-12 md:p-20 text-center relative overflow-hidden border dark:border-outline-variant/10 border-transparent">
+        <div class="absolute top-0 right-0 p-8 opacity-10">
+            <span class="material-symbols-outlined" style="font-size: 200px;">record_voice_over</span>
+        </div>
+        <h2 class="font-display text-h1 text-white mb-6 relative z-10">{{ content.cta_title }}</h2>
+        <p
+            class="font-body-lg text-body-lg text-surface-variant dark:text-gray-300 mb-10 max-w-2xl mx-auto relative z-10">
+            {{ content.cta_description }}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
+            <a href="{% if user.is_authenticated %}{% url 'contribution:dashboard' %}{% else %}{% url 'register' %}{% endif %}"
+                class="bg-primary dark:bg-primary-container text-on-primary px-10 py-5 rounded-lg font-label-lg text-label-lg hover:bg-primary-container dark:hover:bg-primary transition-all">
+                {% trans "Devenir Contributeur" %}
+            </a>
+            <a href="https://huggingface.co/datasets/eliezermga/ruund-french-parallel-corpus"
+                class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-5 rounded-lg font-label-lg text-label-lg hover:bg-white/20 transition-all">
+                {% trans "Explorer la Bibliothèque" %}
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

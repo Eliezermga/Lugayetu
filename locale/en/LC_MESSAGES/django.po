@@ -1,0 +1,1066 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-06 11:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: contribution/models.py:8 contribution/models.py:30 core/models.py:22
+#: templates/pages/profile.html:20
+#, fuzzy
+#| msgid "Contribute"
+msgid "Contributeur"
+msgstr "Contribute"
+
+#: contribution/models.py:9 contribution/models.py:31 core/models.py:14
+msgid "Langue"
+msgstr "Language"
+
+#: contribution/models.py:10 contribution/models.py:32
+msgid "Phrase originale"
+msgstr "Original phrase"
+
+#: contribution/models.py:11
+#, fuzzy
+#| msgid "Traduire"
+msgid "Traduction (Français)"
+msgstr "Translate"
+
+#: contribution/models.py:12
+msgid "Fichier audio"
+msgstr ""
+
+#: contribution/models.py:13 contribution/models.py:34
+msgid "Date de création"
+msgstr "Created at"
+
+#: contribution/models.py:16
+msgid "Contribution Audio"
+msgstr "Audio Contribution"
+
+#: contribution/models.py:17
+msgid "Contributions Audio"
+msgstr "Audio Contributions"
+
+#: contribution/models.py:33
+msgid "Phrase en Français"
+msgstr "Phrase in French"
+
+#: contribution/models.py:37
+msgid "Contribution Texte"
+msgstr "Text Contribution"
+
+#: contribution/models.py:38
+msgid "Contributions Texte"
+msgstr "Text Contributions"
+
+#: contribution/views.py:50 contribution/views.py:72
+msgid "Données incomplètes"
+msgstr "Incomplete data"
+
+#: contribution/views.py:61
+msgid "Contribution enregistrée avec succès"
+msgstr "Contribution saved successfully"
+
+#: contribution/views.py:82
+msgid "Paire de phrases enregistrée"
+msgstr "Phrase pair saved"
+
+#: contribution/views.py:95
+msgid "Aucune phrase disponible pour cette langue"
+msgstr "No phrases available for this language"
+
+#: contribution/views.py:97
+msgid "Langue non trouvée"
+msgstr "Language not found"
+
+#: core/admin.py:22 core/admin.py:25
+msgid "Profil Lugayetu"
+msgstr ""
+
+#: core/admin.py:30
+msgid "Les utilisateurs sélectionnés ont été approuvés."
+msgstr ""
+
+#: core/admin.py:31
+msgid "Approuver les utilisateurs sélectionnés"
+msgstr ""
+
+#: core/admin.py:37
+msgid "Structure"
+msgstr ""
+
+#: core/admin.py:40
+msgid "Contenu"
+msgstr ""
+
+#: core/admin.py:42
+msgid ""
+"<b>Guide de style HTML :</b><br>Utilisez <code>&lt;h3&gt;</code> pour les "
+"titres de section.<br>Utilisez <code>&lt;p&gt;</code> pour les paragraphes."
+"<br>Utilisez <code>&lt;ul&gt;</code> et <code>&lt;li&gt;</code> pour les "
+"listes à puces.<br>Utilisez <code>&lt;strong&gt;</code> pour mettre en gras."
+msgstr ""
+
+#: core/admin.py:53
+msgid "Hero Section"
+msgstr ""
+
+#: core/admin.py:56
+msgid "Stats Section"
+msgstr ""
+
+#: core/admin.py:59
+msgid "Mission Section"
+msgstr ""
+
+#: core/admin.py:62
+msgid "CTA Section"
+msgstr ""
+
+#: core/admin.py:75
+msgid "Header & Hero"
+msgstr ""
+
+#: core/admin.py:78
+msgid "Quote"
+msgstr ""
+
+#: core/admin.py:81
+msgid "Mission & Vision"
+msgstr ""
+
+#: core/admin.py:85
+#, fuzzy
+#| msgid "de Lugayetu."
+msgid "Why Lugayetu"
+msgstr "of Lugayetu."
+
+#: core/admin.py:88
+msgid "History & Timeline"
+msgstr ""
+
+#: core/admin.py:91
+msgid "Team & Contact"
+msgstr ""
+
+#: core/admin.py:95
+msgid "Footer Message"
+msgstr ""
+
+#: core/forms.py:9 core/forms.py:103
+msgid "Mot de passe"
+msgstr "Password"
+
+#: core/forms.py:14
+msgid "Confirmer le mot de passe"
+msgstr "Confirm Password"
+
+#: core/forms.py:19
+msgid ""
+"J'accepte les conditions d'utilisation et la politique de confidentialité"
+msgstr "I accept the terms of service and the privacy policy"
+
+#: core/forms.py:29
+msgid "Ex: Mununga"
+msgstr "Ex: Mununga"
+
+#: core/forms.py:30
+msgid "Ex: Eliezer"
+msgstr "Ex: Eliezer"
+
+#: core/forms.py:31
+msgid "votre@email.com"
+msgstr "your@email.com"
+
+#: core/forms.py:36
+msgid "Ex: Kolwezi"
+msgstr "Ex: Kolwezi"
+
+#: core/forms.py:39
+msgid "Nom"
+msgstr "Last Name"
+
+#: core/forms.py:40
+msgid "Prénom"
+msgstr "First Name"
+
+#: core/forms.py:41
+msgid "Adresse email"
+msgstr "Email Address"
+
+#: core/forms.py:42 core/models.py:67 templates/pages/profile.html:101
+msgid "Âge"
+msgstr "Age"
+
+#: core/forms.py:43 core/models.py:70 templates/pages/profile.html:105
+msgid "Sexe"
+msgstr "Gender"
+
+#: core/forms.py:44 core/models.py:73
+msgid "Langue maternelle"
+msgstr "Mother Tongue"
+
+#: core/forms.py:45 core/models.py:76 templates/pages/profile.html:123
+msgid "Province"
+msgstr "Province"
+
+#: core/forms.py:46 core/models.py:77 templates/pages/profile.html:127
+msgid "Ville / Village"
+msgstr "City / Village"
+
+#: core/forms.py:56 core/forms.py:58 core/forms.py:65 core/forms.py:67
+#: core/forms.py:73
+msgid "Select"
+msgstr "Select"
+
+#: core/forms.py:88
+msgid "Les mots de passe ne correspondent pas."
+msgstr "Passwords do not match."
+
+#: core/forms.py:102
+msgid "Email"
+msgstr "Email"
+
+#: core/models.py:8
+msgid "Nom de la langue"
+msgstr ""
+
+#: core/models.py:9
+msgid "Code ISO/Interne"
+msgstr ""
+
+#: core/models.py:10
+msgid "Description"
+msgstr ""
+
+#: core/models.py:11
+msgid "Active"
+msgstr ""
+
+#: core/models.py:15
+msgid "Langues"
+msgstr ""
+
+#: core/models.py:23 templates/pages/profile.html:18
+msgid "Sous-Admin"
+msgstr ""
+
+#: core/models.py:24 templates/pages/profile.html:16
+msgid "Administrateur"
+msgstr ""
+
+#: core/models.py:28
+msgid "Homme"
+msgstr "Male"
+
+#: core/models.py:29
+msgid "Femme"
+msgstr "Female"
+
+#: core/models.py:33
+msgid "Bas-Uele"
+msgstr "Bas-Uele"
+
+#: core/models.py:34
+msgid "Équateur"
+msgstr "Equateur"
+
+#: core/models.py:35
+msgid "Haut-Katanga"
+msgstr "Haut-Katanga"
+
+#: core/models.py:36
+msgid "Haut-Lomami"
+msgstr "Haut-Lomami"
+
+#: core/models.py:37
+msgid "Haut-Uele"
+msgstr "Haut-Uele"
+
+#: core/models.py:38
+msgid "Ituri"
+msgstr "Ituri"
+
+#: core/models.py:39
+msgid "Kasaï"
+msgstr "Kasai"
+
+#: core/models.py:40
+msgid "Kasaï-Central"
+msgstr "Kasai-Central"
+
+#: core/models.py:41
+msgid "Kasaï-Oriental"
+msgstr "Kasai-Oriental"
+
+#: core/models.py:42
+msgid "Kinshasa"
+msgstr "Kinshasa"
+
+#: core/models.py:43
+msgid "Kongo-Central"
+msgstr "Kongo-Central"
+
+#: core/models.py:44
+msgid "Kwango"
+msgstr "Kwango"
+
+#: core/models.py:45
+msgid "Kwilu"
+msgstr "Kwilu"
+
+#: core/models.py:46
+msgid "Lomami"
+msgstr "Lomami"
+
+#: core/models.py:47
+msgid "Lualaba"
+msgstr "Lualaba"
+
+#: core/models.py:48
+msgid "Mai-Ndombe"
+msgstr "Mai-Ndombe"
+
+#: core/models.py:49
+msgid "Maniema"
+msgstr "Maniema"
+
+#: core/models.py:50
+msgid "Mongala"
+msgstr "Mongala"
+
+#: core/models.py:51
+msgid "Nord-Kivu"
+msgstr "North Kivu"
+
+#: core/models.py:52
+msgid "Nord-Ubangi"
+msgstr "North Ubangi"
+
+#: core/models.py:53
+msgid "Sankuru"
+msgstr "Sankuru"
+
+#: core/models.py:54
+msgid "Sud-Kivu"
+msgstr "South Kivu"
+
+#: core/models.py:55
+msgid "Sud-Ubangi"
+msgstr "South Ubangi"
+
+#: core/models.py:56
+msgid "Tanganyika"
+msgstr "Tanganyika"
+
+#: core/models.py:57
+msgid "Tshopo"
+msgstr "Tshopo"
+
+#: core/models.py:58
+msgid "Tshuapa"
+msgstr "Tshuapa"
+
+#: core/models.py:61
+msgid "adresse email"
+msgstr ""
+
+#: core/models.py:62
+msgid "prénom"
+msgstr ""
+
+#: core/models.py:63
+msgid "nom"
+msgstr ""
+
+#: core/models.py:79 templates/pages/profile.html:69
+msgid "Rôle"
+msgstr ""
+
+#: core/models.py:80 templates/pages/profile.html:77
+msgid "Approuvé"
+msgstr ""
+
+#: core/models.py:87
+msgid "Utilisateur"
+msgstr ""
+
+#: core/models.py:88
+msgid "Utilisateurs"
+msgstr ""
+
+#: core/models.py:132
+msgid "Contenu Page d'Accueil"
+msgstr "Homepage Content"
+
+#: core/models.py:133
+msgid "Contenus Page d'Accueil"
+msgstr "Homepage Contents"
+
+#: core/models.py:136
+#, fuzzy
+#| msgid "Contenu Page d'Accueil"
+msgid "Contenu de la Page d'Accueil"
+msgstr "Homepage Content"
+
+#: core/models.py:228
+msgid "Contenu Page À propos"
+msgstr ""
+
+#: core/models.py:229
+#, fuzzy
+#| msgid "Contenus Page d'Accueil"
+msgid "Contenus Page À propos"
+msgstr "Homepage Contents"
+
+#: core/models.py:232
+#, fuzzy
+#| msgid "Contenus Page d'Accueil"
+msgid "Contenu de la Page À propos"
+msgstr "Homepage Contents"
+
+#: core/models.py:336
+#, fuzzy
+#| msgid "Politique de confidentialité"
+msgid "Politique de Confidentialité"
+msgstr "Privacy Policy"
+
+#: core/models.py:337
+#, fuzzy
+#| msgid "Conditions d'utilisation"
+msgid "Conditions d'Utilisation"
+msgstr "Terms of Service"
+
+#: core/models.py:338 templates/components/footer.html:43
+msgid "Mentions Légales"
+msgstr "Legal Notice"
+
+#: core/models.py:341
+msgid "Identifiant technique de la page"
+msgstr ""
+
+#: core/models.py:343
+msgid "Titre (FR)"
+msgstr ""
+
+#: core/models.py:344
+msgid "Titre (EN)"
+msgstr ""
+
+#: core/models.py:347
+msgid "Contenu (FR)"
+msgstr ""
+
+#: core/models.py:348
+msgid ""
+"Utilisez des balises HTML pour la structure : <br><b>&lt;h3&gt;</b> Titre de "
+"section <br><b>&lt;p&gt;</b> Paragraphe <br><b>&lt;ul&gt;&lt;li&gt;</b> "
+"Listes <br><b>&lt;strong&gt;</b> Texte important"
+msgstr ""
+
+#: core/models.py:351
+msgid "Contenu (EN)"
+msgstr ""
+
+#: core/models.py:352
+msgid ""
+"Use HTML tags for structure: <br><b>&lt;h3&gt;</b> Section Title <br><b>&lt;"
+"p&gt;</b> Paragraph <br><b>&lt;ul&gt;&lt;li&gt;</b> Lists <br><b>&lt;"
+"strong&gt;</b> Important text"
+msgstr ""
+
+#: core/models.py:358
+msgid "Page Légale"
+msgstr ""
+
+#: core/models.py:359
+msgid "Pages Légales"
+msgstr ""
+
+#: core/views.py:40
+msgid ""
+"Votre compte a été créé avec succès ! Il est actuellement en attente "
+"d'approbation par un administrateur."
+msgstr ""
+
+#: core/views.py:43
+msgid "Veuillez corriger les erreurs dans le formulaire."
+msgstr "Please correct the errors in the form."
+
+#: core/views.py:57
+msgid "Heureux de vous revoir !"
+msgstr "Happy to see you back!"
+
+#: core/views.py:60
+msgid "Votre compte n'a pas encore été approuvé par un administrateur."
+msgstr "Your account has not yet been approved by an administrator."
+
+#: core/views.py:62
+msgid "Email ou mot de passe incorrect."
+msgstr "Incorrect email or password."
+
+#: core/views.py:74 templates/components/navbar.html:64
+#: templates/components/navbar.html:135
+msgid "Mon Profil"
+msgstr "My Profile"
+
+#: templates/components/footer.html:8
+msgid ""
+"Préservation numérique des langues minoritaires à travers une plateforme "
+"collaborative open source."
+msgstr ""
+"Digital preservation of minority languages through an open source "
+"collaborative platform."
+
+#: templates/components/footer.html:12
+msgid "Projet"
+msgstr "Project"
+
+#: templates/components/footer.html:14
+msgid "À propos"
+msgstr "About"
+
+#: templates/components/footer.html:15
+msgid "Langues documentées"
+msgstr "Documented languages"
+
+#: templates/components/footer.html:16
+msgid "Méthodologie"
+msgstr "Methodology"
+
+#: templates/components/footer.html:20
+msgid "Ressources"
+msgstr "Resources"
+
+#: templates/components/footer.html:22
+msgid "Documentation API"
+msgstr "API Documentation"
+
+#: templates/components/footer.html:23
+msgid "Guide du Contributeur"
+msgstr "Contributor Guide"
+
+#: templates/components/footer.html:24
+msgid "Github"
+msgstr "Github"
+
+#: templates/components/footer.html:30
+msgid "Sous licence MIT."
+msgstr "Under MIT license."
+
+#: templates/components/footer.html:35 templates/pages/auth/register.html:121
+msgid "Politique de confidentialité"
+msgstr "Privacy Policy"
+
+#: templates/components/footer.html:39 templates/pages/auth/register.html:119
+msgid "Conditions d'utilisation"
+msgstr "Terms of Service"
+
+#: templates/components/navbar.html:10 templates/components/navbar.html:93
+msgid "Home"
+msgstr "Home"
+
+#: templates/components/navbar.html:11 templates/components/navbar.html:94
+msgid "Translator"
+msgstr "Translator"
+
+#: templates/components/navbar.html:12 templates/components/navbar.html:95
+msgid "Contribute"
+msgstr "Contribute"
+
+#: templates/components/navbar.html:66 templates/components/navbar.html:137
+msgid "Administration"
+msgstr "Administration"
+
+#: templates/components/navbar.html:69 templates/components/navbar.html:139
+msgid "Déconnexion"
+msgstr "Logout"
+
+#: templates/components/navbar.html:76 templates/components/navbar.html:143
+msgid "Login"
+msgstr "Login"
+
+#: templates/components/navbar.html:77 templates/components/navbar.html:144
+msgid "Register"
+msgstr "Register"
+
+#: templates/contribution/audio_recording.html:4
+#: templates/contribution/dashboard.html:26
+msgid "Enregistrement Vocal"
+msgstr "Voice Recording"
+
+#: templates/contribution/audio_recording.html:12
+#: templates/contribution/text_registration.html:12
+msgid "Retour au tableau de bord"
+msgstr "Back to dashboard"
+
+#: templates/contribution/audio_recording.html:19
+msgid "Enregistrement pour"
+msgstr "Recording for"
+
+#: templates/contribution/audio_recording.html:35
+msgid ""
+"Aucune phrase disponible. Veuillez ajouter des phrases en TSV pour cette "
+"langue."
+msgstr "No phrases available. Please add phrases to the TSV file for this language."
+
+#: templates/contribution/audio_recording.html:65
+msgid "Envoyer l'enregistrement"
+msgstr "Submit recording"
+
+#: templates/contribution/audio_recording.html:70
+msgid "Appuyez sur le micro pour commencer"
+msgstr "Press the mic to start"
+
+#: templates/contribution/audio_recording.html:151
+msgid "Enregistrement en cours..."
+msgstr "Recording..."
+
+#: templates/contribution/audio_recording.html:158
+msgid "Impossible d\\"
+msgstr "Unable to access mic. Please check your permissions."
+
+#: templates/contribution/audio_recording.html:172
+msgid "Enregistré"
+msgstr "Recorded"
+
+#: templates/contribution/audio_recording.html:180
+msgid "Prêt à être envoyé"
+msgstr "Ready to submit"
+
+#: templates/contribution/audio_recording.html:186
+msgid "Appuyez sur le micro pour recommencer"
+msgstr "Press the mic to record again"
+
+#: templates/contribution/audio_recording.html:213
+msgid "Envoi..."
+msgstr "Sending..."
+
+#: templates/contribution/audio_recording.html:223
+msgid "Enregistrement envoyé avec succès !"
+msgstr "Recording submitted successfully!"
+
+#: templates/contribution/audio_recording.html:229
+msgid "Envoyer l\\"
+msgstr "Submit recording"
+
+#: templates/contribution/audio_recording.html:235
+#: templates/contribution/text_registration.html:122
+msgid "Erreur lors de l\\"
+msgstr "Error during submission"
+
+#: templates/contribution/dashboard.html:4
+msgid "Tableau de bord de contribution"
+msgstr "Contribution Dashboard"
+
+#: templates/contribution/dashboard.html:12
+msgid "Espace Contribution"
+msgstr "Contribution Space"
+
+#: templates/contribution/dashboard.html:15
+msgid ""
+"Merci de consacrer du temps à la préservation de nos langues. Choisissez une "
+"méthode de contribution ci-dessous."
+msgstr "Thank you for helping preserve our languages. Choose a contribution method below."
+
+#: templates/contribution/dashboard.html:28
+msgid ""
+"Lisez des phrases affichées à l'écran dans votre langue maternelle. Vos "
+"enregistrements aideront à créer des outils de reconnaissance vocale."
+msgstr "Read phrases displayed on screen in your mother tongue. Your recordings will help build speech recognition tools."
+
+#: templates/contribution/dashboard.html:31
+msgid "Commencer"
+msgstr "Get Started"
+
+#: templates/contribution/dashboard.html:40
+msgid "Paires de Phrases"
+msgstr "Phrase Pairs"
+
+#: templates/contribution/dashboard.html:42
+msgid ""
+"Ajoutez de nouvelles phrases dans votre langue maternelle avec leur "
+"traduction en français pour enrichir notre corpus textuel."
+msgstr "Add new phrases in your mother tongue with their French translation to enrich our text corpus."
+
+#: templates/contribution/dashboard.html:45 templates/pages/home.html:28
+msgid "Contribuer"
+msgstr "Contribute"
+
+#: templates/contribution/dashboard.html:54
+msgid "Pourquoi contribuer ?"
+msgstr "Why contribute?"
+
+#: templates/contribution/dashboard.html:56
+msgid ""
+"Chaque contribution rapproche nos langues de la modernité numérique. En "
+"enregistrant votre voix ou en traduisant des textes, vous permettez aux "
+"futurs outils d'IA de comprendre et de parler nos langues."
+msgstr "Every contribution brings our languages closer to the digital age. By recording your voice or translating texts, you enable future AI tools to understand and speak our languages."
+
+#: templates/contribution/dashboard.html:62
+msgid "Audios"
+msgstr "Audios"
+
+#: templates/contribution/dashboard.html:66
+msgid "Textes"
+msgstr "Texts"
+
+#: templates/contribution/text_registration.html:4
+msgid "Enregistrement de phrases"
+msgstr "Phrase Registration"
+
+#: templates/contribution/text_registration.html:18
+msgid "Ajouter une paire de phrases"
+msgstr "Add a phrase pair"
+
+#: templates/contribution/text_registration.html:20
+msgid ""
+"Contribuez en ajoutant des phrases traduites pour enrichir notre base de "
+"données."
+msgstr "Contribute by adding translated phrases to enrich our database."
+
+#: templates/contribution/text_registration.html:30
+msgid "Langue cible"
+msgstr "Target language"
+
+#: templates/contribution/text_registration.html:44
+msgid "Phrase dans la langue d'origine"
+msgstr "Phrase in the original language"
+
+#: templates/contribution/text_registration.html:46
+msgid "Entrez la phrase ici..."
+msgstr "Enter the phrase here..."
+
+#: templates/contribution/text_registration.html:53
+msgid "Traduction en Français"
+msgstr "French Translation"
+
+#: templates/contribution/text_registration.html:55
+msgid "Entrez la traduction ici..."
+msgstr "Enter the translation here..."
+
+#: templates/contribution/text_registration.html:61
+#: templates/contribution/text_registration.html:125
+msgid "Enregistrer la paire"
+msgstr "Save pair"
+
+#: templates/contribution/text_registration.html:69
+msgid "Vos dernières contributions"
+msgstr "Your latest contributions"
+
+#: templates/contribution/text_registration.html:112
+msgid "Paire de phrases enregistrée avec succès !"
+msgstr "Phrase pair saved successfully!"
+
+#: templates/pages/about.html:135
+msgid "Vous avez des questions ou souhaitez nous rejoindre ?"
+msgstr ""
+
+#: templates/pages/auth/login.html:4
+msgid "Connexion"
+msgstr "Login"
+
+#: templates/pages/auth/login.html:12
+msgid "Bienvenue"
+msgstr "Welcome"
+
+#: templates/pages/auth/login.html:15
+msgid "Connectez-vous pour continuer l'aventure."
+msgstr "Login to continue the adventure."
+
+#: templates/pages/auth/login.html:45
+msgid "Se connecter"
+msgstr "Login"
+
+#: templates/pages/auth/login.html:65
+msgid "Pas encore de compte ?"
+msgstr "No account yet?"
+
+#: templates/pages/auth/login.html:67
+msgid "Inscrivez-vous"
+msgstr "Sign up"
+
+#: templates/pages/auth/register.html:4
+msgid "Créer un compte"
+msgstr "Create an account"
+
+#: templates/pages/auth/register.html:12
+msgid "Rejoindre Lugayetu"
+msgstr "Join Lugayetu"
+
+#: templates/pages/auth/register.html:15
+msgid ""
+"Devenez gardien de notre héritage linguistique. Votre voix est précieuse."
+msgstr "Become a guardian of our linguistic heritage. Your voice is precious."
+
+#: templates/pages/auth/register.html:25
+msgid "1. Identité"
+msgstr "1. Identity"
+
+#: templates/pages/auth/register.html:54
+msgid "2. Origine & Langue"
+msgstr "2. Origin & Language"
+
+#: templates/pages/auth/register.html:78
+msgid "3. Sécurité"
+msgstr "3. Security"
+
+#: templates/pages/auth/register.html:118
+msgid "J'accepte les"
+msgstr "I accept the"
+
+#: templates/pages/auth/register.html:120
+msgid "et la"
+msgstr "and the"
+
+#: templates/pages/auth/register.html:122
+msgid "de Lugayetu."
+msgstr "of Lugayetu."
+
+#: templates/pages/auth/register.html:129
+msgid "Créer mon compte"
+msgstr "Create my account"
+
+#: templates/pages/auth/register.html:171
+msgid "Déjà inscrit ?"
+msgstr "Already registered?"
+
+#: templates/pages/auth/register.html:173
+msgid "Connectez-vous ici"
+msgstr "Login here"
+
+#: templates/pages/home.html:12
+msgid "Patrimoine Linguistique Vivant"
+msgstr "Living Linguistic Heritage"
+
+#: templates/pages/home.html:23 templates/pages/translator.html:62
+msgid "Traduire"
+msgstr "Translate"
+
+#: templates/pages/home.html:42
+#, fuzzy
+#| msgid "\"Un peuple qui perd sa langue perd son âme.\""
+msgid "Un peuple qui perd sa langue perd son âme."
+msgstr "\"A people that loses its language loses its soul.\""
+
+#: templates/pages/home.html:45
+msgid "— Eliezer Mununga"
+msgstr ""
+
+#: templates/pages/home.html:64
+msgid "Voir le rapport complet"
+msgstr "View full report"
+
+#: templates/pages/home.html:76
+msgid "Enregistrements vocaux sécurisés"
+msgstr "Secure voice recordings"
+
+#: templates/pages/home.html:86
+msgid "Paires de phrases"
+msgstr ""
+
+#: templates/pages/home.html:94
+msgid "Contributeurs actifs"
+msgstr "Active contributors"
+
+#: templates/pages/home.html:126
+msgid "Archives Numériques"
+msgstr "Digital Archives"
+
+#: templates/pages/home.html:127
+msgid ""
+"Créer la plus grande base de données linguistique numérique pour les langues "
+"bantoues et nilotiques de la région."
+msgstr ""
+"Create the largest digital linguistic database for the Bantu and Nilotic "
+"languages of the region."
+
+#: templates/pages/home.html:137
+msgid "Engagement Communautaire"
+msgstr "Community Engagement"
+
+#: templates/pages/home.html:138
+msgid ""
+"Impliquer les aînés et les experts locaux pour garantir l'authenticité et la "
+"nuance de chaque traduction enregistrée."
+msgstr ""
+"Involve elders and local experts to ensure the authenticity and nuance of "
+"each recorded translation."
+
+#: templates/pages/home.html:148
+msgid "Accessibilité Moderne"
+msgstr "Modern Accessibility"
+
+#: templates/pages/home.html:149
+msgid ""
+"Rendre ces langues accessibles via des outils d'IA et de traduction pour "
+"encourager leur usage quotidien par la jeunesse."
+msgstr ""
+"Make these languages accessible via AI and translation tools to encourage "
+"their daily use by the youth."
+
+#: templates/pages/home.html:173
+msgid "Devenir Contributeur"
+msgstr "Become a Contributor"
+
+#: templates/pages/home.html:177
+msgid "Explorer la Bibliothèque"
+msgstr "Explore the Library"
+
+#: templates/pages/legal.html:15
+msgid "Dernière mise à jour :"
+msgstr "Last updated:"
+
+#: templates/pages/legal.html:28
+msgid "Documents Légaux"
+msgstr "Legal Documents"
+
+#: templates/pages/legal.html:48
+msgid "Des questions ?"
+msgstr "Questions?"
+
+#: templates/pages/legal.html:51
+msgid ""
+"Si vous avez des questions concernant nos politiques ou vos données, "
+"n'hésitez pas à nous contacter."
+msgstr ""
+"If you have any questions about our policies or your data, please do not "
+"hesitate to contact us."
+
+#: templates/pages/profile.html:32
+msgid "Compte Approuvé"
+msgstr ""
+
+#: templates/pages/profile.html:36
+msgid "En attente d\\"
+msgstr ""
+
+#: templates/pages/profile.html:53
+msgid "Modifier"
+msgstr ""
+
+#: templates/pages/profile.html:65
+msgid "Informations du Compte"
+msgstr ""
+
+#: templates/pages/profile.html:73
+msgid "Statut"
+msgstr ""
+
+#: templates/pages/profile.html:82
+msgid "En attente"
+msgstr ""
+
+#: templates/pages/profile.html:87
+msgid "Date d'inscription"
+msgstr ""
+
+#: templates/pages/profile.html:97
+msgid "Informations Personnelles"
+msgstr ""
+
+#: templates/pages/profile.html:102
+msgid "ans"
+msgstr ""
+
+#: templates/pages/profile.html:109
+#, fuzzy
+#| msgid "Langue maternelle"
+msgid "Langue Maternelle"
+msgstr "Mother Tongue"
+
+#: templates/pages/profile.html:119
+msgid "Localisation"
+msgstr ""
+
+#: templates/pages/profile.html:137
+msgid "Activités Récentes"
+msgstr ""
+
+#: templates/pages/profile.html:139
+msgid ""
+"Vos contributions récentes et votre historique de traduction apparaîtront "
+"ici prochainement."
+msgstr ""
+
+#: templates/pages/translator.html:18
+msgid "Kutafsiri"
+msgstr "Kutafsiri"
+
+#: templates/pages/translator.html:21
+msgid "Traduisez vos pensées entre le Ruund et le Français."
+msgstr "Translate your thoughts between Ruund and French."
+
+#: templates/pages/translator.html:31
+msgid "Ruund"
+msgstr "Ruund"
+
+#: templates/pages/translator.html:37
+msgid "Français"
+msgstr "French"
+
+#: templates/pages/translator.html:42
+msgid "La Traduction peut etre erronee"
+msgstr "Translation may contain errors"
+
+#: templates/pages/translator.html:51
+msgid "Saisir le texte"
+msgstr "Enter text"
+
+#: templates/pages/translator.html:58
+msgid "Entrez votre texte ici..."
+msgstr "Enter your text here..."
+
+#: templates/pages/translator.html:77
+msgid "Traduction"
+msgstr "Translation"
+
+#: templates/pages/translator.html:78
+msgid "Copier"
+msgstr "Copy"
+
+#: templates/pages/translator.html:83 templates/pages/translator.html:130
+#: templates/pages/translator.html:138 templates/pages/translator.html:180
+msgid "La traduction apparaîtra ici..."
+msgstr "Translation will appear here..."
+
+#: templates/pages/translator.html:86
+msgid "Bonne traduction"
+msgstr "Good translation"
+
+#: templates/pages/translator.html:89
+msgid "Mauvaise traduction"
+msgstr "Bad translation"
+
+#: templates/pages/translator.html:216
+msgid "Une erreur est survenue lors de la traduction."
+msgstr "An error occurred during translation."
+
+#: templates/pages/translator.html:219
+msgid "Erreur de connexion au serveur."
+msgstr "Server connection error."
+
+#: translator/views.py:15
+msgid "Traducteur Ruund - Français"
+msgstr "Ruund - French Translator"
+
+#~ msgid "Bienvenue,"
+#~ msgstr "Welcome,"
+
+#~ msgid "— Sagesse locale"
+#~ msgstr "— Local wisdom"

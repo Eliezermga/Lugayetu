@@ -1,0 +1,749 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-06 01:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: core/admin.py:22 core/admin.py:25
+msgid "Profil Lugayetu"
+msgstr ""
+
+#: core/admin.py:30
+msgid "Les utilisateurs sélectionnés ont été approuvés."
+msgstr ""
+
+#: core/admin.py:31
+msgid "Approuver les utilisateurs sélectionnés"
+msgstr ""
+
+#: core/admin.py:37
+msgid "Structure"
+msgstr ""
+
+#: core/admin.py:40
+msgid "Contenu"
+msgstr ""
+
+#: core/admin.py:42
+msgid ""
+"<b>Guide de style HTML :</b><br>Utilisez <code>&lt;h3&gt;</code> pour les "
+"titres de section.<br>Utilisez <code>&lt;p&gt;</code> pour les paragraphes."
+"<br>Utilisez <code>&lt;ul&gt;</code> et <code>&lt;li&gt;</code> pour les "
+"listes à puces.<br>Utilisez <code>&lt;strong&gt;</code> pour mettre en gras."
+msgstr ""
+
+#: core/admin.py:53
+msgid "Hero Section"
+msgstr ""
+
+#: core/admin.py:56
+msgid "Stats Section"
+msgstr ""
+
+#: core/admin.py:59
+msgid "Mission Section"
+msgstr ""
+
+#: core/admin.py:62
+msgid "CTA Section"
+msgstr ""
+
+#: core/admin.py:75
+msgid "Header & Hero"
+msgstr ""
+
+#: core/admin.py:78
+msgid "Quote"
+msgstr ""
+
+#: core/admin.py:81
+msgid "Mission & Vision"
+msgstr ""
+
+#: core/admin.py:85
+msgid "Why Lugayetu"
+msgstr ""
+
+#: core/admin.py:88
+msgid "History & Timeline"
+msgstr ""
+
+#: core/admin.py:91
+msgid "Team & Contact"
+msgstr ""
+
+#: core/admin.py:95
+msgid "Footer Message"
+msgstr ""
+
+#: core/forms.py:9 core/forms.py:70
+msgid "Mot de passe"
+msgstr ""
+
+#: core/forms.py:14
+msgid "Confirmer le mot de passe"
+msgstr ""
+
+#: core/forms.py:19
+msgid ""
+"J'accepte les conditions d'utilisation et la politique de confidentialité"
+msgstr ""
+
+#: core/forms.py:29
+msgid "Ex: Mununga"
+msgstr ""
+
+#: core/forms.py:30
+msgid "Ex: Eliezer"
+msgstr ""
+
+#: core/forms.py:31
+msgid "votre@email.com"
+msgstr ""
+
+#: core/forms.py:36
+msgid "Ex: Kolwezi"
+msgstr ""
+
+#: core/forms.py:39
+msgid "Nom"
+msgstr ""
+
+#: core/forms.py:40
+msgid "Prénom"
+msgstr ""
+
+#: core/forms.py:41
+msgid "Adresse email"
+msgstr ""
+
+#: core/forms.py:42 core/models.py:67
+msgid "Âge"
+msgstr ""
+
+#: core/forms.py:43 core/models.py:70
+msgid "Sexe"
+msgstr ""
+
+#: core/forms.py:44 core/models.py:73
+msgid "Langue maternelle"
+msgstr ""
+
+#: core/forms.py:45 core/models.py:76
+msgid "Province"
+msgstr ""
+
+#: core/forms.py:46 core/models.py:77
+msgid "Ville / Village"
+msgstr ""
+
+#: core/forms.py:55
+msgid "Les mots de passe ne correspondent pas."
+msgstr ""
+
+#: core/forms.py:69
+msgid "Email"
+msgstr ""
+
+#: core/models.py:8
+msgid "Nom de la langue"
+msgstr ""
+
+#: core/models.py:9
+msgid "Code ISO/Interne"
+msgstr ""
+
+#: core/models.py:10
+msgid "Description"
+msgstr ""
+
+#: core/models.py:11
+msgid "Active"
+msgstr ""
+
+#: core/models.py:14
+msgid "Langue"
+msgstr ""
+
+#: core/models.py:15
+msgid "Langues"
+msgstr ""
+
+#: core/models.py:22
+msgid "Contributeur"
+msgstr ""
+
+#: core/models.py:23
+msgid "Sous-Admin"
+msgstr ""
+
+#: core/models.py:24
+msgid "Administrateur"
+msgstr ""
+
+#: core/models.py:28
+msgid "Homme"
+msgstr ""
+
+#: core/models.py:29
+msgid "Femme"
+msgstr ""
+
+#: core/models.py:33
+msgid "Bas-Uele"
+msgstr ""
+
+#: core/models.py:34
+msgid "Équateur"
+msgstr ""
+
+#: core/models.py:35
+msgid "Haut-Katanga"
+msgstr ""
+
+#: core/models.py:36
+msgid "Haut-Lomami"
+msgstr ""
+
+#: core/models.py:37
+msgid "Haut-Uele"
+msgstr ""
+
+#: core/models.py:38
+msgid "Ituri"
+msgstr ""
+
+#: core/models.py:39
+msgid "Kasaï"
+msgstr ""
+
+#: core/models.py:40
+msgid "Kasaï-Central"
+msgstr ""
+
+#: core/models.py:41
+msgid "Kasaï-Oriental"
+msgstr ""
+
+#: core/models.py:42
+msgid "Kinshasa"
+msgstr ""
+
+#: core/models.py:43
+msgid "Kongo-Central"
+msgstr ""
+
+#: core/models.py:44
+msgid "Kwango"
+msgstr ""
+
+#: core/models.py:45
+msgid "Kwilu"
+msgstr ""
+
+#: core/models.py:46
+msgid "Lomami"
+msgstr ""
+
+#: core/models.py:47
+msgid "Lualaba"
+msgstr ""
+
+#: core/models.py:48
+msgid "Mai-Ndombe"
+msgstr ""
+
+#: core/models.py:49
+msgid "Maniema"
+msgstr ""
+
+#: core/models.py:50
+msgid "Mongala"
+msgstr ""
+
+#: core/models.py:51
+msgid "Nord-Kivu"
+msgstr ""
+
+#: core/models.py:52
+msgid "Nord-Ubangi"
+msgstr ""
+
+#: core/models.py:53
+msgid "Sankuru"
+msgstr ""
+
+#: core/models.py:54
+msgid "Sud-Kivu"
+msgstr ""
+
+#: core/models.py:55
+msgid "Sud-Ubangi"
+msgstr ""
+
+#: core/models.py:56
+msgid "Tanganyika"
+msgstr ""
+
+#: core/models.py:57
+msgid "Tshopo"
+msgstr ""
+
+#: core/models.py:58
+msgid "Tshuapa"
+msgstr ""
+
+#: core/models.py:61
+msgid "adresse email"
+msgstr ""
+
+#: core/models.py:62
+msgid "prénom"
+msgstr ""
+
+#: core/models.py:63
+msgid "nom"
+msgstr ""
+
+#: core/models.py:79
+msgid "Rôle"
+msgstr ""
+
+#: core/models.py:80
+msgid "Approuvé"
+msgstr ""
+
+#: core/models.py:87
+msgid "Utilisateur"
+msgstr ""
+
+#: core/models.py:88
+msgid "Utilisateurs"
+msgstr ""
+
+#: core/models.py:130
+msgid "Contenu Page d'Accueil"
+msgstr ""
+
+#: core/models.py:131
+msgid "Contenus Page d'Accueil"
+msgstr ""
+
+#: core/models.py:134
+msgid "Contenu de la Page d'Accueil"
+msgstr ""
+
+#: core/models.py:226
+msgid "Contenu Page À propos"
+msgstr ""
+
+#: core/models.py:227
+msgid "Contenus Page À propos"
+msgstr ""
+
+#: core/models.py:230
+msgid "Contenu de la Page À propos"
+msgstr ""
+
+#: core/models.py:334
+msgid "Politique de Confidentialité"
+msgstr ""
+
+#: core/models.py:335
+msgid "Conditions d'Utilisation"
+msgstr ""
+
+#: core/models.py:336 templates/components/footer.html:43
+msgid "Mentions Légales"
+msgstr ""
+
+#: core/models.py:339
+msgid "Identifiant technique de la page"
+msgstr ""
+
+#: core/models.py:341
+msgid "Titre (FR)"
+msgstr ""
+
+#: core/models.py:342
+msgid "Titre (EN)"
+msgstr ""
+
+#: core/models.py:345
+msgid "Contenu (FR)"
+msgstr ""
+
+#: core/models.py:346
+msgid ""
+"Utilisez des balises HTML pour la structure : <br><b>&lt;h3&gt;</b> Titre de "
+"section <br><b>&lt;p&gt;</b> Paragraphe <br><b>&lt;ul&gt;&lt;li&gt;</b> "
+"Listes <br><b>&lt;strong&gt;</b> Texte important"
+msgstr ""
+
+#: core/models.py:349
+msgid "Contenu (EN)"
+msgstr ""
+
+#: core/models.py:350
+msgid ""
+"Use HTML tags for structure: <br><b>&lt;h3&gt;</b> Section Title <br><b>&lt;"
+"p&gt;</b> Paragraph <br><b>&lt;ul&gt;&lt;li&gt;</b> Lists <br><b>&lt;"
+"strong&gt;</b> Important text"
+msgstr ""
+
+#: core/models.py:356
+msgid "Page Légale"
+msgstr ""
+
+#: core/models.py:357
+msgid "Pages Légales"
+msgstr ""
+
+#: core/views.py:33
+msgid ""
+"Votre compte a été créé avec succès ! Il est actuellement en attente "
+"d'approbation par un administrateur."
+msgstr ""
+
+#: core/views.py:36
+msgid "Veuillez corriger les erreurs dans le formulaire."
+msgstr ""
+
+#: core/views.py:50
+msgid "Heureux de vous revoir !"
+msgstr ""
+
+#: core/views.py:53
+msgid "Votre compte n'a pas encore été approuvé par un administrateur."
+msgstr ""
+
+#: core/views.py:55
+msgid "Email ou mot de passe incorrect."
+msgstr ""
+
+#: templates/components/footer.html:8
+msgid ""
+"Préservation numérique des langues minoritaires à travers une plateforme "
+"collaborative open source."
+msgstr ""
+
+#: templates/components/footer.html:12
+msgid "Projet"
+msgstr ""
+
+#: templates/components/footer.html:14
+msgid "À propos"
+msgstr ""
+
+#: templates/components/footer.html:15 templates/pages/home.html:86
+msgid "Langues documentées"
+msgstr ""
+
+#: templates/components/footer.html:16
+msgid "Méthodologie"
+msgstr ""
+
+#: templates/components/footer.html:20
+msgid "Ressources"
+msgstr ""
+
+#: templates/components/footer.html:22
+msgid "Documentation API"
+msgstr ""
+
+#: templates/components/footer.html:23
+msgid "Guide du Contributeur"
+msgstr ""
+
+#: templates/components/footer.html:24
+msgid "Github"
+msgstr ""
+
+#: templates/components/footer.html:30
+msgid "Sous licence MIT."
+msgstr ""
+
+#: templates/components/footer.html:35 templates/pages/auth/register.html:121
+msgid "Politique de confidentialité"
+msgstr ""
+
+#: templates/components/footer.html:39 templates/pages/auth/register.html:119
+msgid "Conditions d'utilisation"
+msgstr ""
+
+#: templates/components/navbar.html:8
+msgid "Home"
+msgstr ""
+
+#: templates/components/navbar.html:9
+msgid "Translator"
+msgstr ""
+
+#: templates/components/navbar.html:10
+msgid "Contribute"
+msgstr ""
+
+#: templates/components/navbar.html:53
+msgid "Bienvenue,"
+msgstr ""
+
+#: templates/components/navbar.html:63
+msgid "Mon Profil"
+msgstr ""
+
+#: templates/components/navbar.html:65
+msgid "Administration"
+msgstr ""
+
+#: templates/components/navbar.html:68
+msgid "Déconnexion"
+msgstr ""
+
+#: templates/components/navbar.html:75
+msgid "Login"
+msgstr ""
+
+#: templates/components/navbar.html:76
+msgid "Register"
+msgstr ""
+
+#: templates/pages/about.html:135
+msgid "Vous avez des questions ou souhaitez nous rejoindre ?"
+msgstr ""
+
+#: templates/pages/auth/login.html:4
+msgid "Connexion"
+msgstr ""
+
+#: templates/pages/auth/login.html:12
+msgid "Bienvenue"
+msgstr ""
+
+#: templates/pages/auth/login.html:15
+msgid "Connectez-vous pour continuer l'aventure."
+msgstr ""
+
+#: templates/pages/auth/login.html:45
+msgid "Se connecter"
+msgstr ""
+
+#: templates/pages/auth/login.html:65
+msgid "Pas encore de compte ?"
+msgstr ""
+
+#: templates/pages/auth/login.html:67
+msgid "Inscrivez-vous"
+msgstr ""
+
+#: templates/pages/auth/register.html:4
+msgid "Créer un compte"
+msgstr ""
+
+#: templates/pages/auth/register.html:12
+msgid "Rejoindre Lugayetu"
+msgstr ""
+
+#: templates/pages/auth/register.html:15
+msgid ""
+"Devenez gardien de notre héritage linguistique. Votre voix est précieuse."
+msgstr ""
+
+#: templates/pages/auth/register.html:25
+msgid "1. Identité"
+msgstr ""
+
+#: templates/pages/auth/register.html:54
+msgid "2. Origine & Langue"
+msgstr ""
+
+#: templates/pages/auth/register.html:78
+msgid "3. Sécurité"
+msgstr ""
+
+#: templates/pages/auth/register.html:118
+msgid "J'accepte les"
+msgstr ""
+
+#: templates/pages/auth/register.html:120
+msgid "et la"
+msgstr ""
+
+#: templates/pages/auth/register.html:122
+msgid "de Lugayetu."
+msgstr ""
+
+#: templates/pages/auth/register.html:129
+msgid "Créer mon compte"
+msgstr ""
+
+#: templates/pages/auth/register.html:149
+msgid "Déjà inscrit ?"
+msgstr ""
+
+#: templates/pages/auth/register.html:151
+msgid "Connectez-vous ici"
+msgstr ""
+
+#: templates/pages/home.html:12
+msgid "Patrimoine Linguistique Vivant"
+msgstr ""
+
+#: templates/pages/home.html:23 templates/pages/translator.html:62
+msgid "Traduire"
+msgstr ""
+
+#: templates/pages/home.html:28
+msgid "Contribuer"
+msgstr ""
+
+#: templates/pages/home.html:42
+msgid "Un peuple qui perd sa langue perd son âme."
+msgstr ""
+
+#: templates/pages/home.html:45
+msgid "— Eliezer Mununga"
+msgstr ""
+
+#: templates/pages/home.html:64
+msgid "Voir le rapport complet"
+msgstr ""
+
+#: templates/pages/home.html:76
+msgid "Enregistrements vocaux sécurisés"
+msgstr ""
+
+#: templates/pages/home.html:95
+msgid "Contributeurs actifs"
+msgstr ""
+
+#: templates/pages/home.html:127
+msgid "Archives Numériques"
+msgstr ""
+
+#: templates/pages/home.html:128
+msgid ""
+"Créer la plus grande base de données linguistique numérique pour les langues "
+"bantoues et nilotiques de la région."
+msgstr ""
+
+#: templates/pages/home.html:138
+msgid "Engagement Communautaire"
+msgstr ""
+
+#: templates/pages/home.html:139
+msgid ""
+"Impliquer les aînés et les experts locaux pour garantir l'authenticité et la "
+"nuance de chaque traduction enregistrée."
+msgstr ""
+
+#: templates/pages/home.html:149
+msgid "Accessibilité Moderne"
+msgstr ""
+
+#: templates/pages/home.html:150
+msgid ""
+"Rendre ces langues accessibles via des outils d'IA et de traduction pour "
+"encourager leur usage quotidien par la jeunesse."
+msgstr ""
+
+#: templates/pages/home.html:174
+msgid "Devenir Contributeur"
+msgstr ""
+
+#: templates/pages/home.html:178
+msgid "Explorer la Bibliothèque"
+msgstr ""
+
+#: templates/pages/legal.html:15
+msgid "Dernière mise à jour :"
+msgstr ""
+
+#: templates/pages/legal.html:28
+msgid "Documents Légaux"
+msgstr ""
+
+#: templates/pages/legal.html:48
+msgid "Des questions ?"
+msgstr ""
+
+#: templates/pages/legal.html:51
+msgid ""
+"Si vous avez des questions concernant nos politiques ou vos données, "
+"n'hésitez pas à nous contacter."
+msgstr ""
+
+#: templates/pages/translator.html:18
+msgid "Kutafsiri"
+msgstr ""
+
+#: templates/pages/translator.html:21
+msgid "Traduisez vos pensées entre le Ruund et le Français."
+msgstr ""
+
+#: templates/pages/translator.html:31
+msgid "Ruund"
+msgstr ""
+
+#: templates/pages/translator.html:37
+msgid "Français"
+msgstr ""
+
+#: templates/pages/translator.html:42
+msgid "La Traduction peut etre erronee"
+msgstr ""
+
+#: templates/pages/translator.html:51
+msgid "Saisir le texte"
+msgstr ""
+
+#: templates/pages/translator.html:58
+msgid "Entrez votre texte ici..."
+msgstr ""
+
+#: templates/pages/translator.html:77
+msgid "Traduction"
+msgstr ""
+
+#: templates/pages/translator.html:78
+msgid "Copier"
+msgstr ""
+
+#: templates/pages/translator.html:83 templates/pages/translator.html:130
+#: templates/pages/translator.html:138 templates/pages/translator.html:180
+msgid "La traduction apparaîtra ici..."
+msgstr ""
+
+#: templates/pages/translator.html:86
+msgid "Bonne traduction"
+msgstr ""
+
+#: templates/pages/translator.html:89
+msgid "Mauvaise traduction"
+msgstr ""
+
+#: templates/pages/translator.html:216
+msgid "Une erreur est survenue lors de la traduction."
+msgstr ""
+
+#: templates/pages/translator.html:219
+msgid "Erreur de connexion au serveur."
+msgstr ""
+
+#: translator/views.py:15
+msgid "Traducteur Ruund - Français"
+msgstr ""

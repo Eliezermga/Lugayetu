@@ -1,0 +1,48 @@
+{% load i18n %}
+<footer class="bg-surface-container-lowest dark:bg-surface-container-dark border-t border-outline-variant/30 dark:border-outline-variant/10 pt-16 pb-8">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-2">
+                <a href="{% url 'home' %}" class="font-display text-h2 text-primary dark:text-inverse-primary mb-4 block hover:opacity-80 transition-opacity">Lugayetu</a>
+                <p class="font-body-sm text-body-sm text-on-surface-variant dark:text-gray-400 max-w-sm">
+                    {% trans "Préservation numérique des langues minoritaires à travers une plateforme collaborative open source." %}
+                </p>
+            </div>
+            <div>
+                <h4 class="font-label-lg text-label-lg text-on-surface dark:text-white mb-6 uppercase">{% trans "Projet" %}</h4>
+                <ul class="space-y-4 font-body-sm text-body-sm text-on-surface-variant dark:text-gray-400">
+                    <li><a href="{% url 'about' %}" class="{% if request.resolver_match.url_name == 'about' %}text-primary dark:text-inverse-primary font-bold{% else %}hover:text-primary dark:hover:text-inverse-primary{% endif %} transition-colors">{% trans "À propos" %}</a></li>
+                    <li><a href="https://huggingface.co/datasets/eliezermga/ruund-french-parallel-corpus" class="hover:text-primary dark:hover:text-inverse-primary transition-colors">{% trans "Langues documentées" %}</a></li>
+                    <li><a href="#" class="hover:text-primary dark:hover:text-inverse-primary transition-colors">{% trans "Méthodologie" %}</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-label-lg text-label-lg text-on-surface dark:text-white mb-6 uppercase">{% trans "Ressources" %}</h4>
+                <ul class="space-y-4 font-body-sm text-body-sm text-on-surface-variant dark:text-gray-400">
+                    <li><a href="#" class="hover:text-primary dark:hover:text-inverse-primary transition-colors">{% trans "Documentation API" %}</a></li>
+                    <li><a href="#" class="hover:text-primary dark:hover:text-inverse-primary transition-colors">{% trans "Guide du Contributeur" %}</a></li>
+                    <li><a href="https://github.com/Eliezermga/Lugayetu" class="hover:text-primary dark:hover:text-inverse-primary transition-colors">{% trans "Github" %}</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-outline-variant/30 dark:border-outline-variant/10">
+            <p class="font-caption text-caption text-on-surface-variant dark:text-gray-500 mb-4 md:mb-0">
+                © {% now "Y" %} Lugayetu Project. {% trans "Sous licence MIT." %}
+            </p>
+            <div class="flex gap-6">
+                <a href="{% url 'legal_page' 'privacy' %}" 
+                   class="transition-colors {% if request.resolver_match.url_name == 'legal_page' and request.resolver_match.kwargs.slug == 'privacy' %}text-primary dark:text-inverse-primary font-bold{% else %}text-on-surface-variant dark:text-gray-500 hover:text-primary dark:hover:text-inverse-primary{% endif %}">
+                    <span class="font-caption text-caption">{% trans "Politique de confidentialité" %}</span>
+                </a>
+                <a href="{% url 'legal_page' 'terms' %}" 
+                   class="transition-colors {% if request.resolver_match.url_name == 'legal_page' and request.resolver_match.kwargs.slug == 'terms' %}text-primary dark:text-inverse-primary font-bold{% else %}text-on-surface-variant dark:text-gray-500 hover:text-primary dark:hover:text-inverse-primary{% endif %}">
+                    <span class="font-caption text-caption">{% trans "Conditions d'utilisation" %}</span>
+                </a>
+                <a href="{% url 'legal_page' 'legal' %}" 
+                   class="transition-colors {% if request.resolver_match.url_name == 'legal_page' and request.resolver_match.kwargs.slug == 'legal' %}text-primary dark:text-inverse-primary font-bold{% else %}text-on-surface-variant dark:text-gray-500 hover:text-primary dark:hover:text-inverse-primary{% endif %}">
+                    <span class="font-caption text-caption">{% trans "Mentions Légales" %}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,180 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Créer un compte" %} - LugaYetu{% endblock %}
+
+{% block content %}
+<div class="min-h-screen py-20 auth-bg-gradient px-margin-mobile flex items-center justify-center">
+    <div class="w-full max-w-2xl animate-on-scroll">
+        <div class="glass-card rounded-[2.5rem] p-8 md:p-12">
+            <div class="text-center mb-12">
+                <h1 class="font-display text-display-sm md:text-display text-on-surface dark:text-white mb-4">
+                    {% trans "Rejoindre Lugayetu" %}
+                </h1>
+                <p class="font-body-md text-on-surface-variant dark:text-gray-400 max-w-md mx-auto">
+                    {% trans "Devenez gardien de notre héritage linguistique. Votre voix est précieuse." %}
+                </p>
+            </div>
+
+            <form method="post" class="space-y-8">
+                {% csrf_token %}
+
+                <!-- Section 1: Identity -->
+                <div class="space-y-6">
+                    <h3 class="font-label-lg text-primary dark:text-inverse-primary border-b border-primary/10 pb-2 uppercase tracking-widest">
+                        {% trans "1. Identité" %}
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.last_name.label }}</label>
+                            {{ form.last_name }}
+                            {{ form.last_name.errors }}
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.first_name.label }}</label>
+                            {{ form.first_name }}
+                            {{ form.first_name.errors }}
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.age.label }}</label>
+                            {{ form.age }}
+                            {{ form.age.errors }}
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.sexe.label }}</label>
+                            {{ form.sexe }}
+                            {{ form.sexe.errors }}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Origin & Language -->
+                <div class="space-y-6 pt-4">
+                    <h3 class="font-label-lg text-primary dark:text-inverse-primary border-b border-primary/10 pb-2 uppercase tracking-widest">
+                        {% trans "2. Origine & Langue" %}
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.province.label }}</label>
+                            {{ form.province }}
+                            {{ form.province.errors }}
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.city_village.label }}</label>
+                            {{ form.city_village }}
+                            {{ form.city_village.errors }}
+                        </div>
+                        <div class="col-span-1 md:col-span-2 space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.mother_tongue.label }}</label>
+                            {{ form.mother_tongue }}
+                            {{ form.mother_tongue.errors }}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Credentials -->
+                <div class="space-y-6 pt-4">
+                    <h3 class="font-label-lg text-primary dark:text-inverse-primary border-b border-primary/10 pb-2 uppercase tracking-widest">
+                        {% trans "3. Sécurité" %}
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="space-y-2">
+                            <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.email.label }}</label>
+                            {{ form.email }}
+                            {{ form.email.errors }}
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.password.label }}</label>
+                                <div class="password-wrapper">
+                                    {{ form.password }}
+                                    <button type="button" class="password-toggle" onclick="togglePassword('id_password', this)">
+                                        <span class="material-symbols-outlined">visibility</span>
+                                    </button>
+                                </div>
+                                {{ form.password.errors }}
+                            </div>
+                            <div class="space-y-2">
+                                <label class="block font-label-md text-on-surface-variant dark:text-gray-300 ml-1">{{ form.confirm_password.label }}</label>
+                                <div class="password-wrapper">
+                                    {{ form.confirm_password }}
+                                    <button type="button" class="password-toggle" onclick="togglePassword('id_confirm_password', this)">
+                                        <span class="material-symbols-outlined">visibility</span>
+                                    </button>
+                                </div>
+                                {{ form.confirm_password.errors }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4: Terms -->
+                <div class="pt-6 border-t border-outline-variant/30">
+                    <div class="flex items-start gap-4">
+                        <div class="pt-1">
+                            <input type="checkbox" name="accept_terms" id="id_accept_terms" required class="w-5 h-5 rounded border-outline-variant/30 text-primary focus:ring-primary/20">
+                        </div>
+                        <label for="id_accept_terms" class="font-body-sm text-on-surface-variant dark:text-gray-400 cursor-pointer">
+                            {% trans "J'accepte les" %} 
+                            <a href="{% url 'legal_page' 'terms' %}" class="text-primary hover:underline font-bold">{% trans "Conditions d'utilisation" %}</a>
+                            {% trans "et la" %}
+                            <a href="{% url 'legal_page' 'privacy' %}" class="text-primary hover:underline font-bold">{% trans "Politique de confidentialité" %}</a>
+                            {% trans "de Lugayetu." %}
+                        </label>
+                    </div>
+                    {{ form.accept_terms.errors }}
+                </div>
+
+                <button type="submit" class="w-full py-5 bg-primary text-on-primary rounded-2xl font-label-lg hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 mt-8">
+                    {% trans "Créer mon compte" %}
+                </button>
+            </form>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const ageInput = document.getElementById('id_age');
+                    if (ageInput) {
+                        ageInput.addEventListener('mousedown', function(e) {
+                            if (this.value === '') {
+                                setTimeout(() => {
+                                    if (this.value === '' || parseInt(this.value) < 13) {
+                                        this.value = '13';
+                                    }
+                                }, 10);
+                            }
+                        });
+                        
+                        ageInput.addEventListener('keydown', function(e) {
+                            if ((e.key === 'ArrowUp' || e.key === 'ArrowDown') && this.value === '') {
+                                this.value = '13';
+                                e.preventDefault();
+                            }
+                        });
+                    }
+                });
+
+                function togglePassword(fieldId, btn) {
+                    const input = document.getElementById(fieldId);
+                    const icon = btn.querySelector('.material-symbols-outlined');
+                    if (input.type === 'password') {
+                        input.type = 'text';
+                        icon.textContent = 'visibility_off';
+                    } else {
+                        input.type = 'password';
+                        icon.textContent = 'visibility';
+                    }
+                }
+            </script>
+
+            <div class="mt-12 text-center">
+                <p class="font-body-md text-on-surface-variant dark:text-gray-400">
+                    {% trans "Déjà inscrit ?" %}
+                    <a href="{% url 'login' %}" class="text-primary dark:text-inverse-primary font-bold hover:underline ml-1">
+                        {% trans "Connectez-vous ici" %}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

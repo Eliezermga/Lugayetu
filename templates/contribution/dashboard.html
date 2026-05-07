@@ -1,0 +1,73 @@
+{% extends 'base/base.html' %}
+{% load i18n static %}
+
+{% block title %}{% trans "Tableau de bord de contribution" %} - LugaYetu{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-surface dark:bg-surface-dark py-12 px-margin-mobile md:px-margin-desktop">
+    <div class="max-w-container-max mx-auto">
+        <!-- Header -->
+        <div class="mb-12 animate-on-scroll">
+            <h1 class="font-display text-display text-primary dark:text-inverse-primary mb-4">
+                {% trans "Espace Contribution" %}
+            </h1>
+            <p class="font-body-lg text-on-surface-variant dark:text-gray-400 max-w-2xl">
+                {% trans "Merci de consacrer du temps à la préservation de nos langues. Choisissez une méthode de contribution ci-dessous." %}
+            </p>
+        </div>
+
+        <!-- Contribution Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <!-- Audio Contribution Card -->
+            <a href="{% url 'contribution:audio_recording' %}" class="glass-card group hover:bg-primary/5 dark:hover:bg-primary/10 transition-all p-8 rounded-[2rem] flex flex-col items-center text-center animate-on-scroll">
+                <div class="w-20 h-20 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <span class="material-symbols-outlined text-primary dark:text-primary-light text-[40px]">mic</span>
+                </div>
+                <h3 class="font-h2 text-on-surface dark:text-white mb-4">{% trans "Enregistrement Vocal" %}</h3>
+                <p class="font-body-md text-on-surface-variant dark:text-gray-400 mb-8">
+                    {% trans "Lisez des phrases affichées à l'écran dans votre langue maternelle. Vos enregistrements aideront à créer des outils de reconnaissance vocale." %}
+                </p>
+                <div class="mt-auto px-8 py-3 bg-primary text-on-primary rounded-full font-label-lg group-hover:bg-primary/90 transition-colors">
+                    {% trans "Commencer" %}
+                </div>
+            </a>
+
+            <!-- Text Contribution Card -->
+            <a href="{% url 'contribution:text_registration' %}" class="glass-card group hover:bg-secondary/5 dark:hover:bg-secondary/10 transition-all p-8 rounded-[2rem] flex flex-col items-center text-center animate-on-scroll" style="animation-delay: 100ms;">
+                <div class="w-20 h-20 bg-secondary/10 dark:bg-secondary/20 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <span class="material-symbols-outlined text-secondary dark:text-secondary-light text-[40px]">translate</span>
+                </div>
+                <h3 class="font-h2 text-on-surface dark:text-white mb-4">{% trans "Paires de Phrases" %}</h3>
+                <p class="font-body-md text-on-surface-variant dark:text-gray-400 mb-8">
+                    {% trans "Ajoutez de nouvelles phrases dans votre langue maternelle avec leur traduction en français pour enrichir notre corpus textuel." %}
+                </p>
+                <div class="mt-auto px-8 py-3 bg-secondary text-on-primary rounded-full font-label-lg group-hover:bg-secondary/90 transition-colors">
+                    {% trans "Contribuer" %}
+                </div>
+            </a>
+        </div>
+
+        <!-- Info Section -->
+        <div class="glass-card p-10 rounded-[2.5rem] animate-on-scroll" style="animation-delay: 200ms;">
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="flex-1">
+                    <h4 class="font-h3 text-on-surface dark:text-white mb-4">{% trans "Pourquoi contribuer ?" %}</h4>
+                    <p class="font-body-md text-on-surface-variant dark:text-gray-400">
+                        {% trans "Chaque contribution rapproche nos langues de la modernité numérique. En enregistrant votre voix ou en traduisant des textes, vous permettez aux futurs outils d'IA de comprendre et de parler nos langues." %}
+                    </p>
+                </div>
+                <div class="flex-shrink-0 grid grid-cols-2 gap-4">
+                    <div class="p-6 bg-surface-container-low dark:bg-surface-container-high rounded-2xl text-center border border-outline-variant/10">
+                        <div class="text-display-sm font-display text-primary dark:text-primary-light">{{ request.user.audio_contributions.count }}</div>
+                        <div class="font-label-md text-on-surface-variant dark:text-gray-400">{% trans "Audios" %}</div>
+                    </div>
+                    <div class="p-6 bg-surface-container-low dark:bg-surface-container-high rounded-2xl text-center border border-outline-variant/10">
+                        <div class="text-display-sm font-display text-secondary dark:text-secondary-light">{{ request.user.text_contributions.count }}</div>
+                        <div class="font-label-md text-on-surface-variant dark:text-gray-400">{% trans "Textes" %}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

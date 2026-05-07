@@ -1,0 +1,150 @@
+{% load i18n %}
+<header class="fixed top-0 left-0 right-0 z-[100] bg-surface-bright dark:bg-surface-dark bg-opacity-95 dark:bg-opacity-95 backdrop-blur-md border-b border-outline-variant/20 dark:border-outline-variant/5 shadow-md">
+    <nav class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+        <div class="font-display text-h2 text-primary dark:text-inverse-primary relative z-[110]">
+            <a href="{% url 'home' %}">LugaYetu</a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex gap-8 items-center">
+            <a class="{% if request.resolver_match.url_name == 'home' %}text-primary dark:text-inverse-primary border-b-2 border-primary dark:border-inverse-primary{% else %}text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white{% endif %} pb-1 font-label-lg text-label-lg transition-colors duration-200" href="{% url 'home' %}">{% trans "Home" %}</a>
+            <a class="{% if request.resolver_match.app_name == 'translator' %}text-primary dark:text-inverse-primary border-b-2 border-primary dark:border-inverse-primary{% else %}text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white{% endif %} pb-1 font-label-lg text-label-lg transition-colors duration-200" href="{% url 'translator:index' %}">{% trans "Translator" %}</a>
+            <a class="{% if request.resolver_match.app_name == 'contribution' %}text-primary dark:text-inverse-primary border-b-2 border-primary dark:border-inverse-primary{% else %}text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white{% endif %} pb-1 font-label-lg text-label-lg transition-colors duration-200" href="{% if user.is_authenticated %}{% url 'contribution:dashboard' %}{% else %}{% url 'login' %}{% endif %}">{% trans "Contribute" %}</a>
+        </div>
+
+        <!-- Desktop Actions -->
+        <div class="hidden md:flex items-center gap-4">
+            <!-- Modern Language Switcher -->
+            <form action="{% url 'set_language' %}" method="post" id="language-form" class="m-0 relative z-50">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                {% get_current_language as LANGUAGE_CODE %}
+                <input type="hidden" name="language" id="language-input" value="{{ LANGUAGE_CODE }}">
+                
+                <div class="relative" id="language-dropdown-container">
+                    <button type="button" id="language-button" class="flex items-center gap-2 bg-surface-container-high dark:bg-gray-800 px-4 py-2 rounded-full cursor-pointer hover:bg-surface-variant dark:hover:bg-gray-700 transition-all border border-outline-variant/20 dark:border-gray-700 shadow-sm">
+                        <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-300" style="font-size: 18px;">language</span>
+                        <span class="font-label-md font-bold text-on-surface-variant dark:text-gray-300 tracking-wide">{{ LANGUAGE_CODE|upper }}</span>
+                        <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-300 transition-transform duration-200" id="language-chevron" style="font-size: 18px;">expand_more</span>
+                    </button>
+                    
+                    <div id="language-menu" class="absolute right-0 mt-3 w-40 bg-surface-container-lowest dark:bg-gray-800 rounded-xl shadow-xl border border-outline-variant/20 dark:border-gray-700 overflow-hidden opacity-0 invisible transform scale-95 origin-top-right transition-all duration-200">
+                        <ul class="py-2">
+                            {% get_available_languages as LANGUAGES %}
+                            {% for lang in LANGUAGES %}
+                            <li>
+                                <button type="button" class="lang-option w-full text-left px-5 py-2.5 font-label-md hover:bg-surface-container-high dark:hover:bg-gray-700 text-on-surface-variant dark:text-gray-300 transition-colors flex items-center justify-between" data-lang="{{ lang.0 }}">
+                                    <span>{{ lang.1 }}</span>
+                                    {% if lang.0 == LANGUAGE_CODE %}
+                                    <span class="material-symbols-outlined text-primary dark:text-inverse-primary" style="font-size: 16px;">check_circle</span>
+                                    {% endif %}
+                                </button>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </form>
+            
+            <button id="theme-toggle" class="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white transition-colors flex items-center justify-center w-10 h-10 rounded-full bg-surface-variant dark:bg-gray-800 hover:bg-surface-container-high dark:hover:bg-gray-700">
+                <span id="theme-icon" class="material-symbols-outlined" style="font-size: 20px;">dark_mode</span>
+            </button>
+            
+            {% if user.is_authenticated %}
+                <div class="flex items-center gap-4 border-l border-outline-variant/30 pl-4">
+                    <div class="hidden lg:flex">
+                        <span class="font-label-md font-bold text-primary dark:text-inverse-primary">{{ user.first_name }}</span>
+                    </div>
+                    <div class="relative group">
+                        <div class="text-primary dark:text-inverse-primary cursor-pointer hover:opacity-80 active:scale-95 transition-all">
+                            <span class="material-symbols-outlined" style="font-size: 32px;">account_circle</span>
+                        </div>
+                        <div class="absolute right-0 mt-2 w-48 bg-surface-container-lowest dark:bg-gray-800 rounded-xl shadow-xl border border-outline-variant/20 dark:border-gray-700 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                            <ul class="py-2">
+                                <li><a href="{% url 'profile' %}" class="block px-4 py-2 text-on-surface-variant dark:text-gray-300 hover:bg-surface-container-high dark:hover:bg-gray-700 font-label-md">{% trans "Mon Profil" %}</a></li>
+                                {% if user.role != 'CONTRIBUTOR' %}
+                                <li><a href="/admin/" class="block px-4 py-2 text-primary dark:text-inverse-primary hover:bg-surface-container-high dark:hover:bg-gray-700 font-label-md">{% trans "Administration" %}</a></li>
+                                {% endif %}
+                                <li><hr class="border-outline-variant/20 dark:border-gray-700 my-1"></li>
+                                <li><a href="{% url 'logout' %}" class="block px-4 py-2 text-error hover:bg-surface-container-high dark:hover:bg-gray-700 font-label-md">{% trans "Déconnexion" %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="flex items-center gap-3">
+                    <a href="{% url 'login' %}" class="hidden md:block text-on-surface-variant dark:text-gray-300 font-label-lg text-label-lg hover:text-primary dark:hover:text-white transition-colors px-4 py-2">{% trans "Login" %}</a>
+                    <a href="{% url 'register' %}" class="bg-primary text-on-primary font-label-md text-label-md px-6 py-2.5 rounded-full hover:bg-primary/90 transition-all shadow-md shadow-primary/20">{% trans "Register" %}</a>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Mobile Menu Toggle (Hamburger) -->
+        <button id="mobile-menu-toggle" class="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 focus:outline-none z-[110]" aria-label="Menu">
+            <span class="hamburger-line w-6 h-0.5 bg-primary dark:bg-inverse-primary transition-all duration-300 origin-center"></span>
+            <span class="hamburger-line w-6 h-0.5 bg-primary dark:bg-inverse-primary transition-all duration-300"></span>
+            <span class="hamburger-line w-6 h-0.5 bg-primary dark:bg-inverse-primary transition-all duration-300 origin-center"></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Drawer (Slides down from navbar) -->
+    <div id="mobile-menu" class="fixed top-20 left-0 right-0 bg-surface-bright/95 dark:bg-surface-dark/95 backdrop-blur-md z-[95] flex flex-col px-6 py-8 gap-8 border-b border-outline-variant/20 dark:border-outline-variant/5 -translate-y-full opacity-0 invisible transition-all duration-300 md:hidden overflow-y-auto max-h-[calc(100vh-5rem)]">
+        <div class="flex flex-col gap-6 items-center w-full">
+            <a class="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white text-xl font-label-lg transition-colors" href="{% url 'home' %}">{% trans "Home" %}</a>
+            <a class="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white text-xl font-label-lg transition-colors" href="{% url 'translator:index' %}">{% trans "Translator" %}</a>
+            <a class="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white text-xl font-label-lg transition-colors" href="{% if user.is_authenticated %}{% url 'contribution:dashboard' %}{% else %}{% url 'login' %}{% endif %}">{% trans "Contribute" %}</a>
+        </div>
+
+        <div class="h-px bg-outline-variant/20 dark:bg-gray-700 w-full"></div>
+
+        <div class="flex flex-col gap-6 items-center w-full pb-10">
+            <div class="flex items-center gap-6">
+                <!-- Language Switcher for Mobile -->
+                <div class="relative w-full max-w-[200px]">
+                    <button type="button" id="language-button-mobile" class="flex items-center gap-3 bg-surface-variant dark:bg-gray-800 px-5 py-3 rounded-xl border border-outline-variant/20 dark:border-gray-700 w-full justify-center hover:bg-surface-container-high transition-colors">
+                        <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-300" style="font-size: 20px;">language</span>
+                        <span class="font-label-lg font-bold text-on-surface-variant dark:text-gray-300 uppercase">{{ LANGUAGE_CODE }}</span>
+                        <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-300 transition-transform duration-200" id="language-chevron-mobile" style="font-size: 20px;">expand_more</span>
+                    </button>
+                    <div id="language-menu-mobile" class="absolute bottom-full mb-2 left-0 right-0 bg-surface-container-lowest dark:bg-gray-800 rounded-xl shadow-xl border border-outline-variant/20 dark:border-gray-700 overflow-hidden opacity-0 invisible transform scale-95 origin-bottom transition-all duration-200 z-[110]">
+                        <ul class="py-2">
+                            {% get_available_languages as LANGUAGES %}
+                            {% for lang in LANGUAGES %}
+                            <li>
+                                <button type="button" class="lang-option-mobile w-full text-left px-5 py-3 font-label-md hover:bg-surface-container-high dark:hover:bg-gray-700 text-on-surface-variant dark:text-gray-300 transition-colors flex items-center justify-between" data-lang="{{ lang.0 }}">
+                                    <span>{{ lang.1 }}</span>
+                                    {% if lang.0 == LANGUAGE_CODE %}
+                                    <span class="material-symbols-outlined text-primary dark:text-inverse-primary" style="font-size: 16px;">check_circle</span>
+                                    {% endif %}
+                                </button>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Theme Toggle for Mobile -->
+                <button id="theme-toggle-mobile" class="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-white transition-colors flex items-center justify-center w-12 h-12 rounded-full bg-surface-variant dark:bg-gray-800">
+                    <span class="material-symbols-outlined mobile-theme-icon" style="font-size: 24px;">dark_mode</span>
+                </button>
+            </div>
+
+            {% if user.is_authenticated %}
+                <div class="flex flex-col items-center gap-4 w-full">
+                    <span class="font-label-lg font-bold text-primary dark:text-inverse-primary text-xl">{{ user.first_name }}</span>
+                    <a href="{% url 'profile' %}" class="w-full text-center py-3 rounded-xl bg-surface-container-high dark:bg-gray-800 text-on-surface-variant dark:text-gray-300 font-label-md">{% trans "Mon Profil" %}</a>
+                    {% if user.role != 'CONTRIBUTOR' %}
+                        <a href="/admin/" class="w-full text-center py-3 rounded-xl bg-surface-container-high dark:bg-gray-800 text-primary dark:text-inverse-primary font-label-md">{% trans "Administration" %}</a>
+                    {% endif %}
+                    <a href="{% url 'logout' %}" class="w-full text-center py-3 rounded-xl border border-error/30 text-error font-label-md">{% trans "Déconnexion" %}</a>
+                </div>
+            {% else %}
+                <div class="flex flex-col gap-4 w-full">
+                    <a href="{% url 'login' %}" class="w-full text-center py-3 rounded-xl border border-outline-variant/30 text-on-surface-variant dark:text-gray-300 font-label-lg">{% trans "Login" %}</a>
+                    <a href="{% url 'register' %}" class="w-full text-center py-3 rounded-xl bg-primary text-on-primary font-label-lg shadow-md shadow-primary/20">{% trans "Register" %}</a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</header>
+

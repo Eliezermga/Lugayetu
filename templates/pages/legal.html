@@ -1,0 +1,63 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+
+{% block title %}{{ page.title }} - LugaYetu{% endblock %}
+
+{% block content %}
+<div class="bg-surface-container-lowest dark:bg-[#121212] min-h-screen">
+    <!-- Header Section -->
+    <header class="bg-primary/5 dark:bg-primary-container/10 py-16 md:py-24 border-b border-outline-variant/30 dark:border-gray-800">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <h1 class="font-display text-display text-on-surface dark:text-white mb-4 animate-on-scroll">
+                {{ page.title }}
+            </h1>
+            <p class="font-body-md text-on-surface-variant dark:text-gray-400">
+                {% trans "Dernière mise à jour :" %} {{ page.last_updated|date:"F Y" }}
+            </p>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+        <div class="flex flex-col md:flex-row gap-16">
+            
+            <!-- Sidebar Navigation -->
+            <aside class="w-full md:w-1/4 shrink-0">
+                <nav class="sticky top-32 space-y-2">
+                    <h3 class="font-label-md text-label-md text-primary dark:text-inverse-primary uppercase tracking-wider mb-6">
+                        {% trans "Documents Légaux" %}
+                    </h3>
+                    {% for p in all_pages %}
+                    <a href="{% url 'legal_page' p.slug %}" 
+                       class="block px-4 py-3 rounded-lg transition-all border {% if p.slug == page.slug %}bg-primary-container/20 border-primary/30 text-primary dark:text-inverse-primary font-medium{% else %}border-transparent text-on-surface-variant dark:text-gray-400 hover:bg-surface-container-low dark:hover:bg-gray-800{% endif %}">
+                        {{ p.title }}
+                    </a>
+                    {% endfor %}
+                </nav>
+            </aside>
+
+            <!-- Main Legal Content -->
+            <article class="w-full md:w-3/4 max-w-3xl">
+                <div class="prose prose-lg dark:prose-invert prose-headings:font-display prose-headings:text-on-surface dark:prose-headings:text-white prose-p:text-on-surface-variant dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-strong:text-primary dark:prose-strong:text-inverse-primary">
+                    {{ page.content|safe }}
+                </div>
+
+                <!-- Contact Support -->
+                <div class="mt-20 p-8 rounded-2xl bg-secondary-container/10 border border-secondary/20 dark:border-gray-700">
+                    <h3 class="font-h3 text-h3 text-secondary dark:text-[#c8ecc9] mb-4">
+                        {% trans "Des questions ?" %}
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant dark:text-gray-300 mb-6">
+                        {% trans "Si vous avez des questions concernant nos politiques ou vos données, n'hésitez pas à nous contacter." %}
+                    </p>
+                    <a href="mailto:eliezermunung@outlook.fr" class="inline-flex items-center gap-2 text-primary dark:text-inverse-primary font-medium hover:underline">
+                        <span class="material-symbols-outlined">mail</span>
+                        eliezermunung@outlook.fr
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
