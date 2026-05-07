@@ -1,3 +1,6 @@
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+
 annotated-doc==0.0.4
 anyio==4.13.0
 asgiref==3.11.1
@@ -24,6 +27,7 @@ mpmath==1.3.0
 networkx==3.6.1
 numpy==2.4.4
 packaging==26.2
+psycopg2-binary==2.9.10
 Pygments==2.20.0
 python-dotenv==1.2.2
 PyYAML==6.0.3
@@ -37,10 +41,9 @@ sqlparse==0.5.5
 sympy==1.14.0
 tiktoken==0.12.0
 tokenizers==0.22.2
-torch==2.11.0+cpu
+torch==2.11.0
 tqdm==4.67.3
 transformers==5.8.0
 typer==0.25.1
 typing_extensions==4.15.0
 urllib3==2.6.3
-psycopg2-binary==2.9.10
