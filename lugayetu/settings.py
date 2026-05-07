@@ -72,10 +72,10 @@ JAZMIN_SETTINGS = {
 }
 
 JAZMIN_UI_TWEAKS = {
-    "theme": "darkly",
+    "theme": "flatly",
     "dark_mode_theme": "darkly",
-    "navbar": "navbar-dark",
-    "sidebar": "sidebar-dark-primary",
+    "navbar": "navbar-light",
+    "sidebar": "sidebar-light-primary",
     "accent": "accent-primary",
     "navbar_fixed": True,
     "sidebar_fixed": True,
@@ -178,6 +178,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Media files (user uploads, audio contributions)
 MEDIA_URL = '/media/'
