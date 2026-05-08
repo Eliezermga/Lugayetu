@@ -1,0 +1,9 @@
+{% extends "errors/base_error.html" %}
+{% load i18n %}
+
+{% block error_code %}400{% endblock %}
+{% block error_icon %}running_with_errors{% endblock %}
+{% block error_title %}{% translate "Requête invalide" %}{% endblock %}
+{% block error_description %}
+    {% translate "La requête envoyée est mal formulée. Le système ne parvient pas à interpréter votre demande." %}
+{% endblock %}

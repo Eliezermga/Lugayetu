@@ -1064,3 +1064,36 @@ msgstr "Ruund - French Translator"
 
 #~ msgid "— Sagesse locale"
 #~ msgstr "— Local wisdom"
+
+msgid "Page introuvable"
+msgstr "Page not found"
+
+msgid "Il semble que vous cherchiez une archive qui n'existe plus ou qui a été déplacée. Le chemin vers cette connaissance est momentanément perdu."
+msgstr "It seems you are looking for an archive that no longer exists or has been moved. The path to this knowledge is momentarily lost."
+
+msgid "Accès restreint"
+msgstr "Access Restricted"
+
+msgid "Il semble que vous n'ayez pas les gardiens nécessaires pour entrer dans cet espace. Assurez-vous d'être connecté avec les droits appropriés pour consulter ces archives."
+msgstr "It seems you don't have the necessary guardians to enter this space. Make sure you are logged in with the appropriate rights to consult these archives."
+
+msgid "Erreur du serveur"
+msgstr "Server Error"
+
+msgid "Une tempête imprévue perturbe nos serveurs. Nos techniciens travaillent à restaurer la stabilité de cette bibliothèque numérique."
+msgstr "An unexpected storm is disrupting our servers. Our technicians are working to restore the stability of this digital library."
+
+msgid "Requête invalide"
+msgstr "Invalid Request"
+
+msgid "La requête envoyée est mal formulée. Le système ne parvient pas à interpréter votre demande."
+msgstr "The request sent is poorly formulated. The system cannot interpret your demand."
+
+msgid "Retour à l'accueil"
+msgstr "Back to home"
+
+msgid "Page précédente"
+msgstr "Previous page"
+
+msgid "\"Celui qui ne sait pas d'où il vient ne peut savoir où il va.\""
+msgstr "\"He who does not know where he comes from cannot know where he is going.\""

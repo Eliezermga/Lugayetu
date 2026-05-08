@@ -1,0 +1,9 @@
+{% extends "errors/base_error.html" %}
+{% load i18n %}
+
+{% block error_code %}500{% endblock %}
+{% block error_icon %}dvr{% endblock %}
+{% block error_title %}{% translate "Erreur du serveur" %}{% endblock %}
+{% block error_description %}
+    {% translate "Une tempête imprévue perturbe nos serveurs. Nos techniciens travaillent à restaurer la stabilité de cette bibliothèque numérique." %}
+{% endblock %}
