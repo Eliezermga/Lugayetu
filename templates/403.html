@@ -1,0 +1,9 @@
+{% extends "errors/base_error.html" %}
+{% load i18n %}
+
+{% block error_code %}403{% endblock %}
+{% block error_icon %}lock{% endblock %}
+{% block error_title %}{% translate "Accès restreint" %}{% endblock %}
+{% block error_description %}
+    {% translate "Il semble que vous n'ayez pas les gardiens nécessaires pour entrer dans cet espace. Assurez-vous d'être connecté avec les droits appropriés pour consulter ces archives." %}
+{% endblock %}

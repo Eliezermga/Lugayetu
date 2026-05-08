@@ -1,0 +1,47 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="min-h-[70vh] flex items-center justify-center px-6 py-12">
+    <div class="max-w-2xl w-full text-center">
+        <!-- Error Code Background -->
+        <div class="relative mb-8">
+            <span class="text-[100px] md:text-[150px] font-display font-bold text-primary/5 select-none leading-none absolute inset-0 flex items-center justify-center -z-10">
+                {% block error_code %}{% endblock %}
+            </span>
+            <div class="pt-8">
+                <span class="material-symbols-outlined text-6xl text-primary/80 mb-4">
+                    {% block error_icon %}error{% endblock %}
+                </span>
+            </div>
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl font-display font-semibold text-primary mb-6">
+            {% block error_title %}{% endblock %}
+        </h1>
+        
+        <p class="text-lg md:text-xl text-on-surface-variant font-body-md mb-10 max-w-lg mx-auto leading-relaxed">
+            {% block error_description %}{% endblock %}
+        </p>
+
+        {% block extra_content %}
+        <div class="mb-12 py-8 border-y border-outline-variant/30">
+            <p class="text-xl italic font-display text-secondary/80">
+                {% translate '"Celui qui ne sait pas d\'où il vient ne peut savoir où il va."' %}
+            </p>
+        </div>
+        {% endblock %}
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="{% url 'home' %}" class="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-xl font-label-lg hover:bg-primary-container transition-all shadow-lg hover:shadow-xl">
+                <span class="material-symbols-outlined">home</span>
+                {% translate "Retour à l'accueil" %}
+            </a>
+            <button onclick="history.back()" class="inline-flex items-center gap-2 px-8 py-4 bg-surface-container-high text-on-surface rounded-xl font-label-lg hover:bg-surface-container-highest transition-all">
+                <span class="material-symbols-outlined">arrow_back</span>
+                {% translate "Page précédente" %}
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}

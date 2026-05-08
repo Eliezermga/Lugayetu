@@ -1,0 +1,9 @@
+{% extends "errors/base_error.html" %}
+{% load i18n %}
+
+{% block error_code %}404{% endblock %}
+{% block error_icon %}search_off{% endblock %}
+{% block error_title %}{% translate "Page introuvable" %}{% endblock %}
+{% block error_description %}
+    {% translate "Il semble que vous cherchiez une archive qui n'existe plus ou qui a été déplacée. Le chemin vers cette connaissance est momentanément perdu." %}
+{% endblock %}
