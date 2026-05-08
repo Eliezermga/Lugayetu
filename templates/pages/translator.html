@@ -23,7 +23,23 @@
         </div>
 
         <!-- Translator Interface -->
-        <div class="bg-surface-container-lowest dark:bg-surface-container-dark rounded-[2rem] shadow-2xl overflow-hidden border border-outline-variant dark:border-outline-variant/10 transition-all duration-300">
+        <div class="relative bg-surface-container-lowest dark:bg-surface-container-dark rounded-[2rem] shadow-2xl overflow-hidden border border-outline-variant dark:border-outline-variant/10 transition-all duration-300">
+            {% if not service_available %}
+            <!-- Service Unavailable Overlay -->
+            <div class="absolute inset-0 z-[50] flex items-center justify-center bg-surface-container-lowest/80 dark:bg-surface-container-dark/80 backdrop-blur-sm p-8 text-center">
+                <div class="max-w-md">
+                    <span class="material-symbols-outlined text-6xl text-primary mb-4">construction</span>
+                    <h2 class="font-display text-2xl text-on-surface mb-2">{% trans "Service en maintenance" %}</h2>
+                    <p class="font-body-md text-on-surface-variant">
+                        {{ unavailable_message }}
+                    </p>
+                    <a href="{% url 'home' %}" class="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-full font-label-lg hover:bg-primary-container transition-all">
+                        <span class="material-symbols-outlined text-[20px]">home</span>
+                        {% trans "Retour à l'accueil" %}
+                    </a>
+                </div>
+            </div>
+            {% endif %}
             <!-- Language Bar -->
             <div class="flex items-center justify-between px-6 py-4 border-b border-outline-variant dark:border-outline-variant/10 bg-surface-container-low dark:bg-surface-container-dark/50">
                 <div class="flex items-center gap-2">

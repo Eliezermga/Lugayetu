@@ -13,6 +13,8 @@ class TranslatorView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = _("Traducteur Ruund - Français")
+        context['service_available'] = False
+        context['unavailable_message'] = _("Ce service n'est pas encore disponible sur cette plateforme.")
         return context
 
 class TranslateAPIView(APIView):

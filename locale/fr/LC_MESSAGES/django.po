@@ -1123,3 +1123,9 @@ msgstr "Page précédente"
 
 msgid "\"Celui qui ne sait pas d'où il vient ne peut savoir où il va.\""
 msgstr "\"Celui qui ne sait pas d'où il vient ne peut savoir où il va.\""
+
+msgid "Ce service n'est pas encore disponible sur cette plateforme."
+msgstr "Ce service n'est pas encore disponible sur cette plateforme."
+
+msgid "Service en maintenance"
+msgstr "Service en maintenance"
