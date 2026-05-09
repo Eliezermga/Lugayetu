@@ -21,6 +21,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+    <link rel="apple-touch-icon" href="{% static 'img/favicon.png' %}">
+
+    <!-- SEO & Social Sharing (Open Graph / Twitter) -->
+    <meta name="description" content="{% trans 'Lugayetu - Préserver les voix de notre héritage linguistique en RDC.' %}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LugaYetu">
+    <meta property="og:description" content="{% trans 'Collecte numerisation et préservation des langues de la République Démocratique du Congo.' %}">
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'img/favicon.png' %}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LugaYetu">
+    <meta name="twitter:description" content="{% trans 'Préserver les voix de notre héritage linguistique.' %}">
+    <meta name="twitter:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'img/favicon.png' %}">
+    
     <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
