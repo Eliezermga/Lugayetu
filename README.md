@@ -137,4 +137,4 @@ Code: MIT License
 
 ## Acknowledgments
 
-Special thanks to **Egla MUTALE** for her valuable contribution to the project, particularly in assisting with the digitization and scanning of linguistic resources.
+Special thanks to **Egla MUTALE** for her valuable contribution to the project, particularly in assisting with the digitization and scanning of linguistic resources. **Manasse Ngoy** for helpfull
