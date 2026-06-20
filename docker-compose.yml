@@ -1,0 +1,45 @@
+version: "3.11"
+
+services:
+
+  # ── Base de données PostgreSQL ───────────────────────────────────────────────
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${DB_NAME:-lugayetu}
+      POSTGRES_USER: ${DB_USER:-lugayetu_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-lugayetu_pass}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-lugayetu_user} -d ${DB_NAME:-lugayetu}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Application Django ───────────────────────────────────────────────────────
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persistance des uploads media et du cache HuggingFace
+      - ./media:/app/media
+      - hf_cache:/root/.cache/huggingface
+    env_file:
+      - .env
+    environment:
+      # Surcharge DB_HOST pour pointer vers le service Docker "db"
+      DB_HOST: db
+    depends_on:
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "python manage.py migrate --no-input &&
+             gunicorn lugayetu.wsgi:application --bind 0.0.0.0:8000 --workers 2"
+
+volumes:
+  postgres_data:
+  hf_cache:
