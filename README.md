@@ -1,5 +1,12 @@
 # Lugayetu
 
+
+The Ruund-French dataset is available on Hugging Face:
+
+https://huggingface.co/datasets/eliezermga/OpenRuund
+
+---
+
 ## Project Overview
 
 **Lugayetu** is a research and development project dedicated to the **preservation of low-resource Congolese languages**, particularly those spoken in the **Democratic Republic of the Congo**.
@@ -41,13 +48,7 @@ This part of the project involves:
 
 The goal is to create a **neural translation prototype** capable of understanding and translating Ruwund into French.
 
----
 
-## Dataset
-
-The Ruwund-French dataset is available on Hugging Face:
-
-https://huggingface.co/datasets/eliezermga/ruund-french-parallel-corpus
 ---
 
 # Linguistic Data Collection
