@@ -1,0 +1,52 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Fichiers de dev / IDE
+.env
+*.env
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests et couverture
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Fichiers Docker (pas besoin de les copier dans l'image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Fichiers statiques collectés (générés au build)
+staticfiles/
+
+# Médias utilisateur (montés en volume)
+media/
+
+# SQLite (en prod on utilise PostgreSQL)
+db.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
