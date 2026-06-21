@@ -38,7 +38,7 @@ services:
         condition: service_healthy
     command: >
       sh -c "python manage.py migrate --no-input &&
-             gunicorn lugayetu.wsgi:application --bind 0.0.0.0:8000 --workers 2"
+             gunicorn lugayetu.wsgi:application --bind 0.0.0.0:8000 --workers 1 --timeout 300 --graceful-timeout 120"
 
 volumes:
   postgres_data:
