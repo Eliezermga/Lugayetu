@@ -282,7 +282,6 @@ Lugayetu/
 ├── core/           # Core Django app (users, pages)
 ├── translator/     # Translation engine (Hugging Face models)
 ├── contribution/   # Linguistic data collection
-├── corpus/         # Corpus management
 ├── audio/          # Voice recordings
 ├── templates/      # HTML templates
 ├── static/         # Static assets (CSS, JS, images)

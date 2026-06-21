@@ -31,4 +31,4 @@ RUN python manage.py collectstatic --no-input
 EXPOSE 8000
 
 # ── Démarrage avec Gunicorn ────────────────────────────────────────────────────
-CMD ["gunicorn", "lugayetu.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "2"]
+CMD ["gunicorn", "lugayetu.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "1", "--timeout", "300", "--graceful-timeout", "120"]
