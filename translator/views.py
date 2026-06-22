@@ -1,11 +1,16 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+import logging
+import time
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .serializers import TranslateSerializer
 from .models import TranslationModel
 from django.utils.translation import gettext_lazy as _
+
+logger = logging.getLogger(__name__)
 
 class TranslatorView(TemplateView):
     template_name = 'pages/translator.html'
@@ -32,7 +37,10 @@ class TranslateAPIView(APIView):
             
             # Appel du Singleton/Manager
             model = TranslationModel(model_type=model_type)
+            request_start = time.perf_counter()
             translation = model.translate(text, src_lang, tgt_lang)
+            request_duration = time.perf_counter() - request_start
+            logger.info(f"Requête traduction traitée en {request_duration:.3f}s.")
             
             return Response({
                 'original': text,
