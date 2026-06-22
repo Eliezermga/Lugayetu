@@ -1,3 +1,4 @@
+import time
 import torch
 from transformers import MBartForConditionalGeneration, AutoTokenizer
 import logging
@@ -29,6 +30,7 @@ class TranslationModel:
 
     def _load_model(self):
         """Charge le modèle et le tokenizer depuis Hugging Face"""
+        start_time = time.perf_counter()
         logger.info(f"Chargement du modèle {self.model_id}...")
         
         try:
@@ -91,7 +93,8 @@ class TranslationModel:
             self.model.resize_token_embeddings(len(self.tokenizer))
             self.model.eval()
             
-            logger.info(f"Modèle {self.model_id} chargé avec succès.")
+            load_duration = time.perf_counter() - start_time
+            logger.info(f"Modèle {self.model_id} chargé avec succès en {load_duration:.3f}s.")
         except Exception as e:
             logger.error(f"Erreur lors du chargement du modèle {self.model_id}: {str(e)}")
             import traceback

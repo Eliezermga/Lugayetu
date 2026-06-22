@@ -224,6 +224,13 @@
                 btnLoader.classList.add('hidden');
             }
         });
+
+        sourceText.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                translateBtn.click();
+            }
+        });
     });
 </script>
 {% endblock %}
