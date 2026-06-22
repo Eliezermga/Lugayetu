@@ -19,7 +19,7 @@ class TranslationModel:
         model_id = os.environ.get('MODEL_RUU_FR', 'eliezermga/ruund-translate') if model_type == "ruu_fr" else os.environ.get('MODEL_FR_RUU', 'eliezermga/french-rund-translator')
         
         if model_id not in cls._instances:
-            logger.info(f"🆕 Création d'une nouvelle instance pour {model_type} ({model_id})")
+            logger.info(f"Création d'une nouvelle instance pour {model_type} ({model_id})")
             instance = super(TranslationModel, cls).__new__(cls)
             instance.model_id = model_id
             instance.model_type = model_type
@@ -29,18 +29,18 @@ class TranslationModel:
 
     def _load_model(self):
         """Charge le modèle et le tokenizer depuis Hugging Face"""
-        logger.info(f"📦 Chargement du modèle {self.model_id}...")
+        logger.info(f"Chargement du modèle {self.model_id}...")
         
         try:
             # Utiliser le token HF s'il est présent dans l'environnement
             hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
-            logger.info(f"🔑 Token HF trouvé: {'Oui' if hf_token else 'Non'}")
+            logger.info(f"Token HF trouvé: {'Oui' if hf_token else 'Non'}")
             
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
-            logger.info(f"🖥️ Utilisation du périphérique: {self.device}")
+            logger.info(f"Utilisation du périphérique: {self.device}")
             
             # 1. Charger le tokenizer
-            logger.info(f"⏳ Chargement du tokenizer pour {self.model_id}...")
+            logger.info(f"Chargement du tokenizer pour {self.model_id}...")
             try:
                 # On force fr_XX au début car ruu_CM n'est pas encore dans le vocabulaire
                 # et mBART crashe à l'init s'il ne connaît pas la src_lang.
@@ -51,7 +51,7 @@ class TranslationModel:
                     src_lang="fr_XX"
                 )
             except Exception as e:
-                logger.warning(f"⚠️ Erreur init tokenizer avec fr_XX: {e}")
+                logger.warning(f"Erreur init tokenizer avec fr_XX: {e}")
                 self.tokenizer = AutoTokenizer.from_pretrained(
                     self.model_id, 
                     token=hf_token,
@@ -60,7 +60,7 @@ class TranslationModel:
             
             # S'assurer que le token ruu_CM est présent dans le vocabulaire
             if "ruu_CM" not in self.tokenizer.get_vocab():
-                logger.info("➕ Ajout du token 'ruu_CM' au vocabulaire...")
+                logger.info("Ajout du token 'ruu_CM' au vocabulaire...")
                 self.tokenizer.add_special_tokens({"additional_special_tokens": ["ruu_CM"]})
             
             # Configuration mBART (lang_code_to_id est crucial pour mBART)
@@ -80,7 +80,7 @@ class TranslationModel:
                 self.tokenizer.tgt_lang = "ruu_CM"
             
             # 2. Charger le modèle
-            logger.info(f"⏳ Chargement du modèle {self.model_id} (peut prendre du temps)...")
+            logger.info(f"Chargement du modèle {self.model_id} (peut prendre du temps)...")
             self.model = MBartForConditionalGeneration.from_pretrained(
                 self.model_id,
                 token=hf_token,
@@ -91,9 +91,9 @@ class TranslationModel:
             self.model.resize_token_embeddings(len(self.tokenizer))
             self.model.eval()
             
-            logger.info(f"✅ Modèle {self.model_id} chargé avec succès.")
+            logger.info(f"Modèle {self.model_id} chargé avec succès.")
         except Exception as e:
-            logger.error(f"❌ Erreur lors du chargement du modèle {self.model_id}: {str(e)}")
+            logger.error(f"Erreur lors du chargement du modèle {self.model_id}: {str(e)}")
             import traceback
             logger.error(traceback.format_exc())
             self.model = None
@@ -125,5 +125,5 @@ class TranslationModel:
             translation = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)[0]
             return translation
         except Exception as e:
-            logger.error(f"❌ Erreur pendant la traduction ({self.model_id}): {str(e)}")
+            logger.error(f"Erreur pendant la traduction ({self.model_id}): {str(e)}")
             return f"Erreur de traduction: {str(e)}"
