@@ -160,7 +160,7 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 
 # Hugging Face — required to download translation models
 HUGGING_FACE_HUB_TOKEN=your_hf_token_here
-MODEL_RUU_FR=eliezermga/ruund-translate
+MODEL_RUU_FR=eliezermga/ruund-translatetiangolo/fastapi
 MODEL_FR_RUU=eliezermga/french-rund-translator
 
 # Database — leave empty to use SQLite (default)
@@ -309,4 +309,3 @@ Code: MIT License
 ## Acknowledgments
 
 Special thanks to **Egla MUTALE** for her valuable contribution to the project, particularly in assisting with the digitization and scanning of linguistic resources. **Manasse Ngoy** for helpfull
-
