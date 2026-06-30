@@ -91,8 +91,8 @@ class User(AbstractUser):
         return f"{self.first_name} {self.last_name} ({self.email})"
 
     def save(self, *args, **kwargs):
-        # Only ADMINs are allowed to access the back-office (is_staff)
-        if self.role == 'ADMIN':
+        # Preserve explicit admin rights when a superuser or staff account is created.
+        if self.role == 'ADMIN' or self.is_staff or self.is_superuser:
             self.is_staff = True
             self.is_superuser = True
         else:
